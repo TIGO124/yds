@@ -2,13 +2,18 @@ import 'fake-indexeddb/auto';
 import Dexie from 'dexie';
 import { describe, expect, it } from 'vitest';
 import { YdsDB } from '../src/db/db';
-import { androidSurumDenetle, bekleyenGuncelleme, guncellemeBildir, surumBilgisiDogrula, surumKarsilastir, UYGULAMA_SURUMU } from '../src/guncelleme';
+import { androidSurumDenetle, bekleyenGuncelleme, guncellemeBildir, surumBilgisiDogrula, surumKarsilastir, surumKodu, UYGULAMA_SURUMU } from '../src/guncelleme';
 
 describe('sürüm karşılaştırma', () => {
   it('sayısal karşılaştırır (1.10.0 > 1.9.9)', () => {
     expect(surumKarsilastir('1.10.0', '1.9.9')).toBe(1);
     expect(surumKarsilastir('1.0.0', '1.0.1')).toBe(-1);
     expect(surumKarsilastir('2.0.0', '2.0.0')).toBe(0);
+  });
+  it('Android sürüm kodu build.gradle hesabıyla aynı (1.2.3 → 10203)', () => {
+    expect(surumKodu('1.2.0')).toBe(10200);
+    expect(surumKodu('1.10.3')).toBe(11003);
+    expect(surumKodu('2.0.0')).toBeGreaterThan(surumKodu('1.99.99'));
   });
   it('uygulama sürümü package.json ile aynı', async () => {
     const { version } = await import('../package.json');

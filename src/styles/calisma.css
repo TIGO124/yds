@@ -390,3 +390,39 @@ a.satir-baglanti:hover .satir-ust > :first-child {
   background: none;
   border: 1px dashed var(--border);
 }
+
+/* ---------- Uygulama içi güncelleme: indirme çubuğu ---------- */
+.guncelleme-bandi.hata {
+  background: var(--bad-soft);
+  border-color: color-mix(in srgb, var(--bad) 35%, transparent);
+}
+.bant-ilerleme,
+.guncelleme-bandi .bant-ilerleme {
+  display: block;
+  flex: 1 0 100%;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--primary) 18%, transparent);
+  overflow: hidden;
+}
+.bant-ilerleme > span,
+.guncelleme-bandi .bant-ilerleme > span {
+  display: block;
+  flex: none;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+  transition: width 200ms ease-out;
+}
+.bant-ilerleme.belirsiz > span {
+  animation: belirsiz-ilerleme 1.1s ease-in-out infinite alternate;
+}
+@keyframes belirsiz-ilerleme {
+  from {
+    transform: translateX(-40%);
+  }
+  to {
+    transform: translateX(260%);
+  }
+}

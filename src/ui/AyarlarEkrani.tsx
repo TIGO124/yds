@@ -2,10 +2,10 @@ import { useEffect, useState } from 'preact/hooks';
 import { SORULAR } from '../data/bank';
 import { yeniSorulariDenetle } from '../data/guncelleme';
 import { depo } from '../depo';
-import { guncellemeleriDenetle, UYGULAMA_SURUMU } from '../guncelleme';
+import { apkGuncelle, guncellemeleriDenetle, UYGULAMA_SURUMU } from '../guncelleme';
 import type { Ayarlar } from '../types';
 import { hatirlatmaVar } from '../hatirlatma';
-import { guncellemeyiUygula, useGuncelleme } from './guncellemeBandi';
+import { IndirmeCubugu, guncellemeyiUygula, indirmeMetni, useGuncelleme, useIndirme } from './guncellemeBandi';
 import { HatirlatmaAyari } from './HatirlatmaAyari';
 import { onayla } from './onay';
 import { Sayfa, Ust } from './ortak';
@@ -51,6 +51,7 @@ function SoruGuncelleme() {
 /** Uygulama sürümü ve güncelleme. Güncelleme yalnızca uygulamayı değiştirir, veriler cihazda kalır. */
 function UygulamaGuncelleme() {
   const g = useGuncelleme();
+  const d = useIndirme();
   const [durum, setDurum] = useState<{ tur: 'bilgi' | 'hata'; metin: string } | null>(null);
   const [mesgul, setMesgul] = useState(false);
   const denetle = async () => {
@@ -76,9 +77,27 @@ function UygulamaGuncelleme() {
         korunur.
       </p>
       {g ? (
-        <button class="dugme birincil genis" onClick={() => void guncellemeyiUygula(g)}>
-          {g.tur === 'web' ? 'Yeni sürüme geç' : `Sürüm ${g.surum} indir ve güncelle`}
-        </button>
+        <>
+          {g.tur === 'android' && d && (
+            <p class={d.tur === 'hata' ? 'hata-kutu' : 'bilgi-kutu'} role="status">
+              {indirmeMetni(g, d)}
+              <IndirmeCubugu d={d} />
+            </p>
+          )}
+          <button
+            class="dugme birincil genis"
+            disabled={d?.tur === 'indiriliyor'}
+            onClick={() => void (g.tur === 'android' && d ? apkGuncelle(g) : guncellemeyiUygula(g))}
+          >
+            {g.tur === 'web'
+              ? 'Yeni sürüme geç'
+              : d?.tur === 'indiriliyor'
+                ? 'İndiriliyor…'
+                : d
+                  ? 'Yeniden dene'
+                  : `${g.surum} sürümüne güncelle`}
+          </button>
+        </>
       ) : ARTIFACT ? (
         <p class="soluk kucuk">Bu sayfa her açılışta en son yayınlanan sürümle yüklenir.</p>
       ) : (
