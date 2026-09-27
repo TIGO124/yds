@@ -154,3 +154,32 @@ mark.bosluk {
   box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
   font-weight: 600;
 }
+
+/* ---------- Güncelleme ---------- */
+.guncelleme-bandi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 16px;
+  padding: 10px 12px 10px 16px;
+  border-radius: 14px;
+  background: var(--primary-soft);
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
+  font-weight: 600;
+}
+.guncelleme-bandi span {
+  flex: 1 1 auto;
+}
+.bant-dugmeler {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+.bant-dugmeler .dugme {
+  min-height: 44px;
+  padding: 8px 14px;
+}
+#onay-metni {
+  white-space: pre-line;
+}

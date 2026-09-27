@@ -5,6 +5,7 @@ import type { Seviye } from '../engine/mastery';
 import type { Soru } from '../types';
 import { git } from './router';
 import { IkonAyar, IkonEv, IkonGeri, IkonGrafik, IkonTakvim, IkonTekrar } from './ikonlar';
+import { GuncellemeBandi } from './guncellemeBandi';
 
 /** Asenkron veri yükleme; yenile() ile tekrar yükler. */
 export function useVeri<T>(yukle: () => Promise<T>, bagimliliklar: unknown[] = []) {
@@ -59,7 +60,11 @@ export function AltMenu({ aktif }: { aktif: string }) {
 export function Sayfa({ children, menu }: { children: ComponentChildren; menu?: string }) {
   return (
     <>
-      <main class={menu !== undefined ? 'sayfa menulu' : 'sayfa'}>{children}</main>
+      <main class={menu !== undefined ? 'sayfa menulu' : 'sayfa'}>
+        {/* Test sırasında dikkat dağıtmasın: yalnızca alt menülü sayfalarda göster. */}
+        {menu !== undefined && <GuncellemeBandi />}
+        {children}
+      </main>
       {menu !== undefined && <AltMenu aktif={menu} />}
     </>
   );

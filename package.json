@@ -1,19 +1,20 @@
 {
   "name": "yds",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Ä°nternetsiz Ã§alÄ±ÅŸan YDS hazÄ±rlÄ±k uygulamasÄ± (PWA)",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && node scripts/soru-paketi.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/soru-paketi.mjs && node scripts/surum-bilgisi.mjs",
     "build:android": "tsc --noEmit && vite build --mode android && cap sync android",
     "build:artifact": "tsc --noEmit && vite build --mode artifact && node scripts/artifact-tek-dosya.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "validate": "tsx scripts/validate.ts",
     "add-questions": "tsx scripts/add-questions.ts",
-    "icons": "node scripts/icons.mjs"
+    "icons": "node scripts/icons.mjs",
+    "surum": "node scripts/surum-yayinla.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

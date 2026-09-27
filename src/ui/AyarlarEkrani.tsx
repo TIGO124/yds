@@ -2,7 +2,9 @@ import { useEffect, useState } from 'preact/hooks';
 import { SORULAR } from '../data/bank';
 import { yeniSorulariDenetle } from '../data/guncelleme';
 import { depo } from '../depo';
+import { guncellemeleriDenetle, UYGULAMA_SURUMU } from '../guncelleme';
 import type { Ayarlar } from '../types';
+import { guncellemeyiUygula, useGuncelleme } from './guncellemeBandi';
 import { onayla } from './onay';
 import { Sayfa, Ust } from './ortak';
 
@@ -36,6 +38,51 @@ function SoruGuncelleme() {
         {mesgul ? 'Denetleniyor…' : 'Yeni soruları şimdi denetle'}
       </button>
       {durum && (
+        <p class={durum.tur === 'hata' ? 'hata-kutu' : 'bilgi-kutu'} role="status">
+          {durum.metin}
+        </p>
+      )}
+    </section>
+  );
+}
+
+/** Uygulama sürümü ve güncelleme. Güncelleme yalnızca uygulamayı değiştirir, veriler cihazda kalır. */
+function UygulamaGuncelleme() {
+  const g = useGuncelleme();
+  const [durum, setDurum] = useState<{ tur: 'bilgi' | 'hata'; metin: string } | null>(null);
+  const [mesgul, setMesgul] = useState(false);
+  const denetle = async () => {
+    setMesgul(true);
+    setDurum(null);
+    try {
+      const s = await guncellemeleriDenetle();
+      if (s === 'guncel') setDurum({ tur: 'bilgi', metin: 'En son sürümü kullanıyorsun.' });
+      else if (s === 'desteklenmiyor')
+        setDurum({ tur: 'bilgi', metin: 'Bu sürüm her açılışta en son hâliyle yüklenir; ayrıca güncellemen gerekmez.' });
+    } catch (e) {
+      const neden = e instanceof DOMException && e.name === 'AbortError' ? 'Bağlantı zaman aşımına uğradı' : String((e as Error)?.message ?? e);
+      setDurum({ tur: 'hata', metin: `Denetlenemedi: ${neden}. İnternet bağlantını kontrol et.` });
+    } finally {
+      setMesgul(false);
+    }
+  };
+  return (
+    <section class="kart">
+      <h2>Uygulama güncellemesi</h2>
+      <p class="soluk kucuk">
+        Sürüm {UYGULAMA_SURUMU}. Güncelleme yalnızca uygulamayı yeniler; testlerin, istatistiklerin ve ayarların cihazında
+        korunur.
+      </p>
+      {g ? (
+        <button class="dugme birincil genis" onClick={() => void guncellemeyiUygula(g)}>
+          {g.tur === 'web' ? 'Yeni sürüme geç' : `Sürüm ${g.surum} indir ve güncelle`}
+        </button>
+      ) : (
+        <button class="dugme ikincil genis" onClick={denetle} disabled={mesgul}>
+          {mesgul ? 'Denetleniyor…' : 'Güncellemeleri denetle'}
+        </button>
+      )}
+      {durum && !g && (
         <p class={durum.tur === 'hata' ? 'hata-kutu' : 'bilgi-kutu'} role="status">
           {durum.metin}
         </p>
@@ -250,6 +297,7 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
         </button>
       </section>
 
+      <UygulamaGuncelleme />
       {import.meta.env.MODE === 'android' && <SoruGuncelleme />}
 
       <p class="soluk kucuk orta">Soru bankası: {SORULAR.length} soru · Tüm veriler cihazında, internet gerekmez.</p>

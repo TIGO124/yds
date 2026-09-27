@@ -2,3 +2,5 @@
 declare const __BANKA_SURUMU__: string;
 /** Uygulamanın derlendiği an (ms) */
 declare const __BANKA_TARIHI__: number;
+/** Uygulama sürümü (package.json) */
+declare const __UYGULAMA_SURUMU__: string;

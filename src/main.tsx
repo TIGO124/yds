@@ -2,6 +2,7 @@ import { render } from 'preact';
 import { App } from './app';
 import { kayitliPaketiUygula, yeniSorulariDenetle } from './data/guncelleme';
 import { depo } from './depo';
+import { androidSurumDenetle, webGuncellemeKur } from './guncelleme';
 import './styles/temel.css';
 import './styles/ekranlar.css';
 import './styles/program.css';
@@ -26,9 +27,14 @@ async function baslat() {
 
   render(<App />, document.getElementById('app')!);
 
+  // Web/iPhone: service worker yeni sürümü indirir, kullanıcı "Güncelle" deyince geçer.
+  if (!android && import.meta.env.MODE !== 'artifact') void webGuncellemeKur();
+
   // Android uygulaması internet varsa yeni soru paketini arka planda denetler.
   // (Web sürümü yeni soruları service worker güncellemesiyle alır.)
   if (android && navigator.onLine) {
+    // Yeni uygulama sürümü varsa bant gösterilir (APK indirme kullanıcı onayıyla).
+    androidSurumDenetle().catch(() => undefined);
     const sonuc = await yeniSorulariDenetle(depo);
     if (sonuc.durum === 'guncellendi' && sonuc.yeni > 0) bildir(`${sonuc.yeni} yeni soru eklendi. İlerlemen korundu.`);
   }

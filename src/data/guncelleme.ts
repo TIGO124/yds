@@ -10,7 +10,7 @@ export type DenetimSonucu =
   | { durum: 'guncellendi'; yeni: number }
   | { durum: 'hata'; mesaj: string };
 
-type Getir = (url: string, secenek?: RequestInit) => Promise<Response>;
+export type Getir = (url: string, secenek?: RequestInit) => Promise<Response>;
 
 /** Açılışta: daha önce indirilmiş ve gömülü bankadan yeni olan paketi uygular (internet gerekmez). */
 export async function kayitliPaketiUygula(depo: Depo): Promise<number> {
@@ -27,7 +27,7 @@ export async function kayitliPaketiUygula(depo: Depo): Promise<number> {
   }
 }
 
-async function zamanAsimli(getir: Getir, url: string, ms = 15_000): Promise<Response> {
+export async function zamanAsimli(getir: Getir, url: string, ms = 15_000): Promise<Response> {
   const kontrol = new AbortController();
   const z = setTimeout(() => kontrol.abort(), ms);
   try {

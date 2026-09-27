@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
 
+// Sürüm tek yerden: package.json (ör. 1.2.3 → versionCode 10203). Her yeni sürümde artmalı,
+// yoksa Android güncellemeyi kurmaz.
+def uygulamaSurumu = new groovy.json.JsonSlurper().parse(file('../../package.json')).version
+def uygulamaSurumKodu = uygulamaSurumu.tokenize('.').collect { it.toInteger() }.with { it[0] * 10000 + it[1] * 100 + it[2] }
+
 android {
     namespace = "app.yds.calisma"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +12,8 @@ android {
         applicationId "app.yds.calisma"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode uygulamaSurumKodu
+        versionName uygulamaSurumu
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

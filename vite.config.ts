@@ -2,7 +2,10 @@
 import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { readFileSync } from 'node:fs';
 import { bankaSurumu, bankayiOku } from './scripts/banka-surumu.mjs';
+
+const UYGULAMA_SURUMU: string = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8')).version;
 
 // Modlar:
 //  (varsayılan) → dist/          PWA: service worker ile internetsiz çalışır (GitHub Pages / Netlify)
@@ -16,6 +19,7 @@ export default defineConfig(({ mode }) => {
     define: {
       __BANKA_SURUMU__: JSON.stringify(surum),
       __BANKA_TARIHI__: String(Date.now()),
+      __UYGULAMA_SURUMU__: JSON.stringify(UYGULAMA_SURUMU),
     },
     // Göreli taban: GitHub Pages alt yolunda da Netlify kökünde de çalışır.
     base: './',
@@ -23,8 +27,9 @@ export default defineConfig(({ mode }) => {
       preact(),
       VitePWA({
         disable: swYok,
-        registerType: 'autoUpdate',
-        injectRegister: 'auto',
+        // Güncelleme kendiliğinden uygulanmaz: kullanıcıya bant gösterilir (test ortasında sayfa yenilenmesin).
+        registerType: 'prompt',
+        injectRegister: false,
         includeAssets: ['icon.svg', 'apple-touch-icon.png'],
         manifest: {
           name: 'YDS Çalışma',
