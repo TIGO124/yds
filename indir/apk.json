@@ -1,7 +1,8 @@
 {
-  "surum": "1.0.0",
+  "surum": "1.1.0",
   "notlar": [
-    "Uygulama içinden güncelleme: yeni sürüm çıkınca bant görünür",
-    "Güncellemede testlerin ve istatistiklerin korunur"
+    "Yeni görünüm: kâğıt ve mürekkep renkleri, kitapçık gibi okunaklı soru metni",
+    "Şıklar optik form balonları gibi; '----' boşlukları artık satır sonunda bölünmüyor",
+    "Uygulama ikonu, açılış ekranı ve koyu tema yenilendi"
   ]
 }
