@@ -1,0 +1,848 @@
+[
+  {
+    "id": "bozan-0001",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Kahvenin tarihi",
+    "zorluk": 1,
+    "soru": "(I) Coffee is one of the most widely consumed drinks in the world. (II) It originated in Ethiopia, where, according to legend, a goat herder noticed that his goats became energetic after eating coffee berries. (III) Tea, on the other hand, is traditionally served with milk in Britain. (IV) From Ethiopia, coffee spread to Yemen and then to the rest of the Arab world. (V) By the seventeenth century, coffee houses had become popular meeting places in Europe.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça kahvenin kökenini ve yayılışını anlatıyor; III. cümle çayın İngiltere'de sütle içilmesinden söz ederek akışı bozuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0002",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Buzullar",
+    "zorluk": 2,
+    "soru": "(I) Glaciers are large masses of ice that move slowly over land. (II) They form in places where more snow falls in winter than melts in summer. (III) Over many years, the accumulated snow is compressed into dense ice. (IV) Skiing has become an increasingly popular winter sport in mountain resorts. (V) As glaciers move, they shape the landscape by carving out valleys and depositing rocks.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça buzulların oluşumunu ve etkisini anlatıyor; IV. cümle kayak sporuna geçerek konudan sapıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0003",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Sanayi Devrimi",
+    "zorluk": 2,
+    "soru": "(I) The Industrial Revolution began in Britain in the late eighteenth century. (II) Many modern smartphones are assembled in factories in Asia. (III) New machines such as the steam engine greatly increased production in textile factories. (IV) As a result, large numbers of people moved from the countryside to the growing cities in search of work. (V) This rapid urbanisation, however, led to overcrowding and poor living conditions.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça 18. yüzyıl Sanayi Devrimi'ni anlatıyor; II. cümle günümüz akıllı telefon üretimine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0004",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Mercan resifleri",
+    "zorluk": 3,
+    "soru": "(I) Coral reefs cover less than one percent of the ocean floor, yet they support about a quarter of all marine species. (II) They provide food and shelter for thousands of kinds of fish, molluscs and other organisms. (III) Coastal communities also depend on reefs for fishing, tourism and protection from storms. (IV) However, rising sea temperatures and pollution are causing widespread damage to reefs around the world. (V) Some fish species are able to change their sex during their lifetime.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça resiflerin önemini ve tehdit altında olmasını anlatıyor; V. cümle balıkların cinsiyet değiştirmesine geçerek bütünlüğü bozuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0005",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Kivi kuşu",
+    "zorluk": 1,
+    "soru": "(I) The kiwi is a flightless bird found only in New Zealand. (II) It is about the size of a chicken and is active mainly at night. (III) Unlike most birds, it has nostrils at the end of its long beak, which it uses to find worms in the soil. (IV) New Zealand is also famous for its film industry and beautiful mountains. (V) Today, the kiwi is endangered because of habitat loss and predators introduced by humans.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça kivi kuşunu anlatıyor; IV. cümle Yeni Zelanda'nın film endüstrisine geçerek konudan sapıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0006",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Satrancın tarihi",
+    "zorluk": 2,
+    "soru": "(I) Chess is believed to have originated in India around the sixth century. (II) Playing cards were invented in China during the Tang dynasty. (III) From India, the game spread to Persia, where it became popular among the nobility. (IV) It later reached Europe through the Arab world. (V) By the fifteenth century, the modern rules of chess had largely been established.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça satrancın kökenini ve yayılışını anlatıyor; II. cümle oyun kâğıtlarından söz ederek akışı bozuyor. III. cümledeki 'the game' I. cümledeki satranca bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0007",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Depremler",
+    "zorluk": 2,
+    "soru": "(I) Earthquakes occur when stress builds up along faults in the Earth's crust. (II) When the stress is suddenly released, it produces waves of energy that shake the ground. (III) The strength of an earthquake is measured using a scale based on the energy released. (IV) Scientists cannot yet predict exactly when a major earthquake will strike. (V) Volcanic islands often have fertile soil that is ideal for farming.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça depremleri anlatıyor; V. cümle volkanik adaların verimli toprağına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0008",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "D vitamini",
+    "zorluk": 2,
+    "soru": "(I) Vitamin D is essential for healthy bones because it helps the body absorb calcium. (II) The body produces vitamin D when the skin is exposed to sunlight. (III) Calcium is also used in the production of cement and plaster. (IV) People who spend little time outdoors may therefore need to get it from food or supplements. (V) Oily fish, eggs and fortified milk are good dietary sources of the vitamin.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça D vitaminini anlatıyor; III. cümle kalsiyumun inşaatta kullanımına geçiyor. IV. cümledeki 'therefore' II. cümleye bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0009",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "İpek Yolu",
+    "zorluk": 3,
+    "soru": "(I) The Silk Road was a network of trade routes connecting China with the Mediterranean world. (II) Along these routes, merchants exchanged silk, spices, precious metals and many other goods. (III) Equally important was the exchange of ideas, religions and technologies between different civilisations. (IV) Silk is produced by the larvae of a moth that feeds on mulberry leaves. (V) Cities such as Samarkand grew wealthy as major centres of this trade.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça İpek Yolu ticaretini anlatıyor; IV. cümle ipeğin nasıl üretildiğine geçiyor. V. cümledeki 'this trade' III. cümleye bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0010",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Uykusuzluk",
+    "zorluk": 3,
+    "soru": "(I) Sleep deprivation has become a widespread problem in modern societies. (II) Some animals, such as giraffes, need less than two hours of sleep per day. (III) Many adults sleep fewer than the recommended seven hours a night because of long working hours and the use of electronic devices. (IV) Insufficient sleep has been linked to obesity, heart disease and reduced concentration. (V) Experts therefore recommend keeping a regular sleep schedule and avoiding screens before bedtime.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça modern toplumlarda insanlardaki uykusuzluğu anlatıyor; II. cümle zürafaların uyku süresine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0011",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Zeytinyağı",
+    "zorluk": 1,
+    "soru": "(I) Olive trees have been grown around the Mediterranean for thousands of years. (II) Their fruit is pressed to produce olive oil, which is a key part of the local diet. (III) Olive oil is rich in healthy fats and has been linked to a lower risk of heart disease. (IV) It is also used in soaps and cosmetics. (V) The Mediterranean Sea is connected to the Atlantic Ocean by the Strait of Gibraltar.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça zeytin ve zeytinyağını anlatıyor; V. cümle Akdeniz'in coğrafyasına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0012",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Zürafalar",
+    "zorluk": 1,
+    "soru": "(I) Giraffes are the tallest animals on Earth. (II) Zebras live in large herds and have black and white stripes. (III) Their long necks allow them to feed on leaves high in the trees. (IV) Surprisingly, a giraffe's neck has the same number of bones as a human's neck. (V) Giraffes need only a few hours of sleep a day.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça zürafaları anlatıyor; II. cümle zebralardan söz ediyor ve III. cümledeki 'Their' zürafalara bağlanamaz hale geliyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0013",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Amsterdam'da bisiklet",
+    "zorluk": 1,
+    "soru": "(I) Amsterdam is often described as the cycling capital of the world. (II) There are more bicycles in the city than residents. (III) The city is also famous for its museums, including the Van Gogh Museum. (IV) Wide cycle lanes and traffic lights for cyclists make cycling safe and convenient. (V) As a result, many residents use their bikes for daily journeys to work and school.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça bisiklet kültürünü anlatıyor; III. cümle müzelere geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0014",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Uyku",
+    "zorluk": 1,
+    "soru": "(I) Sleep is essential for both physical and mental health. (II) During sleep, the body repairs tissues and the brain processes information from the day. (III) Adults generally need between seven and nine hours of sleep a night. (IV) Some animals, such as bears, hibernate during the winter. (V) Regular lack of sleep can weaken the immune system and affect concentration.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça insan uykusunu anlatıyor; IV. cümle ayıların kış uykusuna geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0015",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Çikolata",
+    "zorluk": 1,
+    "soru": "(I) Chocolate is made from the seeds of the cacao tree. (II) Coffee beans are roasted before they are ground. (III) The ancient Maya and Aztecs drank chocolate as a bitter drink, often mixed with spices. (IV) When it was brought to Europe in the sixteenth century, sugar was added to make it sweeter. (V) Solid chocolate bars were not produced until the nineteenth century.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça çikolatanın tarihini anlatıyor; II. cümle kahveden söz ediyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0016",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Çocuklar ve akıllı telefon",
+    "zorluk": 1,
+    "soru": "(I) Many parents worry about how much time their children spend on smartphones. (II) Experts recommend setting clear limits on screen time. (III) They also advise parents to keep phones out of bedrooms at night. (IV) Encouraging outdoor activities can help children develop healthier habits. (V) The first mobile phones were large and very expensive.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça çocukların ekran süresini anlatıyor; V. cümle ilk cep telefonlarına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0017",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Volkanlar",
+    "zorluk": 1,
+    "soru": "(I) Volcanoes form where molten rock from deep inside the Earth reaches the surface. (II) When a volcano erupts, it can release lava, ash and gases. (III) Many people enjoy visiting hot springs for relaxation. (IV) Some eruptions are so powerful that they affect the climate of the whole planet. (V) Scientists monitor active volcanoes closely to warn nearby residents of danger.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça volkanları anlatıyor; III. cümle kaplıcalarda dinlenmeye geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0018",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Yağmur ormanları",
+    "zorluk": 1,
+    "soru": "(I) Tropical rainforests are found near the equator. (II) They receive a large amount of rain throughout the year. (III) More than half of the world's plant and animal species live in them. (IV) Deserts, in contrast, receive very little rainfall. (V) Unfortunately, rainforests are being cut down at an alarming rate for farming and timber.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça yağmur ormanlarını anlatıyor; IV. cümle çöllere geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0019",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Maraton",
+    "zorluk": 1,
+    "soru": "(I) The marathon is a long-distance running race of about 42 kilometres. (II) Swimming is an excellent form of exercise for people with joint problems. (III) The race is named after a legend from ancient Greece, in which a messenger ran from Marathon to Athens. (IV) The marathon has been part of the modern Olympic Games since 1896. (V) Today, major city marathons attract tens of thousands of runners.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça maratonu anlatıyor; II. cümle yüzmeye geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0020",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Cam geri dönüşümü",
+    "zorluk": 1,
+    "soru": "(I) Glass is one of the easiest materials to recycle. (II) It can be melted down and reshaped many times without losing quality. (III) Recycling glass saves raw materials such as sand and reduces energy use. (IV) For this reason, many cities provide special bins for glass bottles and jars. (V) Stained glass windows can be found in many old churches.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça cam geri dönüşümünü anlatıyor; V. cümle vitraylara geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0021",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Baykuşlar",
+    "zorluk": 1,
+    "soru": "(I) Owls are birds that hunt mainly at night. (II) Their large eyes allow them to see well in low light. (III) Parrots are known for their ability to imitate human speech. (IV) Owls can also turn their heads almost all the way around. (V) In addition, their soft feathers allow them to fly almost silently towards their prey.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça baykuşları anlatıyor; III. cümle papağanlardan söz ediyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0022",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Su tasarrufu",
+    "zorluk": 1,
+    "soru": "(I) Fresh water is a limited resource in many parts of the world. (II) There are several simple ways to save water at home. (III) For example, taking shorter showers can save many litres each day. (IV) The Pacific Ocean is the deepest ocean on Earth. (V) Fixing leaking taps also prevents a surprising amount of waste.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça evde su tasarrufunu anlatıyor; IV. cümle okyanus derinliğine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0023",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Müzeler",
+    "zorluk": 1,
+    "soru": "(I) Museums play an important role in preserving cultural heritage. (II) Many museum shops sell postcards and souvenirs. (III) They collect and protect objects that tell the story of human history. (IV) Through exhibitions, they also help the public learn about the past. (V) In recent years, many museums have made their collections available online.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça müzelerin kültürel rolünü anlatıyor; II. cümle müze dükkânlarına geçiyor ve III. cümledeki 'They' dükkânları gösterir hale geliyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0024",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Egzersiz ve ruh hâli",
+    "zorluk": 1,
+    "soru": "(I) Regular exercise is good for the body and the mind. (II) Physical activity strengthens the heart and muscles. (III) Gym memberships have become more expensive in many cities. (IV) Exercise also releases chemicals in the brain that improve mood. (V) Even a short daily walk can reduce stress and anxiety.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça egzersizin faydalarını anlatıyor; III. cümle spor salonu ücretlerine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0025",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Antibiyotikler",
+    "zorluk": 2,
+    "soru": "(I) Antibiotics are medicines used to treat infections caused by bacteria. (II) They do not work against viruses, such as those that cause colds and flu. (III) Taking antibiotics when they are not needed can lead to antibiotic resistance. (IV) Resistant bacteria are much harder to treat and pose a serious threat to public health. (V) Many vitamins can be obtained from fresh fruit and vegetables.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça antibiyotik kullanımını anlatıyor; V. cümle vitaminlere geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0026",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Çin Seddi",
+    "zorluk": 2,
+    "soru": "(I) The Great Wall of China was built over many centuries. (II) Its main purpose was to protect Chinese states from invasions from the north. (III) Millions of workers took part in its construction, and many died during the work. (IV) Chinese cuisine varies greatly from region to region. (V) Today, the wall is one of the most popular tourist attractions in the world.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça Çin Seddi'ni anlatıyor; IV. cümle Çin mutfağına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0027",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Elektrikli arabalar",
+    "zorluk": 2,
+    "soru": "(I) Electric cars are becoming increasingly popular in many countries. (II) One reason is that they produce no exhaust emissions while driving. (III) Petrol stations often sell snacks and drinks. (IV) Another reason is that governments offer tax incentives to buyers. (V) However, the limited number of charging stations remains a problem in some areas.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça elektrikli arabaların popülerliğini anlatıyor; III. cümle benzin istasyonlarındaki ürünlere geçiyor ve II ile IV arasındaki 'One reason ... Another reason' bağını bozuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0028",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Karıncalar",
+    "zorluk": 2,
+    "soru": "(I) Ants live in highly organised colonies. (II) Spiders are not insects because they have eight legs. (III) Each colony usually has a queen, whose main role is to lay eggs. (IV) Worker ants gather food, care for the young and defend the nest. (V) This division of labour allows the colony to function efficiently.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça karınca kolonilerini anlatıyor; II. cümle örümceklerden söz ediyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0029",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Enflasyon",
+    "zorluk": 2,
+    "soru": "(I) Inflation is a general rise in the prices of goods and services over time. (II) When inflation is high, money loses its purchasing power. (III) Central banks often raise interest rates to bring inflation under control. (IV) Higher interest rates make borrowing more expensive, which reduces spending. (V) Many banks have closed branches as more customers use online banking.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça enflasyonu ve faiz politikasını anlatıyor; V. cümle banka şubelerine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0030",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Nobel Ödülleri",
+    "zorluk": 2,
+    "soru": "(I) The Nobel Prizes were established by the will of Alfred Nobel, the inventor of dynamite. (II) They have been awarded since 1901 in fields such as physics, chemistry and medicine. (III) Winners receive a medal, a diploma and a large sum of money. (IV) Dynamite is widely used in mining and construction. (V) The prizes are considered among the most prestigious awards in the world.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça Nobel Ödülleri'ni anlatıyor; IV. cümle dinamitin kullanım alanlarına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0031",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Venedik turizmi",
+    "zorluk": 2,
+    "soru": "(I) Venice attracts millions of tourists every year. (II) The large number of visitors has created serious problems for the city. (III) Venice was built on more than 100 small islands. (IV) Rents have risen so much that many local residents have been forced to move away. (V) The city has recently introduced an entrance fee for day visitors to reduce overcrowding.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça aşırı turizmin sorunlarını anlatıyor; III. cümle şehrin coğrafyasına geçerek II ve IV arasındaki bağı koparıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0032",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Rüyalar",
+    "zorluk": 2,
+    "soru": "(I) Scientists still do not fully understand why we dream. (II) Most adults need to drink about two litres of water a day. (III) One theory suggests that dreams help the brain process emotions. (IV) Another proposes that dreaming helps us consolidate memories. (V) Most dreams occur during a stage of sleep known as REM sleep.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça rüyaları anlatıyor; II. cümle su tüketimine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0033",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Rüzgâr enerjisi",
+    "zorluk": 2,
+    "soru": "(I) Wind power is one of the fastest-growing sources of renewable energy. (II) Modern wind turbines can generate enough electricity to power thousands of homes. (III) Offshore wind farms benefit from stronger and more consistent winds at sea. (IV) However, wind power depends on the weather, so it must be combined with other energy sources. (V) Sailing is a popular sport in many coastal towns.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça rüzgâr enerjisini anlatıyor; V. cümle yelken sporuna geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0034",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Çocuklara kitap okumak",
+    "zorluk": 2,
+    "soru": "(I) Reading to young children has many benefits. (II) It helps them develop language skills and a larger vocabulary. (III) It also encourages a love of books that can last a lifetime. (IV) Many adults read the news on their phones every morning. (V) Experts recommend that parents read to their children for at least fifteen minutes a day.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça çocuklara kitap okumanın faydalarını anlatıyor; IV. cümle yetişkinlerin haber okumasına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0035",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Uçurtmalar",
+    "zorluk": 2,
+    "soru": "(I) Kites were probably invented in China more than 2,000 years ago. (II) Paper was also invented in China, around the second century. (III) Early kites were made of silk and bamboo. (IV) They were used not only for fun but also to send military signals. (V) Today, kite festivals are held in many countries around the world.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça uçurtmaların tarihini anlatıyor; II. cümle kâğıdın icadına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0036",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Jet lag",
+    "zorluk": 2,
+    "soru": "(I) Jet lag occurs when people travel quickly across several time zones. (II) The body's internal clock remains set to the original time zone. (III) As a result, travellers may feel tired during the day and be unable to sleep at night. (IV) Exposure to daylight at the destination can help the body adjust more quickly. (V) Many airports have shops that sell perfume and chocolate.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça jet lag'i anlatıyor; V. cümle havalimanı mağazalarına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0037",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Masa oyunları",
+    "zorluk": 2,
+    "soru": "(I) Board games have enjoyed a revival in recent years. (II) Many people see them as a way to spend time with friends and family away from screens. (III) Cafés where customers can play board games have opened in many cities. (IV) Chess was invented in India many centuries ago. (V) Sales of board games have risen steadily over the last decade.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça masa oyunlarının son yıllardaki yükselişini anlatıyor; IV. cümle satrancın tarihine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0038",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Kompost",
+    "zorluk": 2,
+    "soru": "(I) Composting is a simple way to reduce household waste. (II) Food scraps and garden waste can be turned into rich fertiliser. (III) Many supermarkets now sell fruit and vegetables in plastic packaging. (IV) Using compost in the garden improves soil quality and reduces the need for chemical fertilisers. (V) It also reduces the amount of waste sent to landfill, where it produces methane.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça kompostu anlatıyor; III. cümle süpermarket ambalajlarına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0039",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Fast food",
+    "zorluk": 3,
+    "soru": "(I) Fast food has become part of daily life for many people. (II) It is cheap, convenient and widely available. (III) The first hamburger restaurant chain opened in the United States in 1921. (IV) However, many fast-food meals are high in salt, sugar and fat. (V) Eating them regularly has been linked to obesity and heart disease.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça fast food'un yaygınlığı ve sağlık etkilerini anlatıyor; III. cümle tarihsel bir ayrıntıyla II ve IV arasındaki 'However' bağını bozuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0040",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Levha tektoniği",
+    "zorluk": 3,
+    "soru": "(I) The theory of plate tectonics explains that the Earth's outer layer is divided into large plates. (II) Earthquakes can cause great damage to buildings and roads. (III) These plates move slowly, at about the rate at which fingernails grow. (IV) Over millions of years, this movement has changed the shape and position of the continents. (V) It also explains why mountains, volcanoes and ocean trenches form where they do.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça levha tektoniği kuramını anlatıyor; II. cümle depremlerin verdiği hasara geçiyor ve III. cümledeki 'These plates' I. cümleye bağlanamaz hale geliyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0041",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Kahvehaneler",
+    "zorluk": 3,
+    "soru": "(I) Coffee houses first appeared in Istanbul in the sixteenth century. (II) They quickly became popular meeting places where people discussed news and politics. (III) Some rulers viewed them with suspicion and even tried to close them. (IV) Despite such efforts, coffee houses spread throughout the empire and later to Europe. (V) Coffee plants grow best in tropical climates at high altitudes.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça kahvehanelerin tarihini anlatıyor; V. cümle kahve bitkisinin yetiştiği iklime geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0042",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Mikrofinans",
+    "zorluk": 3,
+    "soru": "(I) Microfinance provides small loans to people who cannot obtain credit from traditional banks. (II) The idea is that even a small amount of capital can help poor people start businesses. (III) Early programmes reported impressive repayment rates. (IV) Traditional banks usually open between nine in the morning and five in the afternoon. (V) However, later studies suggested that the effects on poverty were more modest than initially claimed.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça mikrofinansın etkilerini anlatıyor; IV. cümle banka çalışma saatlerine geçiyor ve III ile V arasındaki zıtlığı bozuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0043",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Şehirdeki kuşlar",
+    "zorluk": 3,
+    "soru": "(I) Some bird species have adapted remarkably well to life in cities. (II) Birds in noisy urban areas have been found to sing at a higher pitch than those in the countryside. (III) Many cities have introduced bicycle-sharing schemes to reduce traffic. (IV) Singing at a higher pitch helps their songs to be heard above the low-frequency noise of traffic. (V) Such changes show how quickly animals can respond to human-made environments.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça kuşların şehir gürültüsüne uyumunu anlatıyor; III. cümle bisiklet paylaşımına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0044",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Yaş ve dil öğrenme",
+    "zorluk": 3,
+    "soru": "(I) It is often claimed that children learn languages more easily than adults. (II) Many schools now offer lessons in computer programming. (III) Children do tend to achieve a more native-like accent. (IV) Adults, however, often make faster progress in the early stages because they can understand grammatical rules. (V) The idea that adults cannot learn languages well is therefore misleading.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça yaşın dil öğrenmeye etkisini tartışıyor; II. cümle programlama derslerine geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0045",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Antarktika Antlaşması",
+    "zorluk": 3,
+    "soru": "(I) The Antarctic Treaty was signed in 1959 by twelve countries. (II) It established that Antarctica should be used only for peaceful purposes and scientific research. (III) Military activities and mining are prohibited on the continent. (IV) Today, more than fifty countries have signed the treaty. (V) Penguins huddle together in large groups to keep warm during the Antarctic winter.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça Antarktika Antlaşması'nı anlatıyor; V. cümle penguenlerin davranışına geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0046",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Yapay tatlandırıcılar",
+    "zorluk": 3,
+    "soru": "(I) Artificial sweeteners are widely used as sugar substitutes in diet drinks. (II) They provide a sweet taste with few or no calories. (III) Some studies, however, suggest that they may not help people lose weight in the long term. (IV) Sugar cane is grown mainly in tropical and subtropical regions. (V) Researchers believe that sweeteners might affect appetite or the gut microbiome, although more evidence is needed.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça yapay tatlandırıcıları anlatıyor; IV. cümle şeker kamışının yetiştiği bölgelere geçiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "bozan-0047",
+    "bolum": "bozan",
+    "konu": "bozan",
+    "alt_konu": "Ormansızlaşma ve salgınlar",
+    "zorluk": 3,
+    "soru": "(I) Deforestation may increase the risk of new infectious diseases. (II) When forests are cleared, humans come into closer contact with wild animals that carry viruses. (III) Tropical hardwoods are highly valued for making furniture. (IV) Some of these viruses can jump from animals to humans. (V) Protecting forests may therefore be an important way to prevent future pandemics.\n\nWhich sentence is irrelevant to the passage?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça ormansızlaşma ile salgın riskini anlatıyor; III. cümle kereste değerine geçiyor ve IV. cümledeki 'these viruses' bağını koparıyor.",
+    "paragraf_id": null
+  }
+]

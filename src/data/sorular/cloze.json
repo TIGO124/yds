@@ -1,0 +1,2486 @@
+[
+  {
+    "id": "gr.baglac-0005",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "Sebep bağlacı",
+    "zorluk": 2,
+    "soru": "Honeybees play a crucial role in agriculture. ---- they pollinate a large proportion of food crops, a decline in their numbers could threaten global food security.",
+    "secenekler": [
+      "Unless",
+      "Since",
+      "Whereas",
+      "Even if",
+      "Although"
+    ],
+    "dogru": 1,
+    "aciklama": "Arıların bitkileri tozlaştırması, sayılarındaki düşüşün gıda güvenliğini tehdit etmesinin nedenidir → 'Since' (…dığı için).",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0005",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 3,
+    "soru": "The Great Barrier Reef, the largest coral reef system in the world, has been severely damaged by rising ocean temperatures. When the water becomes too warm, corals ---- the algae living in their tissues and turn completely white.",
+    "secenekler": [
+      "expel",
+      "attract",
+      "cultivate",
+      "nourish",
+      "absorb"
+    ],
+    "dogru": 0,
+    "aciklama": "Mercanların beyazlaması, dokularındaki algleri dışarı atmalarından ('expel') kaynaklanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0005",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "deprived of",
+    "zorluk": 2,
+    "soru": "Sleep is essential for memory. Studies show that people who are deprived ---- sleep perform significantly worse on tests of attention and learning.",
+    "secenekler": [
+      "at",
+      "for",
+      "of",
+      "from",
+      "with"
+    ],
+    "dogru": 2,
+    "aciklama": "'be deprived of' = …den yoksun bırakılmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0005",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Simple Past",
+    "zorluk": 2,
+    "soru": "The ancient Egyptians developed one of the earliest writing systems. For more than three thousand years, they ---- hieroglyphs to record religious texts, laws and historical events.",
+    "secenekler": [
+      "have used",
+      "are using",
+      "have been using",
+      "will use",
+      "used"
+    ],
+    "dogru": 4,
+    "aciklama": "Eski Mısırlılar artık yaşamıyor; süre bildirilse de eylem geçmişte tamamlanmıştır → Simple Past.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0005",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "that",
+    "zorluk": 2,
+    "soru": "Antibiotics are medicines ---- fight infections caused by bacteria. However, they are ineffective against viruses such as those that cause the common cold.",
+    "secenekler": [
+      "where",
+      "what",
+      "whose",
+      "that",
+      "whom"
+    ],
+    "dogru": 3,
+    "aciklama": "'medicines' nesneyi niteleyen ve cümlecikte özne olan ilgi zamiri 'that' (= which).",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0005",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 2,
+    "soru": "Although solar panels were once too expensive for most households, their price has fallen sharply in recent years. As a result, solar energy has become an increasingly ---- alternative to fossil fuels.",
+    "secenekler": [
+      "hazardous",
+      "reluctant",
+      "affordable",
+      "obsolete",
+      "expensive"
+    ],
+    "dogru": 2,
+    "aciklama": "Fiyatların düşmesinin sonucu, güneş enerjisinin giderek daha uygun fiyatlı ('affordable') hale gelmesidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0011",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 2,
+    "soru": "Volcanic eruptions can have a dramatic ---- on the global climate. When a large volcano erupts, it releases huge amounts of ash and gas into the atmosphere, which can block sunlight and lower temperatures for several years.",
+    "secenekler": [
+      "approval",
+      "impact",
+      "attempt",
+      "intention",
+      "origin"
+    ],
+    "dogru": 1,
+    "aciklama": "'have an impact on' = …üzerinde etkisi olmak. Devamındaki cümle iklime etkisini açıklıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0012",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "However",
+    "zorluk": 2,
+    "soru": "Electric vehicles produce no exhaust emissions. ----, their overall environmental impact depends on how the electricity used to charge them is generated.",
+    "secenekler": [
+      "Similarly",
+      "Therefore",
+      "In other words",
+      "For instance",
+      "However"
+    ],
+    "dogru": 4,
+    "aciklama": "İlk cümle olumlu bir özellik verir, ikincisi bunu sınırlar → zıtlık: 'However'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0009",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 2,
+    "soru": "The Rosetta Stone, which ---- in 1799, provided the key to understanding ancient Egyptian hieroglyphs, since it contained the same text in three different scripts.",
+    "secenekler": [
+      "discovered",
+      "had discovered",
+      "has discovered",
+      "was discovered",
+      "is discovering"
+    ],
+    "dogru": 3,
+    "aciklama": "Taş bulunan şeydir ve '1799' geçmiş zamandır → 'was discovered'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0009",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "be able to",
+    "zorluk": 2,
+    "soru": "Many animals are able ---- changes in the Earth's magnetic field. Sea turtles, for example, use this ability to return to the beach where they were born.",
+    "secenekler": [
+      "to detect",
+      "detect",
+      "to detecting",
+      "detected",
+      "detecting"
+    ],
+    "dogru": 0,
+    "aciklama": "'be able' to-infinitive alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0012",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 3,
+    "soru": "Deforestation not only destroys the habitats of countless species but also ---- climate change, since trees absorb carbon dioxide that would otherwise remain in the atmosphere.",
+    "secenekler": [
+      "postpones",
+      "prevents",
+      "reverses",
+      "accelerates",
+      "conceals"
+    ],
+    "dogru": 3,
+    "aciklama": "Ağaçlar karbondioksiti emdiğine göre ormansızlaşma iklim değişikliğini hızlandırır ('accelerates').",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0009",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "a small number of",
+    "zorluk": 2,
+    "soru": "Although there are thousands of languages in the world, ---- of them have a written form. Most are spoken only, and many are used by very small communities.",
+    "secenekler": [
+      "a great deal",
+      "every",
+      "much",
+      "a little",
+      "only a small number"
+    ],
+    "dogru": 4,
+    "aciklama": "'languages' sayılabilir; 'Most are spoken only' dillerin yalnızca küçük bir kısmının yazılı olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0011",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "whose",
+    "zorluk": 2,
+    "soru": "Marie Curie, ---- discoveries in radioactivity changed modern physics, was the first woman to win a Nobel Prize.",
+    "secenekler": [
+      "which",
+      "whose",
+      "that",
+      "whom",
+      "who"
+    ],
+    "dogru": 1,
+    "aciklama": "Keşifler Marie Curie'ye aittir → iyelik bildiren 'whose'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0009",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "may have done",
+    "zorluk": 3,
+    "soru": "The ancient inhabitants of Easter Island moved enormous stone statues across the island without wheels or large animals. Some researchers believe they ---- the statues upright, rocking them from side to side like a refrigerator.",
+    "secenekler": [
+      "may have walked",
+      "must walk",
+      "can't have walked",
+      "should have walked",
+      "needn't have walked"
+    ],
+    "dogru": 0,
+    "aciklama": "'Some researchers believe' kesin olmayan bir geçmiş tahmini bildirir → 'may have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0009",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "more than",
+    "zorluk": 2,
+    "soru": "Honey never spoils if it is stored properly. In fact, archaeologists have found pots of honey in Egyptian tombs that are ---- 3,000 years old and still edible.",
+    "secenekler": [
+      "most",
+      "as long as",
+      "more than",
+      "as much as",
+      "less"
+    ],
+    "dogru": 2,
+    "aciklama": "Sayıdan önce 'more than' (…den fazla) kullanılır; 'less' için 'than' gerekirdi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0010",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 2,
+    "soru": "Bees are responsible for pollinating many of the crops we eat. If bees disappeared, many fruits and vegetables ---- extremely rare and expensive.",
+    "secenekler": [
+      "will become",
+      "would become",
+      "would have become",
+      "became",
+      "had become"
+    ],
+    "dogru": 1,
+    "aciklama": "'If + Simple Past' (Type 2) → ana cümlede 'would + V1'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0011",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 2,
+    "soru": "Antarctica is the coldest, driest and windiest continent. It is ---- uninhabited, although several thousand scientists live there temporarily at research stations.",
+    "secenekler": [
+      "heavily",
+      "entirely",
+      "rapidly",
+      "densely",
+      "largely"
+    ],
+    "dogru": 4,
+    "aciklama": "Birkaç bin bilim insanı geçici olarak yaşadığı için kıta 'tamamen' değil 'büyük ölçüde' ('largely') ıssızdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0010",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "whether",
+    "zorluk": 3,
+    "soru": "Astronomers have discovered thousands of planets outside our solar system. ---- any of them could support life is one of the most important questions in modern science.",
+    "secenekler": [
+      "What",
+      "If",
+      "That",
+      "Whether",
+      "Which"
+    ],
+    "dogru": 3,
+    "aciklama": "Özne konumundaki 'olup olmadığı' anlamı 'Whether' ile verilir; 'If' özne cümleciği başlatamaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0047",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 1,
+    "soru": "Many people suffer from back pain. One common ---- is sitting in the same position for long periods, especially in front of a computer.",
+    "secenekler": [
+      "result",
+      "exercise",
+      "cause",
+      "cure",
+      "treatment"
+    ],
+    "dogru": 2,
+    "aciklama": "Uzun süre oturmak sırt ağrısının nedenidir ('cause').",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0048",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "pose a threat",
+    "zorluk": 2,
+    "soru": "Rainforests are home to more than half of the world's plant and animal species. Their destruction therefore poses a serious ---- to global biodiversity.",
+    "secenekler": [
+      "threat",
+      "reward",
+      "benefit",
+      "contribution",
+      "solution"
+    ],
+    "dogru": 0,
+    "aciklama": "'pose a threat to' = …e tehdit oluşturmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0049",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 2,
+    "soru": "Online shopping has grown rapidly in recent years. For many consumers, the main ---- is convenience: they can order products at any time without leaving home.",
+    "secenekler": [
+      "expense",
+      "obstacle",
+      "risk",
+      "disadvantage",
+      "attraction"
+    ],
+    "dogru": 4,
+    "aciklama": "Kolaylık çekici bir özelliktir ('attraction').",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0050",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "as a result",
+    "zorluk": 2,
+    "soru": "Early school start times often prevent teenagers from getting enough sleep. As a ----, many students feel tired during morning lessons.",
+    "secenekler": [
+      "cause",
+      "method",
+      "result",
+      "reason",
+      "purpose"
+    ],
+    "dogru": 2,
+    "aciklama": "'As a result' = sonuç olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0051",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 3,
+    "soru": "Genetic engineering offers great promise for agriculture. Nevertheless, critics argue that the long-term ---- of genetically modified crops on ecosystems are still poorly understood.",
+    "secenekler": [
+      "affects",
+      "effects",
+      "origins",
+      "causes",
+      "benefits"
+    ],
+    "dogru": 1,
+    "aciklama": "'the effects of X on Y' = X'in Y üzerindeki etkileri; 'affects' fiildir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0052",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 3,
+    "soru": "The Black Death killed around a third of Europe's population in the 14th century. The resulting ---- of workers led to higher wages for those who survived.",
+    "secenekler": [
+      "shortage",
+      "surplus",
+      "excess",
+      "abundance",
+      "increase"
+    ],
+    "dogru": 0,
+    "aciklama": "Nüfusun azalması işçi kıtlığı ('shortage') yaratır; bu da ücretleri artırır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0048",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 1,
+    "soru": "Recycling helps to ---- the amount of waste that ends up in landfill sites. It also saves energy and raw materials.",
+    "secenekler": [
+      "create",
+      "increase",
+      "expand",
+      "reduce",
+      "produce"
+    ],
+    "dogru": 3,
+    "aciklama": "Geri dönüşüm atık miktarını azaltır ('reduce').",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0049",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Vaccines work by training the immune system to ---- specific viruses or bacteria. As a result, the body can fight the infection quickly if it is exposed to it later.",
+    "secenekler": [
+      "produce",
+      "recognise",
+      "spread",
+      "ignore",
+      "release"
+    ],
+    "dogru": 1,
+    "aciklama": "Bağışıklık sistemi mikropları tanımayı ('recognise') öğrenir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0050",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Some plants have developed chemical defences to ---- insects. For example, tobacco produces nicotine, which is poisonous to many insects.",
+    "secenekler": [
+      "feed",
+      "attract",
+      "shelter",
+      "deter",
+      "breed"
+    ],
+    "dogru": 3,
+    "aciklama": "Savunma ve zehir böcekleri caydırmaya ('deter') yöneliktir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0051",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Urban planners are trying to ---- more green spaces into city designs, as parks and trees help to reduce heat and improve residents' well-being.",
+    "secenekler": [
+      "incorporate",
+      "demolish",
+      "exclude",
+      "abandon",
+      "eliminate"
+    ],
+    "dogru": 0,
+    "aciklama": "'incorporate into' = …e dahil etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0052",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 3,
+    "soru": "As glaciers melt, they ---- large amounts of fresh water into the oceans. This could disrupt ocean currents that regulate the climate.",
+    "secenekler": [
+      "retain",
+      "freeze",
+      "absorb",
+      "purify",
+      "release"
+    ],
+    "dogru": 4,
+    "aciklama": "Eriyen buzullar okyanusa tatlı su bırakır ('release').",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0053",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 3,
+    "soru": "Historians often rely on letters and diaries to ---- the daily lives of ordinary people in the past, since official records mostly describe the activities of rulers.",
+    "secenekler": [
+      "conceal",
+      "destroy",
+      "reconstruct",
+      "exaggerate",
+      "ignore"
+    ],
+    "dogru": 2,
+    "aciklama": "Mektup ve günlüklerle geçmişteki yaşam yeniden canlandırılır ('reconstruct').",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0047",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 1,
+    "soru": "Walking is one of the ---- ways to stay healthy. It requires no special equipment and can be done almost anywhere.",
+    "secenekler": [
+      "easiest",
+      "hardest",
+      "most expensive",
+      "most dangerous",
+      "rarest"
+    ],
+    "dogru": 0,
+    "aciklama": "Ekipman gerektirmemesi yürümenin en kolay ('easiest') yollardan biri olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0048",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 2,
+    "soru": "Although most spiders are harmless to humans, a few species are highly ----, and their bites may require immediate medical treatment.",
+    "secenekler": [
+      "friendly",
+      "colourful",
+      "venomous",
+      "tiny",
+      "common"
+    ],
+    "dogru": 2,
+    "aciklama": "Tıbbi müdahale gerektiren ısırık zehirli ('venomous') türlere aittir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0049",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 2,
+    "soru": "The Sahara is the largest hot desert in the world. Despite its ---- conditions, it is home to many plants and animals that have adapted to extreme heat and drought.",
+    "secenekler": [
+      "pleasant",
+      "mild",
+      "moderate",
+      "gentle",
+      "harsh"
+    ],
+    "dogru": 4,
+    "aciklama": "'Despite' ve aşırı sıcaklık zorlu ('harsh') koşulları gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0050",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 2,
+    "soru": "Many elderly people feel ---- because they live alone and rarely have visitors. Loneliness has been linked to depression and poor physical health.",
+    "secenekler": [
+      "confident",
+      "isolated",
+      "crowded",
+      "energetic",
+      "wealthy"
+    ],
+    "dogru": 1,
+    "aciklama": "Yalnız yaşamak ve ziyaretçisi olmamak yalıtılmışlık ('isolated') hissi verir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0051",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 3,
+    "soru": "Early diagnosis is ---- in the treatment of cancer, because tumours that are detected at an early stage are much easier to remove.",
+    "secenekler": [
+      "optional",
+      "marginal",
+      "irrelevant",
+      "crucial",
+      "harmful"
+    ],
+    "dogru": 3,
+    "aciklama": "Erken teşhisin tedaviyi kolaylaştırması onun çok önemli ('crucial') olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0052",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 3,
+    "soru": "Wind farms are sometimes criticised for being ----. Some residents complain that the large turbines spoil the natural beauty of the landscape.",
+    "secenekler": [
+      "efficient",
+      "unsightly",
+      "attractive",
+      "silent",
+      "invisible"
+    ],
+    "dogru": 1,
+    "aciklama": "Manzarayı bozmak çirkin görünmek ('unsightly') demektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0047",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 1,
+    "soru": "Mobile phones have changed the way we live. Today, most people carry them ----, even to bed.",
+    "secenekler": [
+      "nowhere",
+      "rarely",
+      "hardly",
+      "everywhere",
+      "seldom"
+    ],
+    "dogru": 3,
+    "aciklama": "'even to bed' telefonların her yere ('everywhere') götürüldüğünü vurgular.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0048",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 2,
+    "soru": "Dogs cannot digest chocolate ----, and even small amounts can make them seriously ill.",
+    "secenekler": [
+      "barely",
+      "scarcely",
+      "properly",
+      "rarely",
+      "hardly"
+    ],
+    "dogru": 2,
+    "aciklama": "'cannot ... properly' = düzgün biçimde …emez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0049",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 2,
+    "soru": "The Great Wall of China is often said to be visible from space. In fact, astronauts report that it is ---- visible to the naked eye from orbit.",
+    "secenekler": [
+      "barely",
+      "easily",
+      "brightly",
+      "clearly",
+      "widely"
+    ],
+    "dogru": 0,
+    "aciklama": "'In fact' yaygın inancı düzeltir: duvar yörüngeden zar zor ('barely') görünür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0050",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 2,
+    "soru": "Bilingual children sometimes mix two languages in the same sentence. This is ---- normal and does not mean that they are confused.",
+    "secenekler": [
+      "scarcely",
+      "rarely",
+      "barely",
+      "hardly",
+      "perfectly"
+    ],
+    "dogru": 4,
+    "aciklama": "'does not mean that they are confused' durumun tamamen ('perfectly') normal olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0051",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 3,
+    "soru": "Antibiotics must be used ----. If they are prescribed too often, bacteria can develop resistance, making future infections harder to treat.",
+    "secenekler": [
+      "responsibly",
+      "frequently",
+      "generously",
+      "carelessly",
+      "randomly"
+    ],
+    "dogru": 0,
+    "aciklama": "Aşırı kullanımın zararı, sorumlu biçimde ('responsibly') kullanılmaları gerektiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0052",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 3,
+    "soru": "The ancient Maya developed a ---- accurate calendar. Their calculation of the solar year was remarkably close to the value accepted by modern astronomers.",
+    "secenekler": [
+      "scarcely",
+      "hardly",
+      "barely",
+      "slightly",
+      "highly"
+    ],
+    "dogru": 4,
+    "aciklama": "Modern değere çok yakın hesaplama takvimin son derece ('highly') doğru olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0044",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Simple Past",
+    "zorluk": 1,
+    "soru": "Scientists first ---- penguins in Antarctica in the early 19th century. Since then, they have studied their behaviour in great detail.",
+    "secenekler": [
+      "had observed",
+      "observe",
+      "have observed",
+      "observed",
+      "are observing"
+    ],
+    "dogru": 3,
+    "aciklama": "'in the early 19th century' geçmişte bitmiş zaman → Simple Past.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0045",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect",
+    "zorluk": 2,
+    "soru": "Over the last fifty years, the average life expectancy in many countries ---- significantly, mainly thanks to better healthcare and nutrition.",
+    "secenekler": [
+      "had increased",
+      "increased",
+      "has increased",
+      "increases",
+      "will increase"
+    ],
+    "dogru": 2,
+    "aciklama": "'Over the last fifty years' günümüze uzanan dönem → Present Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0046",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Past Perfect",
+    "zorluk": 2,
+    "soru": "When the first European explorers arrived in Australia, Aboriginal people ---- there for at least 50,000 years.",
+    "secenekler": [
+      "will live",
+      "had lived",
+      "live",
+      "have lived",
+      "are living"
+    ],
+    "dogru": 1,
+    "aciklama": "Geçmişteki bir olaydan (arrived) önce süregelen durum → Past Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0047",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Simple Past",
+    "zorluk": 2,
+    "soru": "The internet ---- in the late 1960s as a military project. Today, billions of people use it every day.",
+    "secenekler": [
+      "is beginning",
+      "begins",
+      "had begun",
+      "has begun",
+      "began"
+    ],
+    "dogru": 4,
+    "aciklama": "'in the late 1960s' → Simple Past.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0048",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Continuous",
+    "zorluk": 2,
+    "soru": "Currently, researchers ---- a new type of battery that could store solar energy for weeks.",
+    "secenekler": [
+      "had developed",
+      "were developing",
+      "develop",
+      "are developing",
+      "developed"
+    ],
+    "dogru": 3,
+    "aciklama": "'Currently' şu anda süren eylem → Present Continuous.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0049",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Future Perfect",
+    "zorluk": 3,
+    "soru": "By 2030, experts predict, electric cars ---- the majority of new vehicles sold in Europe.",
+    "secenekler": [
+      "become",
+      "will have become",
+      "had become",
+      "have become",
+      "became"
+    ],
+    "dogru": 1,
+    "aciklama": "'By 2030' → Future Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0050",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Simple Past",
+    "zorluk": 3,
+    "soru": "Before antibiotics were discovered, even minor infections ---- often fatal.",
+    "secenekler": [
+      "have been",
+      "will be",
+      "were",
+      "had been being",
+      "are"
+    ],
+    "dogru": 2,
+    "aciklama": "Geçmişteki genel durum → Simple Past.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0051",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect Continuous",
+    "zorluk": 3,
+    "soru": "Scientists ---- the ocean floor for decades, but more than 80 percent of it remains unmapped.",
+    "secenekler": [
+      "have been exploring",
+      "had explored",
+      "were exploring",
+      "explore",
+      "will explore"
+    ],
+    "dogru": 0,
+    "aciklama": "On yıllardır süren ve devam eden eylem → Present Perfect Continuous.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0042",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "cannot",
+    "zorluk": 1,
+    "soru": "Children under the age of 12 ---- travel on the plane alone. They must be accompanied by an adult.",
+    "secenekler": [
+      "should",
+      "must",
+      "cannot",
+      "might",
+      "would"
+    ],
+    "dogru": 2,
+    "aciklama": "Yetişkin eşliği zorunlu olduğundan tek başına seyahat edemezler → 'cannot'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0043",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "may have done",
+    "zorluk": 2,
+    "soru": "The dinosaurs ---- have died out because of a huge asteroid impact. This is the most widely accepted theory among scientists.",
+    "secenekler": [
+      "can't",
+      "may",
+      "mustn't",
+      "needn't",
+      "shouldn't"
+    ],
+    "dogru": 1,
+    "aciklama": "Kuram olduğu için geçmişe dair olasılık → 'may have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0044",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "should",
+    "zorluk": 2,
+    "soru": "Many experts believe that we ---- reduce meat consumption if we want to limit climate change.",
+    "secenekler": [
+      "needn't",
+      "can't",
+      "mustn't",
+      "should",
+      "wouldn't"
+    ],
+    "dogru": 3,
+    "aciklama": "Tavsiye → 'should'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0045",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "could (geçmiş yetenek)",
+    "zorluk": 2,
+    "soru": "Some early humans ---- make fire about one million years ago, according to evidence found in a cave in South Africa.",
+    "secenekler": [
+      "could",
+      "must",
+      "ought",
+      "should",
+      "need"
+    ],
+    "dogru": 0,
+    "aciklama": "Geçmişteki yetenek → 'could'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0046",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "must not",
+    "zorluk": 2,
+    "soru": "Visitors to the national park ---- feed the animals, as human food can make them ill.",
+    "secenekler": [
+      "might not",
+      "would not",
+      "don't have to",
+      "need not",
+      "must not"
+    ],
+    "dogru": 4,
+    "aciklama": "Yasak → 'must not'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0047",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "may have done (kabul)",
+    "zorluk": 3,
+    "soru": "The ancient Egyptians ---- have used simple tools, but their buildings show remarkable precision.",
+    "secenekler": [
+      "needn't",
+      "must",
+      "should",
+      "can't",
+      "may"
+    ],
+    "dogru": 4,
+    "aciklama": "'may have ..., but ...' = …miş olabilir ama … (kabul + zıtlık).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0048",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "must have done",
+    "zorluk": 3,
+    "soru": "The spacecraft ---- have landed safely, as the team has received its first signals from the surface of Mars.",
+    "secenekler": [
+      "must",
+      "shouldn't",
+      "couldn't",
+      "can't",
+      "needn't"
+    ],
+    "dogru": 0,
+    "aciklama": "Yüzeyden sinyal alınması güvenli inişe dair güçlü çıkarımdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0049",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "had to",
+    "zorluk": 3,
+    "soru": "In the past, patients ---- wait for months to receive the results of certain medical tests. Today, results are often available within hours.",
+    "secenekler": [
+      "need",
+      "should",
+      "had to",
+      "must",
+      "ought"
+    ],
+    "dogru": 2,
+    "aciklama": "Geçmişteki zorunluluk → 'had to'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0043",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 1,
+    "soru": "Paper ---- in China nearly 2,000 years ago. It later spread to the Islamic world and then to Europe.",
+    "secenekler": [
+      "invents",
+      "was invented",
+      "has invented",
+      "is inventing",
+      "invented"
+    ],
+    "dogru": 1,
+    "aciklama": "Kâğıt icat edilen şeydir → 'was invented'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0044",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Present Passive",
+    "zorluk": 2,
+    "soru": "Every year, millions of tonnes of food ---- away, while millions of people do not have enough to eat.",
+    "secenekler": [
+      "throw",
+      "have thrown",
+      "threw",
+      "are thrown",
+      "are throwing"
+    ],
+    "dogru": 3,
+    "aciklama": "Yiyecek atılan şeydir; her yıl tekrarlanan durum → 'are thrown'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0045",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Present Continuous Passive",
+    "zorluk": 2,
+    "soru": "Many historic buildings in Venice ---- by frequent flooding, and the city is spending billions on flood defences.",
+    "secenekler": [
+      "damage",
+      "damaged",
+      "are being damaged",
+      "have damaged",
+      "are damaging"
+    ],
+    "dogru": 2,
+    "aciklama": "Binalar zarar gören taraftır ve süreç devam ediyor → 'are being damaged'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0046",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "It is estimated that",
+    "zorluk": 2,
+    "soru": "It ---- that more than 7,000 languages are spoken in the world today.",
+    "secenekler": [
+      "estimated",
+      "is estimated",
+      "is estimating",
+      "estimates",
+      "has estimated"
+    ],
+    "dogru": 1,
+    "aciklama": "'It is estimated that' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0047",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 2,
+    "soru": "The first successful heart transplant ---- in South Africa in 1967.",
+    "secenekler": [
+      "was performed",
+      "performed",
+      "has performed",
+      "had performed",
+      "is performed"
+    ],
+    "dogru": 0,
+    "aciklama": "Nakil yapılan şeydir; 1967 → 'was performed'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0048",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Present Continuous Passive",
+    "zorluk": 3,
+    "soru": "New species ---- every year, especially in tropical rainforests and the deep sea, which remain largely unexplored.",
+    "secenekler": [
+      "discovered",
+      "have discovered",
+      "discover",
+      "are being discovered",
+      "are discovering"
+    ],
+    "dogru": 3,
+    "aciklama": "Türler keşfedilen şeydir; süregelen durum → edilgen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0049",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Present Perfect Passive",
+    "zorluk": 3,
+    "soru": "Plastic bags ---- in many countries in recent years in an effort to reduce pollution.",
+    "secenekler": [
+      "have banned",
+      "ban",
+      "banned",
+      "are banning",
+      "have been banned"
+    ],
+    "dogru": 4,
+    "aciklama": "'in recent years' ve poşetler yasaklanan şey → 'have been banned'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0050",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 3,
+    "soru": "The patient's symptoms ---- by the new medication, and he was able to return home after a week.",
+    "secenekler": [
+      "relieve",
+      "were relieved",
+      "were relieving",
+      "have relieved",
+      "relieved"
+    ],
+    "dogru": 1,
+    "aciklama": "Belirtiler hafifletilen şeydir; 'by the new medication' → edilgen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0045",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Zero conditional",
+    "zorluk": 1,
+    "soru": "If you ---- enough sleep, your concentration and memory suffer. That is why sleep is so important for students.",
+    "secenekler": [
+      "won't get",
+      "didn't get",
+      "hadn't got",
+      "don't get",
+      "wouldn't get"
+    ],
+    "dogru": 3,
+    "aciklama": "Genel gerçek → 'If + Simple Present, Simple Present'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0046",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 2,
+    "soru": "Many animals would die in winter if they ---- able to hibernate. Hibernation allows them to survive when food is scarce.",
+    "secenekler": [
+      "were not",
+      "will not be",
+      "are not",
+      "would not be",
+      "had not been"
+    ],
+    "dogru": 0,
+    "aciklama": "'would die' → if cümleciğinde Simple Past (were not).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0047",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Third conditional",
+    "zorluk": 2,
+    "soru": "If the Titanic ---- enough lifeboats, many more passengers could have been saved.",
+    "secenekler": [
+      "would carry",
+      "has carried",
+      "carried",
+      "carries",
+      "had carried"
+    ],
+    "dogru": 4,
+    "aciklama": "'could have been saved' → Past Perfect koşul.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0048",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Unless + passive",
+    "zorluk": 2,
+    "soru": "Unless action ---- soon, many coastal cities could be under water by the end of the century.",
+    "secenekler": [
+      "will be taken",
+      "was taken",
+      "is taken",
+      "takes",
+      "had taken"
+    ],
+    "dogru": 2,
+    "aciklama": "Koşul cümleciğinde gelecek için Simple Present; eylem alınan şeydir → 'is taken'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0049",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 2,
+    "soru": "If people ---- more fruit and vegetables, rates of heart disease would fall significantly.",
+    "secenekler": [
+      "ate",
+      "will eat",
+      "eat",
+      "had eaten",
+      "would eat"
+    ],
+    "dogru": 0,
+    "aciklama": "'would fall' → 'If + Simple Past'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0050",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Mixed conditional",
+    "zorluk": 3,
+    "soru": "Had the ozone layer not been protected by international agreements, the risk of skin cancer ---- much higher today.",
+    "secenekler": [
+      "would have been",
+      "is",
+      "would be",
+      "had been",
+      "will be"
+    ],
+    "dogru": 2,
+    "aciklama": "Geçmiş koşul, bugünkü sonuç ('today') → 'would be'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0051",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Should devrik",
+    "zorluk": 3,
+    "soru": "Should the experiment ----, the team will have to rethink its whole approach.",
+    "secenekler": [
+      "fails",
+      "will fail",
+      "failed",
+      "have failed",
+      "fail"
+    ],
+    "dogru": 4,
+    "aciklama": "'Should + özne + yalın fiil' = If the experiment fails.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0052",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Were it not for",
+    "zorluk": 3,
+    "soru": "Were it not for the Moon's gravity, the Earth's axis ---- much less stable.",
+    "secenekler": [
+      "was",
+      "would be",
+      "would have been",
+      "had been",
+      "will be"
+    ],
+    "dogru": 1,
+    "aciklama": "'Were it not for' şimdiye dair gerçek dışı koşul → 'would be'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0046",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "that",
+    "zorluk": 1,
+    "soru": "Octopuses are animals ---- can change the colour of their skin in less than a second.",
+    "secenekler": [
+      "where",
+      "whom",
+      "what",
+      "that",
+      "whose"
+    ],
+    "dogru": 3,
+    "aciklama": "Hayvanları niteleyen özne ilgi zamiri → 'that'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0047",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü which",
+    "zorluk": 2,
+    "soru": "Istanbul, ---- was once the capital of the Byzantine Empire, is now Turkey's largest city.",
+    "secenekler": [
+      "what",
+      "that",
+      "where",
+      "which",
+      "who"
+    ],
+    "dogru": 3,
+    "aciklama": "Virgüllü cümlecikte 'that' kullanılmaz; özne görevinde → 'which'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0048",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "which",
+    "zorluk": 2,
+    "soru": "Scientists have identified a gene ---- may explain why some people are more likely to develop diabetes.",
+    "secenekler": [
+      "what",
+      "where",
+      "whose",
+      "who",
+      "which"
+    ],
+    "dogru": 4,
+    "aciklama": "Geni niteleyen özne → 'which'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0049",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "where",
+    "zorluk": 2,
+    "soru": "The Amazon is a region ---- thousands of species have not yet been described by scientists.",
+    "secenekler": [
+      "whose",
+      "who",
+      "where",
+      "what",
+      "which"
+    ],
+    "dogru": 2,
+    "aciklama": "Yer + tam cümle → 'where'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0050",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "whose",
+    "zorluk": 2,
+    "soru": "Children ---- parents read to them regularly tend to develop better language skills.",
+    "secenekler": [
+      "who",
+      "whose",
+      "whom",
+      "which",
+      "that"
+    ],
+    "dogru": 1,
+    "aciklama": "Ebeveynler çocuklara aittir → 'whose'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0051",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "whose",
+    "zorluk": 3,
+    "soru": "The ancient library of Alexandria, ---- contents were lost over several centuries, was once the largest in the world.",
+    "secenekler": [
+      "whose",
+      "where",
+      "that",
+      "what",
+      "which"
+    ],
+    "dogru": 0,
+    "aciklama": "İçerik kütüphaneye aittir → 'whose'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0052",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "by which",
+    "zorluk": 3,
+    "soru": "Photosynthesis is the process by ---- plants convert sunlight into chemical energy.",
+    "secenekler": [
+      "that",
+      "where",
+      "which",
+      "what",
+      "whom"
+    ],
+    "dogru": 2,
+    "aciklama": "Edattan sonra cansız için 'which'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0053",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "all of whom",
+    "zorluk": 3,
+    "soru": "Several patients, all of ---- had received the experimental drug, showed signs of improvement.",
+    "secenekler": [
+      "whom",
+      "who",
+      "which",
+      "them",
+      "that"
+    ],
+    "dogru": 0,
+    "aciklama": "İnsanlar için 'all of whom'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0044",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "that",
+    "zorluk": 1,
+    "soru": "Many people do not know ---- bananas are actually berries from a botanical point of view.",
+    "secenekler": [
+      "whose",
+      "who",
+      "which",
+      "that",
+      "what"
+    ],
+    "dogru": 3,
+    "aciklama": "'know that + tam cümle'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0045",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "why",
+    "zorluk": 2,
+    "soru": "Scientists still disagree about ---- the dinosaurs became extinct so suddenly.",
+    "secenekler": [
+      "what",
+      "why",
+      "if",
+      "that",
+      "which"
+    ],
+    "dogru": 1,
+    "aciklama": "Tartışılan şey nedendir; edattan sonra 'that/if' gelmez → 'why'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0046",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "It is said that",
+    "zorluk": 2,
+    "soru": "It is often said ---- the Great Wall of China can be seen from space, but this is a myth.",
+    "secenekler": [
+      "who",
+      "which",
+      "whether",
+      "what",
+      "that"
+    ],
+    "dogru": 4,
+    "aciklama": "'It is said that' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0047",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "whether",
+    "zorluk": 2,
+    "soru": "Researchers want to find out ---- the new drug has any long-term side effects.",
+    "secenekler": [
+      "which",
+      "what",
+      "whether",
+      "how much",
+      "that"
+    ],
+    "dogru": 2,
+    "aciklama": "Evet/hayır sorusu → 'whether'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0048",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "What (özne)",
+    "zorluk": 2,
+    "soru": "---- makes honeybees so important is their role in pollinating crops.",
+    "secenekler": [
+      "Whether",
+      "That",
+      "It",
+      "What",
+      "Which"
+    ],
+    "dogru": 3,
+    "aciklama": "'makes' fiilinin öznesi eksik → 'What'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0049",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "Whether ... or",
+    "zorluk": 3,
+    "soru": "---- the pyramids were built by slaves or by paid workers has long been debated by historians.",
+    "secenekler": [
+      "That",
+      "If",
+      "Which",
+      "What",
+      "Whether"
+    ],
+    "dogru": 4,
+    "aciklama": "'or' içeren tartışmalı özne cümleciği → 'Whether'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0050",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "how",
+    "zorluk": 3,
+    "soru": "Economists are trying to predict ---- the new tax will affect consumer spending.",
+    "secenekler": [
+      "how",
+      "that",
+      "what",
+      "whether that",
+      "which"
+    ],
+    "dogru": 0,
+    "aciklama": "Etkinin biçimi tahmin ediliyor → 'how'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0051",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "The fact that",
+    "zorluk": 3,
+    "soru": "The fact ---- many animals can sense earthquakes before they happen has fascinated scientists for centuries.",
+    "secenekler": [
+      "whether",
+      "that",
+      "which",
+      "how",
+      "what"
+    ],
+    "dogru": 1,
+    "aciklama": "'The fact that' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0047",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "However",
+    "zorluk": 1,
+    "soru": "Elephants are very large animals. ----, they can move almost silently through the forest.",
+    "secenekler": [
+      "Therefore",
+      "So",
+      "Because",
+      "However",
+      "Thus"
+    ],
+    "dogru": 3,
+    "aciklama": "Büyük olmalarına rağmen sessiz hareket etmeleri zıtlıktır → 'However'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0048",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "because",
+    "zorluk": 2,
+    "soru": "Some animals sleep during the winter ---- food is hard to find in the cold months.",
+    "secenekler": [
+      "unless",
+      "because",
+      "although",
+      "so that",
+      "whereas"
+    ],
+    "dogru": 1,
+    "aciklama": "Kış uykusunun nedeni yiyecek kıtlığıdır → 'because'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0049",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "As a result",
+    "zorluk": 2,
+    "soru": "Solar panels are becoming cheaper. ----, more and more households are installing them.",
+    "secenekler": [
+      "Nevertheless",
+      "However",
+      "As a result",
+      "Otherwise",
+      "On the contrary"
+    ],
+    "dogru": 2,
+    "aciklama": "Ucuzlamanın sonucu daha çok kullanım → 'As a result'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0050",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "Although",
+    "zorluk": 2,
+    "soru": "---- the Sahara is extremely dry today, it was once covered with grasslands and lakes.",
+    "secenekler": [
+      "Although",
+      "Since",
+      "Because",
+      "Unless",
+      "As long as"
+    ],
+    "dogru": 0,
+    "aciklama": "Bugün kuru ama eskiden yeşil → zıtlık: 'Although'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0051",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "so that",
+    "zorluk": 2,
+    "soru": "Doctors recommend washing hands regularly ---- germs are not spread to others.",
+    "secenekler": [
+      "because",
+      "although",
+      "even if",
+      "unless",
+      "so that"
+    ],
+    "dogru": 4,
+    "aciklama": "Amaç → 'so that'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0052",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "However",
+    "zorluk": 3,
+    "soru": "Cats are often thought to be independent animals. ----, recent research suggests that they form strong bonds with their owners.",
+    "secenekler": [
+      "As a result",
+      "Therefore",
+      "However",
+      "Similarly",
+      "For this reason"
+    ],
+    "dogru": 2,
+    "aciklama": "Yaygın düşünce ile araştırma bulgusu çelişiyor → 'However'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0053",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "provided that",
+    "zorluk": 3,
+    "soru": "The disease can be treated effectively ---- it is diagnosed early.",
+    "secenekler": [
+      "in case",
+      "provided that",
+      "even though",
+      "unless",
+      "whereas"
+    ],
+    "dogru": 1,
+    "aciklama": "Etkili tedavi erken teşhis şartına bağlıdır → 'provided that'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0054",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "despite",
+    "zorluk": 3,
+    "soru": "The mission was a success, ---- several technical problems during the launch.",
+    "secenekler": [
+      "despite",
+      "whereas",
+      "although",
+      "since",
+      "because"
+    ],
+    "dogru": 0,
+    "aciklama": "İsim öbeği + zıtlık → 'despite'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0043",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "enjoy + -ing",
+    "zorluk": 1,
+    "soru": "Many people enjoy ---- in the sea during the summer.",
+    "secenekler": [
+      "swim",
+      "swum",
+      "to swim",
+      "swimming",
+      "swam"
+    ],
+    "dogru": 3,
+    "aciklama": "'enjoy' gerund alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0044",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "Amaç: to V",
+    "zorluk": 2,
+    "soru": "Sea turtles return to the same beach ---- their eggs.",
+    "secenekler": [
+      "lay",
+      "laying",
+      "laid",
+      "to laying",
+      "to lay"
+    ],
+    "dogru": 4,
+    "aciklama": "Amaç bildiren to-infinitive.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0045",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "capable of + -ing",
+    "zorluk": 2,
+    "soru": "Some birds are capable of ---- human speech.",
+    "secenekler": [
+      "to imitating",
+      "to imitate",
+      "imitated",
+      "imitating",
+      "imitate"
+    ],
+    "dogru": 3,
+    "aciklama": "Edattan sonra -ing.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0046",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "manage + to V",
+    "zorluk": 2,
+    "soru": "Scientists have managed ---- a robot that can walk like a human.",
+    "secenekler": [
+      "built",
+      "build",
+      "to build",
+      "to building",
+      "building"
+    ],
+    "dogru": 2,
+    "aciklama": "'manage' to-infinitive alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0047",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "encourage sb to V",
+    "zorluk": 2,
+    "soru": "The government encourages people ---- public transport instead of cars.",
+    "secenekler": [
+      "use",
+      "using",
+      "to using",
+      "used",
+      "to use"
+    ],
+    "dogru": 4,
+    "aciklama": "'encourage somebody to do'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0048",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "get used to + -ing",
+    "zorluk": 3,
+    "soru": "Astronauts must get used to ---- in zero gravity for months at a time.",
+    "secenekler": [
+      "living",
+      "lived",
+      "to live",
+      "be living",
+      "live"
+    ],
+    "dogru": 0,
+    "aciklama": "'get used to' kalıbında 'to' edattır → -ing.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0049",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "postpone + -ing",
+    "zorluk": 3,
+    "soru": "The researchers postponed ---- the results until all the data had been checked.",
+    "secenekler": [
+      "to publish",
+      "publishing",
+      "publish",
+      "to publishing",
+      "published"
+    ],
+    "dogru": 1,
+    "aciklama": "'postpone' gerund alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0050",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "be believed to have done",
+    "zorluk": 3,
+    "soru": "Early humans are believed ---- stone tools more than three million years ago.",
+    "secenekler": [
+      "using",
+      "having used",
+      "used",
+      "to have used",
+      "to use"
+    ],
+    "dogru": 3,
+    "aciklama": "Geçmişe ait eylem → 'to have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0042",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "in the world",
+    "zorluk": 1,
+    "soru": "The Eiffel Tower is one of the most famous landmarks ---- the world.",
+    "secenekler": [
+      "on",
+      "in",
+      "by",
+      "of",
+      "at"
+    ],
+    "dogru": 1,
+    "aciklama": "'in the world' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0043",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "consist of",
+    "zorluk": 2,
+    "soru": "The human body consists ---- about 60 percent water.",
+    "secenekler": [
+      "in",
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "dogru": 2,
+    "aciklama": "'consist of' = …den oluşmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0044",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "lead to",
+    "zorluk": 2,
+    "soru": "Too much salt in the diet can lead ---- high blood pressure.",
+    "secenekler": [
+      "with",
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "dogru": 4,
+    "aciklama": "'lead to' = …e yol açmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0045",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "famous for",
+    "zorluk": 2,
+    "soru": "The city is famous ---- its ancient temples and beautiful gardens.",
+    "secenekler": [
+      "for",
+      "at",
+      "by",
+      "of",
+      "with"
+    ],
+    "dogru": 0,
+    "aciklama": "'famous for' = …ile ünlü.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0046",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "allergic to",
+    "zorluk": 2,
+    "soru": "Many people are allergic ---- nuts, which can cause serious reactions.",
+    "secenekler": [
+      "with",
+      "at",
+      "to",
+      "of",
+      "for"
+    ],
+    "dogru": 2,
+    "aciklama": "'allergic to' = …e alerjisi olan.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0047",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "effective against",
+    "zorluk": 3,
+    "soru": "The new vaccine has proved effective ---- several strains of the virus.",
+    "secenekler": [
+      "within",
+      "towards",
+      "among",
+      "upon",
+      "against"
+    ],
+    "dogru": 4,
+    "aciklama": "'effective against' = …e karşı etkili.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0048",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "In addition to",
+    "zorluk": 3,
+    "soru": "---- addition to its health benefits, cycling is also good for the environment.",
+    "secenekler": [
+      "In",
+      "With",
+      "At",
+      "By",
+      "On"
+    ],
+    "dogru": 0,
+    "aciklama": "'In addition to' = …e ek olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0049",
+    "bolum": "cloze",
+    "konu": "gr.edat",
+    "alt_konu": "fined for",
+    "zorluk": 3,
+    "soru": "The company was fined ---- breaking environmental regulations.",
+    "secenekler": [
+      "about",
+      "of",
+      "with",
+      "for",
+      "at"
+    ],
+    "dogru": 3,
+    "aciklama": "'be fined for' = …den dolayı para cezası almak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0042",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "so many ... that",
+    "zorluk": 1,
+    "soru": "There are ---- stars in the sky that nobody can count them all.",
+    "secenekler": [
+      "too much",
+      "so many",
+      "so much",
+      "too many",
+      "such much"
+    ],
+    "dogru": 1,
+    "aciklama": "Sayılabilir çoğul + sonuç → 'so many ... that'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0043",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "little",
+    "zorluk": 2,
+    "soru": "Although there is ---- water on Mars today, scientists believe that the planet once had oceans.",
+    "secenekler": [
+      "a few",
+      "little",
+      "many",
+      "several",
+      "few"
+    ],
+    "dogru": 1,
+    "aciklama": "'water' sayılamaz; 'Although' yok denecek kadar az olduğunu gösterir → 'little'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0044",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "most of",
+    "zorluk": 2,
+    "soru": "---- of the planets in our solar system have moons, but Mercury and Venus do not.",
+    "secenekler": [
+      "Most",
+      "Much",
+      "Little",
+      "Every",
+      "Each"
+    ],
+    "dogru": 0,
+    "aciklama": "Sayılabilir çoğul, çoğunluk → 'Most of'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0045",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "one another",
+    "zorluk": 2,
+    "soru": "Honeybees communicate with ---- by dancing.",
+    "secenekler": [
+      "itself",
+      "himself",
+      "ourselves",
+      "one another",
+      "themselves"
+    ],
+    "dogru": 3,
+    "aciklama": "Karşılıklı eylem → 'one another'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0046",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "very few",
+    "zorluk": 2,
+    "soru": "Very ---- people know that tomatoes were once thought to be poisonous in Europe.",
+    "secenekler": [
+      "less",
+      "little",
+      "a little",
+      "much",
+      "few"
+    ],
+    "dogru": 4,
+    "aciklama": "'people' sayılabilir → 'very few'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0047",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "several",
+    "zorluk": 3,
+    "soru": "---- species of whale have been hunted almost to extinction.",
+    "secenekler": [
+      "Much",
+      "Every",
+      "Several",
+      "A little",
+      "Each"
+    ],
+    "dogru": 2,
+    "aciklama": "Çoğul 'species' ve çoğul fiil → 'Several'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0048",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "neither + tekil fiil",
+    "zorluk": 3,
+    "soru": "Neither of the two theories ---- all the evidence.",
+    "secenekler": [
+      "explain",
+      "explaining",
+      "explains",
+      "are explaining",
+      "have explained"
+    ],
+    "dogru": 2,
+    "aciklama": "'Neither of' resmî kullanımda tekil fiil alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0049",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "most of",
+    "zorluk": 3,
+    "soru": "---- the energy we use comes from fossil fuels such as coal and oil.",
+    "secenekler": [
+      "Many of",
+      "A few of",
+      "Several of",
+      "Most of",
+      "Few of"
+    ],
+    "dogru": 3,
+    "aciklama": "'energy' sayılamaz → 'Most of'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0043",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "Superlative",
+    "zorluk": 1,
+    "soru": "The blue whale is ---- animal that has ever lived on Earth.",
+    "secenekler": [
+      "most large",
+      "the largest",
+      "largest",
+      "larger",
+      "the larger"
+    ],
+    "dogru": 1,
+    "aciklama": "'that has ever lived' → en üstünlük.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0044",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "much + comparative",
+    "zorluk": 2,
+    "soru": "Light travels much ---- than sound.",
+    "secenekler": [
+      "faster",
+      "the fastest",
+      "fast",
+      "fastest",
+      "more fast"
+    ],
+    "dogru": 0,
+    "aciklama": "'much' + '-er' + 'than'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0045",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "Comparative",
+    "zorluk": 2,
+    "soru": "Women in Japan live ---- than women in almost any other country.",
+    "secenekler": [
+      "more long",
+      "the longest",
+      "long",
+      "longest",
+      "longer"
+    ],
+    "dogru": 4,
+    "aciklama": "'than' → 'longer'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0046",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "the ... the ...",
+    "zorluk": 2,
+    "soru": "The higher you climb, ---- the air becomes.",
+    "secenekler": [
+      "thinner",
+      "the thinnest",
+      "more thin",
+      "the thinner",
+      "thinnest"
+    ],
+    "dogru": 3,
+    "aciklama": "'The higher ..., the thinner ...'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0047",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "more and more",
+    "zorluk": 2,
+    "soru": "Electric cars are becoming ---- popular every year.",
+    "secenekler": [
+      "more and more",
+      "the more",
+      "most and most",
+      "many more",
+      "much and much"
+    ],
+    "dogru": 0,
+    "aciklama": "Giderek artış → 'more and more'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0048",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "twice as ... as",
+    "zorluk": 3,
+    "soru": "The Pacific Ocean is about twice ---- the Atlantic.",
+    "secenekler": [
+      "the largest as",
+      "as larger as",
+      "large as",
+      "larger than twice",
+      "as large as"
+    ],
+    "dogru": 4,
+    "aciklama": "'twice as + sıfat + as'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0049",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "more ... than",
+    "zorluk": 3,
+    "soru": "Reading on paper may be ---- effective for learning than reading on a screen, according to some studies.",
+    "secenekler": [
+      "very",
+      "much",
+      "more",
+      "most",
+      "the more"
+    ],
+    "dogru": 2,
+    "aciklama": "Uzun sıfat + 'than' → 'more effective'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0050",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "far + comparative",
+    "zorluk": 3,
+    "soru": "The death rate from the disease was far ---- than officials had first reported.",
+    "secenekler": [
+      "high",
+      "higher",
+      "the higher",
+      "more high",
+      "highest"
+    ],
+    "dogru": 1,
+    "aciklama": "'far' + comparative + 'than'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0042",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "V3 kısaltma",
+    "zorluk": 1,
+    "soru": "Many of the products ---- in the supermarket are imported from other countries.",
+    "secenekler": [
+      "sold",
+      "selling",
+      "sells",
+      "sell",
+      "to sell"
+    ],
+    "dogru": 0,
+    "aciklama": "Ürünler satılan şeydir → 'sold'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0043",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "V3 zarf cümleciği",
+    "zorluk": 2,
+    "soru": "---- in the 7th century, the mosque is one of the oldest in the world.",
+    "secenekler": [
+      "Building",
+      "Builds",
+      "Built",
+      "To build",
+      "Having built"
+    ],
+    "dogru": 2,
+    "aciklama": "Cami inşa edilen şeydir → 'Built'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0044",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "-ing kısaltma",
+    "zorluk": 2,
+    "soru": "Animals ---- in cold climates usually have thick fur.",
+    "secenekler": [
+      "to live",
+      "lived",
+      "lives",
+      "live",
+      "living"
+    ],
+    "dogru": 4,
+    "aciklama": "'which live' → 'living'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0045",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Never before devrik",
+    "zorluk": 2,
+    "soru": "Never before in history ---- so many people living in cities as today.",
+    "secenekler": [
+      "were there",
+      "have there been",
+      "there were",
+      "has there been",
+      "there have been"
+    ],
+    "dogru": 1,
+    "aciklama": "'Never before' başta → devrik; 'people' çoğul → 'have there been'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0046",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Having + V3",
+    "zorluk": 2,
+    "soru": "---- the results, the scientists decided to repeat the experiment.",
+    "secenekler": [
+      "Being analysed",
+      "To have analysed",
+      "Having been analysed",
+      "Having analysed",
+      "Analysed"
+    ],
+    "dogru": 3,
+    "aciklama": "Önce analiz edip sonra karar vermek; etken → 'Having analysed'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0047",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Only recently devrik",
+    "zorluk": 3,
+    "soru": "Only recently ---- to understand how the brain stores long-term memories.",
+    "secenekler": [
+      "did scientists begun",
+      "scientists have begun",
+      "scientists began",
+      "have scientists begun",
+      "begun have scientists"
+    ],
+    "dogru": 3,
+    "aciklama": "'Only recently' başta → devrik: 'have scientists begun'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0048",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Not only devrik (be)",
+    "zorluk": 3,
+    "soru": "Not only ---- the cheetah the fastest land animal, but it can also accelerate faster than most sports cars.",
+    "secenekler": [
+      "does",
+      "it is",
+      "is",
+      "was",
+      "has"
+    ],
+    "dogru": 2,
+    "aciklama": "'Not only + is + özne' devrik yapısı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0049",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "So ... devrik",
+    "zorluk": 3,
+    "soru": "So great ---- the damage caused by the earthquake that the entire village had to be rebuilt.",
+    "secenekler": [
+      "were",
+      "was",
+      "did",
+      "been",
+      "had"
+    ],
+    "dogru": 1,
+    "aciklama": "'So + sıfat + was + özne + that' → tekil 'damage' ile 'was'.",
+    "paragraf_id": null
+  }
+]

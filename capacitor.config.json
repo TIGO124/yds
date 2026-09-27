@@ -1,0 +1,8 @@
+{
+  "appId": "app.yds.calisma",
+  "appName": "YDS Çalışma",
+  "webDir": "dist-android",
+  "android": {
+    "backgroundColor": "#0e0f1a"
+  }
+}

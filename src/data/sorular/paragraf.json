@@ -1,0 +1,848 @@
+[
+  {
+    "id": "paragraf-0001",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Arıların iletişimi",
+    "zorluk": 1,
+    "soru": "Bees communicate with each other in a remarkable way. When a worker bee finds a good source of food, it returns to the hive and performs a special 'waggle dance'. ---- In this way, the other bees can fly directly to the food source.",
+    "secenekler": [
+      "Bees usually avoid flowers that have no scent.",
+      "Some species of bees are in danger of extinction.",
+      "The direction and length of the dance tell the other bees where the food is and how far away it is.",
+      "Queen bees can lay up to 2,000 eggs a day.",
+      "Honey has been used as a medicine for thousands of years."
+    ],
+    "dogru": 2,
+    "aciklama": "'In this way' ifadesi, boşluktaki cümlenin dansın besin yerini nasıl bildirdiğini açıklaması gerektiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0002",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Uyku ve öğrenme",
+    "zorluk": 2,
+    "soru": "Sleep plays a vital role in learning. During deep sleep, the brain replays the information acquired during the day and transfers it to long-term memory. ---- Therefore, students who stay up all night before an exam may actually remember less than those who get a good night's rest.",
+    "secenekler": [
+      "Some animals, such as dolphins, sleep with only half of their brain at a time.",
+      "Many students drink coffee to stay awake while studying.",
+      "Exams are the most common way of assessing students' knowledge.",
+      "Dreams usually occur during a stage of sleep known as REM sleep.",
+      "Without sufficient sleep, this process is disrupted and new information is easily forgotten."
+    ],
+    "dogru": 4,
+    "aciklama": "'Therefore' ile gelen sonuç (uykusuz öğrenci daha az hatırlar) için, uykusuzluğun bu süreci bozduğunu söyleyen cümle gereklidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0003",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Jeotermal enerji (ilk cümle)",
+    "zorluk": 2,
+    "soru": "---- Unlike solar and wind power, it does not depend on weather conditions and can therefore provide a constant supply of electricity. However, suitable sites are limited to regions with volcanic or tectonic activity, such as Iceland and parts of Indonesia.",
+    "secenekler": [
+      "Iceland is famous for its beautiful landscapes and hot springs.",
+      "Electricity consumption has increased steadily throughout the world.",
+      "Solar panels have become much cheaper over the last decade.",
+      "Geothermal energy uses heat from beneath the Earth's surface to generate power.",
+      "Wind turbines can be noisy and may harm birds."
+    ],
+    "dogru": 3,
+    "aciklama": "İkinci cümledeki 'it' zamiri ve volkanik bölgelerden söz edilmesi, ilk cümlenin jeotermal enerjiyi tanıtması gerektiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0004",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Mobil bankacılık",
+    "zorluk": 3,
+    "soru": "In many developing countries, mobile phones have transformed the way people handle money. Mobile banking services allow users to send and receive payments using simple text messages, even if they do not have a bank account. ---- As a result, small farmers and traders can now take part in the economy far more easily than before.",
+    "secenekler": [
+      "However, many people still prefer to use cash for large purchases in shops.",
+      "This is especially important in rural areas, where banks are often located many kilometres away.",
+      "The first mobile phone call was made in 1973 by an engineer in New York.",
+      "Critics argue that text messages are damaging young people's writing skills.",
+      "Smartphones with large screens are becoming increasingly popular among young people."
+    ],
+    "dogru": 1,
+    "aciklama": "Banka hesabı olmadan ödeme yapabilmenin kırsalda neden önemli olduğunu açıklayan cümle, 'As a result' ile gelen sonuca köprü kurar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0005",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kedilerin uykusu",
+    "zorluk": 1,
+    "soru": "Cats sleep for an average of 12 to 16 hours a day. ---- This allows them to save energy for short bursts of intense activity, such as chasing prey. Domestic cats have kept this behaviour even though they no longer need to hunt for food.",
+    "secenekler": [
+      "This habit comes from their wild ancestors, which needed plenty of rest between hunts.",
+      "Some people are allergic to cat hair.",
+      "Cat food is available in many different flavours.",
+      "Dogs are generally more loyal than cats.",
+      "Cats were worshipped in ancient Egypt."
+    ],
+    "dogru": 0,
+    "aciklama": "Boşluktan sonraki 'This allows them...' ve 'Domestic cats have kept this behaviour' ifadeleri uyku alışkanlığının kökenini açıklayan cümleyle bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0006",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "İki dillilik",
+    "zorluk": 2,
+    "soru": "Learning a second language has benefits that go beyond communication. Studies show that bilingual people are often better at switching between tasks and ignoring distractions. ---- Some research even suggests that speaking two languages may delay the onset of memory loss in old age.",
+    "secenekler": [
+      "Some languages have more than twenty different vowel sounds.",
+      "Translation software has become increasingly accurate.",
+      "English is the most widely studied foreign language in the world.",
+      "These advantages appear to result from the brain constantly managing two language systems.",
+      "Many schools have reduced the number of language classes they offer."
+    ],
+    "dogru": 3,
+    "aciklama": "Boşluk iki dilliliğin bilişsel yararlarını açıklayan bir cümle ister; 'These advantages' önceki cümleye bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0007",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Büyük Pasifik Çöp Alanı",
+    "zorluk": 2,
+    "soru": "The Great Pacific Garbage Patch is a vast area of floating waste in the Pacific Ocean. ---- Instead, most of it consists of tiny pieces of plastic that are barely visible to the naked eye. These microplastics are easily swallowed by fish and seabirds.",
+    "secenekler": [
+      "Seabirds usually build their nests on rocky cliffs.",
+      "Contrary to popular belief, it is not a solid island of rubbish that one could walk on.",
+      "Fishing is an important industry in many Pacific countries.",
+      "The Pacific is the largest and deepest ocean on Earth.",
+      "Plastic was first produced on a large scale in the 1950s."
+    ],
+    "dogru": 1,
+    "aciklama": "'Instead' ile başlayan cümle, öncesinde yanlış bir düşüncenin reddedilmesini gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0008",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "LED ampuller",
+    "zorluk": 2,
+    "soru": "Traditional light bulbs waste most of the energy they use as heat. LED bulbs, by contrast, convert a much higher proportion of electricity into light. ---- Consequently, although LEDs are more expensive to buy, they save money in the long run.",
+    "secenekler": [
+      "LED stands for light-emitting diode.",
+      "Electricity prices vary greatly from country to country.",
+      "Some people prefer the warm colour of traditional bulbs.",
+      "Thomas Edison is often credited with inventing the light bulb.",
+      "They also last up to twenty-five times longer than traditional bulbs."
+    ],
+    "dogru": 4,
+    "aciklama": "'Consequently ... they save money in the long run' sonucu için LED'lerin bir avantajını daha veren cümle gerekir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0009",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Yeni nöronlar",
+    "zorluk": 3,
+    "soru": "For decades, scientists believed that adult brains could not produce new neurons. ---- These findings have encouraged researchers to explore whether activities such as exercise and learning can stimulate this process and help protect the brain against ageing.",
+    "secenekler": [
+      "As a result, most researchers stopped studying the adult brain.",
+      "Children learn languages more easily than adults.",
+      "However, studies in the late twentieth century showed that new neurons continue to form in certain areas of the adult brain.",
+      "The human brain weighs about 1.4 kilograms.",
+      "Neurons communicate with each other through electrical signals."
+    ],
+    "dogru": 2,
+    "aciklama": "'These findings' ve 'this process' ifadeleri, eski inancı çürüten ve yeni nöron oluşumunu gösteren bulguları gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0010",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kurşun (ilk cümle)",
+    "zorluk": 3,
+    "soru": "---- In ancient Rome, for example, lead was used to make water pipes, cooking pots and even a sweetener added to wine. Some historians have suggested that chronic lead poisoning may have affected the health of the Roman upper classes.",
+    "secenekler": [
+      "Humans have been exposed to lead, a toxic metal, for thousands of years.",
+      "Wine was a popular drink among ancient Greeks.",
+      "The Roman Empire was one of the largest empires in history.",
+      "Modern water pipes are usually made of copper or plastic.",
+      "Historians disagree about the causes of Rome's fall."
+    ],
+    "dogru": 0,
+    "aciklama": "'for example' ile verilen Roma örneği, kurşunla uzun süredir temas edildiğini söyleyen genel bir giriş cümlesine bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0011",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Penguenler",
+    "zorluk": 1,
+    "soru": "Penguins are birds, but they cannot fly. ---- Their wings have evolved into flippers that help them move quickly through the water.",
+    "secenekler": [
+      "Eagles have very sharp eyesight.",
+      "Many birds migrate south in winter.",
+      "Instead, they are excellent swimmers.",
+      "Some people keep birds as pets.",
+      "Penguins live mainly in the Northern Hemisphere."
+    ],
+    "dogru": 2,
+    "aciklama": "'Instead' uçamama ile yüzme becerisi arasında köprü kurar; sonraki cümle yüzgeçleri açıklar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0012",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Su içmek",
+    "zorluk": 1,
+    "soru": "Drinking enough water is important for good health. ---- For this reason, doctors recommend drinking about two litres of water a day.",
+    "secenekler": [
+      "Many people prefer tea to water.",
+      "Water helps the body control its temperature and remove waste.",
+      "Some bottled water is very expensive.",
+      "Coffee is the most popular drink in many countries.",
+      "Rivers provide water for farms and cities."
+    ],
+    "dogru": 1,
+    "aciklama": "'For this reason' öncesinde suyun faydasını açıklayan bir cümle gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0013",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kütüphaneler",
+    "zorluk": 1,
+    "soru": "Libraries are no longer just places to borrow books. ---- Some even lend tools, musical instruments and cameras to their members.",
+    "secenekler": [
+      "Some people prefer to buy books online.",
+      "Reading before bed can help you sleep.",
+      "Books were very expensive in the Middle Ages.",
+      "The first libraries were built thousands of years ago.",
+      "Many now offer free internet access, classes and community events."
+    ],
+    "dogru": 4,
+    "aciklama": "Kütüphanelerin kitap dışı hizmetleri anlatılıyor; 'Some even ...' bu listeyi genişletir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0014",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Roma (ilk cümle)",
+    "zorluk": 1,
+    "soru": "---- It is also one of the oldest, with a history going back more than 2,500 years. Every year, millions of tourists visit its famous monuments.",
+    "secenekler": [
+      "The Colosseum could hold around 50,000 people.",
+      "Many cities have serious traffic problems.",
+      "Italy has a long coastline.",
+      "Rome is one of the most visited cities in Europe.",
+      "Pizza is a popular dish all over the world."
+    ],
+    "dogru": 3,
+    "aciklama": "'It is also one of the oldest' bir şehri tanıtan giriş cümlesine bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0015",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kışın uyanmak",
+    "zorluk": 1,
+    "soru": "Many people find it hard to wake up early in winter. ---- As a result, our bodies produce more of the sleep hormone melatonin, and we feel tired in the morning.",
+    "secenekler": [
+      "This is partly because it stays dark for longer in the mornings.",
+      "Summer holidays are usually longer than winter holidays.",
+      "Hot drinks are popular in cold weather.",
+      "Alarm clocks were invented in the eighteenth century.",
+      "Some people enjoy skiing in winter."
+    ],
+    "dogru": 0,
+    "aciklama": "'As a result' karanlığın melatonini artırmasıyla bağlantılı bir neden gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0016",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Alüminyum geri dönüşümü",
+    "zorluk": 1,
+    "soru": "Recycling one aluminium can saves enough energy to run a television for three hours. ---- This makes aluminium one of the most valuable materials to recycle.",
+    "secenekler": [
+      "Glass bottles are heavier than cans.",
+      "Many people watch television for several hours a day.",
+      "Televisions have become thinner over the years.",
+      "Aluminium is found in some kitchen tools.",
+      "Moreover, aluminium can be recycled again and again without losing quality."
+    ],
+    "dogru": 4,
+    "aciklama": "'Moreover' ile ikinci bir avantaj eklenir; 'This makes ...' bu avantajların sonucudur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0017",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kediler",
+    "zorluk": 1,
+    "soru": "Cats have been living with humans for thousands of years. ---- Mice and rats were attracted to stored grain, and cats followed them.",
+    "secenekler": [
+      "Some cats have very long hair.",
+      "Lions are the largest members of the cat family.",
+      "They probably first came to human settlements to hunt.",
+      "Dogs are the most popular pets in many countries.",
+      "Cats sleep for more than twelve hours a day."
+    ],
+    "dogru": 2,
+    "aciklama": "Sonraki cümle kedilerin fareleri avlamak için yerleşimlere geldiğini açıklar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0018",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Yüzme",
+    "zorluk": 1,
+    "soru": "Learning to swim is an important life skill. ---- For this reason, many countries include swimming lessons in their school curriculum.",
+    "secenekler": [
+      "The sea is often cold in spring.",
+      "The Olympic Games include many swimming events.",
+      "Some fish can swim very fast.",
+      "It can prevent accidents and save lives.",
+      "Swimming pools are expensive to build."
+    ],
+    "dogru": 3,
+    "aciklama": "'For this reason' yüzmenin önemini açıklayan bir gerekçe ister.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0019",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Havuç ve görme",
+    "zorluk": 1,
+    "soru": "Many people believe that eating carrots improves eyesight. ---- However, eating more carrots will not give a healthy person better than normal vision.",
+    "secenekler": [
+      "Glasses were invented in Italy.",
+      "It is true that carrots contain vitamin A, which the eyes need.",
+      "Carrots were originally purple, not orange.",
+      "Some people don't like the taste of vegetables.",
+      "Vision tests are usually free for children."
+    ],
+    "dogru": 1,
+    "aciklama": "'However' ile zıtlık kurulabilmesi için inancın doğru yanını kabul eden cümle gerekir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0020",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Ay'da ayak izleri",
+    "zorluk": 1,
+    "soru": "The Moon has no atmosphere. ---- Because of this, footprints left by astronauts in 1969 are probably still there today.",
+    "secenekler": [
+      "As a result, there is no wind or rain to erase marks on its surface.",
+      "Astronauts must train for many years.",
+      "The Sun is much larger than the Moon.",
+      "Many people watched the Moon landing on television.",
+      "The Moon orbits the Earth once every 27 days."
+    ],
+    "dogru": 0,
+    "aciklama": "Atmosfer yokluğu ile ayak izlerinin kalması arasındaki bağ rüzgâr ve yağmurun olmamasıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0021",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Bambu",
+    "zorluk": 1,
+    "soru": "Bamboo is one of the fastest-growing plants in the world. ---- Because it is strong and light, it is widely used for building in parts of Asia.",
+    "secenekler": [
+      "Pandas live in the mountains of China.",
+      "Asia is the largest continent.",
+      "Some species can grow almost a metre in a single day.",
+      "Wooden furniture can be very expensive.",
+      "Many plants need a lot of sunlight."
+    ],
+    "dogru": 2,
+    "aciklama": "Hızlı büyümeyi somutlaştıran örnek cümle akışa uyar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0022",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Çevrim içi eğitim",
+    "zorluk": 1,
+    "soru": "Online learning has made education more accessible. ---- However, some students find it difficult to stay motivated without face-to-face contact with teachers.",
+    "secenekler": [
+      "Exams are usually held at the end of the year.",
+      "Students can now attend courses from anywhere in the world.",
+      "Many schools have large libraries.",
+      "Computers were very expensive in the 1980s.",
+      "Teachers often give homework at weekends."
+    ],
+    "dogru": 1,
+    "aciklama": "Erişilebilirliği açıklayan cümle, 'However' ile gelen dezavantaja zemin hazırlar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0023",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Köpekbalıkları",
+    "zorluk": 1,
+    "soru": "Sharks have existed for more than 400 million years. ---- Today, however, many species are endangered because of overfishing.",
+    "secenekler": [
+      "Many people are afraid of swimming in the sea.",
+      "Fishing boats have become larger.",
+      "Some fish live in rivers and lakes.",
+      "Dolphins are mammals, not fish.",
+      "They survived several mass extinctions, including the one that killed the dinosaurs."
+    ],
+    "dogru": 4,
+    "aciklama": "Uzun süre hayatta kalmaları ile bugünkü tehlike arasındaki zıtlık 'however' ile kurulur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0024",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Işık hapşırığı (ilk cümle)",
+    "zorluk": 1,
+    "soru": "---- Some people can make themselves sneeze by looking at a bright light. Scientists call this the photic sneeze reflex, and it is thought to be inherited.",
+    "secenekler": [
+      "Allergies can be treated with medicine.",
+      "The Sun is the brightest object in the sky.",
+      "Many people wear sunglasses in summer.",
+      "Sneezing is not always caused by colds or allergies.",
+      "Colds are more common in winter."
+    ],
+    "dogru": 3,
+    "aciklama": "Giriş cümlesi, hapşırmanın başka nedenlerini anlatan paragrafı başlatır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0025",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Trafik sıkışıklığı",
+    "zorluk": 2,
+    "soru": "Traffic congestion costs cities billions every year in lost time and fuel. ---- For example, some cities have introduced charges for driving into the centre, while others have invested in faster public transport.",
+    "secenekler": [
+      "Governments have tried various approaches to tackle the problem.",
+      "Cars have become more comfortable in recent years.",
+      "The first car was built in Germany.",
+      "Fuel prices differ from country to country.",
+      "Many people enjoy driving in the countryside."
+    ],
+    "dogru": 0,
+    "aciklama": "'For example' ile verilen örnekler, soruna karşı denenen yaklaşımlardan söz eden cümleye bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0026",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Soğuk çöller",
+    "zorluk": 2,
+    "soru": "Most people assume that deserts are always hot. ---- In the Gobi Desert, for example, winter temperatures can fall below minus 40 degrees Celsius.",
+    "secenekler": [
+      "Camels can survive without water for many days.",
+      "Sand dunes can move several metres a year.",
+      "The Sahara is the largest hot desert.",
+      "In fact, some deserts are extremely cold.",
+      "Many tourists visit deserts in spring."
+    ],
+    "dogru": 3,
+    "aciklama": "Yaygın varsayımı düzelten cümle gerekir; Gobi örneği onu destekler.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0027",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "El yıkama",
+    "zorluk": 2,
+    "soru": "Handwashing is one of the simplest ways to prevent the spread of disease. ---- Studies show that washing hands with soap can reduce diarrhoeal illnesses by around a third.",
+    "secenekler": [
+      "Diseases were more common in the past.",
+      "Soap removes germs that people pick up from surfaces and other people.",
+      "Many hospitals were built in the nineteenth century.",
+      "Some soaps have a pleasant smell.",
+      "Water is expensive in some countries."
+    ],
+    "dogru": 1,
+    "aciklama": "El yıkamanın hastalığı nasıl önlediğini açıklayan cümle akışı sürdürür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0028",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Solucanlar",
+    "zorluk": 2,
+    "soru": "Earthworms may seem unimportant, but they play a vital role in agriculture. ---- In addition, their tunnels allow air and water to reach plant roots.",
+    "secenekler": [
+      "Rain usually falls in autumn.",
+      "Some birds eat worms.",
+      "Worms are often used as fishing bait.",
+      "Farmers use tractors to plough their fields.",
+      "They break down dead plant material and enrich the soil."
+    ],
+    "dogru": 4,
+    "aciklama": "'In addition' öncesinde solucanların tarımsal bir yararını gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0029",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Yaşlanan nüfus",
+    "zorluk": 2,
+    "soru": "In many countries, the population is ageing rapidly. ---- This means that fewer workers will have to support a growing number of retired people.",
+    "secenekler": [
+      "Retirement ages vary from country to country.",
+      "Many elderly people enjoy gardening.",
+      "People are living longer, while birth rates are falling.",
+      "Hospitals need more doctors.",
+      "Young people often move to cities."
+    ],
+    "dogru": 2,
+    "aciklama": "Nüfus yaşlanmasının nedenini veren cümle 'This means ...' sonucuna bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0030",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Matbaa ve okuryazarlık",
+    "zorluk": 2,
+    "soru": "The printing press made books much cheaper to produce. ---- As a result, literacy rates rose and new ideas spread quickly across Europe.",
+    "secenekler": [
+      "More people could afford to buy and read books.",
+      "Libraries are quiet places.",
+      "Some books are very long.",
+      "Many writers became famous in the twentieth century.",
+      "Paper was invented in China."
+    ],
+    "dogru": 0,
+    "aciklama": "Ucuz kitap ile okuryazarlık artışı arasındaki köprü: daha çok kişinin kitap alabilmesi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0031",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Muz çeşitliliği",
+    "zorluk": 2,
+    "soru": "Bananas that we eat today are almost all of a single variety. ---- If a disease that affects this variety spread widely, the global banana industry could be seriously damaged.",
+    "secenekler": [
+      "Monkeys also like bananas.",
+      "Many people eat bananas for breakfast.",
+      "This lack of genetic diversity makes them vulnerable.",
+      "Bananas are rich in potassium.",
+      "Bananas grow in tropical countries."
+    ],
+    "dogru": 2,
+    "aciklama": "Tek çeşitlilik ile hastalık riski arasındaki bağı kuran cümle.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0032",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Nem (ilk cümle)",
+    "zorluk": 2,
+    "soru": "---- It measures the amount of water vapour in the air. When it is high, sweat evaporates slowly, and we feel hotter than the actual temperature.",
+    "secenekler": [
+      "Air conditioners use a lot of electricity.",
+      "Summers are becoming longer in many places.",
+      "Some people prefer cold weather.",
+      "Humidity has a strong effect on how hot we feel.",
+      "Thermometers were invented in the seventeenth century."
+    ],
+    "dogru": 3,
+    "aciklama": "'It measures the amount of water vapour' zamiri nemi (humidity) gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0033",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Esnek çalışma",
+    "zorluk": 2,
+    "soru": "Many companies now allow employees to work flexible hours. ---- In turn, this can lead to higher job satisfaction and lower staff turnover.",
+    "secenekler": [
+      "Some jobs require working at night.",
+      "Salaries are usually paid monthly.",
+      "Many people commute by train.",
+      "Office buildings are often located in city centres.",
+      "This helps workers balance their jobs with family responsibilities."
+    ],
+    "dogru": 4,
+    "aciklama": "'In turn' zincirleme sonucu gösterir; önce esnek çalışmanın faydası verilmelidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0034",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Beyin gelişimi",
+    "zorluk": 2,
+    "soru": "Many people think that intelligence is fixed at birth. ---- For example, learning a musical instrument has been shown to strengthen memory and attention.",
+    "secenekler": [
+      "In fact, the brain continues to change and develop throughout life.",
+      "Some animals are more intelligent than others.",
+      "IQ tests were developed in France.",
+      "Musical instruments can be very expensive.",
+      "Memory tends to decline with age."
+    ],
+    "dogru": 0,
+    "aciklama": "Yaygın inancı düzelten ve 'For example' ile desteklenen cümle.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0035",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sokak ağaçları",
+    "zorluk": 2,
+    "soru": "Many cities are planting trees along their streets. ---- They also absorb rainwater, which reduces the risk of flooding.",
+    "secenekler": [
+      "Many trees lose their leaves in autumn.",
+      "Trees provide shade, which helps to cool the streets in summer.",
+      "Some trees can live for thousands of years.",
+      "Cities are usually noisier than villages.",
+      "Wood is used to make furniture."
+    ],
+    "dogru": 1,
+    "aciklama": "'They also' öncesinde ağaçların bir başka yararını gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0036",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Aşıların tarihi",
+    "zorluk": 2,
+    "soru": "The first vaccines were developed more than two centuries ago. ---- Today, vaccines protect against more than twenty serious diseases and save millions of lives every year.",
+    "secenekler": [
+      "Some people are afraid of needles.",
+      "Smallpox was a deadly disease.",
+      "Doctors wear white coats in hospitals.",
+      "Hospitals can be very expensive.",
+      "Since then, scientists have developed vaccines for many other diseases."
+    ],
+    "dogru": 4,
+    "aciklama": "'Since then' ilk aşılardan bugüne uzanan gelişimi bağlar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0037",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Kamuflaj",
+    "zorluk": 2,
+    "soru": "Many animals use camouflage to avoid predators. ---- Others, such as poisonous frogs, do the opposite: their bright colours warn predators to stay away.",
+    "secenekler": [
+      "Some insects, for instance, look exactly like leaves or sticks.",
+      "Many animals live in forests.",
+      "Predators usually hunt at night.",
+      "Frogs lay their eggs in water.",
+      "Some birds can see ultraviolet light."
+    ],
+    "dogru": 0,
+    "aciklama": "'Others ... do the opposite' öncesinde kamuflaj yapan hayvanlara örnek gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0038",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Çay tüketimi",
+    "zorluk": 2,
+    "soru": "Tea is the second most consumed drink in the world after water. ---- In Britain, for example, people drink around 100 million cups every day.",
+    "secenekler": [
+      "Water covers most of the Earth's surface.",
+      "Tea plants need a lot of rain.",
+      "It is especially popular in countries such as China, India and the United Kingdom.",
+      "Many people drink tea with sugar.",
+      "Coffee contains more caffeine than tea."
+    ],
+    "dogru": 2,
+    "aciklama": "'In Britain, for example' çayın popüler olduğu ülkelerden söz eden cümleye bağlanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0039",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Demiryolu parkları",
+    "zorluk": 2,
+    "soru": "Some cities are turning old railway lines into public parks. ---- New York's High Line, built on an abandoned elevated railway, now attracts millions of visitors a year.",
+    "secenekler": [
+      "New York has a large subway system.",
+      "Trains are faster than buses.",
+      "Parks are good places for children to play.",
+      "One of the best-known examples is in the United States.",
+      "Many railways were built in the nineteenth century."
+    ],
+    "dogru": 3,
+    "aciklama": "Sonraki cümle bir örnek verdiğinden örneğe giriş yapan cümle gerekir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0040",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sosyal medya verileri",
+    "zorluk": 3,
+    "soru": "Social media companies collect enormous amounts of data about their users. ---- Critics argue that users rarely understand how much information they are giving away.",
+    "secenekler": [
+      "The first social media sites appeared in the 1990s.",
+      "This information is used to target advertisements at specific groups of people.",
+      "Many people check their phones as soon as they wake up.",
+      "Some people prefer to read printed newspapers.",
+      "Smartphones have become cheaper."
+    ],
+    "dogru": 1,
+    "aciklama": "Toplanan verinin nasıl kullanıldığını açıklayan cümle eleştiriye zemin hazırlar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0041",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Pasifik adaları",
+    "zorluk": 3,
+    "soru": "Rising sea levels threaten many low-lying islands in the Pacific. ---- Some island nations have even begun discussing plans to relocate their entire populations.",
+    "secenekler": [
+      "Coconut trees grow well near the sea.",
+      "Many tourists visit tropical islands.",
+      "Fishing is an important industry in the region.",
+      "Salt water is already contaminating farmland and drinking water supplies.",
+      "The Pacific is the largest ocean on Earth."
+    ],
+    "dogru": 3,
+    "aciklama": "'even' ile verilen en uç önlem (taşınma), öncesinde mevcut ciddi zararları anlatan cümle ister.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0042",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sanayi Devrimi",
+    "zorluk": 3,
+    "soru": "The Industrial Revolution transformed the way goods were produced. ---- However, it also led to overcrowded cities, polluted rivers and dangerous working conditions.",
+    "secenekler": [
+      "Machines allowed factories to produce goods faster and more cheaply than ever before.",
+      "The Revolution began in France.",
+      "Many people still live in rural areas today.",
+      "Coal is a fossil fuel.",
+      "Workers today have more holidays."
+    ],
+    "dogru": 0,
+    "aciklama": "'However ... also' olumsuz sonuçlardan önce olumlu bir etki gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0043",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sol ve sağ olmayan diller",
+    "zorluk": 3,
+    "soru": "Some languages have no words for left and right. ---- Speakers of these languages are remarkably good at knowing which direction they are facing, even in unfamiliar places.",
+    "secenekler": [
+      "Many languages are spoken in Africa.",
+      "Learning a second language is difficult.",
+      "Instead, they describe positions using compass directions such as north and south.",
+      "Maps were first drawn thousands of years ago.",
+      "Most people are right-handed."
+    ],
+    "dogru": 2,
+    "aciklama": "Pusula yönlerini kullanmaları, konuşanların yön duygusunun güçlü olmasını açıklar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0044",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sanal gerçeklik ve ağrı",
+    "zorluk": 3,
+    "soru": "Some hospitals now use virtual reality during painful medical procedures. ---- Researchers believe that the immersive experience distracts the brain from pain signals.",
+    "secenekler": [
+      "Hospitals are often very busy in winter.",
+      "Patients who wear the headsets often report feeling significantly less pain.",
+      "Many doctors work long hours.",
+      "Headsets are becoming lighter and cheaper.",
+      "Virtual reality was first used in video games."
+    ],
+    "dogru": 1,
+    "aciklama": "Araştırmacıların açıkladığı şey hastaların daha az ağrı hissetmesidir; önce bu gözlem verilmelidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0045",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Sivrisinekler",
+    "zorluk": 3,
+    "soru": "Mosquitoes use several clues to find the people they bite. ---- This is why people who breathe heavily after exercise often attract more of them.",
+    "secenekler": [
+      "Carbon dioxide is a greenhouse gas.",
+      "Exercise is good for both body and mind.",
+      "Some mosquitoes carry dangerous diseases such as malaria.",
+      "Many insects are active at night.",
+      "For example, they can detect the carbon dioxide we breathe out from a considerable distance."
+    ],
+    "dogru": 4,
+    "aciklama": "'This is why ... breathe heavily' soluduğumuz karbondioksiti algılamalarıyla açıklanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0046",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Asgari ücret",
+    "zorluk": 3,
+    "soru": "Economists have long debated whether raising the minimum wage leads to job losses. ---- More recent research, however, has found that moderate increases have little effect on employment.",
+    "secenekler": [
+      "Many people work in the service sector.",
+      "Some jobs require a university degree.",
+      "Wages are paid in different currencies.",
+      "Unemployment was high in the 1930s.",
+      "Traditional theory predicted that employers would hire fewer workers if wages rose."
+    ],
+    "dogru": 4,
+    "aciklama": "'More recent research, however' eski bir görüşle zıtlık kurar; önce geleneksel görüş verilmelidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "paragraf-0047",
+    "bolum": "paragraf",
+    "konu": "paragraf",
+    "alt_konu": "Antik Yunan atletleri",
+    "zorluk": 3,
+    "soru": "Ancient Greek athletes competed without clothes. ---- Some historians believe the custom began as a way of celebrating the beauty of the human body.",
+    "secenekler": [
+      "The reasons for this tradition are still debated.",
+      "Running is one of the oldest sports.",
+      "The first Olympic Games were held in 776 BC.",
+      "Greece is famous for its islands.",
+      "Many modern athletes wear special shoes."
+    ],
+    "dogru": 0,
+    "aciklama": "'Some historians believe' bir tartışmanın varlığını gerektirir.",
+    "paragraf_id": null
+  }
+]

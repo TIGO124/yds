@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+*.local
+.env*
+dist-android
+dist-artifact
+.claude/settings.local.json

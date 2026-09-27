@@ -1,0 +1,36 @@
+{
+  "name": "yds",
+  "version": "0.1.0",
+  "private": true,
+  "description": "İnternetsiz çalışan YDS hazırlık uygulaması (PWA)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:android": "tsc --noEmit && vite build --mode android && cap sync android",
+    "build:artifact": "tsc --noEmit && vite build --mode artifact && node scripts/artifact-tek-dosya.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate.ts",
+    "add-questions": "tsx scripts/add-questions.ts",
+    "icons": "node scripts/icons.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "dexie": "^4.4.6",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.3",
+    "fake-indexeddb": "^6.2.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^4.1.11"
+  }
+}

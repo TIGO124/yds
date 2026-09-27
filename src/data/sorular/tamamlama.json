@@ -1,0 +1,2270 @@
+[
+  {
+    "id": "gr.baglac-0006",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Although (zıtlık)",
+    "zorluk": 2,
+    "soru": "Although the vaccine proved highly effective in laboratory tests, ----.",
+    "secenekler": [
+      "it was tested on thousands of volunteers",
+      "it failed to produce the same results in large-scale clinical trials",
+      "many doctors recommended it to their patients",
+      "scientists were pleased with its success",
+      "it was approved for use in many countries soon afterwards"
+    ],
+    "dogru": 1,
+    "aciklama": "'Although' zıtlık gerektirir: laboratuvarda etkili olan aşı, geniş çaplı denemelerde aynı sonucu verememiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0005",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 2,
+    "soru": "If the ice sheets in Greenland and Antarctica melted completely, ----.",
+    "secenekler": [
+      "the climate will have become cooler",
+      "sea levels have risen dramatically",
+      "sea levels would rise by several metres",
+      "global temperatures were falling",
+      "coastal cities had been flooded"
+    ],
+    "dogru": 2,
+    "aciklama": "'If + Simple Past' (Type 2) ana cümlede 'would + V1' ister.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0006",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü which",
+    "zorluk": 2,
+    "soru": "The Amazon rainforest, ----, is often described as the lungs of the planet.",
+    "secenekler": [
+      "that it produces much of the oxygen",
+      "whose oxygen is produced",
+      "what produces a lot of oxygen",
+      "which produces a significant proportion of the world's oxygen",
+      "where it produces oxygen"
+    ],
+    "dogru": 3,
+    "aciklama": "Virgüllü (ek bilgi veren) sıfat cümleciği 'which' ile kurulur ve özne tekrar edilmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0007",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Even though (zıtlık)",
+    "zorluk": 3,
+    "soru": "----, the number of people using public transport in the city has continued to decline.",
+    "secenekler": [
+      "Even though ticket prices have been reduced considerably",
+      "Because the service has become faster and cheaper",
+      "Since traffic congestion has become worse",
+      "As more bus routes have been added",
+      "Now that fuel prices have risen sharply"
+    ],
+    "dogru": 0,
+    "aciklama": "Kullanımın azalmaya devam etmesi beklenmedik bir sonuçtur; bu yüzden zıtlık bildiren 'Even though' ile başlayan seçenek uygundur. Diğerleri kullanımı artıracak nedenlerdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0006",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "By the time + Past Perfect",
+    "zorluk": 2,
+    "soru": "By the time the firefighters arrived at the scene, ----.",
+    "secenekler": [
+      "the fire has spread to the roof",
+      "the building burns down completely",
+      "the fire will have been put out",
+      "the residents are being evacuated",
+      "the building had already burnt to the ground"
+    ],
+    "dogru": 4,
+    "aciklama": "'By the time + Simple Past' ana cümlede Past Perfect gerektirir: itfaiye gelmeden önce bina yanıp kül olmuştu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0005",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "whether (dolaylı soru)",
+    "zorluk": 3,
+    "soru": "Scientists have not yet been able to determine ----.",
+    "secenekler": [
+      "that the planet supports life",
+      "how many moons does the planet have",
+      "if does the planet have water",
+      "what does the planet contain",
+      "whether the planet could support any form of life"
+    ],
+    "dogru": 4,
+    "aciklama": "Dolaylı sorularda düz cümle düzeni kullanılır; 'henüz belirleyemediler' anlamına 'whether' (olup olmadığı) uyar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0013",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "because of",
+    "zorluk": 1,
+    "soru": "The flight was delayed for three hours ----.",
+    "secenekler": [
+      "in order that the weather would improve",
+      "even if there had been no problems",
+      "because of the heavy fog at the airport",
+      "unless the pilots were ready",
+      "so that passengers could arrive on time"
+    ],
+    "dogru": 2,
+    "aciklama": "Rötarın nedeni sis olabilir → 'because of + isim öbeği'. Diğer seçenekler anlamsız bir amaç ya da koşul kurar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0011",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Unless",
+    "zorluk": 2,
+    "soru": "Unless the government takes immediate action to reduce emissions, ----.",
+    "secenekler": [
+      "global temperatures would have fallen",
+      "global temperatures will continue to rise",
+      "the problem has already been solved",
+      "emissions were reduced significantly",
+      "the climate had become more stable"
+    ],
+    "dogru": 1,
+    "aciklama": "'Unless + Simple Present' gerçek koşuldur; ana cümlede 'will' gelir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0012",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "who",
+    "zorluk": 2,
+    "soru": "Children ---- tend to perform better at school than those who skip it.",
+    "secenekler": [
+      "whose breakfast is eaten",
+      "eat a healthy breakfast",
+      "which they eat breakfast",
+      "who eat a healthy breakfast every morning",
+      "when they eat breakfast"
+    ],
+    "dogru": 3,
+    "aciklama": "İnsanları niteleyen 'who' gerekir; 'skip it' zamiri kahvaltıya gönderme yapar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0011",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "Since + Present Perfect",
+    "zorluk": 2,
+    "soru": "Since the smartphone was introduced, ----.",
+    "secenekler": [
+      "the way people communicate has changed dramatically",
+      "the way people communicate will change",
+      "people communicated mainly by letter",
+      "communication changes very slowly",
+      "people had used landlines more often"
+    ],
+    "dogru": 0,
+    "aciklama": "'Since + geçmiş zaman' ana cümlede Present Perfect gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0014",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Although (zıtlık)",
+    "zorluk": 2,
+    "soru": "Although the museum is free to enter, ----.",
+    "secenekler": [
+      "it attracts millions of visitors every year",
+      "it is closed on Mondays",
+      "it is very popular with tourists",
+      "tickets can be bought online",
+      "visitors are encouraged to make a small donation"
+    ],
+    "dogru": 4,
+    "aciklama": "'Although' zıtlık gerektirir: giriş ücretsiz olsa da bağış yapılması teşvik edilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0011",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "wonder whether",
+    "zorluk": 2,
+    "soru": "Many parents wonder ----.",
+    "secenekler": [
+      "whether their children spend too much time in front of screens",
+      "how much time do children spend online",
+      "that their children spend too much time online",
+      "what do their children do online",
+      "if do their children use the internet safely"
+    ],
+    "dogru": 0,
+    "aciklama": "'wonder' fiilinden sonra dolaylı soru gelir ve düz cümle düzeni kullanılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0010",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "get used to + -ing",
+    "zorluk": 2,
+    "soru": "In order to improve their vocabulary, students should get used to ----.",
+    "secenekler": [
+      "have read English newspapers",
+      "be reading newspapers",
+      "read English newspapers regularly",
+      "reading English newspapers regularly",
+      "reads newspapers every day"
+    ],
+    "dogru": 3,
+    "aciklama": "'get used to' yapısındaki 'to' edattır; ardından fiil -ing alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0009",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "So ... that devrik",
+    "zorluk": 3,
+    "soru": "So popular did the exhibition become ----.",
+    "secenekler": [
+      "as the museum had predicted",
+      "because the tickets were very cheap",
+      "that the museum decided to extend it for another three months",
+      "so that more visitors could see it",
+      "although few people visited it"
+    ],
+    "dogru": 2,
+    "aciklama": "'So + sıfat + did + özne + V1' devrik yapısı 'that' ile tamamlanır (o kadar … ki).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0012",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Devrik Type 3",
+    "zorluk": 3,
+    "soru": "Had the scientists not detected the error in time, ----.",
+    "secenekler": [
+      "the satellite would crash tomorrow",
+      "the satellite would have crashed into the ocean",
+      "the satellite crashed into the ocean",
+      "the satellite will crash into the ocean",
+      "the satellite has crashed into the ocean"
+    ],
+    "dogru": 1,
+    "aciklama": "'Had ... not detected' devrik Type 3 koşuldur → 'would have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0013",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü where",
+    "zorluk": 3,
+    "soru": "The region, ----, attracts thousands of birdwatchers every spring.",
+    "secenekler": [
+      "in that many birds stop",
+      "that is home to many birds",
+      "where more than two hundred species of birds stop during their migration",
+      "whose birds are migrating",
+      "which birds migrate there"
+    ],
+    "dogru": 2,
+    "aciklama": "Virgüllü (ek bilgi) cümlecikte 'that' kullanılmaz; yer bildiren 'where' + tam cümle doğrudur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0010",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "must be + V3",
+    "zorluk": 2,
+    "soru": "Before a new medicine is sold to the public, ----.",
+    "secenekler": [
+      "it must be tested extensively for safety and effectiveness",
+      "it was banned in many countries",
+      "doctors had prescribed it widely",
+      "patients are testing it at home",
+      "it has been tested on a few patients"
+    ],
+    "dogru": 0,
+    "aciklama": "Genel kural anlatılıyor: ilaç satılmadan önce test edilmelidir (edilgen zorunluluk).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0010",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "the more ... the less",
+    "zorluk": 2,
+    "soru": "The more people use public transport instead of private cars, ----.",
+    "secenekler": [
+      "less traffic congestion",
+      "traffic congestion is increasing",
+      "the most traffic there is",
+      "there will be more traffic congestion",
+      "the less traffic congestion there will be in cities"
+    ],
+    "dogru": 4,
+    "aciklama": "'The more ..., the less ...' yapısı; anlam olarak toplu taşıma arttıkça trafik azalır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "When + Past Perfect",
+    "zorluk": 1,
+    "soru": "When I arrived at the station, ----.",
+    "secenekler": [
+      "the train leaves",
+      "the train is leaving",
+      "the train will leave",
+      "the train had already left",
+      "the train has already left"
+    ],
+    "dogru": 3,
+    "aciklama": "Varıştan önce tamamlanmış eylem → Past Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect + since",
+    "zorluk": 1,
+    "soru": "I have lived in this city ----.",
+    "secenekler": [
+      "when I was a child",
+      "since I was a child",
+      "last year",
+      "two years ago",
+      "in 2010"
+    ],
+    "dogru": 1,
+    "aciklama": "Present Perfect ile başlangıç noktası 'since' ile verilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "While + Past Continuous",
+    "zorluk": 1,
+    "soru": "While she was reading a book, ----.",
+    "secenekler": [
+      "the phone had been ringing",
+      "the phone suddenly rang",
+      "the phone has rung",
+      "the phone rings",
+      "the phone will ring"
+    ],
+    "dogru": 1,
+    "aciklama": "Süren eylemi kesen kısa eylem → Simple Past.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "As soon as + Present",
+    "zorluk": 1,
+    "soru": "----, he will call you.",
+    "secenekler": [
+      "As soon as he had got home",
+      "As soon as he will get home",
+      "As soon as he gets home",
+      "As soon as he got home",
+      "As soon as he has been getting home"
+    ],
+    "dogru": 2,
+    "aciklama": "Zaman cümleciğinde gelecek için Simple Present kullanılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "By the time + Past Perfect",
+    "zorluk": 2,
+    "soru": "By the time the police arrived, ----.",
+    "secenekler": [
+      "the thieves have escaped",
+      "the thieves will escape",
+      "the thieves are escaping",
+      "the thieves had escaped",
+      "the thieves escape"
+    ],
+    "dogru": 3,
+    "aciklama": "'By the time + Simple Past' → ana cümlede Past Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect Continuous + for",
+    "zorluk": 2,
+    "soru": "Scientists have been studying the disease ----.",
+    "secenekler": [
+      "for more than twenty years",
+      "last decade",
+      "in the 1990s",
+      "twenty years ago",
+      "when it first appeared"
+    ],
+    "dogru": 0,
+    "aciklama": "Süregelen eylemin süresi 'for' ile verilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect zaman ifadesi",
+    "zorluk": 2,
+    "soru": "----, the number of people using smartphones has increased dramatically.",
+    "secenekler": [
+      "At the end of the last century",
+      "Last year",
+      "Ten years ago",
+      "In 2005",
+      "Over the past decade"
+    ],
+    "dogru": 4,
+    "aciklama": "Present Perfect ile günümüze uzanan dönem → 'Over the past decade'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "Future Perfect",
+    "zorluk": 3,
+    "soru": "By the time she finishes her degree next year, ----.",
+    "secenekler": [
+      "she will have studied at three different universities",
+      "she has studied at three universities",
+      "she studied at three universities",
+      "she is studying at three universities",
+      "she had studied at three universities"
+    ],
+    "dogru": 0,
+    "aciklama": "'By the time + Simple Present (gelecek)' → Future Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.zaman-0060",
+    "bolum": "tamamlama",
+    "konu": "gr.zaman",
+    "alt_konu": "It was the first time + Past Perfect",
+    "zorluk": 3,
+    "soru": "It was the first time that ----.",
+    "secenekler": [
+      "the team has won the championship",
+      "the team will win the championship",
+      "the team had won the championship",
+      "the team is winning the championship",
+      "the team wins the championship"
+    ],
+    "dogru": 2,
+    "aciklama": "'It was the first time' → Past Perfect.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0050",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "should (tavsiye)",
+    "zorluk": 1,
+    "soru": "You look very tired; ----.",
+    "secenekler": [
+      "you shouldn't have rested",
+      "you should get some rest",
+      "you needn't sleep",
+      "you mustn't sleep",
+      "you couldn't rest"
+    ],
+    "dogru": 1,
+    "aciklama": "Yorgun görünen birine tavsiye → 'should'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "will have to",
+    "zorluk": 1,
+    "soru": "If you want to pass the exam, ----.",
+    "secenekler": [
+      "you could study harder yesterday",
+      "you must have studied harder",
+      "you should have studied harder",
+      "you will have to study harder",
+      "you had to study harder"
+    ],
+    "dogru": 3,
+    "aciklama": "Type 1 koşul → gelecekteki zorunluluk 'will have to'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "must have done",
+    "zorluk": 1,
+    "soru": "The streets are wet, so ----.",
+    "secenekler": [
+      "it mustn't rain",
+      "it needn't have rained",
+      "it can't have rained during the night",
+      "it should rain tonight",
+      "it must have rained during the night"
+    ],
+    "dogru": 4,
+    "aciklama": "Islak sokaklar geçmişe dair güçlü çıkarım → 'must have rained'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "could (geçmiş yetenek)",
+    "zorluk": 1,
+    "soru": "----, but now I can't remember much of it.",
+    "secenekler": [
+      "I can speak French very well",
+      "I needn't speak French",
+      "I must speak French",
+      "I should speak French",
+      "I could speak French when I was a child"
+    ],
+    "dogru": 4,
+    "aciklama": "'but now I can't remember' geçmişteki yeteneğe işaret eder → 'could'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "should have done",
+    "zorluk": 2,
+    "soru": "He failed the exam; ----.",
+    "secenekler": [
+      "he should have studied more",
+      "he must study more yesterday",
+      "he can't have studied more",
+      "he needn't have studied",
+      "he would study more"
+    ],
+    "dogru": 0,
+    "aciklama": "Geçmişte yapılmayan ama gereken eylem → 'should have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "don't need to",
+    "zorluk": 2,
+    "soru": "----, as the museum is free on Sundays.",
+    "secenekler": [
+      "You couldn't buy a ticket",
+      "You had to buy a ticket",
+      "You must buy a ticket",
+      "You don't need to buy a ticket",
+      "You should buy two tickets"
+    ],
+    "dogru": 3,
+    "aciklama": "Müze ücretsiz olduğu için bilet gerekmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "may (olasılık)",
+    "zorluk": 2,
+    "soru": "Although the bridge looks old, ----.",
+    "secenekler": [
+      "it has to be dangerous",
+      "it may be stronger than it seems",
+      "it should be old",
+      "it looks old",
+      "it must be very weak"
+    ],
+    "dogru": 1,
+    "aciklama": "'Although' zıtlık ister: eski görünse de sağlam olabilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "must have done",
+    "zorluk": 3,
+    "soru": "The documents are missing from the safe; ----.",
+    "secenekler": [
+      "someone should take them",
+      "nobody must take them",
+      "someone must have taken them",
+      "nobody can have taken them",
+      "someone needn't have taken them"
+    ],
+    "dogru": 2,
+    "aciklama": "Kayıp belgeler birinin aldığına dair güçlü çıkarım → 'must have taken'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.modal-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.modal",
+    "alt_konu": "might have done (koşul)",
+    "zorluk": 3,
+    "soru": "----, the ancient city might have survived much longer.",
+    "secenekler": [
+      "Although the earthquake occurred",
+      "Since the earthquake happened",
+      "When the earthquake struck",
+      "Because of the earthquake",
+      "Had it not been for the earthquake"
+    ],
+    "dogru": 4,
+    "aciklama": "'might have survived' gerçekleşmemiş geçmiş koşul ister → 'Had it not been for'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "Future Passive",
+    "zorluk": 1,
+    "soru": "The new hospital ----.",
+    "secenekler": [
+      "will be opened next month",
+      "will open by the mayor next month",
+      "is opening by the mayor",
+      "has opened by the mayor",
+      "opens by the mayor"
+    ],
+    "dogru": 0,
+    "aciklama": "Hastane açılan şeydir → edilgen 'will be opened'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 1,
+    "soru": "----, so I had to walk to school.",
+    "secenekler": [
+      "My bike has stolen",
+      "My bike stole yesterday",
+      "My bike was stolen yesterday",
+      "My bike was stealing",
+      "My bike steals"
+    ],
+    "dogru": 2,
+    "aciklama": "Bisiklet çalınan şeydir → 'was stolen'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "which was + V3",
+    "zorluk": 1,
+    "soru": "The famous painting, ----, is now worth millions of dollars.",
+    "secenekler": [
+      "which has painted",
+      "which was painted in the 16th century",
+      "who was painted",
+      "that it was painted",
+      "which painted in the 16th century"
+    ],
+    "dogru": 1,
+    "aciklama": "Tablo boyanan şeydir; virgüllü cümlecik 'which was painted'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 1,
+    "soru": "After the fire, ----.",
+    "secenekler": [
+      "the building had rebuilding",
+      "the building was rebuilding completely",
+      "the building rebuilt completely",
+      "the building was completely rebuilt",
+      "the building has rebuilt"
+    ],
+    "dogru": 3,
+    "aciklama": "Bina yeniden inşa edilen şeydir → 'was rebuilt'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "must be done",
+    "zorluk": 2,
+    "soru": "Before the results can be published, ----.",
+    "secenekler": [
+      "they checked by experts",
+      "they must check independent experts",
+      "independent experts must be checked",
+      "they have been checked last year",
+      "they must be checked by independent experts"
+    ],
+    "dogru": 4,
+    "aciklama": "Sonuçlar kontrol edilen şeydir → 'must be checked'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "It is believed that",
+    "zorluk": 2,
+    "soru": "It is widely believed that ----.",
+    "secenekler": [
+      "the painting was stealing",
+      "the painting steals",
+      "the painting has stolen",
+      "the painting was stolen by a professional gang",
+      "the painting stole a professional gang"
+    ],
+    "dogru": 3,
+    "aciklama": "Tablo çalınan şeydir → 'was stolen by'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "Present Perfect Passive",
+    "zorluk": 2,
+    "soru": "Since the new law was introduced, ----.",
+    "secenekler": [
+      "thousands of people are fining",
+      "thousands of people have been fined for littering",
+      "thousands of people fined for littering",
+      "thousands of people fine",
+      "thousands of people had fined"
+    ],
+    "dogru": 1,
+    "aciklama": "'Since' + ceza verilen insanlar → 'have been fined'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "Past Perfect Passive",
+    "zorluk": 3,
+    "soru": "The ancient tomb, ----, contained hundreds of gold objects.",
+    "secenekler": [
+      "that it had been hidden",
+      "which was hiding for 3,000 years",
+      "which had been hidden for over 3,000 years",
+      "which had hidden for over 3,000 years",
+      "where it was hidden"
+    ],
+    "dogru": 2,
+    "aciklama": "Mezar saklanan şeydir ve keşiften önce → 'had been hidden'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.passive-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.passive",
+    "alt_konu": "could be done",
+    "zorluk": 3,
+    "soru": "Unless the damaged pipes are replaced soon, ----.",
+    "secenekler": [
+      "the whole area could be flooded",
+      "the whole area could flood itself",
+      "the whole area was flooded",
+      "the whole area had been flooded",
+      "the whole area has been flooding"
+    ],
+    "dogru": 0,
+    "aciklama": "Gelecekteki olası sonuç ve bölge su basan yerdir → 'could be flooded'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Zero conditional",
+    "zorluk": 1,
+    "soru": "If you put a metal spoon into a cup of hot tea, ----.",
+    "secenekler": [
+      "it got hot very quickly",
+      "it is got hot very quickly",
+      "it gets hot very quickly",
+      "it would have got hot very quickly",
+      "it had got hot very quickly"
+    ],
+    "dogru": 2,
+    "aciklama": "Genel/bilimsel gerçek (Type 0) → her iki cümlede Simple Present.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 1,
+    "soru": "If I had a car, ----.",
+    "secenekler": [
+      "I drove to work",
+      "I would drive to work",
+      "I will drive to work",
+      "I had driven to work",
+      "I would have driven to work"
+    ],
+    "dogru": 1,
+    "aciklama": "'If + Simple Past' → 'would + V1'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "First conditional",
+    "zorluk": 1,
+    "soru": "If it rains this afternoon, ----.",
+    "secenekler": [
+      "we would cancel the picnic",
+      "we would have cancelled the picnic",
+      "we had cancelled the picnic",
+      "we cancelled the picnic",
+      "we will cancel the picnic"
+    ],
+    "dogru": 4,
+    "aciklama": "'If + Simple Present' → 'will'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 1,
+    "soru": "----, I would buy a big house by the sea.",
+    "secenekler": [
+      "If I had won the lottery",
+      "If I would win the lottery",
+      "If I will win the lottery",
+      "If I won the lottery",
+      "If I win the lottery"
+    ],
+    "dogru": 3,
+    "aciklama": "'would buy' → 'If + Simple Past'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Third conditional",
+    "zorluk": 2,
+    "soru": "If the doctors had diagnosed the illness earlier, ----.",
+    "secenekler": [
+      "the patient would have recovered",
+      "the patient had recovered",
+      "the patient recovered",
+      "the patient recovers",
+      "the patient will recover"
+    ],
+    "dogru": 0,
+    "aciklama": "'If + Past Perfect' → 'would have + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Unless",
+    "zorluk": 2,
+    "soru": "----, you will not be allowed to enter the building.",
+    "secenekler": [
+      "Provided that you show your ID card",
+      "As long as you show your ID card",
+      "If you show your ID card",
+      "Unless you show your ID card",
+      "When you show your ID card"
+    ],
+    "dogru": 3,
+    "aciklama": "Kimlik göstermedikçe girilemez → 'Unless'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "wish + Past Perfect",
+    "zorluk": 2,
+    "soru": "I wish ----.",
+    "secenekler": [
+      "I will study harder",
+      "I study harder",
+      "I had studied harder for last week's exam",
+      "I would have study harder",
+      "I have studied harder for last week's exam"
+    ],
+    "dogru": 2,
+    "aciklama": "Geçmişe dair pişmanlık → 'wish + Past Perfect'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0060",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Mixed conditional",
+    "zorluk": 3,
+    "soru": "If we had left home earlier, ----.",
+    "secenekler": [
+      "we would be at the airport now",
+      "we had been at the airport now",
+      "we are at the airport now",
+      "we have been at the airport now",
+      "we will be at the airport now"
+    ],
+    "dogru": 0,
+    "aciklama": "Geçmiş koşul, şimdiki sonuç ('now') → 'would be'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.if-0061",
+    "bolum": "tamamlama",
+    "konu": "gr.if",
+    "alt_konu": "Should devrik",
+    "zorluk": 3,
+    "soru": "Should you have any questions about the course, ----.",
+    "secenekler": [
+      "you would contact the coordinator yesterday",
+      "you contacted the coordinator",
+      "you would have contacted the coordinator",
+      "you had contacted the coordinator",
+      "please contact the course coordinator"
+    ],
+    "dogru": 4,
+    "aciklama": "'Should you ...' (= If you have) gerçek koşuldur; ardından emir/tavsiye gelir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "who",
+    "zorluk": 1,
+    "soru": "A dentist is a doctor ----.",
+    "secenekler": [
+      "where takes care of teeth",
+      "who takes care of people's teeth",
+      "whose takes care",
+      "what takes care of teeth",
+      "which takes care of teeth"
+    ],
+    "dogru": 1,
+    "aciklama": "İnsanı niteleyen özne → 'who'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "where",
+    "zorluk": 1,
+    "soru": "This is the restaurant ----.",
+    "secenekler": [
+      "where we had our first dinner together",
+      "whose we had dinner",
+      "who we had dinner",
+      "what we had dinner",
+      "which we had our first dinner"
+    ],
+    "dogru": 0,
+    "aciklama": "Yer + tam cümle → 'where'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "whose",
+    "zorluk": 1,
+    "soru": "I met a man ----.",
+    "secenekler": [
+      "who brother works with my father",
+      "whom brother works",
+      "which brother works",
+      "that his brother works",
+      "whose brother works with my father"
+    ],
+    "dogru": 4,
+    "aciklama": "İyelik → 'whose'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "that",
+    "zorluk": 1,
+    "soru": "The film ---- was very boring.",
+    "secenekler": [
+      "what we watched last night",
+      "whose we watched",
+      "who we watched last night",
+      "that we watched last night",
+      "where we watched last night"
+    ],
+    "dogru": 3,
+    "aciklama": "Nesneyi niteleyen tanımlayıcı cümlecik → 'that'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "who",
+    "zorluk": 2,
+    "soru": "The scientist ---- has won an international award.",
+    "secenekler": [
+      "whose discovered",
+      "who discovered the new species",
+      "where discovered",
+      "which discovered the new species",
+      "that he discovered"
+    ],
+    "dogru": 1,
+    "aciklama": "İnsan + özne → 'who'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü which",
+    "zorluk": 2,
+    "soru": "The book, ----, has been translated into forty languages.",
+    "secenekler": [
+      "that was first published in 1950",
+      "which it was published",
+      "which was first published in 1950",
+      "where was published",
+      "who was first published"
+    ],
+    "dogru": 2,
+    "aciklama": "Virgüllü cümlecikte 'that' kullanılmaz → 'which'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0060",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "where",
+    "zorluk": 2,
+    "soru": "Marie visited the town ----.",
+    "secenekler": [
+      "which her grandparents had grown up",
+      "what her grandparents grew up",
+      "where her grandparents had grown up",
+      "whose grandparents grew up there",
+      "who her grandparents had grown up"
+    ],
+    "dogru": 2,
+    "aciklama": "Yer + tam cümle → 'where'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0061",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "most of whom",
+    "zorluk": 3,
+    "soru": "The company has 500 employees, ----.",
+    "secenekler": [
+      "most of who work in the main office",
+      "most of whom work in the main office",
+      "most of them work in the main office",
+      "most of which work in the main office",
+      "that most work in the main office"
+    ],
+    "dogru": 1,
+    "aciklama": "İnsanlar için 'most of whom'; 'most of them' iki cümleyi bağlaçsız birleştirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.relative-0062",
+    "bolum": "tamamlama",
+    "konu": "gr.relative",
+    "alt_konu": "the ... of which",
+    "zorluk": 3,
+    "soru": "The new law, ----, will come into force next month.",
+    "secenekler": [
+      "which aim is to reduce pollution",
+      "whose it aims to reduce pollution",
+      "its aim is to reduce pollution",
+      "that its aim is to reduce pollution",
+      "the aim of which is to reduce air pollution"
+    ],
+    "dogru": 4,
+    "aciklama": "'the aim of which' = amacı …olan (= whose aim).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "Dolaylı soru düzeni",
+    "zorluk": 1,
+    "soru": "I don't know ----.",
+    "secenekler": [
+      "where is he live",
+      "where lives he",
+      "where he does live",
+      "where he lives",
+      "where does he live"
+    ],
+    "dogru": 3,
+    "aciklama": "Dolaylı soruda düz cümle düzeni kullanılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "Dolaylı soru düzeni",
+    "zorluk": 1,
+    "soru": "Can you tell me ----?",
+    "secenekler": [
+      "what time the museum opens",
+      "what time does the museum open",
+      "what time the museum does open",
+      "what time opens the museum",
+      "the museum opens what time"
+    ],
+    "dogru": 0,
+    "aciklama": "'Can you tell me' sonrası düz cümle düzeni.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "agree that",
+    "zorluk": 1,
+    "soru": "Everyone agrees ----.",
+    "secenekler": [
+      "that exercise is good for health",
+      "if exercise good for health",
+      "what exercise is good for health",
+      "which exercise is good",
+      "exercise that is good"
+    ],
+    "dogru": 0,
+    "aciklama": "'agree that + tam cümle'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "ask whether",
+    "zorluk": 1,
+    "soru": "She asked me ----.",
+    "secenekler": [
+      "that had I seen her keys",
+      "whether I had seen her keys",
+      "had I seen her keys",
+      "have I seen her keys",
+      "what had I seen her keys"
+    ],
+    "dogru": 1,
+    "aciklama": "Dolaylı evet/hayır sorusu → 'whether' + düz düzen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "How (özne cümleciği)",
+    "zorluk": 2,
+    "soru": "---- is still a mystery to scientists.",
+    "secenekler": [
+      "That how the pyramids were built",
+      "How were the pyramids built by the Egyptians",
+      "The ancient Egyptians built the pyramids how",
+      "How did the ancient Egyptians build the pyramids",
+      "How the ancient Egyptians built the pyramids"
+    ],
+    "dogru": 4,
+    "aciklama": "Özne cümleciğinde düz düzen: 'How + özne + fiil'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "show that",
+    "zorluk": 2,
+    "soru": "The report shows ----.",
+    "secenekler": [
+      "what air pollution has increased",
+      "whether has air pollution increased",
+      "that air pollution has increased in most cities",
+      "that has air pollution increased",
+      "which air pollution has increased"
+    ],
+    "dogru": 2,
+    "aciklama": "'show that + düz cümle'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "explain why",
+    "zorluk": 2,
+    "soru": "Nobody could explain ----.",
+    "secenekler": [
+      "that why the plane disappeared",
+      "why had the plane disappeared",
+      "why did the plane disappear",
+      "why the plane had disappeared",
+      "the plane why disappeared"
+    ],
+    "dogru": 3,
+    "aciklama": "Dolaylı soruda düz düzen: 'why + özne + fiil'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "Whether ... remains to be seen",
+    "zorluk": 3,
+    "soru": "Whether the new treatment will work ----.",
+    "secenekler": [
+      "it is uncertain",
+      "remains to be seen",
+      "has been proved that it works",
+      "will work",
+      "is that it will succeed"
+    ],
+    "dogru": 1,
+    "aciklama": "'Whether' ile başlayan özne cümleciği tekil yüklem alır: 'remains to be seen'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.noun_clause-0060",
+    "bolum": "tamamlama",
+    "konu": "gr.noun_clause",
+    "alt_konu": "What ... was that",
+    "zorluk": 3,
+    "soru": "What surprised the scientists most ----.",
+    "secenekler": [
+      "was that the bacteria survived in extreme heat",
+      "it was the bacteria survived",
+      "were the bacteria survived",
+      "that the bacteria survived",
+      "the bacteria survived in extreme heat"
+    ],
+    "dogru": 0,
+    "aciklama": "'What ... was that + cümle' kalıbı (vurgu yapısı).",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Although",
+    "zorluk": 1,
+    "soru": "Although it was very late, ----.",
+    "secenekler": [
+      "the children fell asleep immediately",
+      "the children went to bed",
+      "the children were still awake",
+      "everyone was sleeping",
+      "the children were tired"
+    ],
+    "dogru": 2,
+    "aciklama": "'Although' zıtlık ister: geç olmasına rağmen çocuklar hâlâ uyanıktı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "so",
+    "zorluk": 1,
+    "soru": "----, so we decided to stay at home.",
+    "secenekler": [
+      "Even though it was a nice day",
+      "Unless it rains",
+      "Although it was sunny",
+      "It was raining heavily",
+      "Despite the rain"
+    ],
+    "dogru": 3,
+    "aciklama": "'so' sonuç bildirir; sebep yağmurdur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "because",
+    "zorluk": 1,
+    "soru": "She passed the exam easily ----.",
+    "secenekler": [
+      "so that she studied",
+      "although she had studied hard",
+      "unless she studied",
+      "even if she studied",
+      "because she had studied very hard"
+    ],
+    "dogru": 4,
+    "aciklama": "Kolayca geçmenin nedeni çok çalışmaktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Because",
+    "zorluk": 1,
+    "soru": "Because the museum was closed, ----.",
+    "secenekler": [
+      "the museum was very crowded",
+      "we bought tickets for the museum",
+      "we saw the paintings",
+      "we visited the museum",
+      "we went to the park instead"
+    ],
+    "dogru": 4,
+    "aciklama": "Müze kapalı olduğundan başka yere gidildi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Despite",
+    "zorluk": 2,
+    "soru": "----, the company's profits have increased this year.",
+    "secenekler": [
+      "Due to the economic crisis",
+      "Despite the economic crisis",
+      "As a result of the crisis",
+      "Owing to the economic crisis",
+      "Because of the economic crisis"
+    ],
+    "dogru": 1,
+    "aciklama": "Krize rağmen kârın artması zıtlıktır → 'Despite'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0060",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "so that",
+    "zorluk": 2,
+    "soru": "The government raised taxes ----.",
+    "secenekler": [
+      "unless people paid more",
+      "although it needed more money",
+      "whereas people paid less",
+      "so that it could fund new schools and hospitals",
+      "even though schools were funded"
+    ],
+    "dogru": 3,
+    "aciklama": "Vergi artışının amacı yeni okul ve hastaneleri finanse etmektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0061",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "whereas",
+    "zorluk": 2,
+    "soru": "Some people learn best by reading, ----.",
+    "secenekler": [
+      "whereas others prefer to learn by doing",
+      "unless others learn by doing",
+      "because others prefer to learn by doing",
+      "therefore others learn by doing",
+      "so that others learn by doing"
+    ],
+    "dogru": 0,
+    "aciklama": "İki grup karşılaştırılıyor → 'whereas'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0062",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "Even though",
+    "zorluk": 3,
+    "soru": "----, most people still prefer to use their cars for short journeys.",
+    "secenekler": [
+      "As the government has banned cars from the centre",
+      "Because parking in the city centre is almost impossible",
+      "Even though public transport in the city is cheap and efficient",
+      "Since petrol has become extremely expensive",
+      "Now that cycling lanes have been built everywhere"
+    ],
+    "dogru": 2,
+    "aciklama": "'still prefer' zıtlık ister; diğer seçenekler araba kullanımını azaltacak nedenlerdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0063",
+    "bolum": "tamamlama",
+    "konu": "gr.baglac",
+    "alt_konu": "as long as",
+    "zorluk": 3,
+    "soru": "The research team will continue the project ----.",
+    "secenekler": [
+      "whereas they receive funding",
+      "although they receive enough funding",
+      "as long as they receive enough funding",
+      "unless they receive enough funding",
+      "in case they receive enough funding"
+    ],
+    "dogru": 2,
+    "aciklama": "Devam etme şartı yeterli fon → 'as long as'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "think about + -ing",
+    "zorluk": 1,
+    "soru": "My brother is thinking about ----.",
+    "secenekler": [
+      "studied medicine",
+      "to study medicine",
+      "to studying medicine",
+      "study medicine at university",
+      "studying medicine at university"
+    ],
+    "dogru": 4,
+    "aciklama": "Edattan sonra -ing.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "ask sb to V",
+    "zorluk": 1,
+    "soru": "The teacher asked the students ----.",
+    "secenekler": [
+      "switched off their phones",
+      "to switching off their phones",
+      "switch off their phones",
+      "to switch off their mobile phones",
+      "switching off their mobile phones"
+    ],
+    "dogru": 3,
+    "aciklama": "'ask somebody to do'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "look forward to + -ing",
+    "zorluk": 1,
+    "soru": "I am looking forward ----.",
+    "secenekler": [
+      "to meeting my new classmates",
+      "to meet my new classmates",
+      "for meeting my classmates",
+      "meet my classmates",
+      "meeting my new classmates"
+    ],
+    "dogru": 0,
+    "aciklama": "'look forward to + -ing'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "It is important to V",
+    "zorluk": 1,
+    "soru": "It is important ----.",
+    "secenekler": [
+      "drank enough water",
+      "to drink enough water every day",
+      "to drinking water every day",
+      "drink enough water every day",
+      "drinking enough water every day"
+    ],
+    "dogru": 1,
+    "aciklama": "'It is + sıfat + to V'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "decide + to V",
+    "zorluk": 2,
+    "soru": "The company has decided ----.",
+    "secenekler": [
+      "open a new branch",
+      "to open a new branch in Izmir",
+      "opening a new branch in Izmir",
+      "opened a new branch",
+      "to opening a new branch"
+    ],
+    "dogru": 1,
+    "aciklama": "'decide' to-infinitive alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "find it difficult to V",
+    "zorluk": 2,
+    "soru": "Many people find it difficult ----.",
+    "secenekler": [
+      "giving up bad habits",
+      "give up bad habits",
+      "to giving up bad habits",
+      "gave up bad habits",
+      "to give up bad habits"
+    ],
+    "dogru": 4,
+    "aciklama": "'find it + sıfat + to V'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "suggest + -ing",
+    "zorluk": 2,
+    "soru": "The manager suggested ----.",
+    "secenekler": [
+      "held the meeting",
+      "to hold the meeting on Friday",
+      "to holding the meeting",
+      "holding the meeting on Friday",
+      "hold the meeting on Friday"
+    ],
+    "dogru": 3,
+    "aciklama": "'suggest' gerund alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "Instead of + -ing",
+    "zorluk": 3,
+    "soru": "Instead of ----, the government decided to invest in renewable energy.",
+    "secenekler": [
+      "built a new power station",
+      "to building a power station",
+      "building a new coal power station",
+      "to build a new coal power station",
+      "build a new coal power station"
+    ],
+    "dogru": 2,
+    "aciklama": "Edattan ('of') sonra -ing.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.gerund_inf-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "remember + being V3",
+    "zorluk": 3,
+    "soru": "The patient does not remember ----.",
+    "secenekler": [
+      "being taken to the hospital after the accident",
+      "be taken to the hospital",
+      "to be taken to the hospital",
+      "taken to the hospital",
+      "to taking to hospital"
+    ],
+    "dogru": 0,
+    "aciklama": "Geçmişte maruz kalınan eylemi hatırlamak → 'remember + being + V3'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0050",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "good at",
+    "zorluk": 1,
+    "soru": "My sister is very good ----.",
+    "secenekler": [
+      "in playing the guitar",
+      "with playing the guitar",
+      "for playing the guitar",
+      "at playing the guitar",
+      "on playing the guitar"
+    ],
+    "dogru": 3,
+    "aciklama": "'good at + -ing'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "on (yüzey)",
+    "zorluk": 1,
+    "soru": "The keys are ----.",
+    "secenekler": [
+      "onto the kitchen table",
+      "in the kitchen table",
+      "to the kitchen table",
+      "into the kitchen table",
+      "on the kitchen table"
+    ],
+    "dogru": 4,
+    "aciklama": "Yüzey üzerinde durma → 'on'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "for + süre",
+    "zorluk": 1,
+    "soru": "We have been waiting for the bus ----.",
+    "secenekler": [
+      "while twenty minutes",
+      "for twenty minutes",
+      "from twenty minutes",
+      "during twenty minutes",
+      "since twenty minutes"
+    ],
+    "dogru": 1,
+    "aciklama": "Süre → 'for'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "on + gün",
+    "zorluk": 1,
+    "soru": "The shop is closed ----.",
+    "secenekler": [
+      "on Sundays",
+      "to Sundays",
+      "at Sundays",
+      "in Sundays",
+      "by Sundays"
+    ],
+    "dogru": 0,
+    "aciklama": "Günlerle 'on'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "depend on",
+    "zorluk": 2,
+    "soru": "The success of the new product depends ----.",
+    "secenekler": [
+      "of how much customers pay",
+      "at how much customers pay",
+      "on how much customers are willing to pay",
+      "with how much customers pay",
+      "in how much customers pay"
+    ],
+    "dogru": 2,
+    "aciklama": "'depend on'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "increase by",
+    "zorluk": 2,
+    "soru": "The number of tourists has increased ----.",
+    "secenekler": [
+      "of 15 percent compared to last year",
+      "to 15 percent more than last year",
+      "by 15 percent compared to last year",
+      "at 15 percent compared to last year",
+      "with 15 percent compared to last year"
+    ],
+    "dogru": 2,
+    "aciklama": "Artış miktarı 'by' ile verilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "interested in",
+    "zorluk": 2,
+    "soru": "Many young people are not interested ----.",
+    "secenekler": [
+      "at politics or current affairs",
+      "in politics or current affairs",
+      "on politics or current affairs",
+      "about politics or current affairs",
+      "for politics or current affairs"
+    ],
+    "dogru": 1,
+    "aciklama": "'interested in'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "in spite of",
+    "zorluk": 3,
+    "soru": "The decision to close the factory was made ----.",
+    "secenekler": [
+      "in spite of strong opposition from local residents",
+      "in spite strong opposition from residents",
+      "despite of strong opposition from residents",
+      "in spite that there was opposition",
+      "although strong opposition from residents"
+    ],
+    "dogru": 0,
+    "aciklama": "'in spite of + isim'; 'despite' 'of' almaz, 'although' tam cümle ister.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.edat-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.edat",
+    "alt_konu": "Contrary to",
+    "zorluk": 3,
+    "soru": "----, the ancient manuscript was found to be in excellent condition.",
+    "secenekler": [
+      "In contrary to expectations",
+      "Contrary of expectations",
+      "Contrary expectations",
+      "On contrary to expectations",
+      "Contrary to expectations"
+    ],
+    "dogru": 4,
+    "aciklama": "'Contrary to' = …in aksine.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0050",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "only a few",
+    "zorluk": 1,
+    "soru": "There are only a few eggs left, ----.",
+    "secenekler": [
+      "so we don't need any more",
+      "so we have too many eggs",
+      "so we have plenty",
+      "so we need to buy some more",
+      "so there is a lot of eggs"
+    ],
+    "dogru": 3,
+    "aciklama": "Az yumurta kaldığı için daha almak gerekir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "every + tekil fiil",
+    "zorluk": 1,
+    "soru": "Every student in the class ----.",
+    "secenekler": [
+      "have a different hobby",
+      "are having different hobbies",
+      "have different hobbies",
+      "having a hobby",
+      "has a different hobby"
+    ],
+    "dogru": 4,
+    "aciklama": "'Every' tekil fiil alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "very little",
+    "zorluk": 1,
+    "soru": "I spent too much money last month, ----.",
+    "secenekler": [
+      "so I have very little left now",
+      "so I have plenty of money",
+      "so I have much money left",
+      "so I have many money now",
+      "so I have a lot left now"
+    ],
+    "dogru": 0,
+    "aciklama": "Çok harcayınca az kalır; 'money' sayılamaz → 'little'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "both + çoğul",
+    "zorluk": 1,
+    "soru": "Both of the restaurants ----.",
+    "secenekler": [
+      "is very popular with tourists",
+      "was popular with tourists",
+      "are very popular with tourists",
+      "popular with tourists",
+      "has been popular with tourists"
+    ],
+    "dogru": 2,
+    "aciklama": "'Both of' çoğul fiil alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "neither + tekil",
+    "zorluk": 2,
+    "soru": "Neither of the two witnesses ----.",
+    "secenekler": [
+      "are describing the thief",
+      "was able to describe the thief",
+      "have describe the thief",
+      "were able describe the thief",
+      "able to describe the thief"
+    ],
+    "dogru": 1,
+    "aciklama": "'Neither of' tekil fiil alır ve yapı eksiksiz olmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "very few",
+    "zorluk": 2,
+    "soru": "Although there were plenty of seats on the bus, ----.",
+    "secenekler": [
+      "many passengers sat down",
+      "there was no room to sit",
+      "all the seats were taken",
+      "very few passengers chose to sit down",
+      "a lot of passengers sat down"
+    ],
+    "dogru": 3,
+    "aciklama": "'Although' zıtlık ister: çok koltuk vardı ama pek az kişi oturdu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "each + tekil",
+    "zorluk": 2,
+    "soru": "Each of the participants ----.",
+    "secenekler": [
+      "were given gifts at the end of the study",
+      "was given a small gift at the end of the study",
+      "are given a gift yesterday",
+      "given a gift at the end of the study",
+      "have been given gifts at the end"
+    ],
+    "dogru": 1,
+    "aciklama": "'Each of' tekil fiil alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "So little ... that",
+    "zorluk": 3,
+    "soru": "So little is known about the deep ocean ----.",
+    "secenekler": [
+      "because scientists call it unexplored",
+      "which scientists call unexplored",
+      "that scientists often call it the last unexplored frontier",
+      "as scientists call it unexplored",
+      "so scientists call it unexplored"
+    ],
+    "dogru": 2,
+    "aciklama": "'So little ... that' (o kadar az … ki) kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.quantifier-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.quantifier",
+    "alt_konu": "none of + tekil",
+    "zorluk": 3,
+    "soru": "None of the proposals ----.",
+    "secenekler": [
+      "has been accepted by the committee so far",
+      "being accepted by the committee",
+      "have accept by the committee so far",
+      "has accepting by the committee",
+      "were accept by the committee"
+    ],
+    "dogru": 0,
+    "aciklama": "'None of' tekil fiil alabilir; yapı doğru edilgen olmalıdır: 'has been accepted'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "bigger than",
+    "zorluk": 1,
+    "soru": "My new flat is bigger ----.",
+    "secenekler": [
+      "that my old one",
+      "from my old one",
+      "like my old one",
+      "as my old one",
+      "than my old one"
+    ],
+    "dogru": 4,
+    "aciklama": "Karşılaştırma sıfatı 'than' alır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "the best ... ever",
+    "zorluk": 1,
+    "soru": "This is the best pizza ----.",
+    "secenekler": [
+      "I have never eaten",
+      "than I have eaten",
+      "as I have eaten",
+      "I have ever eaten",
+      "I ever eat"
+    ],
+    "dogru": 3,
+    "aciklama": "En üstünlük + 'I have ever ...'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "not as ... as",
+    "zorluk": 1,
+    "soru": "The weather today is not as warm ----.",
+    "secenekler": [
+      "so it was yesterday",
+      "like it was yesterday",
+      "that it was yesterday",
+      "as it was yesterday",
+      "than it was yesterday"
+    ],
+    "dogru": 3,
+    "aciklama": "'as ... as' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "the more ... the better",
+    "zorluk": 1,
+    "soru": "The more you practise, ----.",
+    "secenekler": [
+      "better you will become",
+      "more you will become better",
+      "the better you will become",
+      "the best you will become",
+      "you will become better"
+    ],
+    "dogru": 2,
+    "aciklama": "'The more ..., the better ...'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "much + comparative",
+    "zorluk": 2,
+    "soru": "Travelling by high-speed train is ----.",
+    "secenekler": [
+      "much fast than travelling by bus",
+      "much faster than travelling by bus",
+      "more faster than travelling by bus",
+      "as faster as travelling by bus",
+      "the fastest than travelling by bus"
+    ],
+    "dogru": 1,
+    "aciklama": "'much' + '-er' + 'than'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "twice as ... as",
+    "zorluk": 2,
+    "soru": "The population of the city is now twice ----.",
+    "secenekler": [
+      "the largest as it was in 1990",
+      "larger than it was twice in 1990",
+      "large as it was in 1990",
+      "as larger as it was in 1990",
+      "as large as it was in 1990"
+    ],
+    "dogru": 4,
+    "aciklama": "'twice as + sıfat + as'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "Of all ... the most",
+    "zorluk": 2,
+    "soru": "Of all the students in the class, ----.",
+    "secenekler": [
+      "Ali is the most hardworking",
+      "Ali is more hardworking",
+      "Ali is most hardworking than",
+      "Ali is as hardworking",
+      "Ali is hardworking than others"
+    ],
+    "dogru": 0,
+    "aciklama": "'Of all' → en üstünlük.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "the ... the ...",
+    "zorluk": 3,
+    "soru": "The longer the negotiations continued, ----.",
+    "secenekler": [
+      "less likely an agreement seemed",
+      "more unlikely an agreement seemed",
+      "the least likely agreement seemed",
+      "an agreement seemed less likely",
+      "the less likely an agreement seemed"
+    ],
+    "dogru": 4,
+    "aciklama": "'The longer ..., the less ...' yapısı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.comparison-0059",
+    "bolum": "tamamlama",
+    "konu": "gr.comparison",
+    "alt_konu": "than any other + tekil",
+    "zorluk": 3,
+    "soru": "The new vaccine is considerably more effective ----.",
+    "secenekler": [
+      "than all vaccine currently available",
+      "as any other vaccine currently available",
+      "than any other vaccines currently available",
+      "than any other vaccine currently available",
+      "that other vaccines currently available"
+    ],
+    "dogru": 3,
+    "aciklama": "'than any other + tekil isim'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0050",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "-ing kısaltma",
+    "zorluk": 1,
+    "soru": "The man ---- is my uncle.",
+    "secenekler": [
+      "stood next to the door",
+      "standing next to the door",
+      "is standing next to the door",
+      "to stand next to the door",
+      "stands next to the door"
+    ],
+    "dogru": 1,
+    "aciklama": "'who is standing' → 'standing'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0051",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "-ing zarf cümleciği",
+    "zorluk": 1,
+    "soru": "----, she started to cry.",
+    "secenekler": [
+      "Hears the bad news",
+      "To hear the bad news",
+      "Hearing the bad news",
+      "Being heard the bad news",
+      "Heard the bad news"
+    ],
+    "dogru": 2,
+    "aciklama": "'When she heard' → 'Hearing'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0052",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "V3 kısaltma",
+    "zorluk": 1,
+    "soru": "The books ---- are very old.",
+    "secenekler": [
+      "kept in the library basement",
+      "keeping in the library basement",
+      "keeps in the library basement",
+      "keep in the library basement",
+      "to keep in the library basement"
+    ],
+    "dogru": 0,
+    "aciklama": "Kitaplar saklanan şeydir → 'kept'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0053",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Not only ... but also",
+    "zorluk": 1,
+    "soru": "Not only did he win the race, ----.",
+    "secenekler": [
+      "but he also broke the world record",
+      "and he broke the world record",
+      "he also broke the record but",
+      "or he broke the world record",
+      "so he broke the world record"
+    ],
+    "dogru": 0,
+    "aciklama": "'Not only ..., but ... also' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0054",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Having + V3",
+    "zorluk": 2,
+    "soru": "----, the students were allowed to go home early.",
+    "secenekler": [
+      "Being finished their exams",
+      "Having been finished their exams",
+      "Finished their exams",
+      "To finish their exams",
+      "Having finished their exams"
+    ],
+    "dogru": 4,
+    "aciklama": "Önce sınavı bitirme; etken → 'Having finished'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0055",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Only after devrik",
+    "zorluk": 2,
+    "soru": "Only after he had left the house ----.",
+    "secenekler": [
+      "realised he that he had forgotten his keys",
+      "did he realise that he had forgotten his keys",
+      "he did realise that he forgot his keys",
+      "he realised that he had forgotten his keys",
+      "had he realise that he forgot his keys"
+    ],
+    "dogru": 1,
+    "aciklama": "'Only after ...' → ana cümle devrik: 'did he realise'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0056",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "V3 zarf cümleciği",
+    "zorluk": 2,
+    "soru": "----, the old bridge will be replaced by a modern one.",
+    "secenekler": [
+      "To build more than a century ago",
+      "Building more than a century ago",
+      "Having built more than a century ago",
+      "Built more than a century ago",
+      "Builds more than a century ago"
+    ],
+    "dogru": 3,
+    "aciklama": "Köprü inşa edilen şeydir → 'Built'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0057",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Hardly ... when",
+    "zorluk": 3,
+    "soru": "Hardly had the concert begun ----.",
+    "secenekler": [
+      "as the power went off",
+      "then the power went off",
+      "when the power went off",
+      "than the power went off",
+      "that the power went off"
+    ],
+    "dogru": 2,
+    "aciklama": "'Hardly ... when' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "gr.reduction_inversion-0058",
+    "bolum": "tamamlama",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "Never before devrik",
+    "zorluk": 3,
+    "soru": "Never before ----.",
+    "secenekler": [
+      "the city had experienced such a severe storm",
+      "the city experienced such a severe storm",
+      "had the city experienced such a severe storm",
+      "did the city experienced such a severe storm",
+      "has experienced the city such a severe storm"
+    ],
+    "dogru": 2,
+    "aciklama": "'Never before' → devrik: 'had the city experienced'.",
+    "paragraf_id": null
+  }
+]

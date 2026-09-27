@@ -1,0 +1,63 @@
+/// <reference types="vitest/config" />
+import { defineConfig } from 'vite';
+import preact from '@preact/preset-vite';
+import { VitePWA } from 'vite-plugin-pwa';
+
+// Modlar:
+//  (varsayılan) → dist/          PWA: service worker ile internetsiz çalışır (GitHub Pages / Netlify)
+//  android      → dist-android/  Capacitor APK'sı: dosyalar zaten cihazda, service worker gerekmez
+//  artifact     → dist-artifact/ claude.ai üzerinde paylaşılan sürüm: service worker kullanılamaz
+export default defineConfig(({ mode }) => {
+  const swYok = mode === 'android' || mode === 'artifact';
+  return {
+    // Göreli taban: GitHub Pages alt yolunda da Netlify kökünde de çalışır.
+    base: './',
+    plugins: [
+      preact(),
+      VitePWA({
+        disable: swYok,
+        registerType: 'autoUpdate',
+        injectRegister: 'auto',
+        includeAssets: ['icon.svg', 'apple-touch-icon.png'],
+        manifest: {
+          name: 'YDS Çalışma',
+          short_name: 'YDS',
+          description: 'İnternetsiz YDS hazırlık testleri ve konu analizi',
+          lang: 'tr',
+          start_url: './',
+          scope: './',
+          display: 'standalone',
+          orientation: 'portrait',
+          background_color: '#0f172a',
+          theme_color: '#0f172a',
+          icons: [
+            { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
+            { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          ],
+        },
+        workbox: {
+          globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest}'],
+          maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+          navigateFallback: 'index.html',
+        },
+      }),
+    ],
+    build: {
+      outDir: mode === 'android' ? 'dist-android' : mode === 'artifact' ? 'dist-artifact' : 'dist',
+      // Soru bankası ayrı parça: uygulama kodu güncellenince veri yeniden indirilmez (ve tersi).
+      chunkSizeWarningLimit: 1500,
+      rollupOptions: {
+        // Artifact tek HTML dosyasına gömülür (scripts/artifact-tek-dosya.mjs), parçalanmasın.
+        output:
+          mode === 'artifact'
+            ? {}
+            : { manualChunks: (id: string) => (id.includes('/src/data/') ? 'soru-bankasi' : undefined) },
+      },
+    },
+    test: {
+      include: ['tests/**/*.test.ts'],
+      environment: 'node',
+    },
+  };
+});

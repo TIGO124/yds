@@ -1,0 +1,4574 @@
+[
+  {
+    "id": "okuma.anafikir-0001",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Kentsel yeşil alanlar",
+    "zorluk": 1,
+    "soru": "Urban green spaces, such as parks and community gardens, offer far more than aesthetic value. Research has shown that people who live near green areas report lower levels of stress and are more likely to exercise regularly. In addition, trees help to reduce air pollution and lower temperatures during heatwaves. For these reasons, many city planners now regard green spaces as essential infrastructure rather than a luxury.\n\nWhat is the main idea of the passage?",
+    "secenekler": [
+      "Heatwaves have become more frequent in urban areas.",
+      "City planners are reluctant to invest in green spaces.",
+      "Community gardens are more popular than parks in most cities.",
+      "Regular exercise is the best way to reduce stress.",
+      "Green spaces provide important health and environmental benefits for cities."
+    ],
+    "dogru": 4,
+    "aciklama": "Parça yeşil alanların sağlık ve çevre yararlarını sıralayıp onların vazgeçilmez olduğu sonucuna varıyor; diğer seçenekler ya ayrıntı ya da metinde olmayan bilgiler.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0002",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Denizcilikte yön bulma",
+    "zorluk": 2,
+    "soru": "For centuries, sailors relied on the stars to find their way across the oceans. By measuring the angle between a particular star and the horizon, they could calculate their latitude with reasonable accuracy. Determining longitude, however, remained a serious problem until the eighteenth century, when the invention of an accurate marine clock finally allowed navigators to compare local time with the time at their home port.\n\nThe passage is mainly about ----.",
+    "secenekler": [
+      "the differences between latitude and the horizon",
+      "why sailors preferred travelling at night",
+      "how navigation methods at sea developed over time",
+      "the invention of the telescope",
+      "the dangers of long ocean voyages in the eighteenth century"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça yıldızlarla enlem hesabından deniz saatiyle boylam hesabına uzanan yön bulma yöntemlerinin gelişimini anlatıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0003",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Çoklu görev",
+    "zorluk": 2,
+    "soru": "Many people believe that multitasking allows them to get more done in less time. However, studies in cognitive psychology suggest the opposite. When people switch rapidly between tasks, their brains need time to readjust, which leads to more errors and slower overall performance. What feels like efficiency is, in reality, a series of small interruptions that reduce the quality of work.\n\nWhich of the following best states the main idea of the passage?",
+    "secenekler": [
+      "Cognitive psychology has little to say about productivity.",
+      "Multitasking is less efficient than many people think.",
+      "The brain can easily handle several tasks at the same time.",
+      "Switching between tasks improves the quality of work.",
+      "People who multitask make fewer errors than others."
+    ],
+    "dogru": 1,
+    "aciklama": "'However, studies ... suggest the opposite' cümlesi ana fikri verir: çoklu görev sanıldığı kadar verimli değildir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0004",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Antibiyotik direnci",
+    "zorluk": 3,
+    "soru": "Although antibiotics have saved millions of lives since their discovery, their overuse has created a new threat. Every time an antibiotic is used, bacteria that happen to be resistant survive and multiply. Over time, these resistant strains become dominant, making infections that were once easily treated potentially fatal. Health experts therefore stress that antibiotics should be prescribed only when they are truly necessary.\n\nWhich of the following best expresses the main point of the passage?",
+    "secenekler": [
+      "Antibiotics are no longer effective against any kind of infection.",
+      "Resistant bacteria can only be found in hospitals.",
+      "The discovery of antibiotics was a mistake in the history of medicine.",
+      "The careless use of antibiotics contributes to the spread of resistant bacteria.",
+      "Health experts recommend using antibiotics to prevent all infections."
+    ],
+    "dogru": 3,
+    "aciklama": "Parçanın odağı aşırı antibiyotik kullanımının dirençli bakterileri yaygınlaştırmasıdır. 'no longer effective against any' gibi seçenekler aşırı genellemedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0001",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Çin Seddi",
+    "zorluk": 1,
+    "soru": "The Great Wall of China was not built in a single period. Construction began as early as the seventh century BC, when various states built walls to protect themselves from their neighbours. The best-known sections, however, date from the Ming dynasty (1368–1644), when the wall was rebuilt with bricks and stone to defend the empire against invasions from the north.\n\nAccording to the passage, the best-known sections of the Great Wall ----.",
+    "secenekler": [
+      "were built during the Ming dynasty",
+      "were built to protect states from each other",
+      "were destroyed by invasions from the north",
+      "were made entirely of wood",
+      "were constructed in the seventh century BC"
+    ],
+    "dogru": 0,
+    "aciklama": "'The best-known sections, however, date from the Ming dynasty' cümlesi doğrudan cevabı verir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0002",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Ahtapotlarda renk değişimi",
+    "zorluk": 2,
+    "soru": "Octopuses are remarkable for their ability to change colour in a fraction of a second. This is made possible by thousands of special cells called chromatophores, which contain pigments and are located just beneath the skin. By expanding or contracting these cells, an octopus can blend into its surroundings, warn predators or communicate with other octopuses.\n\nAccording to the passage, chromatophores ----.",
+    "secenekler": [
+      "are cells containing pigments that allow octopuses to change colour",
+      "help octopuses to breathe under water",
+      "take several minutes to change the colour of the skin",
+      "are found deep inside the octopus's brain",
+      "are used only to attract a mate"
+    ],
+    "dogru": 0,
+    "aciklama": "Parçaya göre kromatoforlar derinin hemen altında bulunan, pigment içeren ve renk değişimini sağlayan hücrelerdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0003",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Penisilinin keşfi",
+    "zorluk": 2,
+    "soru": "In 1928, the Scottish scientist Alexander Fleming returned from holiday to find that one of his bacterial cultures had been contaminated by a mould. He noticed that the bacteria surrounding the mould had been destroyed. Fleming identified the mould as Penicillium notatum, but it was not until the early 1940s that other scientists managed to produce penicillin in large quantities.\n\nIt is stated in the passage that Fleming ----.",
+    "secenekler": [
+      "discovered penicillin while on holiday in Scotland",
+      "failed to identify the type of mould he had found",
+      "deliberately added mould to his bacterial cultures",
+      "noticed that the mould had killed the bacteria around it",
+      "produced penicillin in large quantities in 1928"
+    ],
+    "dogru": 3,
+    "aciklama": "'He noticed that the bacteria surrounding the mould had been destroyed' cümlesi doğru seçeneği destekler; büyük miktarda üretim 1940'larda başka bilim insanlarınca yapılmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0004",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Develerin uyumu (NOT sorusu)",
+    "zorluk": 3,
+    "soru": "Contrary to popular belief, camels do not store water in their humps. The humps actually contain fat, which can be broken down into energy when food is scarce. Camels survive in the desert thanks to several other adaptations: their kidneys conserve water efficiently, their body temperature can rise by several degrees before they start to sweat, and they can drink up to 100 litres of water in a short time.\n\nAccording to the passage, which of the following is NOT true about camels?",
+    "secenekler": [
+      "They can drink large amounts of water quickly.",
+      "They store water in their humps.",
+      "Their body temperature can rise before they start to sweat.",
+      "They can use their fat reserves as a source of energy.",
+      "Their kidneys conserve water efficiently."
+    ],
+    "dogru": 1,
+    "aciklama": "Parçanın ilk cümlesi develerin hörgüçlerinde su depolamadığını açıkça söyler; diğer seçenekler metinde doğrulanır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0001",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Halk kütüphaneleri",
+    "zorluk": 2,
+    "soru": "When the first public libraries opened in Britain in the mid-nineteenth century, many members of the upper classes opposed them. They feared that giving ordinary workers free access to books would encourage them to question the existing social order. Supporters, on the other hand, argued that libraries would make workers more responsible citizens and reduce crime.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "crime rates fell sharply after libraries were opened",
+      "libraries were closed after protests by the upper classes",
+      "public libraries were seen as having the power to influence society",
+      "the upper classes built the first public libraries",
+      "most workers in Britain were unable to read in the nineteenth century"
+    ],
+    "dogru": 2,
+    "aciklama": "Hem karşıtlar (düzeni sorgulatır) hem destekçiler (suçu azaltır) kütüphanelerin toplumu etkileyebileceğini düşünüyordu. Diğer seçenekler metinde desteklenmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0002",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Göçmen kuşlar",
+    "zorluk": 2,
+    "soru": "Some species of birds that migrate at night use the Earth's magnetic field to navigate. In laboratory experiments, when researchers altered the magnetic field around caged birds, the birds began to orient themselves in the wrong direction. However, when the natural magnetic field was restored, they quickly corrected their course.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "birds cannot see the stars when they are kept in cages",
+      "all birds migrate during the night",
+      "caged birds never attempt to migrate",
+      "the Earth's magnetic field is getting weaker every year",
+      "changes in the magnetic field can confuse some migrating birds"
+    ],
+    "dogru": 4,
+    "aciklama": "Manyetik alan değiştirilince kuşların yanlış yöne dönmesi, bu değişikliğin onları şaşırtabildiğini gösterir. 'all birds' aşırı genellemedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0003",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Dil öğrenimi",
+    "zorluk": 1,
+    "soru": "Maria had studied French for six years at school, but on her first visit to Paris she found that she could hardly understand what people were saying. The textbooks she had used had taught her formal language, whereas the people she met spoke quickly and used a great deal of slang.\n\nIt can be concluded from the passage that ----.",
+    "secenekler": [
+      "Maria had never studied French before visiting Paris",
+      "people in Paris refused to speak French to tourists",
+      "the language taught in Maria's textbooks differed from everyday speech",
+      "formal language is more difficult to learn than slang",
+      "Maria's French teachers spoke too quickly"
+    ],
+    "dogru": 2,
+    "aciklama": "Ders kitaplarının resmî dili öğretmesi ile insanların argo kullanması arasındaki fark, kitap dilinin günlük konuşmadan farklı olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0004",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Avustralya'da tavşanlar",
+    "zorluk": 3,
+    "soru": "In the 1950s, the introduction of the rabbit disease myxomatosis to Australia killed more than 90 percent of the rabbit population within a few years. Yet within a few decades, rabbit numbers had largely recovered. Scientists discovered that the surviving rabbits had developed genetic resistance to the disease, while the virus itself had become less deadly over time.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "all rabbits in Australia died in the 1950s",
+      "myxomatosis was introduced to Australia by accident",
+      "the virus became more deadly as rabbits became resistant",
+      "the attempt to control rabbits with a disease had only temporary success",
+      "rabbits are no longer considered a problem in Australia"
+    ],
+    "dogru": 3,
+    "aciklama": "Tavşan sayısının önce düşüp birkaç on yılda toparlanması, hastalıkla kontrol girişiminin yalnızca geçici başarı sağladığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0001",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "barren",
+    "zorluk": 1,
+    "soru": "The drought lasted for three years and left the farmland barren. Nothing could grow in the dry, cracked soil, and many farmers were forced to leave the region in search of work.\n\nThe word 'barren' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "unproductive",
+      "crowded",
+      "fertile",
+      "flooded",
+      "expensive"
+    ],
+    "dogru": 0,
+    "aciklama": "'Nothing could grow' ifadesi toprağın verimsiz ('barren' = unproductive) olduğunu gösterir; 'fertile' zıt anlamlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0002",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "corroborate",
+    "zorluk": 2,
+    "soru": "The new evidence seemed to corroborate the witness's account: the security camera showed the suspect entering the building at exactly the time she had described.\n\nThe word 'corroborate' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "replace",
+      "confirm",
+      "contradict",
+      "exaggerate",
+      "ignore"
+    ],
+    "dogru": 1,
+    "aciklama": "Kamera görüntüsü tanığın anlattığıyla örtüşüyor; 'corroborate' = doğrulamak (confirm).",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0003",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "alleviate",
+    "zorluk": 2,
+    "soru": "Although the medication alleviated the patients' pain, it did not cure the underlying condition, and the symptoms returned as soon as the treatment was stopped.\n\nThe word 'alleviated' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "caused",
+      "diagnosed",
+      "intensified",
+      "ignored",
+      "relieved"
+    ],
+    "dogru": 4,
+    "aciklama": "'Although ... it did not cure' zıtlığı, ilacın ağrıyı hafiflettiğini ('alleviate' = relieve) gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0004",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "ambiguous",
+    "zorluk": 3,
+    "soru": "The minister's speech was deliberately ambiguous. Journalists could not tell whether she supported the proposed reform or intended to block it, and both sides claimed that she was on their side.\n\nThe word 'ambiguous' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "extremely short",
+      "carefully rehearsed",
+      "clearly hostile",
+      "widely praised",
+      "open to more than one interpretation"
+    ],
+    "dogru": 4,
+    "aciklama": "Gazetecilerin bakanın hangi tarafta olduğunu anlayamaması, konuşmanın birden fazla şekilde yorumlanabildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0001",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Eleştirel tutum",
+    "zorluk": 2,
+    "soru": "It is astonishing that, in the twenty-first century, millions of children still lack access to basic education. Governments that spend enormous sums on weapons can surely find the resources to build schools and train teachers. The problem is not a lack of money but a lack of political will.\n\nThe author's attitude towards governments can best be described as ----.",
+    "secenekler": [
+      "indifferent",
+      "admiring",
+      "amused",
+      "critical",
+      "uncertain"
+    ],
+    "dogru": 3,
+    "aciklama": "'It is astonishing', 'can surely find' ve 'a lack of political will' ifadeleri yazarın hükümetleri eleştirdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0002",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Yazarın amacı",
+    "zorluk": 2,
+    "soru": "Social media platforms have undoubtedly made it easier for people to stay in touch. Yet we should not ignore their darker side: the spread of false information, the pressure to present a perfect life and the loss of privacy. A balanced view recognises both the benefits and the dangers.\n\nThe author's main purpose in the passage is to ----.",
+    "secenekler": [
+      "persuade readers to stop using social media",
+      "explain how social media platforms make money",
+      "present a balanced view of social media",
+      "praise social media for spreading information",
+      "describe the history of social media"
+    ],
+    "dogru": 2,
+    "aciklama": "Yazar önce yararları, sonra zararları sayıyor ve son cümlede dengeli bakışı savunuyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0003",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Bilgilendirme amacı",
+    "zorluk": 1,
+    "soru": "Visitors to the museum will find an impressive collection of ancient pottery, jewellery and tools. The exhibition is open every day from 9 a.m. to 6 p.m., and guided tours are available in five languages. Tickets can be purchased online or at the entrance.\n\nThe main purpose of the passage is to ----.",
+    "secenekler": [
+      "inform visitors about a museum exhibition",
+      "explain how ancient pottery was made",
+      "persuade readers to become guides",
+      "criticise the museum's opening hours",
+      "compare different museums"
+    ],
+    "dogru": 0,
+    "aciklama": "Metin saat, rehberli tur ve bilet bilgisi veriyor; amacı ziyaretçileri bilgilendirmektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0004",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Şüpheci tutum",
+    "zorluk": 3,
+    "soru": "Proponents of the new dam claim that it will provide cheap electricity for millions. What they rarely mention is that thousands of villagers will lose their homes and that a unique ecosystem will be destroyed forever. One wonders whether the promised benefits are worth such an irreversible cost.\n\nIt is clear from the passage that the author ----.",
+    "secenekler": [
+      "strongly supports the construction of the dam",
+      "has serious doubts about the benefits of the dam",
+      "believes that villagers will benefit most from the dam",
+      "is mainly concerned with the price of electricity",
+      "has no opinion about the dam project"
+    ],
+    "dogru": 1,
+    "aciklama": "'What they rarely mention' ve 'One wonders whether ... worth such an irreversible cost' ifadeleri yazarın barajın yararlarından ciddi şüphe duyduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0005",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Kâğıt geri dönüşümü",
+    "zorluk": 1,
+    "soru": "Recycling paper saves trees, but it also reduces energy use. Making paper from recycled material requires far less energy than producing it from fresh wood pulp. It also uses less water and creates less air pollution. Therefore, recycling paper benefits the environment in several ways.\n\nWhat is the main idea of the passage?",
+    "secenekler": [
+      "Recycling paper has a number of environmental benefits.",
+      "Paper production uses more water than any other industry.",
+      "Air pollution is mainly caused by paper factories.",
+      "Trees are the only source of paper.",
+      "Recycled paper is more expensive than new paper."
+    ],
+    "dogru": 0,
+    "aciklama": "Son cümle ana fikri özetler: kâğıt geri dönüşümü çevreye birçok açıdan yarar sağlar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0006",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yarasalar",
+    "zorluk": 1,
+    "soru": "Many people think that bats are blind, but this is a myth. Most bats can see quite well. In addition, many species use echolocation: they produce high-pitched sounds and listen to the echoes to locate objects and insects in the dark. This combination of skills makes them excellent night hunters.\n\nWhat is the main idea of the passage?",
+    "secenekler": [
+      "Echolocation is used by humans as well as bats.",
+      "Bats only hunt during the day.",
+      "All bats are completely blind.",
+      "Insects are able to hear the sounds made by bats.",
+      "Bats have effective ways of finding their way and food in the dark."
+    ],
+    "dogru": 4,
+    "aciklama": "Parça yarasaların görme ve yankıyla yön bulma becerileri sayesinde iyi gece avcıları olduğunu anlatıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0007",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yaşam boyu öğrenme",
+    "zorluk": 2,
+    "soru": "In the past, a university degree almost guaranteed a secure job. Today, however, rapid technological change means that many skills become outdated within a few years. As a result, workers increasingly need to update their knowledge throughout their careers through short courses, online programmes and on-the-job training.\n\nThe main point of the passage is that ----.",
+    "secenekler": [
+      "online programmes are better than university education",
+      "workers today are less educated than in the past",
+      "technology has made most jobs disappear",
+      "lifelong learning has become necessary in today's job market",
+      "university degrees are no longer offered by most institutions"
+    ],
+    "dogru": 3,
+    "aciklama": "'workers increasingly need to update their knowledge throughout their careers' cümlesi ana fikri verir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0008",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Sulak alanlar",
+    "zorluk": 2,
+    "soru": "Wetlands such as marshes and swamps were once regarded as useless land to be drained for farming. Scientists now know that they perform vital functions. They filter pollutants from water, absorb floodwater during heavy rains and provide habitats for many species of birds and fish. Protecting wetlands is therefore both an environmental and an economic priority.\n\nWhat is the main idea of the passage?",
+    "secenekler": [
+      "Pollution in wetlands cannot be reduced.",
+      "Wetlands are valuable ecosystems that deserve protection.",
+      "Floods are becoming more common because of heavy rains.",
+      "Wetlands should be drained to create more farmland.",
+      "Birds prefer marshes to other habitats."
+    ],
+    "dogru": 1,
+    "aciklama": "Parça sulak alanların işlevlerini sayıp korunmaları gerektiği sonucuna varıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0009",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yaratıcılık",
+    "zorluk": 3,
+    "soru": "It is often assumed that creativity is a rare gift possessed by a few talented individuals. Research, however, suggests that creative thinking can be developed like any other skill. People who are regularly exposed to new ideas, who are encouraged to take risks and who are allowed to make mistakes tend to produce more original work, regardless of their initial ability.\n\nWhat is the main idea of the passage?",
+    "secenekler": [
+      "Creative people usually avoid taking risks.",
+      "Only a small number of people are born creative.",
+      "Creativity can be improved through the right conditions and practice.",
+      "Talented individuals do not need to practise.",
+      "Making mistakes always prevents original work."
+    ],
+    "dogru": 2,
+    "aciklama": "'Research, however, suggests that creative thinking can be developed' cümlesi yaygın görüşü çürüterek ana fikri verir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0010",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Mide ülseri",
+    "zorluk": 3,
+    "soru": "For much of the twentieth century, the stomach ulcer was blamed on stress and spicy food. In the 1980s, two Australian researchers challenged this view, arguing that most ulcers were caused by a bacterium. Their claim was initially dismissed by the medical establishment, but it was eventually confirmed, and the pair received the Nobel Prize in 2005. Today, most ulcers are cured with antibiotics.\n\nThe passage mainly discusses ----.",
+    "secenekler": [
+      "the history of the Nobel Prize in medicine",
+      "the effects of stress on the human body",
+      "why spicy food is harmful to the stomach",
+      "how a widely held medical belief about ulcers was overturned",
+      "the dangers of using antibiotics too often"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça, ülserin nedenine dair yaygın inancın nasıl değiştiğini anlatıyor; Nobel ödülü yalnızca bir ayrıntıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0005",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Amazon Nehri",
+    "zorluk": 1,
+    "soru": "The Amazon River carries more water than any other river in the world. It flows for about 6,400 kilometres through several South American countries before reaching the Atlantic Ocean. During the rainy season, parts of the river can be more than 40 kilometres wide.\n\nAccording to the passage, the Amazon River ----.",
+    "secenekler": [
+      "is the shortest river in South America",
+      "is 40 kilometres wide throughout the year",
+      "flows into the Pacific Ocean",
+      "is located in a single country",
+      "carries more water than any other river"
+    ],
+    "dogru": 4,
+    "aciklama": "İlk cümle doğrudan cevaptır. Nehir Atlas Okyanusu'na dökülür ve 40 km genişlik yalnızca yağmur mevsimi içindir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0006",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Olimpiyat Oyunları",
+    "zorluk": 1,
+    "soru": "The first modern Olympic Games were held in Athens in 1896. Only 14 countries and about 240 athletes took part, and all of the competitors were men. Women were allowed to compete for the first time four years later, at the Paris Games of 1900.\n\nIt is stated in the passage that women ----.",
+    "secenekler": [
+      "took part in the 1896 Games in Athens",
+      "first competed in the Olympic Games in 1900",
+      "were not allowed to compete until the 1920s",
+      "organised the first modern Olympic Games",
+      "made up half of the athletes in 1896"
+    ],
+    "dogru": 1,
+    "aciklama": "Son cümle kadınların ilk kez dört yıl sonra, 1900 Paris Oyunları'nda yarıştığını söyler.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0007",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Tardigradlar",
+    "zorluk": 2,
+    "soru": "Tardigrades are tiny animals, less than a millimetre long, that can survive extreme conditions. When their environment dries out, they lose almost all the water in their bodies and enter a state similar to death. In this condition, they can withstand freezing temperatures, intense radiation and even the vacuum of space, returning to normal when water becomes available again.\n\nAccording to the passage, when their environment dries out, tardigrades ----.",
+    "secenekler": [
+      "lose most of the water in their bodies and become inactive",
+      "immediately die because of the lack of water",
+      "move to places where the temperature is warmer",
+      "produce large amounts of radiation",
+      "grow to more than a millimetre in length"
+    ],
+    "dogru": 0,
+    "aciklama": "'they lose almost all the water in their bodies and enter a state similar to death' → vücut suyunu kaybedip hareketsiz hale gelirler; ölmezler.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0008",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Matbaa",
+    "zorluk": 2,
+    "soru": "The printing press, developed by Johannes Gutenberg around 1440, used movable metal type that could be arranged and rearranged to print different pages. Before its invention, books were copied by hand, a process that could take months. Within fifty years, printing presses had spread to more than 250 European cities.\n\nWhich of the following is stated in the passage?",
+    "secenekler": [
+      "Gutenberg invented paper in 1440.",
+      "Movable type was made of wood.",
+      "Before the printing press, copying a book by hand could take months.",
+      "The printing press was used in only a few cities.",
+      "Printing presses reached Europe fifty years after they were invented in Asia."
+    ],
+    "dogru": 2,
+    "aciklama": "'books were copied by hand, a process that could take months' cümlesi doğru seçeneği destekler; harfler metaldir ve matbaa 250'den fazla şehre yayılmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0009",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Venüs",
+    "zorluk": 3,
+    "soru": "Although Venus is similar to Earth in size and mass, conditions on its surface are extremely hostile. Its thick atmosphere, composed mainly of carbon dioxide, traps heat so effectively that surface temperatures reach about 465°C, hot enough to melt lead. Clouds of sulphuric acid also cover the planet, reflecting most of the sunlight that reaches it.\n\nAccording to the passage, the extremely high temperatures on Venus are mainly caused by ----.",
+    "secenekler": [
+      "its thick carbon dioxide atmosphere trapping heat",
+      "the absence of clouds over the planet",
+      "its small size compared to Earth",
+      "lead melting on its surface",
+      "its distance from the Sun being greater than Earth's"
+    ],
+    "dogru": 0,
+    "aciklama": "'Its thick atmosphere ... traps heat so effectively that surface temperatures reach about 465°C' → yüksek sıcaklığın nedeni ısıyı hapseden kalın atmosferdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.detay-0010",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Katil balinalar",
+    "zorluk": 3,
+    "soru": "Contrary to what their name suggests, killer whales are not whales but the largest members of the dolphin family. They live in close family groups called pods, which can include up to forty individuals. Each pod has its own distinctive set of calls, and young killer whales learn these calls from their mothers.\n\nAccording to the passage, which of the following is true?",
+    "secenekler": [
+      "A pod can include hundreds of individuals.",
+      "Killer whales usually live alone.",
+      "All pods use exactly the same calls.",
+      "Killer whales belong to the dolphin family.",
+      "Young killer whales learn their calls from other pods."
+    ],
+    "dogru": 3,
+    "aciklama": "İlk cümle katil balinaların yunus ailesinin en büyük üyeleri olduğunu söyler; diğer seçenekler metinle çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0005",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Hava durumu",
+    "zorluk": 1,
+    "soru": "Emma checked the weather forecast before leaving home. She put on her raincoat, took her umbrella and wore her waterproof boots instead of her usual shoes.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "Emma was going to the beach to sunbathe",
+      "Emma's usual shoes were waterproof",
+      "the weather forecast was usually wrong",
+      "Emma did not own an umbrella",
+      "the forecast predicted rain"
+    ],
+    "dogru": 4,
+    "aciklama": "Yağmurluk, şemsiye ve su geçirmez bot, tahminin yağmur olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0006",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Dört günlük çalışma haftası",
+    "zorluk": 2,
+    "soru": "When the company introduced a four-day working week as an experiment, it expected productivity to fall. Instead, output remained the same, the number of sick days dropped by a third, and employees reported feeling less stressed. At the end of the trial, the management decided to make the change permanent.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "productivity fell sharply during the experiment",
+      "the results of the trial were more positive than the company had expected",
+      "most employees wanted to return to a five-day week",
+      "employees worked longer hours during the trial",
+      "the management was unhappy with the results"
+    ],
+    "dogru": 1,
+    "aciklama": "Şirket verimliliğin düşmesini beklerken 'Instead' ile olumlu sonuçlar sıralanır; sonuçlar beklenenden iyidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0007",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Permafrost",
+    "zorluk": 2,
+    "soru": "In some regions of the Arctic, the ground has been frozen for thousands of years. This frozen soil, known as permafrost, contains huge amounts of carbon from ancient plants. As global temperatures rise, the permafrost is beginning to thaw, and scientists are worried about what this could mean for the climate.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "rising temperatures will cause the permafrost to expand",
+      "permafrost is found in every part of the world",
+      "thawing permafrost may release carbon that affects the climate",
+      "the Arctic has always been free of ice",
+      "ancient plants are still growing in the permafrost"
+    ],
+    "dogru": 2,
+    "aciklama": "Permafrostun büyük miktarda karbon içermesi ve bilim insanlarının iklim açısından endişelenmesi, erimenin karbonu açığa çıkarabileceğini düşündürür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0008",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Buzdolabından önce",
+    "zorluk": 2,
+    "soru": "Before the invention of refrigeration, people used a variety of methods to keep food from spoiling. Meat and fish were often dried, smoked or preserved in salt, while fruit was turned into jam. In winter, some wealthy families stored ice cut from frozen lakes in special underground buildings.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "jam was invented after the refrigerator",
+      "salt was used only to preserve fruit",
+      "people did not eat meat before refrigeration",
+      "all families had underground ice houses",
+      "keeping food fresh was a challenge before refrigerators existed"
+    ],
+    "dogru": 4,
+    "aciklama": "Çeşitli koruma yöntemlerinin geliştirilmesi, buzdolabından önce yiyecekleri taze tutmanın zor olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0009",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Tatlı patates",
+    "zorluk": 3,
+    "soru": "Early explorers who reached the Pacific islands were surprised to find that sweet potatoes, a plant native to South America, were already being grown there. Since the islands lie thousands of kilometres from the American coast, some researchers have suggested that Polynesian sailors reached South America and brought the plant back long before Europeans arrived.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "Polynesian sailors may have been capable of very long ocean voyages",
+      "early explorers brought sweet potatoes with them",
+      "sweet potatoes originally came from the Pacific islands",
+      "the Pacific islands are close to the American coast",
+      "Europeans introduced sweet potatoes to the Pacific islands"
+    ],
+    "dogru": 0,
+    "aciklama": "Binlerce kilometrelik mesafeye rağmen bitkinin getirilmiş olabileceği görüşü, Polinezyalı denizcilerin çok uzun yolculuklar yapabildiğini düşündürür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.cikarim-0010",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Hız kameraları",
+    "zorluk": 3,
+    "soru": "The city council installed speed cameras on the main road after a series of serious accidents. In the following year, the number of accidents on that road fell by 40 percent. However, accidents on the smaller streets nearby increased, as some drivers began using them to avoid the cameras.\n\nIt can be inferred from the passage that ----.",
+    "secenekler": [
+      "drivers generally obeyed the speed limits on all roads",
+      "the cameras solved one problem but partly shifted it elsewhere",
+      "the speed cameras had no effect on accidents",
+      "the council removed the cameras after one year",
+      "the smaller streets were safer than the main road"
+    ],
+    "dogru": 1,
+    "aciklama": "Ana yolda kazalar azalırken yan sokaklarda artması, sorunun kısmen başka yere kaydığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0005",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "immense",
+    "zorluk": 1,
+    "soru": "The hotel was so immense that it took us almost ten minutes to walk from our room to the restaurant.\n\nThe word 'immense' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "very cheap",
+      "very quiet",
+      "very modern",
+      "very large",
+      "very old"
+    ],
+    "dogru": 3,
+    "aciklama": "Odadan restorana on dakika yürünmesi otelin çok büyük ('immense') olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0006",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "famished",
+    "zorluk": 1,
+    "soru": "After the long hike in the heat, the children were famished and ate everything that was put in front of them.\n\nThe word 'famished' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "very happy",
+      "slightly bored",
+      "extremely hungry",
+      "very frightened",
+      "extremely tired"
+    ],
+    "dogru": 2,
+    "aciklama": "'ate everything that was put in front of them' ipucu çok aç ('famished') olduklarını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0007",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "negligible",
+    "zorluk": 2,
+    "soru": "The effects of the new policy were negligible: after a year, unemployment had fallen by only 0.1 percent, a change that most economists considered meaningless.\n\nThe word 'negligible' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "clearly positive",
+      "extremely harmful",
+      "so small as to be unimportant",
+      "long-lasting",
+      "very surprising"
+    ],
+    "dogru": 2,
+    "aciklama": "İki noktadan sonraki açıklama (yalnızca %0,1, anlamsız bir değişim) etkinin önemsiz derecede küçük olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0008",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "mitigate",
+    "zorluk": 2,
+    "soru": "Scientists hope that the new treatment will mitigate the symptoms of the disease, even if it cannot cure it completely.\n\nThe word 'mitigate' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "reduce",
+      "cause",
+      "worsen",
+      "spread",
+      "identify"
+    ],
+    "dogru": 0,
+    "aciklama": "'even if it cannot cure it completely' tam tedavi olmasa da belirtileri hafifletmeyi ('mitigate' = reduce) anlatır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0009",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "plausible",
+    "zorluk": 2,
+    "soru": "The author's argument is quite plausible; the evidence she presents is consistent and her reasoning is easy to follow.\n\nThe word 'plausible' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "confusing",
+      "exaggerated",
+      "outdated",
+      "offensive",
+      "believable"
+    ],
+    "dogru": 4,
+    "aciklama": "Tutarlı kanıt ve kolay izlenen akıl yürütme, argümanın inandırıcı ('plausible') olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.kelime-0010",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "adamant",
+    "zorluk": 3,
+    "soru": "Although the company's chief executive was initially adamant that no jobs would be lost, he was eventually forced to announce hundreds of redundancies.\n\nThe word 'adamant' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "deeply sorry",
+      "firmly determined",
+      "secretly pleased",
+      "completely unaware",
+      "slightly uncertain"
+    ],
+    "dogru": 1,
+    "aciklama": "'Although ... eventually forced' zıtlığı, yöneticinin başta kesin bir tutumla ('adamant' = kararlı, ısrarlı) iş kaybı olmayacağını söylediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0005",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Reklam amacı",
+    "zorluk": 1,
+    "soru": "Our new fitness app makes exercising fun! Track your progress, join friendly challenges and get personalised workout plans. Download it today and enjoy your first month for free.\n\nThe main purpose of the passage is to ----.",
+    "secenekler": [
+      "explain the history of exercise",
+      "compare different sports",
+      "warn about the dangers of exercise",
+      "advertise a product",
+      "criticise fitness apps"
+    ],
+    "dogru": 3,
+    "aciklama": "'Download it today', 'first month for free' gibi ifadeler metnin bir ürünü tanıtıp satmaya çalıştığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0006",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Onaylamayan tutum",
+    "zorluk": 2,
+    "soru": "Some critics claim that video games are nothing more than a waste of time. This view ignores a growing body of research showing that certain games can improve problem-solving skills, reaction times and even cooperation between players. Dismissing all games as harmful is, quite simply, unfair.\n\nThe author's attitude towards the critics is ----.",
+    "secenekler": [
+      "sympathetic",
+      "supportive",
+      "enthusiastic",
+      "neutral",
+      "disapproving"
+    ],
+    "dogru": 4,
+    "aciklama": "'This view ignores...' ve 'quite simply, unfair' ifadeleri yazarın eleştirmenlere karşı olumsuz (disapproving) tutumunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0007",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Kitap eleştirisi",
+    "zorluk": 2,
+    "soru": "The novel's plot moves slowly, and some of the minor characters are rather forgettable. Nevertheless, the author's vivid descriptions of life in a small fishing village and her deep understanding of human relationships make the book well worth reading.\n\nThe writer's overall opinion of the novel is ----.",
+    "secenekler": [
+      "mainly positive despite some weaknesses",
+      "completely indifferent",
+      "unclear because no reasons are given",
+      "critical of its descriptions of village life",
+      "entirely negative"
+    ],
+    "dogru": 0,
+    "aciklama": "'Nevertheless ... well worth reading' ifadesi zayıflıklara rağmen genel görüşün olumlu olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0008",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "İkna amacı",
+    "zorluk": 2,
+    "soru": "Every year, thousands of tonnes of plastic enter the oceans, harming marine life and entering the food chain. The solution is within our reach: by reducing single-use plastics, supporting recycling schemes and choosing reusable products, each of us can make a difference. The time to act is now.\n\nThe author's main purpose is to ----.",
+    "secenekler": [
+      "entertain readers with a story about the sea",
+      "compare different types of marine life",
+      "encourage readers to reduce plastic use",
+      "describe how plastic is manufactured",
+      "prove that recycling is impossible"
+    ],
+    "dogru": 2,
+    "aciklama": "'each of us can make a difference' ve 'The time to act is now' ifadeleri okuru harekete geçirmeye yöneliktir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0009",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Şüpheci tutum",
+    "zorluk": 3,
+    "soru": "The minister described the new housing plan as a historic achievement. Yet the plan provides only a fraction of the homes that are needed, and most of them will be too expensive for the families who need them most. Calling this a historic achievement seems, at best, an overstatement.\n\nThe author's attitude towards the housing plan is ----.",
+    "secenekler": [
+      "optimistic",
+      "sceptical",
+      "admiring",
+      "grateful",
+      "indifferent"
+    ],
+    "dogru": 1,
+    "aciklama": "'Yet', 'only a fraction' ve 'at best, an overstatement' ifadeleri yazarın plana şüpheyle yaklaştığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.tutum-0010",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Dengeli tutum",
+    "zorluk": 3,
+    "soru": "Some scientists argue that intelligent life must be common in the universe, given the enormous number of planets. Others point out that, despite decades of searching, we have not found a single signal from another civilisation. Both positions have merit, and until more evidence emerges, the question remains open.\n\nThe author's attitude towards the question of intelligent life elsewhere is ----.",
+    "secenekler": [
+      "certain that humans are alone",
+      "uninterested",
+      "strongly convinced that aliens exist",
+      "balanced and cautious",
+      "dismissive of both positions"
+    ],
+    "dogru": 3,
+    "aciklama": "'Both positions have merit' ve 'the question remains open' ifadeleri yazarın dengeli ve temkinli olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "okuma.anafikir-0011",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Ergen uykusu",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Adults need more sleep than teenagers do.",
+      "Schools should reduce the number of lessons per day.",
+      "Teenagers should go to bed earlier to improve their grades.",
+      "School start times may not suit the natural sleep patterns of teenagers.",
+      "Morning classes are always more difficult than afternoon classes."
+    ],
+    "dogru": 3,
+    "aciklama": "Parça ergenlerin biyolojik saatiyle erken başlayan okul saatleri arasındaki uyumsuzluğu anlatıyor.",
+    "paragraf_id": "p-0001"
+  },
+  {
+    "id": "okuma.detay-0011",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Ergen uykusu",
+    "zorluk": 1,
+    "soru": "According to the passage, when schools started later, students ----.",
+    "secenekler": [
+      "stopped attending morning classes",
+      "felt sleepy earlier in the evening",
+      "needed less sleep than before",
+      "were late more often",
+      "slept longer and did better in morning classes"
+    ],
+    "dogru": 4,
+    "aciklama": "'students slept longer, arrived on time more often and performed better in morning classes' cümlesi.",
+    "paragraf_id": "p-0001"
+  },
+  {
+    "id": "okuma.cikarim-0011",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Ergen uykusu",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "adults' internal clocks shift in the same way as teenagers'",
+      "most schools have already changed their timetables",
+      "early school start times may contribute to sleep deprivation among teenagers",
+      "a thirty-minute delay has no effect on students",
+      "teenagers are lazier than younger children"
+    ],
+    "dogru": 2,
+    "aciklama": "Öğrencilerin vücutları hâlâ dinlenmeye ihtiyaç duyarken kalkması, erken saatlerin uykusuzluğa katkıda bulunabileceğini düşündürür.",
+    "paragraf_id": "p-0001"
+  },
+  {
+    "id": "okuma.anafikir-0012",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Mikroplastikler",
+    "zorluk": 2,
+    "soru": "The passage mainly deals with ----.",
+    "secenekler": [
+      "the widespread presence of microplastics in drinking water and responses to it",
+      "how car tyres are recycled",
+      "the process of manufacturing synthetic clothing",
+      "the health benefits of bottled water",
+      "the proven dangers of microplastics to human health"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça mikroplastiklerin içme suyunda yaygınlığını ve buna verilen tepkileri anlatıyor; sağlık riski henüz kanıtlanmamıştır.",
+    "paragraf_id": "p-0002"
+  },
+  {
+    "id": "okuma.detay-0012",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Mikroplastikler",
+    "zorluk": 1,
+    "soru": "According to the passage, microplastics ----.",
+    "secenekler": [
+      "have been found only in bottled water",
+      "can come from synthetic clothing and car tyres",
+      "are larger than five millimetres",
+      "are easily removed by current filters",
+      "are known to cause serious diseases"
+    ],
+    "dogru": 1,
+    "aciklama": "'They come from many sources, including synthetic clothing, car tyres ...' cümlesi.",
+    "paragraf_id": "p-0002"
+  },
+  {
+    "id": "okuma.kelime-0011",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "ubiquity",
+    "zorluk": 2,
+    "soru": "The word 'ubiquity' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "presence everywhere",
+      "recent discovery",
+      "harmful effect",
+      "small size",
+      "high cost"
+    ],
+    "dogru": 0,
+    "aciklama": "Dünyanın her yerinde bulunmaları 'ubiquity' (her yerde bulunma) ile anlatılıyor.",
+    "paragraf_id": "p-0002"
+  },
+  {
+    "id": "okuma.anafikir-0013",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Bisikletin tarihi",
+    "zorluk": 1,
+    "soru": "What is the passage mainly about?",
+    "secenekler": [
+      "famous cycling races of the nineteenth century",
+      "the invention of the car",
+      "why women stopped cycling in the 1880s",
+      "the dangers of cycling in modern cities",
+      "how the bicycle developed and became popular"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça pedalsız ilk modellerden güvenli bisiklete uzanan gelişimi ve yaygınlaşmayı anlatıyor.",
+    "paragraf_id": "p-0003"
+  },
+  {
+    "id": "okuma.detay-0013",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Bisikletin tarihi",
+    "zorluk": 2,
+    "soru": "According to the passage, the 'safety bicycle' ----.",
+    "secenekler": [
+      "appeared at the beginning of the nineteenth century",
+      "was more dangerous than earlier models",
+      "had a huge front wheel",
+      "had two wheels of the same size and a chain",
+      "had no pedals"
+    ],
+    "dogru": 3,
+    "aciklama": "'which had two wheels of equal size and a chain drive' ifadesi.",
+    "paragraf_id": "p-0003"
+  },
+  {
+    "id": "okuma.tutum-0011",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Bisikletin tarihi",
+    "zorluk": 2,
+    "soru": "The author's attitude towards the effect of the bicycle on women is ----.",
+    "secenekler": [
+      "sarcastic",
+      "indifferent",
+      "positive",
+      "critical",
+      "doubtful"
+    ],
+    "dogru": 2,
+    "aciklama": "'a new sense of freedom' ve 'travel independently' ifadeleri olumlu bir değerlendirmedir.",
+    "paragraf_id": "p-0003"
+  },
+  {
+    "id": "okuma.anafikir-0014",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Plasebo etkisi",
+    "zorluk": 2,
+    "soru": "The main point of the passage is that ----.",
+    "secenekler": [
+      "the brain does not respond to expectations",
+      "treatments without active ingredients can still produce real effects",
+      "patients should never be told what they are taking",
+      "pain and fatigue cannot be treated",
+      "sugar pills should replace all medicines"
+    ],
+    "dogru": 1,
+    "aciklama": "Parçanın odağı etken madde içermeyen tedavilerin gerçek iyileşme sağlayabilmesidir.",
+    "paragraf_id": "p-0004"
+  },
+  {
+    "id": "okuma.cikarim-0012",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Plasebo etkisi",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "placebos only work when patients are deceived",
+      "a patient's beliefs may affect how he or she feels",
+      "researchers fully understand how placebos work",
+      "fatigue is always caused by psychological factors",
+      "placebos are more effective than real medicines"
+    ],
+    "dogru": 1,
+    "aciklama": "Beklentilerin beynin sinyalleri işleyişini etkilemesi, inançların hissedilenleri etkileyebileceğini gösterir.",
+    "paragraf_id": "p-0004"
+  },
+  {
+    "id": "okuma.kelime-0012",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "intriguingly",
+    "zorluk": 2,
+    "soru": "The word 'intriguingly' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "carelessly",
+      "rarely",
+      "unfortunately",
+      "obviously",
+      "interestingly"
+    ],
+    "dogru": 4,
+    "aciklama": "Sahte hap olduğu bilinse bile işe yaraması merak uyandırıcı bir durumdur: 'intriguingly' = interestingly.",
+    "paragraf_id": "p-0004"
+  },
+  {
+    "id": "okuma.anafikir-0015",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Kentsel ısı adası",
+    "zorluk": 1,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Elderly people should move to the countryside.",
+      "Asphalt is the best material for building roads.",
+      "Cities are warmer than rural areas, but the effect can be reduced.",
+      "Trees make cities colder in winter.",
+      "Heatwaves only occur in the countryside."
+    ],
+    "dogru": 2,
+    "aciklama": "Parça şehirlerin daha sıcak olduğunu ve bunun basit önlemlerle azaltılabileceğini anlatıyor.",
+    "paragraf_id": "p-0005"
+  },
+  {
+    "id": "okuma.cikarim-0013",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Kentsel ısı adası",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "white roofs absorb more sunlight than dark roofs",
+      "the countryside is warmer at night than cities",
+      "the urban heat island effect has no impact on health",
+      "areas with more trees tend to be cooler",
+      "nothing can be done to cool cities"
+    ],
+    "dogru": 3,
+    "aciklama": "Bitki örtüsü eksikliğinin serinlemeyi azaltması ve ağaç dikmenin önerilmesi, ağaçlık alanların daha serin olduğunu düşündürür.",
+    "paragraf_id": "p-0005"
+  },
+  {
+    "id": "okuma.tutum-0012",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Kentsel ısı adası",
+    "zorluk": 2,
+    "soru": "The author's attitude towards the solutions mentioned in the passage is ----.",
+    "secenekler": [
+      "optimistic",
+      "pessimistic",
+      "hostile",
+      "indifferent",
+      "confused"
+    ],
+    "dogru": 0,
+    "aciklama": "'Fortunately' ve 'can make a considerable difference' iyimser bir tutum gösterir.",
+    "paragraf_id": "p-0005"
+  },
+  {
+    "id": "okuma.anafikir-0016",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Kral kelebekleri",
+    "zorluk": 2,
+    "soru": "The passage is mainly concerned with ----.",
+    "secenekler": [
+      "the life cycle of all insects",
+      "the forests of central Mexico",
+      "the remarkable migration of monarch butterflies and the threats it faces",
+      "why butterflies prefer cold climates",
+      "how butterflies are used to control pests"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça kelebeklerin olağanüstü göçünü ve bu göçü tehdit eden etkenleri anlatıyor.",
+    "paragraf_id": "p-0006"
+  },
+  {
+    "id": "okuma.kelime-0013",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "plummet",
+    "zorluk": 2,
+    "soru": "The word 'plummeted' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "recovered quickly",
+      "remained stable",
+      "moved away",
+      "fallen sharply",
+      "grown steadily"
+    ],
+    "dogru": 3,
+    "aciklama": "Yaşam alanı kaybı ve tarım ilacı nüfusu hızla düşürmüştür: 'plummet' = keskin düşüş.",
+    "paragraf_id": "p-0006"
+  },
+  {
+    "id": "okuma.tutum-0013",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Kral kelebekleri",
+    "zorluk": 2,
+    "soru": "The author's tone when discussing the decline of the butterflies is ----.",
+    "secenekler": [
+      "concerned",
+      "amused",
+      "enthusiastic",
+      "neutral",
+      "angry"
+    ],
+    "dogru": 0,
+    "aciklama": "'Sadly' ve göçün yok olabileceği uyarısı kaygılı bir ton yansıtır.",
+    "paragraf_id": "p-0006"
+  },
+  {
+    "id": "okuma.detay-0014",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Kâğıt para",
+    "zorluk": 1,
+    "soru": "According to the passage, merchants started using paper receipts because ----.",
+    "secenekler": [
+      "inflation had destroyed coins",
+      "the government banned coins",
+      "Marco Polo recommended it",
+      "paper was cheaper than metal",
+      "metal coins were heavy to carry"
+    ],
+    "dogru": 4,
+    "aciklama": "'instead of carrying heavy strings of metal coins' ifadesi nedeni verir.",
+    "paragraf_id": "p-0007"
+  },
+  {
+    "id": "okuma.cikarim-0014",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Kâğıt para",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "coins were no longer used in China after the Tang dynasty",
+      "paper money was unfamiliar in Europe in the thirteenth century",
+      "inflation increased the value of the notes",
+      "the Song government never printed money",
+      "Marco Polo invented paper money"
+    ],
+    "dogru": 1,
+    "aciklama": "Avrupalıların fikre inanmakta zorlanması kâğıt paranın orada bilinmediğini gösterir.",
+    "paragraf_id": "p-0007"
+  },
+  {
+    "id": "okuma.kelime-0014",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "collapse",
+    "zorluk": 3,
+    "soru": "The word 'collapsed' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "was fixed",
+      "became official",
+      "fell dramatically",
+      "was printed",
+      "increased slowly"
+    ],
+    "dogru": 2,
+    "aciklama": "Aşırı enflasyon sonucu değerin çökmesi = 'fell dramatically'.",
+    "paragraf_id": "p-0007"
+  },
+  {
+    "id": "okuma.detay-0015",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Dillerin yok oluşu",
+    "zorluk": 2,
+    "soru": "According to the passage, which of the following is lost when a language dies?",
+    "secenekler": [
+      "Funding for schools",
+      "The ability of people to learn new languages",
+      "Recordings of the language",
+      "The Welsh and Hawaiian languages",
+      "Knowledge about local plants, animals and traditions"
+    ],
+    "dogru": 4,
+    "aciklama": "'including knowledge about local plants, animals and traditions' ifadesi.",
+    "paragraf_id": "p-0008"
+  },
+  {
+    "id": "okuma.cikarim-0015",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Dillerin yok oluşu",
+    "zorluk": 2,
+    "soru": "It is implied in the passage that ----.",
+    "secenekler": [
+      "endangered languages can sometimes be saved",
+      "all languages will vanish by the end of the century",
+      "reviving a language is quick and cheap",
+      "linguists do not care about endangered languages",
+      "Welsh and Hawaiian have already disappeared"
+    ],
+    "dogru": 0,
+    "aciklama": "Bazı toplulukların dilleri canlandırmayı başarması, tehlikedeki dillerin kurtarılabildiğini gösterir.",
+    "paragraf_id": "p-0008"
+  },
+  {
+    "id": "okuma.tutum-0014",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Dillerin yok oluşu",
+    "zorluk": 3,
+    "soru": "The author's attitude towards language revival efforts can best be described as ----.",
+    "secenekler": [
+      "entirely pessimistic",
+      "openly mocking",
+      "completely indifferent",
+      "cautiously supportive",
+      "strongly opposed"
+    ],
+    "dogru": 3,
+    "aciklama": "Yazar başarı örnekleri verip uzun vadeli çaba ve fon gerektiğini belirtiyor: temkinli destek.",
+    "paragraf_id": "p-0008"
+  },
+  {
+    "id": "okuma.detay-0016",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Dikey tarım",
+    "zorluk": 1,
+    "soru": "According to the passage, vertical farms ----.",
+    "secenekler": [
+      "can profitably grow all types of crops",
+      "grow crops in stacked layers inside buildings",
+      "are powered entirely by sunlight",
+      "use more water than conventional farms",
+      "are located far from cities"
+    ],
+    "dogru": 1,
+    "aciklama": "İlk cümle dikey tarımı tanımlar.",
+    "paragraf_id": "p-0009"
+  },
+  {
+    "id": "okuma.kelime-0015",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "niche",
+    "zorluk": 2,
+    "soru": "The word 'niche' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "a major industry",
+      "a new technology",
+      "a type of crop",
+      "a failed experiment",
+      "a small specialised area"
+    ],
+    "dogru": 4,
+    "aciklama": "'transform agriculture' ile karşıtlık kuran 'niche' küçük, özel bir alanı ifade eder.",
+    "paragraf_id": "p-0009"
+  },
+  {
+    "id": "okuma.tutum-0015",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Dikey tarım",
+    "zorluk": 2,
+    "soru": "The author's view of vertical farming is ----.",
+    "secenekler": [
+      "hostile",
+      "balanced",
+      "angry",
+      "enthusiastic",
+      "dismissive"
+    ],
+    "dogru": 1,
+    "aciklama": "Yazar destekçilerin ve eleştirmenlerin görüşlerini verip sonucu açık bırakıyor: dengeli.",
+    "paragraf_id": "p-0009"
+  },
+  {
+    "id": "okuma.cikarim-0016",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Volkanik topraklar",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "people living near volcanoes accept a risk in exchange for agricultural benefits",
+      "nobody lives near active volcanoes",
+      "volcanic eruptions can be predicted accurately",
+      "farmers in Java harvest only one crop a year",
+      "fresh volcanic ash is immediately fertile"
+    ],
+    "dogru": 0,
+    "aciklama": "Verimli toprak için patlama riskinin göze alındığı anlaşılıyor.",
+    "paragraf_id": "p-0010"
+  },
+  {
+    "id": "okuma.kelime-0016",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "notoriously",
+    "zorluk": 2,
+    "soru": "The word 'notoriously' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "officially",
+      "surprisingly easily",
+      "rarely",
+      "famously (in a negative way)",
+      "happily"
+    ],
+    "dogru": 3,
+    "aciklama": "'notoriously difficult' = kötü şöhretli biçimde zor; olumsuz bir üne işaret eder.",
+    "paragraf_id": "p-0010"
+  },
+  {
+    "id": "okuma.tutum-0016",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Volkanik topraklar",
+    "zorluk": 2,
+    "soru": "The author's attitude towards people who live near volcanoes is ----.",
+    "secenekler": [
+      "fearful",
+      "contemptuous",
+      "understanding",
+      "indifferent",
+      "envious"
+    ],
+    "dogru": 2,
+    "aciklama": "'may seem foolish, yet ...' diyerek yazar bu tercihin nedenini açıklıyor: anlayışlı bir tutum.",
+    "paragraf_id": "p-0010"
+  },
+  {
+    "id": "okuma.anafikir-0017",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Acemilerin aşırı özgüveni",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Reading articles is the best way to learn investing.",
+      "Beginners often have more confidence than their skills justify.",
+      "Experienced investors always make better decisions.",
+      "Psychologists cannot explain overconfidence.",
+      "Confidence always increases with experience."
+    ],
+    "dogru": 1,
+    "aciklama": "İlk cümle ana fikri verir: yeni başlayanlar yeteneklerini abartır.",
+    "paragraf_id": "p-0011"
+  },
+  {
+    "id": "okuma.detay-0017",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Acemilerin aşırı özgüveni",
+    "zorluk": 2,
+    "soru": "According to the passage, as people gain expertise, ----.",
+    "secenekler": [
+      "they begin to overestimate their ability",
+      "they read fewer articles",
+      "they become more aware of the limits of their knowledge",
+      "they stop making any mistakes",
+      "their confidence always increases"
+    ],
+    "dogru": 2,
+    "aciklama": "'they typically become more aware of how much they do not know' cümlesi.",
+    "paragraf_id": "p-0011"
+  },
+  {
+    "id": "okuma.cikarim-0017",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Acemilerin aşırı özgüveni",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "a lack of knowledge can make it hard to see one's own errors",
+      "experts never feel confident",
+      "psychologists advise beginners not to invest",
+      "confidence is a reliable sign of skill",
+      "beginners are usually better investors than experts"
+    ],
+    "dogru": 0,
+    "aciklama": "İyi performans için gereken bilgi hataları fark etmek için de gerektiğinden, bilgisizlik hataları görmeyi zorlaştırır.",
+    "paragraf_id": "p-0011"
+  },
+  {
+    "id": "okuma.anafikir-0018",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Tuzdan arındırma",
+    "zorluk": 2,
+    "soru": "The passage mainly discusses ----.",
+    "secenekler": [
+      "why seawater is unsuitable for drinking",
+      "the formation of salt in the oceans",
+      "the history of Israel and Saudi Arabia",
+      "how to reduce energy consumption at home",
+      "the benefits and drawbacks of desalination"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça tuzdan arındırmanın yararlarını ve 'Yet' ile sakıncalarını anlatıyor.",
+    "paragraf_id": "p-0012"
+  },
+  {
+    "id": "okuma.detay-0018",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Tuzdan arındırma",
+    "zorluk": 1,
+    "soru": "According to the passage, brine ----.",
+    "secenekler": [
+      "helps marine ecosystems",
+      "is removed by membranes from fresh water",
+      "requires no energy to produce",
+      "is a very salty waste product of desalination",
+      "is used to produce drinking water"
+    ],
+    "dogru": 3,
+    "aciklama": "'the extremely salty waste it produces, known as brine' ifadesi.",
+    "paragraf_id": "p-0012"
+  },
+  {
+    "id": "okuma.kelime-0017",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "discharge",
+    "zorluk": 2,
+    "soru": "The word 'discharged' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "measured",
+      "collected",
+      "released",
+      "purified",
+      "stored"
+    ],
+    "dogru": 2,
+    "aciklama": "Atığın denize bırakılması = 'discharged' (released).",
+    "paragraf_id": "p-0012"
+  },
+  {
+    "id": "okuma.anafikir-0019",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Dürtme politikaları",
+    "zorluk": 2,
+    "soru": "The passage is mainly about ----.",
+    "secenekler": [
+      "how the presentation of choices can influence behaviour",
+      "countries that have banned organ donation",
+      "the medical process of organ transplantation",
+      "why people refuse to donate organs",
+      "the freedom of doctors to choose patients"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça varsayılan seçeneklerin davranışı nasıl etkilediğini (dürtme) anlatıyor.",
+    "paragraf_id": "p-0013"
+  },
+  {
+    "id": "okuma.detay-0019",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Dürtme politikaları",
+    "zorluk": 2,
+    "soru": "According to the passage, a 'nudge' is ----.",
+    "secenekler": [
+      "a type of medical treatment",
+      "a law that forces citizens to donate organs",
+      "a way of restricting people's freedom",
+      "a small change in how choices are presented that encourages certain behaviour",
+      "a punishment for people who opt out"
+    ],
+    "dogru": 3,
+    "aciklama": "Parçadaki tanım: 'small changes in the way choices are presented that encourage certain behaviour without restricting freedom'.",
+    "paragraf_id": "p-0013"
+  },
+  {
+    "id": "okuma.tutum-0017",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Dürtme politikaları",
+    "zorluk": 3,
+    "soru": "The author's attitude towards nudges can best be described as ----.",
+    "secenekler": [
+      "uninterested",
+      "mocking",
+      "entirely uncritical",
+      "completely hostile",
+      "generally positive but aware of concerns"
+    ],
+    "dogru": 4,
+    "aciklama": "Yazar etkinliği vurgularken 'Critics argue, though' ile endişelere de yer veriyor.",
+    "paragraf_id": "p-0013"
+  },
+  {
+    "id": "okuma.anafikir-0020",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Buz karotları",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Drilling in Antarctica damages the ice sheet.",
+      "Ice cores provide valuable information about past climates.",
+      "Snow is the main source of carbon dioxide.",
+      "Global temperatures have never changed.",
+      "Antarctica is becoming warmer every year."
+    ],
+    "dogru": 1,
+    "aciklama": "Parça buz karotlarının geçmiş iklim hakkında bilgi sağladığını anlatıyor.",
+    "paragraf_id": "p-0014"
+  },
+  {
+    "id": "okuma.cikarim-0018",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Buz karotları",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "carbon dioxide levels have never changed",
+      "ice cores are only a few years old",
+      "deeper ice generally contains older air",
+      "temperature and carbon dioxide are unrelated",
+      "bubbles in ice contain no useful information"
+    ],
+    "dogru": 2,
+    "aciklama": "Kar birikip sıkışarak buz oluşturduğundan, derindeki buz daha eski havayı hapseder.",
+    "paragraf_id": "p-0014"
+  },
+  {
+    "id": "okuma.kelime-0018",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "correlation",
+    "zorluk": 2,
+    "soru": "The word 'correlation' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "contradiction",
+      "difference",
+      "decline",
+      "connection",
+      "measurement"
+    ],
+    "dogru": 3,
+    "aciklama": "'correlation' = ilişki, bağlantı.",
+    "paragraf_id": "p-0014"
+  },
+  {
+    "id": "okuma.anafikir-0021",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Köpeklerin evcilleşmesi",
+    "zorluk": 1,
+    "soru": "The passage is mainly about ----.",
+    "secenekler": [
+      "the domestication of cattle and sheep",
+      "why wolves are dangerous to humans",
+      "the intelligence of chimpanzees",
+      "how to train dogs to understand gestures",
+      "how dogs came to live alongside humans"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça köpeklerin kurtlardan evrilip insanlarla birlikte yaşamaya başlamasını anlatıyor.",
+    "paragraf_id": "p-0015"
+  },
+  {
+    "id": "okuma.cikarim-0019",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Köpeklerin evcilleşmesi",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "living with humans changed the behaviour of early dogs",
+      "dogs descended from chimpanzees",
+      "chimpanzees understand pointing better than dogs",
+      "cattle were domesticated before dogs",
+      "the most aggressive wolves became dogs"
+    ],
+    "dogru": 0,
+    "aciklama": "Daha az korkak hayvanların insanlarla gelişip zamanla değişmesi, birlikte yaşamanın davranışı değiştirdiğini gösterir.",
+    "paragraf_id": "p-0015"
+  },
+  {
+    "id": "okuma.tutum-0018",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Köpeklerin evcilleşmesi",
+    "zorluk": 2,
+    "soru": "The author describes the relationship between dogs and humans as ----.",
+    "secenekler": [
+      "dangerous",
+      "remarkable",
+      "recent",
+      "unfair",
+      "unimportant"
+    ],
+    "dogru": 1,
+    "aciklama": "'an extraordinary partnership' ifadesi ilişkiyi olağanüstü olarak niteler.",
+    "paragraf_id": "p-0015"
+  },
+  {
+    "id": "okuma.anafikir-0022",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Sosyal medya ve yalnızlık",
+    "zorluk": 2,
+    "soru": "The main point of the passage is that ----.",
+    "secenekler": [
+      "social media has completely failed to connect people",
+      "young adults should stop using social media",
+      "face-to-face contact is less emotional than online contact",
+      "heavy social media use may be linked to loneliness, though the issue is complex",
+      "moderate use of social media causes loneliness"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça yoğun kullanımın yalnızlıkla ilişkili olabileceğini ama konunun karmaşık olduğunu söylüyor.",
+    "paragraf_id": "p-0016"
+  },
+  {
+    "id": "okuma.kelime-0019",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "displace",
+    "zorluk": 2,
+    "soru": "The word 'displace' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "follow",
+      "encourage",
+      "take the place of",
+      "imitate",
+      "improve"
+    ],
+    "dogru": 2,
+    "aciklama": "Çevrimiçi etkileşimlerin yüz yüze iletişimin yerini alması = 'displace'.",
+    "paragraf_id": "p-0016"
+  },
+  {
+    "id": "okuma.tutum-0019",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Sosyal medya ve yalnızlık",
+    "zorluk": 3,
+    "soru": "The author's attitude towards social media is best described as ----.",
+    "secenekler": [
+      "nostalgic",
+      "measured",
+      "hostile",
+      "enthusiastic",
+      "indifferent"
+    ],
+    "dogru": 1,
+    "aciklama": "Yazar hem olumlu hem olumsuz yanları kabul ediyor ve ölçülü kullanımın az zararlı olabileceğini belirtiyor: ölçülü.",
+    "paragraf_id": "p-0016"
+  },
+  {
+    "id": "okuma.detay-0020",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Viking denizciliği",
+    "zorluk": 2,
+    "soru": "According to the passage, the Vikings ----.",
+    "secenekler": [
+      "invented the compass in Scandinavia",
+      "never sailed beyond Iceland",
+      "used magnetic compasses",
+      "navigated only on sunny days",
+      "reached North America around the year 1000"
+    ],
+    "dogru": 4,
+    "aciklama": "İlk cümle Vikinglerin 1000 yılı civarında Kuzey Amerika'ya ulaştığını söyler.",
+    "paragraf_id": "p-0017"
+  },
+  {
+    "id": "okuma.cikarim-0020",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Viking denizciliği",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "the sunstone may have been more than a legend",
+      "all Viking sagas are historically accurate",
+      "Scandinavian crystals are used in modern compasses",
+      "birds and whales were of no help to sailors",
+      "the Vikings could not sail on cloudy days"
+    ],
+    "dogru": 0,
+    "aciklama": "Deneylerin bazı kristallerin bu işi görebileceğini göstermesi, güneş taşının efsaneden ibaret olmayabileceğini düşündürür.",
+    "paragraf_id": "p-0017"
+  },
+  {
+    "id": "okuma.kelime-0020",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "serve a purpose",
+    "zorluk": 2,
+    "soru": "The phrase 'served this purpose' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "changed this direction",
+      "caused this problem",
+      "been sold for this price",
+      "been used for this function",
+      "replaced this tool"
+    ],
+    "dogru": 3,
+    "aciklama": "'serve this purpose' = bu işlevi görmek.",
+    "paragraf_id": "p-0017"
+  },
+  {
+    "id": "okuma.detay-0021",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Tıpta yapay zekâ",
+    "zorluk": 2,
+    "soru": "According to the passage, AI systems in some studies ----.",
+    "secenekler": [
+      "discussed results with patients",
+      "detected certain cancers as accurately as experienced radiologists",
+      "replaced radiologists in most hospitals",
+      "were trained on only a few images",
+      "never made any errors"
+    ],
+    "dogru": 1,
+    "aciklama": "'detected certain cancers as accurately as experienced radiologists' ifadesi.",
+    "paragraf_id": "p-0018"
+  },
+  {
+    "id": "okuma.cikarim-0021",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Tıpta yapay zekâ",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "radiologists will soon lose their jobs",
+      "X-rays are no longer used in medicine",
+      "patients prefer to talk to algorithms",
+      "AI is always slower than human doctors",
+      "the performance of an algorithm depends partly on the images used to train it"
+    ],
+    "dogru": 4,
+    "aciklama": "Eğitildiği görüntülere benzemeyenlerde hata yapması, performansın eğitim verisine bağlı olduğunu gösterir.",
+    "paragraf_id": "p-0018"
+  },
+  {
+    "id": "okuma.tutum-0020",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Tıpta yapay zekâ",
+    "zorluk": 2,
+    "soru": "The author's attitude towards the use of AI in medicine is ----.",
+    "secenekler": [
+      "indifferent",
+      "fearful",
+      "cautiously positive",
+      "entirely negative",
+      "uncritically enthusiastic"
+    ],
+    "dogru": 2,
+    "aciklama": "Başarıyı kabul edip sınırlarını da belirtmek temkinli olumlu bir tutumdur.",
+    "paragraf_id": "p-0018"
+  },
+  {
+    "id": "okuma.detay-0022",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Kahve ve sağlık",
+    "zorluk": 1,
+    "soru": "According to the passage, moderate coffee consumption is associated with ----.",
+    "secenekler": [
+      "a slightly lower risk of type 2 diabetes",
+      "better sleep",
+      "anxiety in all people",
+      "a higher risk of heart disease",
+      "problems during pregnancy for everyone"
+    ],
+    "dogru": 0,
+    "aciklama": "'associated with a slightly lower risk of several diseases, including type 2 diabetes' ifadesi.",
+    "paragraf_id": "p-0019"
+  },
+  {
+    "id": "okuma.kelime-0021",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "paint a picture",
+    "zorluk": 2,
+    "soru": "The phrase 'painted a more favourable picture' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "produced more colourful images",
+      "shown no difference",
+      "become more dangerous",
+      "confused the public",
+      "given a more positive view"
+    ],
+    "dogru": 4,
+    "aciklama": "Yeni araştırmaların kahveyi daha olumlu göstermesi anlatılıyor.",
+    "paragraf_id": "p-0019"
+  },
+  {
+    "id": "okuma.tutum-0021",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Kahve ve sağlık",
+    "zorluk": 2,
+    "soru": "The author's presentation of coffee's health effects is ----.",
+    "secenekler": [
+      "balanced",
+      "sarcastic",
+      "strongly critical",
+      "uninterested",
+      "exaggerated"
+    ],
+    "dogru": 0,
+    "aciklama": "Yazar olası yararları ve uyarıları birlikte veriyor: dengeli.",
+    "paragraf_id": "p-0019"
+  },
+  {
+    "id": "okuma.cikarim-0022",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Mangrov ormanları",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "mangroves grow mainly in cold regions",
+      "tourist resorts store large amounts of carbon",
+      "young fish avoid mangrove roots",
+      "removing mangroves may leave coastal communities more exposed to storms",
+      "shrimp farms protect coastlines from tsunamis"
+    ],
+    "dogru": 3,
+    "aciklama": "Mangrovlarla korunan köylerin daha az hasar görmesi, mangrovların yok edilmesinin kıyıları savunmasız bırakacağını düşündürür.",
+    "paragraf_id": "p-0020"
+  },
+  {
+    "id": "okuma.kelime-0022",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "short-sighted",
+    "zorluk": 3,
+    "soru": "The word 'short-sighted' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "carefully planned",
+      "extremely profitable",
+      "not considering long-term consequences",
+      "scientifically proven",
+      "environmentally friendly"
+    ],
+    "dogru": 2,
+    "aciklama": "'short-sighted' burada uzun vadeli sonuçları düşünmemek anlamındadır.",
+    "paragraf_id": "p-0020"
+  },
+  {
+    "id": "okuma.tutum-0022",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Mangrov ormanları",
+    "zorluk": 2,
+    "soru": "The author's attitude towards clearing mangroves is ----.",
+    "secenekler": [
+      "supportive",
+      "disapproving",
+      "amused",
+      "neutral",
+      "enthusiastic"
+    ],
+    "dogru": 1,
+    "aciklama": "Yararları sayıp 'short-sighted' nitelemesine yer vermek onaylamayan bir tutumdur.",
+    "paragraf_id": "p-0020"
+  },
+  {
+    "id": "okuma.anafikir-0023",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Aşının keşfi",
+    "zorluk": 1,
+    "soru": "What is the passage mainly about?",
+    "secenekler": [
+      "the discovery of vaccination and its long-term impact",
+      "the life of milkmaids in England",
+      "the founding of the World Health Organization",
+      "diseases that affect cows",
+      "why cowpox is more dangerous than smallpox"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça Jenner'ın aşıyı keşfini ve çiçek hastalığının sonunda yok edilmesini anlatıyor.",
+    "paragraf_id": "p-0021"
+  },
+  {
+    "id": "okuma.detay-0023",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Aşının keşfi",
+    "zorluk": 1,
+    "soru": "According to the passage, Jenner noticed that milkmaids ----.",
+    "secenekler": [
+      "refused to be vaccinated",
+      "were immune to all diseases",
+      "who had had cowpox seemed protected from smallpox",
+      "had never caught cowpox",
+      "often died of smallpox"
+    ],
+    "dogru": 2,
+    "aciklama": "İlk cümle doğrudan cevaptır.",
+    "paragraf_id": "p-0021"
+  },
+  {
+    "id": "okuma.cikarim-0023",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Aşının keşfi",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "Jenner's method was ignored for centuries",
+      "vaccination eventually helped to eliminate smallpox",
+      "Jenner's experiment failed",
+      "cowpox was a deadly disease",
+      "smallpox still kills millions every year"
+    ],
+    "dogru": 1,
+    "aciklama": "Yöntemin hızla yayılması ve 1980'de hastalığın yok edildiğinin ilanı bu çıkarımı destekler.",
+    "paragraf_id": "p-0021"
+  },
+  {
+    "id": "okuma.anafikir-0024",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Uzaktan çalışma",
+    "zorluk": 2,
+    "soru": "The main idea of the passage is that ----.",
+    "secenekler": [
+      "remote work has reduced productivity everywhere",
+      "the pandemic ended remote work",
+      "all employees want to return to the office",
+      "remote work has both advantages and disadvantages",
+      "commuting is good for creativity"
+    ],
+    "dogru": 3,
+    "aciklama": "'mixed results' ifadesi ve ardından sayılan artılar-eksiler ana fikri verir.",
+    "paragraf_id": "p-0022"
+  },
+  {
+    "id": "okuma.kelime-0023",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "hinder",
+    "zorluk": 2,
+    "soru": "The word 'hinders' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "replaces",
+      "encourages",
+      "organises",
+      "records",
+      "makes more difficult"
+    ],
+    "dogru": 4,
+    "aciklama": "Yöneticilerin endişesi uzaktan çalışmanın gayriresmî etkileşimi zorlaştırmasıdır.",
+    "paragraf_id": "p-0022"
+  },
+  {
+    "id": "okuma.tutum-0023",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Uzaktan çalışma",
+    "zorluk": 2,
+    "soru": "The author's attitude towards remote work is ----.",
+    "secenekler": [
+      "enthusiastic",
+      "nostalgic",
+      "objective",
+      "strongly negative",
+      "angry"
+    ],
+    "dogru": 2,
+    "aciklama": "Yazar iki tarafı da tarafsızca aktarıyor.",
+    "paragraf_id": "p-0022"
+  },
+  {
+    "id": "okuma.detay-0024",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Şeker kamışı kurbağaları",
+    "zorluk": 1,
+    "soru": "According to the passage, cane toads were brought to Australia in order to ----.",
+    "secenekler": [
+      "feed native snakes",
+      "be kept as pets",
+      "increase sugar production directly",
+      "replace native frogs",
+      "control beetles damaging sugar cane"
+    ],
+    "dogru": 4,
+    "aciklama": "İlk cümle amacı verir.",
+    "paragraf_id": "p-0023"
+  },
+  {
+    "id": "okuma.cikarim-0024",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Şeker kamışı kurbağaları",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "native predators benefited from the toads",
+      "cane toads are harmless to animals",
+      "cane toads successfully eliminated the beetles",
+      "introducing a species to a new environment can have unintended consequences",
+      "the toads spread only in a small area"
+    ],
+    "dogru": 3,
+    "aciklama": "Planın ters tepmesi, yeni bir türü getirmenin beklenmedik sonuçlar doğurabileceğini gösterir.",
+    "paragraf_id": "p-0023"
+  },
+  {
+    "id": "okuma.kelime-0024",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "destructive",
+    "zorluk": 2,
+    "soru": "The word 'destructive' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "causing great damage",
+      "rarely seen",
+      "highly useful",
+      "quickly disappearing",
+      "easily controlled"
+    ],
+    "dogru": 0,
+    "aciklama": "'destructive' = yıkıcı, büyük zarar veren.",
+    "paragraf_id": "p-0023"
+  },
+  {
+    "id": "okuma.detay-0025",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Farkındalık meditasyonu",
+    "zorluk": 2,
+    "soru": "According to the passage, mindfulness involves ----.",
+    "secenekler": [
+      "judging one's own thoughts strictly",
+      "paying attention to the present moment without judgement",
+      "thinking about future plans",
+      "taking medication regularly",
+      "avoiding schools and workplaces"
+    ],
+    "dogru": 1,
+    "aciklama": "Parçanın ilk cümlesindeki tanım.",
+    "paragraf_id": "p-0024"
+  },
+  {
+    "id": "okuma.cikarim-0025",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Farkındalık meditasyonu",
+    "zorluk": 2,
+    "soru": "It is implied in the passage that ----.",
+    "secenekler": [
+      "mindfulness can cure serious mental illness",
+      "mindfulness should replace other treatments",
+      "more reliable research on mindfulness is needed",
+      "mindfulness increases stress",
+      "all studies on mindfulness were well designed"
+    ],
+    "dogru": 2,
+    "aciklama": "İlk çalışmaların küçük ve kötü tasarlanmış olması daha güvenilir araştırma gerektiğini düşündürür.",
+    "paragraf_id": "p-0024"
+  },
+  {
+    "id": "okuma.tutum-0024",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Farkındalık meditasyonu",
+    "zorluk": 3,
+    "soru": "The researchers' attitude towards mindfulness is best described as ----.",
+    "secenekler": [
+      "cautious",
+      "enthusiastic",
+      "indifferent",
+      "dismissive",
+      "hostile"
+    ],
+    "dogru": 0,
+    "aciklama": "'caution', 'may have been overstated' ve 'may be a useful addition' temkinli bir tutum gösterir.",
+    "paragraf_id": "p-0024"
+  },
+  {
+    "id": "okuma.anafikir-0025",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "3D baskı evler",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "printed houses have proved to last for centuries",
+      "3D printing is a promising but still developing method of building houses",
+      "3D printers will soon replace all construction workers",
+      "housing shortages have been solved",
+      "traditional building methods produce no waste"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça teknolojinin vaatlerini ve henüz çözülmemiş sorunlarını anlatıyor.",
+    "paragraf_id": "p-0025"
+  },
+  {
+    "id": "okuma.detay-0026",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "3D baskı evler",
+    "zorluk": 1,
+    "soru": "According to the passage, compared with traditional methods, printing a house ----.",
+    "secenekler": [
+      "is prohibited everywhere",
+      "is always more expensive",
+      "takes several years",
+      "produces less waste and needs fewer workers",
+      "requires more concrete"
+    ],
+    "dogru": 3,
+    "aciklama": "'with far less waste and fewer workers' ifadesi.",
+    "paragraf_id": "p-0025"
+  },
+  {
+    "id": "okuma.tutum-0025",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "3D baskı evler",
+    "zorluk": 2,
+    "soru": "The author's attitude towards 3D-printed houses is ----.",
+    "secenekler": [
+      "strongly opposed",
+      "completely uninterested",
+      "mocking",
+      "unreservedly enthusiastic",
+      "hopeful but cautious"
+    ],
+    "dogru": 4,
+    "aciklama": "Yararları aktarılıyor ama düzenleme ve dayanıklılık sorunları da belirtiliyor.",
+    "paragraf_id": "p-0025"
+  },
+  {
+    "id": "okuma.cikarim-0026",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Hızlı moda",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "all factory workers are well paid",
+      "the textile industry does not use water",
+      "the low price of fast fashion does not reflect its full cost",
+      "consumers already buy fewer clothes",
+      "fast fashion clothes last for many years"
+    ],
+    "dogru": 2,
+    "aciklama": "'hidden costs' ifadesi düşük fiyatın gerçek maliyeti yansıtmadığını gösterir.",
+    "paragraf_id": "p-0026"
+  },
+  {
+    "id": "okuma.kelime-0025",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "discard",
+    "zorluk": 2,
+    "soru": "The word 'discarded' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "thrown away",
+      "sold",
+      "washed",
+      "repaired",
+      "designed"
+    ],
+    "dogru": 0,
+    "aciklama": "Birkaç kez giyildikten sonra atılan giysiler: 'discarded' = thrown away.",
+    "paragraf_id": "p-0026"
+  },
+  {
+    "id": "okuma.tutum-0026",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Hızlı moda",
+    "zorluk": 2,
+    "soru": "The purpose of the author is mainly to ----.",
+    "secenekler": [
+      "advertise a fashion brand",
+      "praise the fast fashion industry",
+      "explain catwalk trends",
+      "describe how clothes are designed",
+      "encourage more responsible clothing consumption"
+    ],
+    "dogru": 4,
+    "aciklama": "Son cümle yazarın amacını açıkça gösterir: daha az ama kaliteli ürün almak.",
+    "paragraf_id": "p-0026"
+  },
+  {
+    "id": "okuma.anafikir-0026",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Roma betonu",
+    "zorluk": 2,
+    "soru": "The passage is mainly concerned with ----.",
+    "secenekler": [
+      "why modern buildings are safer than Roman ones",
+      "how seawater destroys concrete",
+      "the dangers of volcanic ash",
+      "why Roman concrete has lasted so long and what modern engineers can learn from it",
+      "the history of Roman harbours"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça Roma betonunun dayanıklılık nedenini ve modern mühendisliğe etkisini anlatıyor.",
+    "paragraf_id": "p-0027"
+  },
+  {
+    "id": "okuma.cikarim-0027",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Roma betonu",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "modern concrete contains lumps of lime",
+      "the self-repairing ability of Roman concrete contributes to its durability",
+      "water always weakens Roman concrete",
+      "Roman concrete cracks within decades",
+      "engineers have already replaced modern concrete"
+    ],
+    "dogru": 1,
+    "aciklama": "Çatlakları kendiliğinden doldurması uzun ömrünün bir nedenidir.",
+    "paragraf_id": "p-0027"
+  },
+  {
+    "id": "okuma.kelime-0026",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "seep",
+    "zorluk": 2,
+    "soru": "The word 'seeps' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "slowly flows",
+      "explodes",
+      "evaporates",
+      "freezes",
+      "dries up"
+    ],
+    "dogru": 0,
+    "aciklama": "'seep in' = yavaşça sızmak.",
+    "paragraf_id": "p-0027"
+  },
+  {
+    "id": "okuma.detay-0027",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Serbest oyun",
+    "zorluk": 2,
+    "soru": "According to the passage, through free play children learn to ----.",
+    "secenekler": [
+      "use screens more effectively",
+      "avoid all risks",
+      "follow adult instructions",
+      "prepare for exams",
+      "negotiate rules and solve problems"
+    ],
+    "dogru": 4,
+    "aciklama": "'children learn to negotiate rules, solve problems and manage risks' ifadesi.",
+    "paragraf_id": "p-0028"
+  },
+  {
+    "id": "okuma.kelime-0027",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "unstructured",
+    "zorluk": 2,
+    "soru": "The word 'unstructured' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "competitive",
+      "dangerous",
+      "not organised in advance",
+      "educational",
+      "supervised"
+    ],
+    "dogru": 2,
+    "aciklama": "Yetişkin yönlendirmesi olmadan, çocukların kendi icat ettiği oyun: önceden düzenlenmemiş.",
+    "paragraf_id": "p-0028"
+  },
+  {
+    "id": "okuma.tutum-0027",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Serbest oyun",
+    "zorluk": 2,
+    "soru": "The experts' attitude towards the decline of free play is ----.",
+    "secenekler": [
+      "pleased",
+      "concerned",
+      "confident",
+      "indifferent",
+      "amused"
+    ],
+    "dogru": 1,
+    "aciklama": "'Child development experts consider this worrying' ifadesi.",
+    "paragraf_id": "p-0028"
+  },
+  {
+    "id": "okuma.detay-0028",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Işık kirliliği",
+    "zorluk": 1,
+    "soru": "According to the passage, newly hatched sea turtles may ----.",
+    "secenekler": [
+      "sleep better under bright light",
+      "hatch only during the day",
+      "avoid lit buildings",
+      "move towards streetlights instead of the sea",
+      "navigate using the stars"
+    ],
+    "dogru": 3,
+    "aciklama": "'may crawl towards streetlights instead of the sea' ifadesi.",
+    "paragraf_id": "p-0029"
+  },
+  {
+    "id": "okuma.cikarim-0028",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Işık kirliliği",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "migrating birds prefer brightly lit buildings",
+      "some environmental problems are harder to reverse than light pollution",
+      "humans sleep better with lights on",
+      "light pollution cannot be reduced",
+      "artificial light has no effect on animals"
+    ],
+    "dogru": 1,
+    "aciklama": "'Unlike many environmental problems' ifadesi diğer sorunların tersine çevrilmesinin daha zor olduğunu gösterir.",
+    "paragraf_id": "p-0029"
+  },
+  {
+    "id": "okuma.tutum-0028",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Işık kirliliği",
+    "zorluk": 2,
+    "soru": "The author's attitude towards solving light pollution is ----.",
+    "secenekler": [
+      "indifferent",
+      "confused",
+      "optimistic",
+      "sarcastic",
+      "hopeless"
+    ],
+    "dogru": 2,
+    "aciklama": "'easy to reverse' ve 'immediate results' iyimser bir tutumdur.",
+    "paragraf_id": "p-0029"
+  },
+  {
+    "id": "okuma.anafikir-0027",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Gıda israfı",
+    "zorluk": 2,
+    "soru": "The passage mainly discusses ----.",
+    "secenekler": [
+      "the history of date labels",
+      "why fruit and vegetables are expensive",
+      "the benefits of refrigeration",
+      "how to cook with leftover food",
+      "the scale and causes of food waste in different countries"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça israfın boyutunu ve ülkelere göre nedenlerini anlatıyor.",
+    "paragraf_id": "p-0030"
+  },
+  {
+    "id": "okuma.detay-0029",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Gıda israfı",
+    "zorluk": 2,
+    "soru": "According to the passage, in richer countries, food is wasted mainly ----.",
+    "secenekler": [
+      "by shops and households",
+      "because of a lack of refrigeration",
+      "during transport on poor roads",
+      "in storage facilities",
+      "on farms during harvest"
+    ],
+    "dogru": 0,
+    "aciklama": "'In richer countries ... thrown away by shops and households' ifadesi.",
+    "paragraf_id": "p-0030"
+  },
+  {
+    "id": "okuma.kelime-0028",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "ease",
+    "zorluk": 2,
+    "soru": "The word 'ease' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "create",
+      "ignore",
+      "measure",
+      "reduce",
+      "increase"
+    ],
+    "dogru": 3,
+    "aciklama": "'ease pressure' = baskıyı azaltmak.",
+    "paragraf_id": "p-0030"
+  },
+  {
+    "id": "okuma.cikarim-0029",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Himalaya buzulları",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "river flows will increase permanently",
+      "agriculture will benefit in the long term",
+      "Himalayan glaciers are growing",
+      "the current increase in river flows may be temporary",
+      "no one depends on Himalayan rivers"
+    ],
+    "dogru": 3,
+    "aciklama": "'In the short term' artışın, buzullar küçüldükten sonra düşüşe dönüşeceğini, yani geçici olduğunu gösterir.",
+    "paragraf_id": "p-0031"
+  },
+  {
+    "id": "okuma.kelime-0029",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "diminish",
+    "zorluk": 2,
+    "soru": "The word 'diminished' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "moved north",
+      "been measured",
+      "become smaller",
+      "grown stronger",
+      "frozen again"
+    ],
+    "dogru": 2,
+    "aciklama": "'diminish' = azalmak, küçülmek.",
+    "paragraf_id": "p-0031"
+  },
+  {
+    "id": "okuma.tutum-0029",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Himalaya buzulları",
+    "zorluk": 2,
+    "soru": "The tone of the passage can best be described as ----.",
+    "secenekler": [
+      "humorous",
+      "celebratory",
+      "nostalgic",
+      "indifferent",
+      "warning"
+    ],
+    "dogru": 4,
+    "aciklama": "'scientists warn' ve 'grave consequences' uyarıcı bir ton oluşturur.",
+    "paragraf_id": "p-0031"
+  },
+  {
+    "id": "okuma.anafikir-0028",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Elektrikli araç bataryaları",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Electric vehicles reduce emissions but raise other environmental and social concerns.",
+      "Battery recycling is already widespread.",
+      "Lithium and cobalt are easy to find everywhere.",
+      "Petrol cars should replace electric vehicles.",
+      "Electric vehicles pollute more than petrol cars."
+    ],
+    "dogru": 0,
+    "aciklama": "Parça emisyon avantajını kabul edip 'Yet' ile maden kaynaklı sorunları anlatıyor.",
+    "paragraf_id": "p-0032"
+  },
+  {
+    "id": "okuma.cikarim-0030",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Elektrikli araç bataryaları",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "petrol cars produce less pollution over their lifetime",
+      "the environmental benefits of electric vehicles are not free of costs",
+      "mining for cobalt always improves working conditions",
+      "electric vehicles do not need batteries",
+      "new battery chemistries are already widely used"
+    ],
+    "dogru": 1,
+    "aciklama": "Madencilik zararları, elektrikli araçların çevresel yararının bedelsiz olmadığını gösterir.",
+    "paragraf_id": "p-0032"
+  },
+  {
+    "id": "okuma.tutum-0030",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Elektrikli araç bataryaları",
+    "zorluk": 2,
+    "soru": "The author's view of electric vehicles is ----.",
+    "secenekler": [
+      "balanced",
+      "sarcastic",
+      "indifferent",
+      "uncritically positive",
+      "entirely negative"
+    ],
+    "dogru": 0,
+    "aciklama": "Yazar hem yararları hem sorunları dile getiriyor: dengeli.",
+    "paragraf_id": "p-0032"
+  },
+  {
+    "id": "okuma.detay-0030",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Lineer B yazısı",
+    "zorluk": 2,
+    "soru": "According to the passage, Michael Ventris ----.",
+    "secenekler": [
+      "discovered the clay tablets in Crete",
+      "was a professional archaeologist",
+      "proved that Linear B recorded an unknown language",
+      "showed that Linear B was an early form of Greek",
+      "wrote poetry in Linear B"
+    ],
+    "dogru": 3,
+    "aciklama": "'demonstrated that it was in fact an early form of Greek' ifadesi.",
+    "paragraf_id": "p-0033"
+  },
+  {
+    "id": "okuma.cikarim-0031",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Lineer B yazısı",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "most scholars correctly identified the language",
+      "written Greek began later than was thought",
+      "important discoveries are not always made by professional specialists",
+      "Linear B was deciphered soon after its discovery",
+      "the tablets contained great works of literature"
+    ],
+    "dogru": 2,
+    "aciklama": "Buluşu bir mimar ve amatör dilbilimcinin yapması bu çıkarımı destekler.",
+    "paragraf_id": "p-0033"
+  },
+  {
+    "id": "okuma.kelime-0030",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "defy",
+    "zorluk": 3,
+    "soru": "The word 'defied' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "explained",
+      "welcomed",
+      "required",
+      "copied",
+      "resisted"
+    ],
+    "dogru": 4,
+    "aciklama": "On yıllarca çözülememesi: 'defy attempts' = girişimlere direnmek.",
+    "paragraf_id": "p-0033"
+  },
+  {
+    "id": "okuma.detay-0031",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Müzik ve demans",
+    "zorluk": 2,
+    "soru": "According to the passage, people with advanced dementia ----.",
+    "secenekler": [
+      "lose all musical memories first",
+      "can often sing songs from their youth",
+      "always recognise their relatives",
+      "cannot hear music",
+      "become more agitated when listening to music"
+    ],
+    "dogru": 1,
+    "aciklama": "'can often sing songs from their youth word for word' ifadesi.",
+    "paragraf_id": "p-0034"
+  },
+  {
+    "id": "okuma.kelime-0031",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "spare",
+    "zorluk": 2,
+    "soru": "The word 'spared' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "destroyed",
+      "removed",
+      "examined",
+      "left undamaged",
+      "enlarged"
+    ],
+    "dogru": 3,
+    "aciklama": "Hastalıktan görece etkilenmeyen bölgeler: 'spared' = zarar görmemiş.",
+    "paragraf_id": "p-0034"
+  },
+  {
+    "id": "okuma.tutum-0031",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Müzik ve demans",
+    "zorluk": 2,
+    "soru": "The author's attitude towards music programmes for dementia patients is ----.",
+    "secenekler": [
+      "hostile",
+      "indifferent",
+      "positive but realistic",
+      "overly enthusiastic",
+      "dismissive"
+    ],
+    "dogru": 2,
+    "aciklama": "Yararları vurgulanıyor ama müziğin hastalığı durduramayacağı da belirtiliyor.",
+    "paragraf_id": "p-0034"
+  },
+  {
+    "id": "okuma.anafikir-0029",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Gürültü kirliliği",
+    "zorluk": 1,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Traffic has decreased in Europe.",
+      "Long-term noise exposure can seriously affect health.",
+      "Children read more slowly than adults.",
+      "Noise is only a minor annoyance.",
+      "Airports should be built closer to schools."
+    ],
+    "dogru": 1,
+    "aciklama": "Parça uzun süreli gürültünün sağlığa zararlarını anlatıyor.",
+    "paragraf_id": "p-0035"
+  },
+  {
+    "id": "okuma.detay-0032",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Gürültü kirliliği",
+    "zorluk": 1,
+    "soru": "According to the passage, children in schools under flight paths ----.",
+    "secenekler": [
+      "learn to read faster",
+      "sleep better",
+      "prefer noisy classrooms",
+      "have lower blood pressure",
+      "learn to read more slowly"
+    ],
+    "dogru": 4,
+    "aciklama": "'have been found to learn to read more slowly' ifadesi.",
+    "paragraf_id": "p-0035"
+  },
+  {
+    "id": "okuma.cikarim-0032",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Gürültü kirliliği",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "noise has not always been taken seriously as a health issue",
+      "the World Health Organization ignores noise",
+      "people near airports are healthier",
+      "noise only affects adults",
+      "aircraft noise improves learning"
+    ],
+    "dogru": 0,
+    "aciklama": "'often dismissed as a mere annoyance' ifadesi gürültünün uzun süre ciddiye alınmadığını gösterir.",
+    "paragraf_id": "p-0035"
+  },
+  {
+    "id": "okuma.anafikir-0030",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Vatandaş bilimi",
+    "zorluk": 1,
+    "soru": "The passage is mainly about ----.",
+    "secenekler": [
+      "the errors made by professional scientists",
+      "why professional scientists count birds",
+      "the involvement of ordinary people in scientific research",
+      "online games for children",
+      "how galaxies are formed"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça halkın bilimsel araştırmalara katılımını anlatıyor.",
+    "paragraf_id": "p-0036"
+  },
+  {
+    "id": "okuma.kelime-0032",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "minimise",
+    "zorluk": 2,
+    "soru": "The word 'minimise' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "explain",
+      "hide",
+      "discover",
+      "increase",
+      "reduce as much as possible"
+    ],
+    "dogru": 4,
+    "aciklama": "'minimise a problem' = sorunu en aza indirmek.",
+    "paragraf_id": "p-0036"
+  },
+  {
+    "id": "okuma.tutum-0032",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Vatandaş bilimi",
+    "zorluk": 2,
+    "soru": "The author's attitude towards citizen science is ----.",
+    "secenekler": [
+      "sarcastic",
+      "favourable",
+      "indifferent",
+      "hostile",
+      "fearful"
+    ],
+    "dogru": 1,
+    "aciklama": "Yazar yararları vurgulayıp hataların önlenebileceğini söylüyor: olumlu.",
+    "paragraf_id": "p-0036"
+  },
+  {
+    "id": "okuma.anafikir-0031",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yellowstone kurtları",
+    "zorluk": 2,
+    "soru": "What does the passage mainly discuss?",
+    "secenekler": [
+      "the effects of reintroducing wolves to Yellowstone and the debate about them",
+      "why elk are dangerous to tourists",
+      "how climate change created Yellowstone",
+      "the hunting of wolves in the twentieth century",
+      "the life cycle of beavers"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça kurtların geri getirilmesinin etkilerini ve bu konudaki tartışmayı anlatıyor.",
+    "paragraf_id": "p-0037"
+  },
+  {
+    "id": "okuma.detay-0033",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Yellowstone kurtları",
+    "zorluk": 1,
+    "soru": "According to the passage, when wolves were absent from Yellowstone, ----.",
+    "secenekler": [
+      "birds became more common",
+      "elk numbers fell sharply",
+      "beaver numbers increased",
+      "elk populations grew and overgrazed young trees",
+      "trees along rivers grew rapidly"
+    ],
+    "dogru": 3,
+    "aciklama": "'In their absence, elk populations grew and overgrazed young trees' ifadesi.",
+    "paragraf_id": "p-0037"
+  },
+  {
+    "id": "okuma.tutum-0033",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Yellowstone kurtları",
+    "zorluk": 2,
+    "soru": "The author's approach to the topic is ----.",
+    "secenekler": [
+      "dismissive of all research",
+      "neutral, presenting different views",
+      "emotional and angry",
+      "strongly in favour of hunting wolves",
+      "humorous"
+    ],
+    "dogru": 1,
+    "aciklama": "Yazar 'Some researchers ... Others ...' diyerek farklı görüşleri tarafsızca sunuyor.",
+    "paragraf_id": "p-0037"
+  },
+  {
+    "id": "okuma.anafikir-0032",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "El yazısıyla not almak",
+    "zorluk": 2,
+    "soru": "The main point of the passage is that ----.",
+    "secenekler": [
+      "lectures are becoming shorter",
+      "typing is always faster and better than writing",
+      "laptops should be banned from universities",
+      "students never summarise information",
+      "the way notes are taken may affect how well students remember information"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça not alma biçiminin hatırlamayı etkileyebileceğini anlatıyor.",
+    "paragraf_id": "p-0038"
+  },
+  {
+    "id": "okuma.cikarim-0033",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "El yazısıyla not almak",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "processing information actively is more important than the tool used",
+      "typing always leads to poor learning",
+      "summarising information reduces understanding",
+      "students who type remember everything",
+      "handwritten notes are always complete"
+    ],
+    "dogru": 0,
+    "aciklama": "Klavye de kelimesi kelimesine yazılmazsa kötü değilse, önemli olan bilgiyi işlemektir.",
+    "paragraf_id": "p-0038"
+  },
+  {
+    "id": "okuma.kelime-0033",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "verbatim",
+    "zorluk": 2,
+    "soru": "The word 'verbatim' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "in summary",
+      "carelessly",
+      "in silence",
+      "word for word",
+      "very quickly"
+    ],
+    "dogru": 3,
+    "aciklama": "Parçada da geçen 'word for word' ifadesiyle eş anlamlıdır.",
+    "paragraf_id": "p-0038"
+  },
+  {
+    "id": "okuma.detay-0034",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Britanya'da çay",
+    "zorluk": 1,
+    "soru": "According to the passage, when tea first arrived in Britain, it ----.",
+    "secenekler": [
+      "was banned by the government",
+      "was drunk only by workers",
+      "was an expensive luxury",
+      "was cheap and widely available",
+      "was produced in Britain"
+    ],
+    "dogru": 2,
+    "aciklama": "İlk cümle çayın pahalı bir lüks olduğunu söyler.",
+    "paragraf_id": "p-0039"
+  },
+  {
+    "id": "okuma.cikarim-0034",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Britanya'da çay",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "smuggling increased after 1784",
+      "tea was never taxed in Britain",
+      "ordinary people could always afford tea",
+      "high taxes encouraged the smuggling of tea",
+      "afternoon tea was invented by smugglers"
+    ],
+    "dogru": 3,
+    "aciklama": "Vergi düşünce kaçakçılığın kârsız hale gelmesi, yüksek vergilerin kaçakçılığı teşvik ettiğini gösterir.",
+    "paragraf_id": "p-0039"
+  },
+  {
+    "id": "okuma.tutum-0034",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Britanya'da çay",
+    "zorluk": 2,
+    "soru": "The tone of the passage is mainly ----.",
+    "secenekler": [
+      "critical",
+      "humorous",
+      "informative",
+      "persuasive",
+      "sad"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça tarihsel bilgi veriyor; bilgilendirici.",
+    "paragraf_id": "p-0039"
+  },
+  {
+    "id": "okuma.anafikir-0033",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Şeker vergisi",
+    "zorluk": 2,
+    "soru": "The passage mainly discusses ----.",
+    "secenekler": [
+      "why obesity has decreased worldwide",
+      "how soft drinks are manufactured",
+      "the history of the soft drink industry",
+      "the causes of poverty in Mexico",
+      "the effects of sugar taxes and arguments for and against them"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça verginin etkilerini, karşıt ve destekçi görüşleri anlatıyor.",
+    "paragraf_id": "p-0040"
+  },
+  {
+    "id": "okuma.detay-0035",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Şeker vergisi",
+    "zorluk": 2,
+    "soru": "According to the passage, in some cases manufacturers ----.",
+    "secenekler": [
+      "paid for health programmes",
+      "reduced the sugar content of their products",
+      "increased the sugar in their drinks",
+      "moved to other countries",
+      "stopped selling soft drinks"
+    ],
+    "dogru": 1,
+    "aciklama": "'reformulated their products to contain less sugar' ifadesi.",
+    "paragraf_id": "p-0040"
+  },
+  {
+    "id": "okuma.kelime-0034",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "disproportionately",
+    "zorluk": 3,
+    "soru": "The word 'disproportionately' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "to an unfairly large degree",
+      "equally",
+      "voluntarily",
+      "temporarily",
+      "rarely"
+    ],
+    "dogru": 0,
+    "aciklama": "Yoksul hanelerin orantısız biçimde fazla etkilenmesi anlatılıyor.",
+    "paragraf_id": "p-0040"
+  },
+  {
+    "id": "okuma.cikarim-0035",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Hidrotermal bacalar",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "tubeworms depend on sunlight",
+      "bacteria cannot live in darkness",
+      "the discovery confirmed earlier beliefs",
+      "hydrothermal vents are found close to the ocean surface",
+      "before 1977 scientists believed life could not exist without the Sun's energy"
+    ],
+    "dogru": 4,
+    "aciklama": "Keşfin 'tüm yaşam Güneş'e bağlıdır' inancını yıkması, önceden bu inancın hâkim olduğunu gösterir.",
+    "paragraf_id": "p-0041"
+  },
+  {
+    "id": "okuma.kelime-0035",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "startling",
+    "zorluk": 2,
+    "soru": "The word 'startling' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "very surprising",
+      "disappointing",
+      "dangerous",
+      "expected",
+      "ordinary"
+    ],
+    "dogru": 0,
+    "aciklama": "'startling' = şaşırtıcı.",
+    "paragraf_id": "p-0041"
+  },
+  {
+    "id": "okuma.tutum-0035",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Hidrotermal bacalar",
+    "zorluk": 1,
+    "soru": "The author presents the discovery as ----.",
+    "secenekler": [
+      "unimportant",
+      "harmful",
+      "predictable",
+      "remarkable",
+      "doubtful"
+    ],
+    "dogru": 3,
+    "aciklama": "'startling discovery' ve bir inancı yıkması keşfi dikkat çekici kılar.",
+    "paragraf_id": "p-0041"
+  },
+  {
+    "id": "okuma.anafikir-0034",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Telgraf",
+    "zorluk": 1,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Horses were the fastest way to send news in the twentieth century.",
+      "Newspapers opposed the telegraph.",
+      "The telegraph dramatically increased the speed of communication.",
+      "The telegraph was used only by armies.",
+      "Ships were more reliable than the telegraph."
+    ],
+    "dogru": 2,
+    "aciklama": "Parça telgrafın iletişimi haftalardan dakikalara indirdiğini anlatıyor.",
+    "paragraf_id": "p-0042"
+  },
+  {
+    "id": "okuma.cikarim-0036",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Telgraf",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "the telegraph was slower than ships",
+      "the telegraph changed how businesses and governments operated",
+      "telegraph messages took weeks to arrive",
+      "the telegraph had no lasting influence",
+      "newspapers stopped reporting distant events"
+    ],
+    "dogru": 1,
+    "aciklama": "İşletmelerin ve hükümetlerin telgrafı kullanma biçimleri çalışma tarzlarını değiştirdiğini gösterir.",
+    "paragraf_id": "p-0042"
+  },
+  {
+    "id": "okuma.tutum-0036",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Telgraf",
+    "zorluk": 2,
+    "soru": "The author regards the telegraph as ----.",
+    "secenekler": [
+      "a minor improvement",
+      "a failed experiment",
+      "an unnecessary luxury",
+      "a historically important invention",
+      "a dangerous weapon"
+    ],
+    "dogru": 3,
+    "aciklama": "'the first step towards the connected world' ifadesi telgrafın tarihsel önemini vurgular.",
+    "paragraf_id": "p-0042"
+  },
+  {
+    "id": "okuma.detay-0036",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Gönüllülük",
+    "zorluk": 2,
+    "soru": "According to the passage, people who volunteered mainly for their own advantage ----.",
+    "secenekler": [
+      "did not enjoy the same health benefits",
+      "lived the longest",
+      "reported the highest life satisfaction",
+      "had the strongest social connections",
+      "were the most physically active"
+    ],
+    "dogru": 0,
+    "aciklama": "Son cümle: kendi çıkarı için gönüllü olanlar sağlık yararı görmedi.",
+    "paragraf_id": "p-0043"
+  },
+  {
+    "id": "okuma.kelime-0036",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "chiefly",
+    "zorluk": 2,
+    "soru": "The word 'chiefly' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "rarely",
+      "unwillingly",
+      "mainly",
+      "secretly",
+      "partly"
+    ],
+    "dogru": 2,
+    "aciklama": "'chiefly' = başlıca, esas olarak; aynı cümledeki 'mainly' ile paraleldir.",
+    "paragraf_id": "p-0043"
+  },
+  {
+    "id": "okuma.tutum-0037",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Gönüllülük",
+    "zorluk": 2,
+    "soru": "The author's attitude towards volunteering is ----.",
+    "secenekler": [
+      "mocking",
+      "positive",
+      "negative",
+      "indifferent",
+      "suspicious"
+    ],
+    "dogru": 1,
+    "aciklama": "Gönüllülüğün yararları olumlu biçimde aktarılıyor.",
+    "paragraf_id": "p-0043"
+  },
+  {
+    "id": "okuma.anafikir-0035",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Afrika'da güneş enerjisi",
+    "zorluk": 2,
+    "soru": "The passage is mainly concerned with ----.",
+    "secenekler": [
+      "the high cost of mobile phones in Africa",
+      "why kerosene lamps are becoming popular",
+      "the construction of large power stations",
+      "heavy machinery used in agriculture",
+      "how small solar systems are bringing electricity to rural Africa"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça küçük güneş sistemlerinin kırsal Afrika'ya elektrik getirmesini anlatıyor.",
+    "paragraf_id": "p-0044"
+  },
+  {
+    "id": "okuma.detay-0037",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Afrika'da güneş enerjisi",
+    "zorluk": 1,
+    "soru": "According to the passage, small solar systems are often paid for ----.",
+    "secenekler": [
+      "in instalments via mobile phones",
+      "in a single payment",
+      "entirely by governments",
+      "with kerosene",
+      "by large power companies"
+    ],
+    "dogru": 0,
+    "aciklama": "'often paid for in instalments via mobile phones' ifadesi.",
+    "paragraf_id": "p-0044"
+  },
+  {
+    "id": "okuma.cikarim-0037",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Afrika'da güneş enerjisi",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "extending power lines is cheap",
+      "solar systems can power heavy machinery",
+      "kerosene lamps were commonly used for lighting before solar systems",
+      "power lines already reach all villages",
+      "rural families do not own phones"
+    ],
+    "dogru": 2,
+    "aciklama": "'light their homes at night without kerosene lamps' ifadesi daha önce gazyağı lambası kullanıldığını düşündürür.",
+    "paragraf_id": "p-0044"
+  },
+  {
+    "id": "okuma.cikarim-0038",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Maya çöküşü",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "Maya cities are still densely populated",
+      "the collapse probably had more than one cause",
+      "researchers have always agreed on the causes",
+      "drought was the only cause of the collapse",
+      "the Maya people died out completely"
+    ],
+    "dogru": 1,
+    "aciklama": "Kuraklığın nüfus, ormansızlaşma ve savaşla birleşmesi çöküşün birden fazla nedeni olduğunu gösterir.",
+    "paragraf_id": "p-0045"
+  },
+  {
+    "id": "okuma.kelime-0037",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "overwhelm",
+    "zorluk": 2,
+    "soru": "The word 'overwhelmed' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "supported",
+      "ignored",
+      "replaced",
+      "celebrated",
+      "was too much for"
+    ],
+    "dogru": 4,
+    "aciklama": "Etkenlerin toplumun baş edemeyeceği kadar ağır gelmesi: 'overwhelm'.",
+    "paragraf_id": "p-0045"
+  },
+  {
+    "id": "okuma.tutum-0038",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Maya çöküşü",
+    "zorluk": 3,
+    "soru": "By stating that 'the Maya people did not disappear', the author aims to ----.",
+    "secenekler": [
+      "argue that warfare was not important",
+      "criticise the research on droughts",
+      "show that the collapse never happened",
+      "correct a possible misunderstanding",
+      "prove that the cities were never abandoned"
+    ],
+    "dogru": 3,
+    "aciklama": "'It is worth noting, however' ile yazar çöküşün halkın yok olması olarak anlaşılmasını düzeltiyor.",
+    "paragraf_id": "p-0045"
+  },
+  {
+    "id": "okuma.anafikir-0036",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Bağırsak mikrobiyotası",
+    "zorluk": 2,
+    "soru": "The main idea of the passage is that ----.",
+    "secenekler": [
+      "gut bacteria play important roles in human health",
+      "fibre should be avoided",
+      "the microbiome causes depression",
+      "scientists have fully understood the microbiome",
+      "all bacteria are harmful to humans"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça bağırsak bakterilerinin sağlıktaki rollerini anlatıyor.",
+    "paragraf_id": "p-0046"
+  },
+  {
+    "id": "okuma.detay-0038",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Bağırsak mikrobiyotası",
+    "zorluk": 1,
+    "soru": "According to the passage, a diet rich in fibre ----.",
+    "secenekler": [
+      "prevents vitamin production",
+      "tends to support a more diverse microbial community",
+      "has no effect on the microbiome",
+      "causes obesity",
+      "destroys gut bacteria"
+    ],
+    "dogru": 1,
+    "aciklama": "'a diet rich in fibre tends to support a more diverse microbial community' ifadesi.",
+    "paragraf_id": "p-0046"
+  },
+  {
+    "id": "okuma.kelime-0038",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "preliminary",
+    "zorluk": 2,
+    "soru": "The word 'preliminary' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "final",
+      "dangerous",
+      "early and not yet confirmed",
+      "widely accepted",
+      "unimportant"
+    ],
+    "dogru": 2,
+    "aciklama": "'preliminary findings' = ön bulgular, henüz kesinleşmemiş.",
+    "paragraf_id": "p-0046"
+  },
+  {
+    "id": "okuma.detay-0039",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Depreme dayanıklı binalar",
+    "zorluk": 2,
+    "soru": "According to the passage, base isolators ----.",
+    "secenekler": [
+      "are used mainly in older buildings",
+      "make buildings completely rigid",
+      "are made only of glass",
+      "increase the vibrations of a building",
+      "allow the ground to move beneath a building"
+    ],
+    "dogru": 4,
+    "aciklama": "'allow the ground to move beneath a building' ifadesi.",
+    "paragraf_id": "p-0047"
+  },
+  {
+    "id": "okuma.cikarim-0039",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Depreme dayanıklı binalar",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "dampers increase vibrations",
+      "earthquakes never occur in Tokyo",
+      "strict building codes are ineffective",
+      "older buildings may lack modern earthquake-resistant features",
+      "recent buildings suffer the most damage"
+    ],
+    "dogru": 3,
+    "aciklama": "Eski yapıların savunmasız kalması modern teknolojilerden yoksun olduklarını düşündürür.",
+    "paragraf_id": "p-0047"
+  },
+  {
+    "id": "okuma.tutum-0039",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Depreme dayanıklı binalar",
+    "zorluk": 2,
+    "soru": "The author's attitude towards Japan's earthquake technologies is ----.",
+    "secenekler": [
+      "appreciative",
+      "suspicious",
+      "indifferent",
+      "sarcastic",
+      "critical"
+    ],
+    "dogru": 0,
+    "aciklama": "'Thanks to such technologies' ifadesi takdir eden bir tutumu gösterir.",
+    "paragraf_id": "p-0047"
+  },
+  {
+    "id": "okuma.anafikir-0037",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Plastik yiyen bakteriler",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Conventional recycling is perfect.",
+      "Bacteria that break down plastic may help recycling, but reducing plastic use remains important.",
+      "Plastic bottles are no longer produced.",
+      "All bacteria can digest plastic.",
+      "Japanese scientists invented PET."
+    ],
+    "dogru": 1,
+    "aciklama": "Parça bakterilerin geri dönüşüme katkısını ve plastik kullanımını azaltmanın önemini anlatıyor.",
+    "paragraf_id": "p-0048"
+  },
+  {
+    "id": "okuma.kelime-0039",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "no substitute for",
+    "zorluk": 2,
+    "soru": "The phrase 'no substitute for' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "is better than",
+      "leads to",
+      "depends on",
+      "cannot replace",
+      "is the same as"
+    ],
+    "dogru": 3,
+    "aciklama": "'no substitute for' = …in yerini tutamaz.",
+    "paragraf_id": "p-0048"
+  },
+  {
+    "id": "okuma.tutum-0040",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Plastik yiyen bakteriler",
+    "zorluk": 2,
+    "soru": "The experts' attitude mentioned in the passage is ----.",
+    "secenekler": [
+      "enthusiastic",
+      "indifferent",
+      "amused",
+      "hostile",
+      "cautious"
+    ],
+    "dogru": 4,
+    "aciklama": "'Experts caution' ifadesi temkinli bir tutumu gösterir.",
+    "paragraf_id": "p-0048"
+  },
+  {
+    "id": "okuma.detay-0040",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Saat dilimleri",
+    "zorluk": 1,
+    "soru": "According to the passage, before the nineteenth century most towns ----.",
+    "secenekler": [
+      "had no clocks",
+      "used standard time zones",
+      "kept their own local time",
+      "followed Greenwich time",
+      "had railway timetables"
+    ],
+    "dogru": 2,
+    "aciklama": "İlk cümle doğrudan cevaptır.",
+    "paragraf_id": "p-0049"
+  },
+  {
+    "id": "okuma.cikarim-0040",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Saat dilimleri",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "Washington is on the prime meridian",
+      "local time was more accurate than standard time",
+      "faster travel created a need for standardised time",
+      "railways were built after 1884",
+      "collisions had nothing to do with time"
+    ],
+    "dogru": 2,
+    "aciklama": "Yavaş yolculukta sorun olmayan yerel saatin demiryollarıyla sorun olması, hızın standart zamanı gerekli kıldığını gösterir.",
+    "paragraf_id": "p-0049"
+  },
+  {
+    "id": "okuma.kelime-0040",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "collision",
+    "zorluk": 2,
+    "soru": "The word 'collisions' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "tickets",
+      "delays",
+      "stations",
+      "crashes",
+      "journeys"
+    ],
+    "dogru": 3,
+    "aciklama": "'collision' = çarpışma.",
+    "paragraf_id": "p-0049"
+  },
+  {
+    "id": "okuma.anafikir-0038",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Amazon kırılma noktası",
+    "zorluk": 2,
+    "soru": "The passage is mainly about ----.",
+    "secenekler": [
+      "the risk that parts of the Amazon could turn into savanna",
+      "the benefits of deforestation",
+      "the history of the Amazon River",
+      "why rain falls only in the west",
+      "how savannas are turned into forests"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça Amazon'un bir kırılma noktasını geçip savana dönüşme riskini anlatıyor.",
+    "paragraf_id": "p-0050"
+  },
+  {
+    "id": "okuma.cikarim-0041",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Amazon kırılma noktası",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "the Amazon receives no rain",
+      "cutting down trees could reduce rainfall in the region",
+      "the tipping point has been precisely predicted",
+      "savannas store more carbon than rainforests",
+      "deforestation increases rainfall"
+    ],
+    "dogru": 1,
+    "aciklama": "Ağaçlar nemi havaya salıp yağmuru döngüye soktuğuna göre, ağaç kesimi yağışı azaltabilir.",
+    "paragraf_id": "p-0050"
+  },
+  {
+    "id": "okuma.tutum-0041",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Amazon kırılma noktası",
+    "zorluk": 2,
+    "soru": "The author's tone in the passage is ----.",
+    "secenekler": [
+      "celebratory",
+      "nostalgic",
+      "humorous",
+      "indifferent",
+      "concerned"
+    ],
+    "dogru": 4,
+    "aciklama": "Uyarılar ve 'urgent action' ifadesi kaygılı bir ton oluşturur.",
+    "paragraf_id": "p-0050"
+  },
+  {
+    "id": "okuma.detay-0041",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Erken dönem fotoğrafçılık",
+    "zorluk": 2,
+    "soru": "According to the passage, the earliest surviving photograph shows no people because ----.",
+    "secenekler": [
+      "people were not allowed in the area",
+      "the camera was broken",
+      "photographs of people were illegal",
+      "it was taken at night",
+      "it required an exposure time of several hours"
+    ],
+    "dogru": 4,
+    "aciklama": "'required an exposure time of several hours, which is why it shows only buildings' ifadesi.",
+    "paragraf_id": "p-0051"
+  },
+  {
+    "id": "okuma.kelime-0041",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "craft",
+    "zorluk": 2,
+    "soru": "The word 'craft' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "machine",
+      "ship",
+      "price",
+      "skilled activity",
+      "trick"
+    ],
+    "dogru": 3,
+    "aciklama": "'a specialist craft' = uzmanlık gerektiren beceri/zanaat.",
+    "paragraf_id": "p-0051"
+  },
+  {
+    "id": "okuma.tutum-0042",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Erken dönem fotoğrafçılık",
+    "zorluk": 1,
+    "soru": "The tone of the passage is ----.",
+    "secenekler": [
+      "angry",
+      "informative",
+      "humorous",
+      "critical",
+      "sad"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça tarihsel gelişimi nesnel biçimde aktarıyor.",
+    "paragraf_id": "p-0051"
+  },
+  {
+    "id": "okuma.anafikir-0039",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Tsunami uyarı sistemi",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Tsunamis can be prevented by ocean buoys.",
+      "The 2004 tsunami caused few deaths.",
+      "Effective tsunami protection requires both technology and public awareness.",
+      "Coastal residents should never live near the sea.",
+      "Satellites cause earthquakes."
+    ],
+    "dogru": 2,
+    "aciklama": "'technology alone is not enough' ifadesi ana fikri verir: teknoloji ve halkın bilinci birlikte gerekir.",
+    "paragraf_id": "p-0052"
+  },
+  {
+    "id": "okuma.detay-0042",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Tsunami uyarı sistemi",
+    "zorluk": 1,
+    "soru": "According to the passage, the ocean buoys ----.",
+    "secenekler": [
+      "detect changes in sea level",
+      "stop tsunami waves",
+      "warn people by loudspeaker",
+      "measure air temperature",
+      "were built before 2004"
+    ],
+    "dogru": 0,
+    "aciklama": "'The buoys detect changes in sea level' ifadesi.",
+    "paragraf_id": "p-0052"
+  },
+  {
+    "id": "okuma.cikarim-0042",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Tsunami uyarı sistemi",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "technology alone can save all lives",
+      "there may not be time to wait for an official warning",
+      "people on the coast are always well prepared",
+      "earthquakes never cause tsunamis",
+      "the first waves always arrive after several hours"
+    ],
+    "dogru": 1,
+    "aciklama": "İlk dalgaların dakikalar içinde gelebilmesi, resmî uyarıyı beklemeye zaman olmayabileceğini gösterir.",
+    "paragraf_id": "p-0052"
+  },
+  {
+    "id": "okuma.anafikir-0040",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Gülmek ve sağlık",
+    "zorluk": 1,
+    "soru": "The passage is mainly about ----.",
+    "secenekler": [
+      "why people laugh more when alone",
+      "how to replace medical treatment",
+      "the possible health benefits of laughter",
+      "the dangers of stress hormones",
+      "the history of comedy"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça gülmenin olası sağlık yararlarını anlatıyor.",
+    "paragraf_id": "p-0053"
+  },
+  {
+    "id": "okuma.kelime-0042",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "complement",
+    "zorluk": 2,
+    "soru": "The word 'complement' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "a contradiction",
+      "a replacement",
+      "a danger",
+      "something that adds to and improves",
+      "a cause"
+    ],
+    "dogru": 3,
+    "aciklama": "'a complement, not a replacement' = tamamlayıcı, yerine geçen değil.",
+    "paragraf_id": "p-0053"
+  },
+  {
+    "id": "okuma.tutum-0043",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Gülmek ve sağlık",
+    "zorluk": 2,
+    "soru": "The author's attitude towards the claim that 'laughter is the best medicine' is ----.",
+    "secenekler": [
+      "partly supportive but cautious",
+      "angry",
+      "fully convinced",
+      "completely dismissive",
+      "uninterested"
+    ],
+    "dogru": 0,
+    "aciklama": "'some scientific support' ama 'Nevertheless ... small studies' ifadeleri temkinli destek gösterir.",
+    "paragraf_id": "p-0053"
+  },
+  {
+    "id": "okuma.anafikir-0041",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Eski Mısır tıbbı",
+    "zorluk": 2,
+    "soru": "The passage is mainly concerned with ----.",
+    "secenekler": [
+      "the antibacterial properties of modern drugs",
+      "why Egyptian doctors rejected religion",
+      "how papyrus was made",
+      "eye diseases in the modern world",
+      "the nature of medicine in ancient Egypt"
+    ],
+    "dogru": 4,
+    "aciklama": "Parça Eski Mısır tıbbının gözlem ve inancı birleştiren niteliğini anlatıyor.",
+    "paragraf_id": "p-0054"
+  },
+  {
+    "id": "okuma.detay-0043",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Eski Mısır tıbbı",
+    "zorluk": 1,
+    "soru": "According to the passage, applying honey to wounds ----.",
+    "secenekler": [
+      "was invented in modern times",
+      "had real medical value",
+      "was based only on magic",
+      "was forbidden by priests",
+      "caused infections"
+    ],
+    "dogru": 1,
+    "aciklama": "'had genuine value, since honey has antibacterial properties' ifadesi.",
+    "paragraf_id": "p-0054"
+  },
+  {
+    "id": "okuma.kelime-0043",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "genuine",
+    "zorluk": 2,
+    "soru": "The word 'genuine' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "real",
+      "religious",
+      "limited",
+      "ancient",
+      "false"
+    ],
+    "dogru": 0,
+    "aciklama": "'genuine' = gerçek.",
+    "paragraf_id": "p-0054"
+  },
+  {
+    "id": "okuma.anafikir-0042",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Okyanus asitlenmesi",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Acidic water helps corals grow.",
+      "The oceans release most of the world's carbon dioxide.",
+      "Plankton are not part of marine food chains.",
+      "Carbon dioxide absorbed by the oceans is making them more acidic, threatening marine life.",
+      "Global warming has stopped."
+    ],
+    "dogru": 3,
+    "aciklama": "Parça okyanusların emdiği karbondioksitin asitlenmeye ve deniz yaşamına zarara yol açtığını anlatıyor.",
+    "paragraf_id": "p-0055"
+  },
+  {
+    "id": "okuma.cikarim-0043",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Okyanus asitlenmesi",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "marine food chains are unaffected by plankton",
+      "acidification only affects corals",
+      "the oceans' role in absorbing carbon dioxide has both benefits and drawbacks",
+      "oysters prefer acidic water",
+      "without the oceans, warming would be slower"
+    ],
+    "dogru": 2,
+    "aciklama": "'While this slows global warming, it comes at a cost' ifadesi hem yararı hem bedeli gösterir.",
+    "paragraf_id": "p-0055"
+  },
+  {
+    "id": "okuma.tutum-0044",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Okyanus asitlenmesi",
+    "zorluk": 2,
+    "soru": "The tone of the passage is ----.",
+    "secenekler": [
+      "indifferent",
+      "cheerful",
+      "angry",
+      "sarcastic",
+      "concerned"
+    ],
+    "dogru": 4,
+    "aciklama": "'scientists fear' ve 'far-reaching effects' kaygılı bir ton oluşturur.",
+    "paragraf_id": "p-0055"
+  },
+  {
+    "id": "okuma.anafikir-0043",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Trafik sıkışıklığı ücreti",
+    "zorluk": 2,
+    "soru": "The passage mainly discusses ----.",
+    "secenekler": [
+      "the history of London's buses",
+      "how small businesses avoid taxes",
+      "traffic accidents in London",
+      "London's congestion charge and its effects",
+      "why cyclists dislike the city centre"
+    ],
+    "dogru": 3,
+    "aciklama": "Parça Londra'nın trafik ücretini ve etkilerini anlatıyor.",
+    "paragraf_id": "p-0056"
+  },
+  {
+    "id": "okuma.detay-0044",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Trafik sıkışıklığı ücreti",
+    "zorluk": 2,
+    "soru": "According to the passage, the revenue from the charge ----.",
+    "secenekler": [
+      "was returned to drivers",
+      "was not collected",
+      "was invested in public transport",
+      "was used to build new roads for cars",
+      "was given to small businesses"
+    ],
+    "dogru": 2,
+    "aciklama": "'The revenue was invested in public transport' ifadesi.",
+    "paragraf_id": "p-0056"
+  },
+  {
+    "id": "okuma.tutum-0045",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Trafik sıkışıklığı ücreti",
+    "zorluk": 2,
+    "soru": "The author's presentation of the congestion charge is ----.",
+    "secenekler": [
+      "humorous",
+      "emotional",
+      "confused",
+      "entirely negative",
+      "balanced"
+    ],
+    "dogru": 4,
+    "aciklama": "Yazar olumlu sonuçları ve eleştirileri birlikte veriyor.",
+    "paragraf_id": "p-0056"
+  },
+  {
+    "id": "okuma.anafikir-0044",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Roman okumak ve empati",
+    "zorluk": 2,
+    "soru": "The main point of the passage is that ----.",
+    "secenekler": [
+      "reading fiction may improve the ability to understand others, though evidence is mixed",
+      "all experiments show the same result",
+      "novels are only a leisure activity",
+      "psychologists recommend avoiding novels",
+      "non-fiction improves empathy more than fiction"
+    ],
+    "dogru": 0,
+    "aciklama": "Parça roman okumanın empatiyi geliştirebileceğini ama kanıtların karışık olduğunu söylüyor.",
+    "paragraf_id": "p-0057"
+  },
+  {
+    "id": "okuma.cikarim-0044",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Roman okumak ve empati",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "the experiments were never repeated",
+      "the link between fiction and empathy has not been firmly established",
+      "fictional characters have real feelings",
+      "reading non-fiction reduces empathy",
+      "all researchers agree that fiction improves empathy"
+    ],
+    "dogru": 1,
+    "aciklama": "Sonuçların tekrarlanamaması ilişkinin kesinleşmediğini gösterir.",
+    "paragraf_id": "p-0057"
+  },
+  {
+    "id": "okuma.kelime-0044",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "sharpen",
+    "zorluk": 2,
+    "soru": "The word 'sharpen' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "test",
+      "reduce",
+      "hide",
+      "improve",
+      "replace"
+    ],
+    "dogru": 3,
+    "aciklama": "'sharpen skills' = becerileri geliştirmek.",
+    "paragraf_id": "p-0057"
+  },
+  {
+    "id": "okuma.anafikir-0045",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Somonların yuvaya dönüşü",
+    "zorluk": 1,
+    "soru": "What is the passage mainly about?",
+    "secenekler": [
+      "how to cook salmon",
+      "how salmon find their way back to their home streams",
+      "the construction of dams",
+      "why salmon prefer salt water",
+      "the Earth's magnetic field"
+    ],
+    "dogru": 1,
+    "aciklama": "Parça somonların doğdukları dereye nasıl döndüklerini anlatıyor.",
+    "paragraf_id": "p-0058"
+  },
+  {
+    "id": "okuma.detay-0045",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Somonların yuvaya dönüşü",
+    "zorluk": 1,
+    "soru": "According to the passage, salmon identify their home river by using ----.",
+    "secenekler": [
+      "the temperature of the water",
+      "their eyesight",
+      "fish ladders",
+      "the position of the stars",
+      "their sense of smell"
+    ],
+    "dogru": 4,
+    "aciklama": "'then their sense of smell to identify their home river' ifadesi.",
+    "paragraf_id": "p-0058"
+  },
+  {
+    "id": "okuma.cikarim-0045",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Somonların yuvaya dönüşü",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "fish ladders are intended to help salmon get past dams",
+      "dams help salmon reach their home streams",
+      "salmon travel only short distances",
+      "salmon spawn in the ocean",
+      "salmon never leave their home stream"
+    ],
+    "dogru": 0,
+    "aciklama": "Barajlar yolculuğu engellediği için balık merdivenleri somonların geçmesi amacıyla yapılır.",
+    "paragraf_id": "p-0058"
+  },
+  {
+    "id": "okuma.anafikir-0046",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yanlış geri dönüşüm",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "All items can be recycled.",
+      "People should stop recycling.",
+      "Putting the wrong items in recycling bins can harm the recycling process.",
+      "Pizza boxes are the most recyclable material.",
+      "Landfill is better than recycling."
+    ],
+    "dogru": 2,
+    "aciklama": "'can actually do more harm than good' ifadesi ana fikri verir.",
+    "paragraf_id": "p-0059"
+  },
+  {
+    "id": "okuma.kelime-0045",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "contaminate",
+    "zorluk": 2,
+    "soru": "The word 'contaminate' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "make impure",
+      "collect",
+      "increase",
+      "separate",
+      "clean"
+    ],
+    "dogru": 0,
+    "aciklama": "'contaminate' = kirletmek.",
+    "paragraf_id": "p-0059"
+  },
+  {
+    "id": "okuma.tutum-0046",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Yanlış geri dönüşüm",
+    "zorluk": 2,
+    "soru": "The author's attitude towards 'wish-cycling' is ----.",
+    "secenekler": [
+      "approving",
+      "amused",
+      "envious",
+      "critical",
+      "indifferent"
+    ],
+    "dogru": 3,
+    "aciklama": "'more harm than good' ifadesi eleştirel bir tutum gösterir.",
+    "paragraf_id": "p-0059"
+  },
+  {
+    "id": "okuma.anafikir-0047",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Gece vardiyası",
+    "zorluk": 2,
+    "soru": "The passage is mainly concerned with ----.",
+    "secenekler": [
+      "the history of the internal clock",
+      "why pilots work at night",
+      "the health effects of night-shift work and ways to reduce them",
+      "the benefits of eating late at night",
+      "how factories are designed"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça gece çalışmanın sağlık etkilerini ve önerilen önlemleri anlatıyor.",
+    "paragraf_id": "p-0060"
+  },
+  {
+    "id": "okuma.detay-0046",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Gece vardiyası",
+    "zorluk": 1,
+    "soru": "According to the passage, experts recommend ----.",
+    "secenekler": [
+      "eating more at night",
+      "limiting consecutive night shifts",
+      "sleeping in bright rooms",
+      "working more night shifts",
+      "avoiding sleep during the day"
+    ],
+    "dogru": 1,
+    "aciklama": "Son cümle uzmanların önerilerini verir.",
+    "paragraf_id": "p-0060"
+  },
+  {
+    "id": "okuma.kelime-0046",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "consecutive",
+    "zorluk": 2,
+    "soru": "The word 'consecutive' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "paid",
+      "shorter",
+      "occasional",
+      "difficult",
+      "following one after another"
+    ],
+    "dogru": 4,
+    "aciklama": "'consecutive' = art arda gelen.",
+    "paragraf_id": "p-0060"
+  },
+  {
+    "id": "okuma.anafikir-0048",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Hidrojen yakıtı",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Steelmaking cannot be improved.",
+      "Private cars should all run on hydrogen.",
+      "Hydrogen is always produced without emissions.",
+      "Natural gas is a clean fuel.",
+      "Hydrogen could be a useful clean fuel, but how it is produced matters."
+    ],
+    "dogru": 4,
+    "aciklama": "Parça hidrojenin temizliğinin üretim yöntemine bağlı olduğunu anlatıyor.",
+    "paragraf_id": "p-0061"
+  },
+  {
+    "id": "okuma.cikarim-0046",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Hidrojen yakıtı",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "shipping is easy to electrify",
+      "hydrogen use produces carbon dioxide",
+      "most hydrogen today is green",
+      "hydrogen is not automatically clean if it is made from fossil fuels",
+      "green hydrogen is cheaper than hydrogen from natural gas"
+    ],
+    "dogru": 3,
+    "aciklama": "Doğal gazdan üretimin karbondioksit salması, hidrojenin her durumda temiz olmadığını gösterir.",
+    "paragraf_id": "p-0061"
+  },
+  {
+    "id": "okuma.tutum-0047",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Hidrojen yakıtı",
+    "zorluk": 2,
+    "soru": "The author's attitude towards hydrogen as a fuel is ----.",
+    "secenekler": [
+      "overly enthusiastic",
+      "realistic",
+      "mocking",
+      "indifferent",
+      "completely negative"
+    ],
+    "dogru": 1,
+    "aciklama": "Yazar potansiyeli kabul edip sınırlarını da belirtiyor: gerçekçi.",
+    "paragraf_id": "p-0061"
+  },
+  {
+    "id": "okuma.anafikir-0049",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Uzay çöpü",
+    "zorluk": 2,
+    "soru": "The passage mainly discusses ----.",
+    "secenekler": [
+      "the launch of the first satellite",
+      "companies that build satellites",
+      "the growing problem of debris in orbit",
+      "why spacecraft travel slowly",
+      "how satellites are painted"
+    ],
+    "dogru": 2,
+    "aciklama": "Parça yörüngedeki çöp sorununu anlatıyor.",
+    "paragraf_id": "p-0062"
+  },
+  {
+    "id": "okuma.detay-0047",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Uzay çöpü",
+    "zorluk": 1,
+    "soru": "According to the passage, even a small piece of debris ----.",
+    "secenekler": [
+      "can seriously damage a working satellite",
+      "falls to Earth immediately",
+      "travels very slowly",
+      "can be seen easily from the ground",
+      "is harmless because it is small"
+    ],
+    "dogru": 0,
+    "aciklama": "'even a small piece of debris can seriously damage a working satellite' ifadesi.",
+    "paragraf_id": "p-0062"
+  },
+  {
+    "id": "okuma.cikarim-0047",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Uzay çöpü",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "collisions reduce the number of fragments",
+      "satellites cannot be damaged",
+      "debris is no longer a concern",
+      "the amount of debris could increase even without new launches",
+      "all debris has already been removed"
+    ],
+    "dogru": 3,
+    "aciklama": "Çarpışmaların yeni parçalar üretip zincirleme tepkiye yol açabilmesi, yeni fırlatma olmasa da çöpün artabileceğini gösterir.",
+    "paragraf_id": "p-0062"
+  },
+  {
+    "id": "okuma.anafikir-0050",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Yeşil Devrim",
+    "zorluk": 2,
+    "soru": "What is the main idea of the passage?",
+    "secenekler": [
+      "Fertilisers have no effect on the environment.",
+      "India stopped using irrigation in the 1960s.",
+      "Crop yields have never increased.",
+      "The Green Revolution caused widespread famine.",
+      "The Green Revolution boosted food production but also caused environmental problems."
+    ],
+    "dogru": 4,
+    "aciklama": "Parça Yeşil Devrim'in üretimi artırdığını ama çevre sorunlarına yol açtığını anlatıyor.",
+    "paragraf_id": "p-0063"
+  },
+  {
+    "id": "okuma.kelime-0047",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "deplete",
+    "zorluk": 2,
+    "soru": "The word 'depleted' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "used up",
+      "discovered",
+      "protected",
+      "cleaned",
+      "increased"
+    ],
+    "dogru": 0,
+    "aciklama": "'deplete groundwater' = yeraltı suyunu tüketmek.",
+    "paragraf_id": "p-0063"
+  },
+  {
+    "id": "okuma.tutum-0048",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Yeşil Devrim",
+    "zorluk": 2,
+    "soru": "The author's view of the Green Revolution is ----.",
+    "secenekler": [
+      "uncritically positive",
+      "entirely negative",
+      "balanced",
+      "humorous",
+      "indifferent"
+    ],
+    "dogru": 2,
+    "aciklama": "Yazar hem başarıyı hem sakıncaları veriyor: dengeli.",
+    "paragraf_id": "p-0063"
+  },
+  {
+    "id": "okuma.anafikir-0051",
+    "bolum": "okuma",
+    "konu": "okuma.anafikir",
+    "alt_konu": "Satranç ve yapay zekâ",
+    "zorluk": 2,
+    "soru": "The main point of the passage is that ----.",
+    "secenekler": [
+      "online chess has lost players",
+      "computers have changed chess without reducing interest in it",
+      "human players no longer use computers",
+      "Kasparov defeated Deep Blue in 1997",
+      "computers have made chess boring"
+    ],
+    "dogru": 1,
+    "aciklama": "'Rather than killing interest in the game, computers have transformed it' cümlesi ana fikirdir.",
+    "paragraf_id": "p-0064"
+  },
+  {
+    "id": "okuma.detay-0048",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Satranç ve yapay zekâ",
+    "zorluk": 1,
+    "soru": "According to the passage, players now use chess programs to ----.",
+    "secenekler": [
+      "design new chess boards",
+      "analyse their games and prepare for opponents",
+      "replace human opponents entirely",
+      "cheat in tournaments",
+      "avoid playing online"
+    ],
+    "dogru": 1,
+    "aciklama": "'use chess programs to analyse their games and prepare for opponents' ifadesi.",
+    "paragraf_id": "p-0064"
+  },
+  {
+    "id": "okuma.cikarim-0048",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Satranç ve yapay zekâ",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "some people expected computers to reduce interest in chess",
+      "machines cannot suggest new ideas",
+      "human chess has become less creative",
+      "Deep Blue was invented by Kasparov",
+      "chess is no longer played online"
+    ],
+    "dogru": 0,
+    "aciklama": "'Rather than killing interest' ifadesi bazılarının ilginin azalacağını beklediğini gösterir.",
+    "paragraf_id": "p-0064"
+  },
+  {
+    "id": "okuma.detay-0049",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Yangın ekolojisi",
+    "zorluk": 2,
+    "soru": "According to the passage, some pine species ----.",
+    "secenekler": [
+      "grow only near towns",
+      "are destroyed completely by any fire",
+      "do not produce cones",
+      "need no nutrients",
+      "release their seeds only after exposure to intense heat"
+    ],
+    "dogru": 4,
+    "aciklama": "'cones that open and release their seeds only after being exposed to intense heat' ifadesi.",
+    "paragraf_id": "p-0065"
+  },
+  {
+    "id": "okuma.cikarim-0049",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Yangın ekolojisi",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "all wildfires should be put out immediately",
+      "fire never occurs naturally",
+      "pine trees cannot survive fires",
+      "allowing some small fires may reduce the risk of severe fires",
+      "dead vegetation prevents fires"
+    ],
+    "dogru": 3,
+    "aciklama": "Her küçük yangını söndürmenin yakıt birikimine yol açması, bazı küçük yangınlara izin vermenin büyük yangın riskini azaltabileceğini düşündürür.",
+    "paragraf_id": "p-0065"
+  },
+  {
+    "id": "okuma.kelime-0048",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "paradoxically",
+    "zorluk": 2,
+    "soru": "The word 'paradoxically' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "rarely",
+      "predictably",
+      "in a way that seems contradictory",
+      "officially",
+      "fortunately"
+    ],
+    "dogru": 2,
+    "aciklama": "Yangını önlemenin daha şiddetli yangına yol açması çelişkili görünür: 'paradoxically'.",
+    "paragraf_id": "p-0065"
+  },
+  {
+    "id": "okuma.detay-0050",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Semmelweis ve el yıkama",
+    "zorluk": 1,
+    "soru": "According to the passage, Semmelweis suggested that doctors ----.",
+    "secenekler": [
+      "use new surgical tools",
+      "work only with midwives",
+      "stop performing autopsies",
+      "avoid the maternity ward",
+      "wash their hands with a chlorine solution"
+    ],
+    "dogru": 4,
+    "aciklama": "'suggested that they wash their hands with a chlorine solution' ifadesi.",
+    "paragraf_id": "p-0066"
+  },
+  {
+    "id": "okuma.kelime-0049",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "appreciate",
+    "zorluk": 2,
+    "soru": "The phrase 'fully appreciated' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "partly copied",
+      "strongly criticised",
+      "properly recognised",
+      "completely forgotten",
+      "officially banned"
+    ],
+    "dogru": 2,
+    "aciklama": "'fully appreciated' = hak ettiği değeri görmek.",
+    "paragraf_id": "p-0066"
+  },
+  {
+    "id": "okuma.tutum-0049",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Semmelweis ve el yıkama",
+    "zorluk": 2,
+    "soru": "The author's attitude towards the rejection of Semmelweis's ideas is ----.",
+    "secenekler": [
+      "approving",
+      "regretful",
+      "hostile towards Semmelweis",
+      "amused",
+      "indifferent"
+    ],
+    "dogru": 1,
+    "aciklama": "'Tragically' ifadesi yazarın bu reddedilişe üzüldüğünü gösterir.",
+    "paragraf_id": "p-0066"
+  },
+  {
+    "id": "okuma.cikarim-0050",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Fillerin iletişimi",
+    "zorluk": 2,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "humans cannot hear some of the sounds elephants make",
+      "elephants communicate only by sight",
+      "elephant families never separate",
+      "infrasonic calls travel only a few metres",
+      "elephants cannot feel vibrations"
+    ],
+    "dogru": 0,
+    "aciklama": "'below the range of human hearing' ifadesi bazı seslerin insanlarca duyulamadığını gösterir.",
+    "paragraf_id": "p-0067"
+  },
+  {
+    "id": "okuma.kelime-0050",
+    "bolum": "okuma",
+    "konu": "okuma.kelime",
+    "alt_konu": "coordinate",
+    "zorluk": 2,
+    "soru": "The word 'coordinate' in the passage is closest in meaning to ----.",
+    "secenekler": [
+      "stop",
+      "measure",
+      "hide",
+      "organise together",
+      "separate"
+    ],
+    "dogru": 3,
+    "aciklama": "'coordinate movements' = hareketleri birlikte düzenlemek.",
+    "paragraf_id": "p-0067"
+  },
+  {
+    "id": "okuma.tutum-0050",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Fillerin iletişimi",
+    "zorluk": 1,
+    "soru": "The author describes elephant communication as ----.",
+    "secenekler": [
+      "simple",
+      "annoying",
+      "unimportant",
+      "dangerous",
+      "remarkable"
+    ],
+    "dogru": 4,
+    "aciklama": "'a remarkable range of sounds' ifadesi.",
+    "paragraf_id": "p-0067"
+  },
+  {
+    "id": "okuma.detay-0051",
+    "bolum": "okuma",
+    "konu": "okuma.detay",
+    "alt_konu": "Minimalizm",
+    "zorluk": 1,
+    "soru": "According to the passage, supporters of minimalism claim that owning less ----.",
+    "secenekler": [
+      "is harmful to the environment",
+      "requires expensive furniture",
+      "reduces stress and saves money",
+      "increases stress",
+      "is only for elderly people"
+    ],
+    "dogru": 2,
+    "aciklama": "'owning less reduces stress, saves money and benefits the environment' ifadesi.",
+    "paragraf_id": "p-0068"
+  },
+  {
+    "id": "okuma.cikarim-0051",
+    "bolum": "okuma",
+    "konu": "okuma.cikarim",
+    "alt_konu": "Minimalizm",
+    "zorluk": 3,
+    "soru": "It can be inferred from the passage that ----.",
+    "secenekler": [
+      "minimalist furniture is always cheap",
+      "minimalism can itself become a form of consumerism",
+      "minimalism is unpopular among young people",
+      "critics support buying more possessions",
+      "all minimalists are poor"
+    ],
+    "dogru": 1,
+    "aciklama": "Pahalı 'minimalist' mobilyalarla bir ürün olarak pazarlanması, minimalizmin de bir tüketim biçimine dönüşebileceğini gösterir.",
+    "paragraf_id": "p-0068"
+  },
+  {
+    "id": "okuma.tutum-0051",
+    "bolum": "okuma",
+    "konu": "okuma.tutum",
+    "alt_konu": "Minimalizm",
+    "zorluk": 2,
+    "soru": "The critics mentioned in the passage regard minimalism as ----.",
+    "secenekler": [
+      "not as simple or universal as it seems",
+      "the best solution for everyone",
+      "too cheap",
+      "dangerous to health",
+      "completely unknown"
+    ],
+    "dogru": 0,
+    "aciklama": "Eleştirmenler minimalizmin pazarlandığını ve herkes için erişilebilir olmadığını söylüyor.",
+    "paragraf_id": "p-0068"
+  }
+]
