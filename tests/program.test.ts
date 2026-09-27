@@ -80,6 +80,12 @@ describe('ders programı', () => {
     expect(p.gunler.flatMap((g) => g.etkinlikler).some((e) => e.tur === 'test')).toBe(false);
   });
 
+  it('son bir haftada deneme çözülmediyse deneme önerir', () => {
+    expect(programOlustur(girdi({ sonDenemeGunOnce: null })).notlar).toContain('deneme');
+    expect(programOlustur(girdi({ sonDenemeGunOnce: 3 })).notlar).not.toContain('deneme');
+    expect(programOlustur(girdi({ teshisKalan: 2 })).notlar).not.toContain('deneme');
+  });
+
   it('aynı girdi aynı programı verir', () => {
     expect(programOlustur(girdi())).toEqual(programOlustur(girdi()));
   });

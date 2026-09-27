@@ -2482,5 +2482,905 @@
     "dogru": 1,
     "aciklama": "'So + sıfat + was + özne + that' → tekil 'damage' ile 'was'.",
     "paragraf_id": null
+  },
+  {
+    "id": "gr.baglac-0064",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "but (zıtlık)",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "so",
+      "unless",
+      "because",
+      "whereas",
+      "but"
+    ],
+    "dogru": 4,
+    "aciklama": "Uykunun önemi uzun zamandır biliniyor ama nedeni yeni anlaşılıyor: zıtlık 'but'. Ardından gelen 'only recently have they' devrik yapısı da 'but' ile uyumludur.",
+    "paragraf_id": "p-0069"
+  },
+  {
+    "id": "gr.relative-0063",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "Cümleyi niteleyen which",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "which",
+      "where",
+      "whose",
+      "what",
+      "who"
+    ],
+    "dogru": 0,
+    "aciklama": "Önceki cümlenin tamamını (beynin günü tekrar etmesi) niteleyen virgüllü 'which'.",
+    "paragraf_id": "p-0069"
+  },
+  {
+    "id": "gr.zaman-0061",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Past Perfect",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "had learned",
+      "have learned",
+      "are learning",
+      "learn",
+      "will learn"
+    ],
+    "dogru": 0,
+    "aciklama": "Kelimeler, hatırlama (remembered) eyleminden önce öğrenilmişti → Past Perfect.",
+    "paragraf_id": "p-0069"
+  },
+  {
+    "id": "gr.reduction_inversion-0059",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "-ing ile kısaltma",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "suggests",
+      "suggesting",
+      "to suggest",
+      "having suggested",
+      "suggested"
+    ],
+    "dogru": 1,
+    "aciklama": "', which suggests that' yan cümlesi etken olarak '-ing' ile kısaltılır: 'suggesting that'.",
+    "paragraf_id": "p-0069"
+  },
+  {
+    "id": "gr.gerund_inf-0060",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "avoid + -ing",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "to stay",
+      "stay",
+      "stayed",
+      "staying",
+      "to staying"
+    ],
+    "dogru": 3,
+    "aciklama": "'avoid' fiili gerund alır: 'avoid staying up'.",
+    "paragraf_id": "p-0069"
+  },
+  {
+    "id": "gr.baglac-0065",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "because of",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "Instead of",
+      "Despite",
+      "Because of",
+      "In spite of",
+      "Regardless of"
+    ],
+    "dogru": 2,
+    "aciklama": "Alevlerin hızla yayılmasının nedeni güçlü rüzgârdır; isim öbeğinden önce sebep → 'Because of'.",
+    "paragraf_id": "p-0070"
+  },
+  {
+    "id": "gr.passive-0060",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "brings",
+      "had brought",
+      "has been brought",
+      "is brought",
+      "was brought"
+    ],
+    "dogru": 4,
+    "aciklama": "Yangın kontrol altına alınan şeydir (edilgen) ve olay geçmiştedir → 'was brought'.",
+    "paragraf_id": "p-0070"
+  },
+  {
+    "id": "gr.baglac-0066",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "although",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "as long as",
+      "although",
+      "because",
+      "so that",
+      "unless"
+    ],
+    "dogru": 1,
+    "aciklama": "Resmî ölü sayısının düşük olmasına karşın tarihçiler birçok ölümün kaydedilmediğini düşünür → zıtlık: 'although'.",
+    "paragraf_id": "p-0070"
+  },
+  {
+    "id": "gr.relative-0064",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü which",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "what",
+      "whose",
+      "who",
+      "which",
+      "where"
+    ],
+    "dogru": 3,
+    "aciklama": "'regulations' cansız ismini niteleyen ve özne görevindeki virgüllü 'which'.",
+    "paragraf_id": "p-0070"
+  },
+  {
+    "id": "gr.comparison-0060",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "far less ... than",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "fewer",
+      "more less",
+      "less",
+      "least",
+      "little"
+    ],
+    "dogru": 2,
+    "aciklama": "'than' karşılaştırma ister; sıfat 'vulnerable' ile 'less' kullanılır ('fewer' isimlerle kullanılır).",
+    "paragraf_id": "p-0070"
+  },
+  {
+    "id": "gr.zaman-0062",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "has built",
+      "will build",
+      "was building",
+      "had built",
+      "builds"
+    ],
+    "dogru": 0,
+    "aciklama": "Günümüze uzanan sonuç ('now cycle') → Present Perfect: 'has built'.",
+    "paragraf_id": "p-0071"
+  },
+  {
+    "id": "kel.fiil-0054",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "threatens",
+      "delays",
+      "prevents",
+      "worsens",
+      "improves"
+    ],
+    "dogru": 4,
+    "aciklama": "Destekçiler bisikletin yararlarını sayıyor: halk sağlığını iyileştirir ('improves').",
+    "paragraf_id": "p-0071"
+  },
+  {
+    "id": "gr.baglac-0067",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "however",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "for instance",
+      "as a result",
+      "therefore",
+      "however",
+      "similarly"
+    ],
+    "dogru": 3,
+    "aciklama": "Eleştirmenler destekçilerin tersini söylüyor → zıtlık: 'however'.",
+    "paragraf_id": "p-0071"
+  },
+  {
+    "id": "kel.sifat-0053",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "essential to",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "irrelevant",
+      "essential",
+      "opposed",
+      "indifferent",
+      "harmful"
+    ],
+    "dogru": 1,
+    "aciklama": "Güvende hissetmek bisiklet kullanımını artırdığına göre iyi altyapı vazgeçilmezdir ('essential to').",
+    "paragraf_id": "p-0071"
+  },
+  {
+    "id": "gr.relative-0065",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "that",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "that",
+      "what",
+      "whose",
+      "whom",
+      "where"
+    ],
+    "dogru": 0,
+    "aciklama": "'Cities' ismini niteleyen ve özne görevindeki 'that' (= which).",
+    "paragraf_id": "p-0071"
+  },
+  {
+    "id": "gr.passive-0061",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "V3 (edilgen sıfat)",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "design",
+      "to design",
+      "designs",
+      "designing",
+      "designed"
+    ],
+    "dogru": 4,
+    "aciklama": "Uygulamalar oyun gibi tasarlanmıştır (edilgen): 'are ... designed like games'.",
+    "paragraf_id": "p-0072"
+  },
+  {
+    "id": "gr.baglac-0068",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "whereas",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "because",
+      "in case",
+      "whereas",
+      "so that",
+      "unless"
+    ],
+    "dogru": 2,
+    "aciklama": "Uygulamaların odağı ile gerçek iletişimin gerektirdiği şey karşılaştırılıyor → 'whereas'.",
+    "paragraf_id": "p-0072"
+  },
+  {
+    "id": "gr.comparison-0061",
+    "bolum": "cloze",
+    "konu": "gr.comparison",
+    "alt_konu": "faster ... than",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "more fast",
+      "fastest",
+      "as fast",
+      "the faster",
+      "faster"
+    ],
+    "dogru": 4,
+    "aciklama": "'than' karşılaştırma ister: 'faster progress than'.",
+    "paragraf_id": "p-0072"
+  },
+  {
+    "id": "gr.baglac-0069",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "rather than",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "such as",
+      "rather than",
+      "as well as",
+      "in addition",
+      "instead"
+    ],
+    "dogru": 1,
+    "aciklama": "'a supplement rather than a replacement' = yerine geçen değil, tamamlayıcı.",
+    "paragraf_id": "p-0072"
+  },
+  {
+    "id": "kel.zarf-0053",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "wisely",
+      "hardly",
+      "barely",
+      "reluctantly",
+      "rarely"
+    ],
+    "dogru": 0,
+    "aciklama": "'Used wisely' = akıllıca kullanıldığında; 'however' olumlu bir koşulu vurgular.",
+    "paragraf_id": "p-0072"
+  },
+  {
+    "id": "gr.passive-0062",
+    "bolum": "cloze",
+    "konu": "gr.passive",
+    "alt_konu": "Simple Past Passive",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "had been burying",
+      "buried",
+      "was buried",
+      "is burying",
+      "has buried"
+    ],
+    "dogru": 2,
+    "aciklama": "Kasaba küllerin altında kalan şeydir (edilgen), olay 79 yılındadır → 'was buried'.",
+    "paragraf_id": "p-0073"
+  },
+  {
+    "id": "kel.fiil-0055",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "removed",
+      "repeated",
+      "replaced",
+      "remained",
+      "reminded"
+    ],
+    "dogru": 3,
+    "aciklama": "Hızlı gömülme sayesinde eşyalar olduğu gibi kaldı ('remained').",
+    "paragraf_id": "p-0073"
+  },
+  {
+    "id": "gr.relative-0066",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "Virgüllü which",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "where",
+      "which",
+      "who",
+      "that",
+      "what"
+    ],
+    "dogru": 1,
+    "aciklama": "Virgüllü cümlecikte cansız 'Excavations' için 'which'; 'that' virgülden sonra kullanılmaz.",
+    "paragraf_id": "p-0073"
+  },
+  {
+    "id": "gr.zaman-0063",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Present Perfect",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "cause",
+      "is caused",
+      "was caused",
+      "has caused",
+      "had caused"
+    ],
+    "dogru": 3,
+    "aciklama": "Tekil özne ('exposure') ve günümüze uzanan etki → 'has caused'.",
+    "paragraf_id": "p-0073"
+  },
+  {
+    "id": "gr.modal-0059",
+    "bolum": "cloze",
+    "konu": "gr.modal",
+    "alt_konu": "could be (olasılık)",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "could be",
+      "must have been",
+      "needn't be",
+      "should have",
+      "can't be"
+    ],
+    "dogru": 0,
+    "aciklama": "'without careful conservation' gelecekteki bir olasılığı anlatır → 'could be lost'.",
+    "paragraf_id": "p-0073"
+  },
+  {
+    "id": "gr.baglac-0070",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "Since (sebep)",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "Even if",
+      "Unless",
+      "Since",
+      "Whereas",
+      "Although"
+    ],
+    "dogru": 2,
+    "aciklama": "Adaların anakarayla hiç bağlanmamış olması, hayvanların yüzerek ya da uçarak geldiği sonucunun nedenidir → 'Since'.",
+    "paragraf_id": "p-0074"
+  },
+  {
+    "id": "kel.fiil-0056",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "evolve into",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "dissolved",
+      "involved",
+      "revolved",
+      "resolved",
+      "evolved"
+    ],
+    "dogru": 4,
+    "aciklama": "'evolve into' = evrimleşip …e dönüşmek.",
+    "paragraf_id": "p-0074"
+  },
+  {
+    "id": "kel.sifat-0054",
+    "bolum": "cloze",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "same",
+      "identical",
+      "equal",
+      "similar",
+      "different"
+    ],
+    "dogru": 4,
+    "aciklama": "Evrim kuramına katkı sağlayan gözlem, gagaların farklı ('different') olmasıdır.",
+    "paragraf_id": "p-0074"
+  },
+  {
+    "id": "gr.gerund_inf-0061",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "help sb V1",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "developed",
+      "develop",
+      "to developing",
+      "having develop",
+      "developing"
+    ],
+    "dogru": 1,
+    "aciklama": "'help + nesne + yalın fiil (ya da to V)': 'helped him develop'.",
+    "paragraf_id": "p-0074"
+  },
+  {
+    "id": "gr.quantifier-0059",
+    "bolum": "cloze",
+    "konu": "gr.quantifier",
+    "alt_konu": "the number of + tekil fiil",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "have",
+      "are",
+      "being",
+      "is",
+      "has"
+    ],
+    "dogru": 3,
+    "aciklama": "'the number of visitors' tekil özne alır; edilgen 'is ... controlled'.",
+    "paragraf_id": "p-0074"
+  },
+  {
+    "id": "kel.zarf-0054",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlamdan zarf",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "hardly",
+      "vaguely",
+      "directly",
+      "reluctantly",
+      "rarely"
+    ],
+    "dogru": 2,
+    "aciklama": "Karıncaların yuvaya doğrudan ('directly') dönmesi gerekir; paragraf bunu nasıl başardıklarını anlatıyor.",
+    "paragraf_id": "p-0075"
+  },
+  {
+    "id": "gr.baglac-0071",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "because",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "because",
+      "so that",
+      "whereas",
+      "unless",
+      "although"
+    ],
+    "dogru": 0,
+    "aciklama": "Koku izine güvenememelerinin nedeni izlerin sıcakta buharlaşmasıdır → 'because'.",
+    "paragraf_id": "p-0075"
+  },
+  {
+    "id": "gr.relative-0067",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "Cümleyi niteleyen which",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "where",
+      "which",
+      "who",
+      "what",
+      "whom"
+    ],
+    "dogru": 1,
+    "aciklama": "Önceki eylemi (bacaklara uzatma takılması) niteleyen virgüllü 'which'.",
+    "paragraf_id": "p-0075"
+  },
+  {
+    "id": "gr.baglac-0072",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "while (karşıtlık)",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "since",
+      "because",
+      "so that",
+      "unless",
+      "while"
+    ],
+    "dogru": 4,
+    "aciklama": "Uzun bacaklı karıncalar ile kısaltılmış bacaklılar karşılaştırılıyor → 'while' (= whereas).",
+    "paragraf_id": "p-0075"
+  },
+  {
+    "id": "gr.zaman-0064",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Past Perfect Continuous",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "are",
+      "have been",
+      "had been",
+      "were being",
+      "will be"
+    ],
+    "dogru": 2,
+    "aciklama": "'The results showed' geçmişte; karıncaların o ana kadar adım saymakta olduğu → 'had been counting'.",
+    "paragraf_id": "p-0075"
+  },
+  {
+    "id": "kel.isim-0053",
+    "bolum": "cloze",
+    "konu": "kel.isim",
+    "alt_konu": "Bağlamdan isim",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "protection",
+      "production",
+      "profession",
+      "proportion",
+      "promotion"
+    ],
+    "dogru": 3,
+    "aciklama": "'a small proportion of' = küçük bir oranı.",
+    "paragraf_id": "p-0076"
+  },
+  {
+    "id": "gr.reduction_inversion-0060",
+    "bolum": "cloze",
+    "konu": "gr.reduction_inversion",
+    "alt_konu": "-ing ile kısaltma (sonuç)",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "exposing",
+      "expose",
+      "exposed",
+      "to be exposed",
+      "exposes"
+    ],
+    "dogru": 0,
+    "aciklama": "İşçilerin yaptığı eylemin sonucu etken '-ing' ile verilir: 'exposing themselves to' (kendilerini …e maruz bırakarak).",
+    "paragraf_id": "p-0076"
+  },
+  {
+    "id": "kel.zarf-0055",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "particularly",
+      "rarely",
+      "scarcely",
+      "hardly",
+      "barely"
+    ],
+    "dogru": 0,
+    "aciklama": "Atığın değerli metaller içermesi durumu özellikle ('particularly') talihsiz kılar.",
+    "paragraf_id": "p-0076"
+  },
+  {
+    "id": "gr.if-0062",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "Second conditional",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "would be",
+      "will be",
+      "are",
+      "had",
+      "were"
+    ],
+    "dogru": 4,
+    "aciklama": "Ana cümlede 'could be avoided' → gerçek dışı koşul: 'If ... were designed'.",
+    "paragraf_id": "p-0076"
+  },
+  {
+    "id": "gr.gerund_inf-0062",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "require sb to V",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "provided",
+      "provide",
+      "to providing",
+      "to provide",
+      "providing"
+    ],
+    "dogru": 3,
+    "aciklama": "'require somebody to do' kalıbı.",
+    "paragraf_id": "p-0076"
+  },
+  {
+    "id": "gr.baglac-0073",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "instead",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "for example",
+      "instead",
+      "moreover",
+      "similarly",
+      "otherwise"
+    ],
+    "dogru": 1,
+    "aciklama": "Gerçek zamanlı sürülemedikleri için bunun yerine ('instead') kendi kararlarını vermeleri gerekir.",
+    "paragraf_id": "p-0077"
+  },
+  {
+    "id": "gr.gerund_inf-0063",
+    "bolum": "cloze",
+    "konu": "gr.gerund_inf",
+    "alt_konu": "be + to V",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "find out",
+      "to finding out",
+      "to find out",
+      "be finding out",
+      "found out"
+    ],
+    "dogru": 2,
+    "aciklama": "'One of their main goals is to find out' = amaç bildiren to-infinitive.",
+    "paragraf_id": "p-0077"
+  },
+  {
+    "id": "gr.zaman-0065",
+    "bolum": "cloze",
+    "konu": "gr.zaman",
+    "alt_konu": "Simple Past",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "once had",
+      "has",
+      "will have",
+      "has had",
+      "is having"
+    ],
+    "dogru": 0,
+    "aciklama": "'billions of years ago' geçmişte bitmiş durum → Simple Past: 'once had'.",
+    "paragraf_id": "p-0077"
+  },
+  {
+    "id": "gr.if-0063",
+    "bolum": "cloze",
+    "konu": "gr.if",
+    "alt_konu": "If (koşul)",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "Unless",
+      "If",
+      "Although",
+      "Because",
+      "Whereas"
+    ],
+    "dogru": 1,
+    "aciklama": "'If life ever existed there' = orada yaşam var olduysa; sonuç cümlesi bir olasılığı anlatır.",
+    "paragraf_id": "p-0077"
+  },
+  {
+    "id": "gr.relative-0068",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "where",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "what",
+      "which",
+      "that",
+      "whose",
+      "where"
+    ],
+    "dogru": 4,
+    "aciklama": "Yer bildiren 'Earth' ve arkasından tam cümle → 'where'.",
+    "paragraf_id": "p-0077"
+  },
+  {
+    "id": "gr.noun_clause-0061",
+    "bolum": "cloze",
+    "konu": "gr.noun_clause",
+    "alt_konu": "suggest that",
+    "zorluk": 1,
+    "soru": "Which option best completes blank (1)?",
+    "secenekler": [
+      "which",
+      "if",
+      "that",
+      "what",
+      "whether"
+    ],
+    "dogru": 2,
+    "aciklama": "'suggest that + tam cümle' = …olduğunu düşündürür.",
+    "paragraf_id": "p-0078"
+  },
+  {
+    "id": "gr.relative-0069",
+    "bolum": "cloze",
+    "konu": "gr.relative",
+    "alt_konu": "that",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (2)?",
+    "secenekler": [
+      "when",
+      "who",
+      "whose",
+      "that",
+      "where"
+    ],
+    "dogru": 3,
+    "aciklama": "'differences' ismini niteleyen ve nesne görevindeki 'that' (…nın duyamadığı farklar).",
+    "paragraf_id": "p-0078"
+  },
+  {
+    "id": "gr.baglac-0074",
+    "bolum": "cloze",
+    "konu": "gr.baglac",
+    "alt_konu": "whereas",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (3)?",
+    "secenekler": [
+      "unless",
+      "whereas",
+      "so that",
+      "because",
+      "therefore"
+    ],
+    "dogru": 1,
+    "aciklama": "Japon bebek ile Japon yetişkin karşılaştırılıyor → 'whereas'.",
+    "paragraf_id": "p-0078"
+  },
+  {
+    "id": "kel.fiil-0057",
+    "bolum": "cloze",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Which option best completes blank (4)?",
+    "secenekler": [
+      "decline",
+      "increase",
+      "improve",
+      "appear",
+      "expand"
+    ],
+    "dogru": 0,
+    "aciklama": "'however' ve beynin tek dile özelleşmesi, bu yeteneğin azaldığını ('decline') gösterir.",
+    "paragraf_id": "p-0078"
+  },
+  {
+    "id": "kel.zarf-0056",
+    "bolum": "cloze",
+    "konu": "kel.zarf",
+    "alt_konu": "Sıklık zarfı",
+    "zorluk": 3,
+    "soru": "Which option best completes blank (5)?",
+    "secenekler": [
+      "more",
+      "very",
+      "often",
+      "most",
+      "too"
+    ],
+    "dogru": 2,
+    "aciklama": "'often easier' = çoğu zaman daha kolay. 'more easier' ve 'very easier' dil bilgisi açısından yanlıştır.",
+    "paragraf_id": "p-0078"
   }
 ]

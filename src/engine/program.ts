@@ -1,5 +1,6 @@
 import type { Konu } from '../types';
 import { CONFIG } from './config';
+import { DENEME_SORU } from './deneme';
 import { konuAgirliklari, konuDurumlari, type CevapOzeti } from './mastery';
 
 /** Haftalık ders programı: istatistiklerden (konu eksikliği, yanlışlar, teşhis durumu) üretilir. */
@@ -15,6 +16,8 @@ export interface ProgramGirdisi {
   haftalikGun: number;
   /** YYYY-AA-GG */
   sinavTarihi: string | null;
+  /** Son deneme sınavından bu yana geçen gün (hiç yoksa null) */
+  sonDenemeGunOnce?: number | null;
 }
 
 export type Etkinlik =
@@ -39,7 +42,7 @@ export interface OdakKonu {
 }
 
 export type Asama = 'teshis' | 'normal' | 'son_hafta';
-export type ProgramNotu = 'teshis' | 'tekrar' | 'soru_az' | 'soru_bitti' | 'sinav_gecti' | 'son_hafta' | 'sinav_yarin';
+export type ProgramNotu = 'teshis' | 'tekrar' | 'soru_az' | 'soru_bitti' | 'sinav_gecti' | 'son_hafta' | 'sinav_yarin' | 'deneme';
 
 export interface CalismaProgrami {
   asama: Asama;
@@ -110,6 +113,12 @@ export function programOlustur(g: ProgramGirdisi): CalismaProgrami {
   if (asama === 'teshis') notlar.push('teshis');
   if (asama === 'son_hafta') notlar.push('son_hafta');
   if (sinavaKalanGun === 1) notlar.push('sinav_yarin');
+  if (
+    asama !== 'teshis' &&
+    g.kalanYeniSoru >= DENEME_SORU &&
+    (g.sonDenemeGunOnce == null || g.sonDenemeGunOnce >= 7)
+  )
+    notlar.push('deneme');
   if (g.yanlisSayisi > 0) notlar.push('tekrar');
   if (g.kalanYeniSoru === 0) notlar.push('soru_bitti');
   else if (g.kalanYeniSoru < 100) notlar.push('soru_az');

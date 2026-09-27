@@ -130,6 +130,27 @@ describe('Depo (IndexedDB)', () => {
     expect(await yeni.cevaplar()).toHaveLength(9);
   });
 
+  it('deneme: 80 yeni soru, yarım test varken başlamaz, test sırasını bozmaz', async () => {
+    const ilk = await depo.sonrakiTestiBaslat();
+    await expect(depo.denemeBaslat()).rejects.toThrow('yarım kalan');
+    await coz(ilk);
+
+    const { id, eksik } = await depo.denemeBaslat();
+    expect(eksik).toEqual([]);
+    expect((await depo.denemeBaslat()).id).toBe(id);
+    const d = (await depo.test(id))!;
+    expect(d.tip).toBe('deneme');
+    expect(d.soru_idleri).toHaveLength(80);
+    const ilkSorular = new Set((await depo.test(ilk))!.soru_idleri);
+    expect(d.soru_idleri.some((s) => ilkSorular.has(s))).toBe(false);
+
+    await coz(id, 0.5);
+    expect(await depo.cevaplar()).toHaveLength(90);
+    const sonraki = (await depo.test(await depo.sonrakiTestiBaslat()))!;
+    expect(sonraki.tip).toBe('teshis');
+    expect(sonraki.sira_no).toBe(2);
+  });
+
   it('geçersiz yedek reddedilir', async () => {
     await expect(depo.yedektenYukle({ uygulama: 'baska' })).rejects.toThrow('Geçersiz yedek');
   });

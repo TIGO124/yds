@@ -1,11 +1,72 @@
 import { useState } from 'preact/hooks';
-import { KONULAR, SORU_MAP, konuAdi, soruEtiketi, soruParagrafi } from '../data/bank';
+import { KONULAR, SORU_MAP, bolumAdi, konuAdi, soruEtiketi } from '../data/bank';
 import { depo } from '../depo';
 import { siradakiTest } from '../engine/adaptive';
 import { konuDegisimleri, odakKonulari, oranlar } from '../engine/analysis';
+import { DENEME_DAGILIMI, DENEME_DAKIKA, DENEME_SORU, ydsPuani, ydsSeviyesi } from '../engine/deneme';
+import type { CevapKaydi, TestKaydi } from '../types';
 import { IkonCarpi, IkonTik, IkonTire } from './ikonlar';
-import { HARF, Sayfa, TIP_AD, Ust, Yukleniyor, useVeri } from './ortak';
+import { HARF, ParagrafMetni, Sayfa, TIP_AD, Ust, Yukleniyor, useVeri } from './ortak';
 import { git } from './router';
+
+/** Deneme sınavı: ÖSYM usulü puan, seviye, süre ve bölüm bazında doğru/yanlış/boş. */
+function DenemeOzeti({ test, cevaplar }: { test: TestKaydi; cevaplar: CevapKaydi[] }) {
+  const toplam = cevaplar.length;
+  const puan = ydsPuani(test.dogru_sayisi, toplam);
+  const dakika = test.bitis ? Math.round((test.bitis - test.baslangic) / 60_000) : 0;
+  const satirlar = DENEME_DAGILIMI.map(({ bolum }) => {
+    const b = cevaplar.filter((c) => c.bolum === bolum);
+    return {
+      bolum,
+      toplam: b.length,
+      dogru: b.filter((c) => c.dogru_mu).length,
+      bos: b.filter((c) => c.secilen === null).length,
+    };
+  }).filter((s) => s.toplam > 0);
+  const bos = cevaplar.filter((c) => c.secilen === null).length;
+
+  return (
+    <>
+      <section class="kart skor-kart">
+        <p class="soluk">Deneme sınavı {test.sira_no}</p>
+        <p class="skor">{puan.toLocaleString('tr-TR', { minimumFractionDigits: 2 })}</p>
+        <p>
+          Tahmini YDS puanı · Seviye <strong>{ydsSeviyesi(puan)}</strong>
+        </p>
+        <p class="soluk kucuk">
+          {test.dogru_sayisi} doğru · {toplam - test.dogru_sayisi - bos} yanlış · {bos} boş · {Math.min(dakika, DENEME_DAKIKA)} dk
+          {toplam < DENEME_SORU && ` · ${toplam} soruluk deneme, puan ${DENEME_SORU} soruya oranlandı`}
+        </p>
+      </section>
+      <section class="kart">
+        <h2>Bölümlere göre</h2>
+        <p class="soluk kucuk">YDS'de yanlış cevaplar doğruları götürmez; boş bırakmak yerine tahmin etmek her zaman daha iyidir.</p>
+        <div class="tablo-kap">
+          <table class="tablo">
+            <thead>
+              <tr>
+                <th>Bölüm</th>
+                <th class="sag">D</th>
+                <th class="sag">Y</th>
+                <th class="sag">B</th>
+              </tr>
+            </thead>
+            <tbody>
+              {satirlar.map((s) => (
+                <tr>
+                  <td>{bolumAdi(s.bolum)}</td>
+                  <td class="sag">{s.dogru}</td>
+                  <td class="sag">{s.toplam - s.dogru - s.bos}</td>
+                  <td class="sag">{s.bos}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </>
+  );
+}
 
 export function Sonuc({ id }: { id: number }) {
   const [mesaj, setMesaj] = useState<string | null>(null);
@@ -41,16 +102,20 @@ export function Sonuc({ id }: { id: number }) {
     <Sayfa>
       <Ust baslik="Test sonu analizi" geri="/" />
 
-      <section class="kart skor-kart">
-        <p class="soluk">
-          {TIP_AD[test.tip]} {test.tip !== 'tekrar' && test.sira_no}
-        </p>
-        <p class="skor">
-          {test.dogru_sayisi}
-          <span>/{test.soru_idleri.length}</span>
-        </p>
-        <p class="soluk">%{yuzde} doğru</p>
-      </section>
+      {test.tip === 'deneme' ? (
+        <DenemeOzeti test={test} cevaplar={buTest} />
+      ) : (
+        <section class="kart skor-kart">
+          <p class="soluk">
+            {TIP_AD[test.tip]} {test.tip !== 'tekrar' && test.sira_no}
+          </p>
+          <p class="skor">
+            {test.dogru_sayisi}
+            <span>/{test.soru_idleri.length}</span>
+          </p>
+          <p class="soluk">%{yuzde} doğru</p>
+        </section>
+      )}
 
       {test.biten_konular && test.biten_konular.length > 0 && (
         <p class="bilgi-kutu">
@@ -151,11 +216,7 @@ export function Sonuc({ id }: { id: number }) {
                 </span>
                 <span class="sr-only">{durum === 'dogru' ? 'Doğru' : durum === 'yanlis' ? 'Yanlış' : 'Boş'}</span>
               </summary>
-              {soruParagrafi(s) && (
-                <p class="soru-metni kucuk-soru paragraf-metni" lang="en">
-                  {soruParagrafi(s)}
-                </p>
-              )}
+              <ParagrafMetni soru={s} kucuk />
               <p class="soru-metni kucuk-soru" lang="en">
                 {s.soru}
               </p>

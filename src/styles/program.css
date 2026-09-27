@@ -115,3 +115,24 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
+/* ---------- Deneme sınavı ---------- */
+.sayac {
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.sayac.az {
+  color: var(--bad);
+}
+.tablo-kap {
+  overflow-x: auto;
+}
+mark.bosluk {
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 4px;
+  outline: 1.5px solid var(--primary);
+}

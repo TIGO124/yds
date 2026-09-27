@@ -39,7 +39,7 @@ export interface Taksonomi {
 }
 
 // Cihazdaki kullanıcı verisi (IndexedDB)
-export type TestTipi = 'teshis' | 'uyarlanmis' | 'kontrol' | 'tekrar';
+export type TestTipi = 'teshis' | 'uyarlanmis' | 'kontrol' | 'tekrar' | 'deneme';
 
 export interface TestKaydi {
   id?: number;

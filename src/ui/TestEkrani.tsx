@@ -1,11 +1,18 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { SORU_MAP, soruEtiketi, soruParagrafi } from '../data/bank';
+import { SORU_MAP, bolumAdi, soruEtiketi } from '../data/bank';
 import { depo } from '../depo';
+import { DENEME_DAKIKA } from '../engine/deneme';
 import type { Ayarlar, TestKaydi } from '../types';
 import { IkonCarpi, IkonGeri, IkonIleri } from './ikonlar';
 import { onayla } from './onay';
-import { HARF, TIP_AD, Yukleniyor } from './ortak';
+import { HARF, ParagrafMetni, TIP_AD, Yukleniyor } from './ortak';
 import { git } from './router';
+
+const sayacMetni = (ms: number) => {
+  const s = Math.ceil(ms / 1000);
+  const iki = (x: number) => String(x).padStart(2, '0');
+  return `${Math.floor(s / 3600)}:${iki(Math.floor((s % 3600) / 60))}:${iki(s % 60)}`;
+};
 
 export function TestEkrani({ id }: { id: number }) {
   const [test, setTest] = useState<TestKaydi | null>(null);
@@ -48,7 +55,9 @@ export function TestEkrani({ id }: { id: number }) {
   }, [id, index]);
 
   const n = test?.soru_idleri.length ?? 0;
-  const aninda = ayar?.cevabi_goster === 'aninda';
+  const deneme = test?.tip === 'deneme';
+  // Denemede cevaplar gerçek sınavdaki gibi sonda gösterilir.
+  const aninda = ayar?.cevabi_goster === 'aninda' && !deneme;
   const secim = test?.secimler[index] ?? null;
   const acik = aninda && (secim !== null || bosAcik.has(index));
 
@@ -68,11 +77,15 @@ export function TestEkrani({ id }: { id: number }) {
     window.scrollTo(0, 0);
   };
 
-  const bitir = async () => {
+  /** zorla: süre dolduğunda onay sormadan bitirir. */
+  const bitir = async (zorla = false) => {
     if (!test || bitiriliyor) return;
     const bos = test.secimler.filter((s) => s === null).length;
     setBitiriliyor(true);
-    if (bos > 0 && !(await onayla(`${bos} soru boş. Testi bitirmek istiyor musun?`, { onay: 'Testi bitir' }))) {
+    const soru = deneme
+      ? `Denemeyi bitirmek istiyor musun?${bos > 0 ? ` ${bos} soru boş.` : ''} Bitirdikten sonra cevap değiştirilemez.`
+      : `${bos} soru boş. Testi bitirmek istiyor musun?`;
+    if (!zorla && (deneme || bos > 0) && !(await onayla(soru, { onay: deneme ? 'Denemeyi bitir' : 'Testi bitir' }))) {
       setBitiriliyor(false);
       return;
     }
@@ -87,6 +100,26 @@ export function TestEkrani({ id }: { id: number }) {
       setBitiriliyor(false);
     }
   };
+
+  // Deneme sayacı: süre gerçek saatle işler (uygulama kapalıyken de); dolunca test kendiliğinden biter.
+  const [kalanMs, setKalanMs] = useState<number | null>(null);
+  useEffect(() => {
+    if (!test || !deneme) return;
+    const bitis = test.baslangic + DENEME_DAKIKA * 60_000;
+    const tik = () => {
+      const k = bitis - Date.now();
+      setKalanMs(Math.max(0, k));
+      if (k <= 0) void bitir(true);
+    };
+    tik();
+    const z = setInterval(tik, 1000);
+    return () => clearInterval(z);
+  }, [test?.id, deneme, bitiriliyor]);
+
+  // Uzun testlerde numara şeridi geçerli soruyu göstersin.
+  useEffect(() => {
+    document.querySelector('.nokta.simdiki')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  }, [index, test?.id]);
 
   // Klavye: A–E / 1–5 seçim, ok tuşları gezinme
   useEffect(() => {
@@ -115,14 +148,20 @@ export function TestEkrani({ id }: { id: number }) {
           <IkonCarpi />
         </button>
         <div class="test-baslik">
-          <span class="soluk kucuk">
-            {TIP_AD[test.tip]} {test.tip !== 'tekrar' && test.sira_no}
-          </span>
+          {deneme && kalanMs !== null ? (
+            <span class={`sayac${kalanMs < 10 * 60_000 ? ' az' : ''}`} role="timer" aria-label="Kalan süre">
+              {sayacMetni(kalanMs)}
+            </span>
+          ) : (
+            <span class="soluk kucuk">
+              {TIP_AD[test.tip]} {test.tip !== 'tekrar' && test.sira_no}
+            </span>
+          )}
           <strong>
             Soru {index + 1}/{n}
           </strong>
         </div>
-        <button class="dugme metin" onClick={bitir} disabled={bitiriliyor}>
+        <button class="dugme metin" onClick={() => bitir()} disabled={bitiriliyor}>
           Bitir
         </button>
       </header>
@@ -141,12 +180,12 @@ export function TestEkrani({ id }: { id: number }) {
       </nav>
 
       <main class="sayfa test-govde">
-        {ayar.konu_etiketini_goster && <p class="konu-etiketi">{soruEtiketi(soru)}</p>}
-        {soruParagrafi(soru) && (
-          <p class="soru-metni paragraf-metni" lang="en">
-            {soruParagrafi(soru)}
-          </p>
+        {ayar.konu_etiketini_goster ? (
+          <p class="konu-etiketi">{soruEtiketi(soru)}</p>
+        ) : (
+          deneme && <p class="konu-etiketi">{bolumAdi(soru.bolum)}</p>
         )}
+        <ParagrafMetni soru={soru} />
         <p class="soru-metni" lang="en">
           {soru.soru}
         </p>
@@ -189,7 +228,7 @@ export function TestEkrani({ id }: { id: number }) {
           Boş bırak
         </button>
         {son ? (
-          <button class="dugme birincil" onClick={bitir} disabled={bitiriliyor}>
+          <button class="dugme birincil" onClick={() => bitir()} disabled={bitiriliyor}>
             Testi bitir
           </button>
         ) : (

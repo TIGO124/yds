@@ -14,6 +14,8 @@ export async function programVerisi(ayar: Ayarlar, bugun = new Date()): Promise<
   const [testler, cevaplar, yanlislar] = await Promise.all([depo.testler(), depo.cevaplar(), depo.yanlislar()]);
   const cozulmus = new Set(cevaplar.map((c) => c.soru_id));
   const teshisBiten = testler.filter((t) => t.tip === 'teshis' && t.durum === 'bitti').length;
+  const sonDeneme = testler.filter((t) => t.tip === 'deneme' && t.durum === 'bitti').pop();
+  const sonDenemeGunOnce = sonDeneme ? Math.floor((bugun.getTime() - (sonDeneme.bitis ?? sonDeneme.baslangic)) / 86_400_000) : null;
   const program = programOlustur({
     konular: KONULAR,
     cevaplar,
@@ -24,6 +26,7 @@ export async function programVerisi(ayar: Ayarlar, bugun = new Date()): Promise<
     gunlukDakika: ayar.gunluk_dakika,
     haftalikGun: ayar.haftalik_gun,
     sinavTarihi: ayar.sinav_tarihi,
+    sonDenemeGunOnce,
   });
   return { program, yanlisSayisi: yanlislar.length };
 }
@@ -42,6 +45,8 @@ export function notMetni(n: ProgramNotu, yanlisSayisi: number): string {
       return 'Yeni soru azaldı; yanlışlarını tekrar etmeye ağırlık ver.';
     case 'soru_bitti':
       return 'Tüm yeni soruları çözdün! Programda test yerine tekrar ve konu çalışması var.';
+    case 'deneme':
+      return 'Bu hafta ana sayfadan 180 dakikalık bir deneme sınavı çöz; gerçek sınavın temposuna alışırsın ve tahmini YDS puanını görürsün.';
     case 'sinav_gecti':
       return 'Girdiğin sınav tarihi geçmiş; yeni bir tarih ekleyebilirsin.';
   }

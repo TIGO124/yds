@@ -2,6 +2,7 @@ import { useState } from 'preact/hooks';
 import { KONULAR, SORULAR, konuAdi } from '../data/bank';
 import { depo } from '../depo';
 import { konuGecmisi } from '../engine/analysis';
+import { ydsPuani, ydsSeviyesi } from '../engine/deneme';
 import { konuDurumlari } from '../engine/mastery';
 import { Cubuk, Sayfa, Ust, Yukleniyor, useVeri } from './ortak';
 
@@ -52,6 +53,7 @@ export function Ilerleme() {
   const { cevaplar, testler } = veri;
 
   const bitenler = testler.filter((t) => t.durum === 'bitti');
+  const denemeler = bitenler.filter((t) => t.tip === 'deneme');
   const sayilanTestler = bitenler.filter((t) => t.tip !== 'tekrar').map((t) => t.id!);
   const sayilan = cevaplar.filter((c) => c.test_tipi !== 'tekrar');
   const dogru = sayilan.filter((c) => c.dogru_mu).length;
@@ -78,6 +80,39 @@ export function Ilerleme() {
           <span>doğru oranı</span>
         </div>
       </section>
+
+      {denemeler.length > 0 && (
+        <section class="kart">
+          <h2>Deneme sınavların</h2>
+          <div class="tablo-kap">
+            <table class="tablo">
+              <thead>
+                <tr>
+                  <th>Deneme</th>
+                  <th>Tarih</th>
+                  <th class="sag">Puan</th>
+                  <th class="sag">Seviye</th>
+                </tr>
+              </thead>
+              <tbody>
+                {denemeler.map((t) => {
+                  const puan = ydsPuani(t.dogru_sayisi, t.soru_idleri.length);
+                  return (
+                    <tr>
+                      <td>
+                        <a href={`#/sonuc/${t.id}`}>{t.sira_no}</a>
+                      </td>
+                      <td>{new Date(t.bitis ?? t.baslangic).toLocaleDateString('tr-TR')}</td>
+                      <td class="sag">{puan.toLocaleString('tr-TR', { minimumFractionDigits: 2 })}</td>
+                      <td class="sag">{ydsSeviyesi(puan)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {sayilanTestler.length > 0 && seciliKonu && (
         <section class="kart">

@@ -1,6 +1,8 @@
 import type { ComponentChildren } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
+import { soruParagrafi } from '../data/bank';
 import type { Seviye } from '../engine/mastery';
+import type { Soru } from '../types';
 import { git } from './router';
 import { IkonAyar, IkonEv, IkonGeri, IkonGrafik, IkonTakvim, IkonTekrar } from './ikonlar';
 
@@ -98,6 +100,29 @@ export const TIP_AD = {
   uyarlanmis: 'Uyarlanmış test',
   kontrol: 'Kontrol testi',
   tekrar: 'Tekrar testi',
+  deneme: 'Deneme sınavı',
 } as const;
 
 export const HARF = 'ABCDE';
+
+/** Ortak parça; cloze gruplarında sorulan boşluk ("(3) ----") vurgulanır. */
+export function ParagrafMetni({ soru, kucuk }: { soru: Soru; kucuk?: boolean }) {
+  const metin = soruParagrafi(soru);
+  if (!metin) return null;
+  const no = /\((\d+)\)/.exec(soru.soru)?.[1];
+  const isaret = no ? `(${no}) ----` : null;
+  const parcalar = isaret && metin.includes(isaret) ? metin.split(isaret) : null;
+  return (
+    <p class={`soru-metni paragraf-metni${kucuk ? ' kucuk-soru' : ''}`} lang="en">
+      {parcalar ? (
+        <>
+          {parcalar[0]}
+          <mark class="bosluk">{isaret}</mark>
+          {parcalar.slice(1).join(isaret!)}
+        </>
+      ) : (
+        metin
+      )}
+    </p>
+  );
+}

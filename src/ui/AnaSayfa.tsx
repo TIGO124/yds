@@ -4,8 +4,10 @@ import { depo } from '../depo';
 import { siradakiTest } from '../engine/adaptive';
 import { seviyeRaporu } from '../engine/analysis';
 import { CONFIG } from '../engine/config';
+import { DENEME_DAKIKA, DENEME_SORU, ydsPuani, ydsSeviyesi } from '../engine/deneme';
 import type { Ayarlar } from '../types';
 import { IkonHedef } from './ikonlar';
+import { onayla } from './onay';
 import { Cubuk, Sayfa, Yukleniyor, useVeri } from './ortak';
 import { GunKarti } from './Program';
 import { programVerisi } from './programVeri';
@@ -16,6 +18,7 @@ const DEVAM_AD = {
   uyarlanmis: 'Uyarlanmış teste',
   kontrol: 'Kontrol testine',
   tekrar: 'Tekrar testine',
+  deneme: 'Deneme sınavına',
 } as const;
 
 export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
@@ -57,6 +60,22 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
   };
 
   const cevapli = aktif ? aktif.secimler.filter((s) => s !== null).length : 0;
+  const sonDeneme = bitenTestler.filter((t) => t.tip === 'deneme').pop();
+  const sonDenemePuani = sonDeneme ? ydsPuani(sonDeneme.dogru_sayisi, sonDeneme.soru_idleri.length) : null;
+
+  const denemeBaslat = async () => {
+    setMesaj(null);
+    const tamam = await onayla(
+      `${DENEME_SORU} soru, ${DENEME_DAKIKA} dakika. Süre başladıktan sonra durmaz; uygulamayı kapatsan da işlemeye devam eder. Başlayalım mı?`,
+      { onay: 'Denemeye başla' },
+    );
+    if (!tamam) return;
+    try {
+      git(`/test/${(await depo.denemeBaslat()).id}`);
+    } catch (e) {
+      setMesaj(e instanceof Error ? e.message : String(e));
+    }
+  };
 
   return (
     <Sayfa menu="">
@@ -108,6 +127,25 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
       <a class="dugme metin" href="#/program">
         Haftalık programın tamamı
       </a>
+
+      <section class="kart">
+        <div class="satir-ust">
+          <h2>Deneme sınavı</h2>
+          {sonDenemePuani !== null && (
+            <span class="soluk kucuk">
+              Son: {sonDenemePuani.toLocaleString('tr-TR')} ({ydsSeviyesi(sonDenemePuani)})
+            </span>
+          )}
+        </div>
+        <p class="soluk kucuk">
+          Gerçek YDS düzeninde {DENEME_SORU} soru, {DENEME_DAKIKA} dakika. Sonunda tahmini YDS puanını ve bölüm sonuçlarını görürsün.
+        </p>
+        {aktif?.tip !== 'deneme' && (
+          <button class="dugme ikincil genis" onClick={denemeBaslat} disabled={!!aktif || kalanYeni === 0}>
+            {aktif ? 'Önce yarım kalan testi bitir' : 'Deneme sınavına başla'}
+          </button>
+        )}
+      </section>
 
       <section class="istatistik-satiri" aria-label="Özet">
         <div class="istatistik">

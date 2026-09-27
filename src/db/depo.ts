@@ -1,5 +1,6 @@
 import type { Ayarlar, CevapKaydi, Konu, Soru, TeshisTesti, TestKaydi, TestTipi } from '../types';
 import { kontrolTestOlustur, siradakiTest, tekrarTestOlustur, uyarlanmisTestOlustur, yanlisSoruIdleri, type TestUretimi } from '../engine/adaptive';
+import { denemeOlustur, type DenemeUretimi } from '../engine/deneme';
 import { teshisPlaniOlustur } from '../engine/diagnostic';
 import { mulberry32, type Rng } from '../engine/rng';
 import { VARSAYILAN_AYARLAR, type YdsDB } from './db';
@@ -113,6 +114,24 @@ export class Depo {
       if (ids.length === 0) return null;
       const sira = (await this.db.testler.where('tip').equals('tekrar').count()) + 1;
       return this.yeniTest('tekrar', sira, { soru_idleri: ids, biten_konular: [] });
+    });
+  }
+
+  /**
+   * YDS düzeninde 80 soruluk deneme (yalnızca yeni sorular). Başka bir test yarımken başlamaz;
+   * yarım kalmış bir deneme varsa onu döndürür.
+   */
+  async denemeBaslat(): Promise<{ id: number; eksik: DenemeUretimi['eksik'] }> {
+    return this.db.transaction('rw', this.db.testler, this.db.cevaplar, async () => {
+      const aktif = await this.db.testler.where('durum').equals('devam').first();
+      if (aktif?.tip === 'deneme') return { id: aktif.id!, eksik: [] };
+      if (aktif) throw new Error('Önce yarım kalan testi bitir; deneme sınavı ondan sonra başlar.');
+      const cozulmus = new Set((await this.db.cevaplar.toArray()).map((c) => c.soru_id));
+      const d = denemeOlustur(this.banka.sorular, cozulmus, this.rngUret());
+      if (d.soru_idleri.length === 0) throw new Error('Çözülmemiş soru kalmadı.');
+      const sira = (await this.db.testler.where('tip').equals('deneme').count()) + 1;
+      const id = await this.yeniTest('deneme', sira, { soru_idleri: d.soru_idleri, biten_konular: [] });
+      return { id, eksik: d.eksik };
     });
   }
 
