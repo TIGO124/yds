@@ -31,6 +31,9 @@ export function SeviyeRaporu({ testId }: { testId: number | null }) {
               <li>
                 <strong>{k.ad}</strong>
                 <p>{k.oneri}</p>
+                <a class="dugme metin kucuk-baglanti" href={`#/konu/${k.kod}`}>
+                  Konu kartını aç
+                </a>
               </li>
             ))}
           </ol>

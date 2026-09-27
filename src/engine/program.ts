@@ -1,6 +1,5 @@
 import type { Konu } from '../types';
 import { CONFIG } from './config';
-import { DENEME_SORU } from './deneme';
 import { konuAgirliklari, konuDurumlari, type CevapOzeti } from './mastery';
 
 /** Haftalık ders programı: istatistiklerden (konu eksikliği, yanlışlar, teşhis durumu) üretilir. */
@@ -8,7 +7,13 @@ export interface ProgramGirdisi {
   konular: readonly Konu[];
   /** Kronolojik cevaplar */
   cevaplar: readonly CevapOzeti[];
+  /** Bugün tekrar sırası gelen yanlış sayısı */
   yanlisSayisi: number;
+  /**
+   * Aralıklı tekrar takvimi: önümüzdeki 7 günün her birinde sırası gelecek soru sayısı (0 = bugün, gecikmişler dahil).
+   * Verilirse tekrar oturumu yalnızca sırası gelen soru olan çalışma günlerine konur.
+   */
+  tekrarTakvimi?: readonly number[];
   kalanYeniSoru: number;
   teshisKalan: number;
   bugun: Date;
@@ -113,26 +118,25 @@ export function programOlustur(g: ProgramGirdisi): CalismaProgrami {
   if (asama === 'teshis') notlar.push('teshis');
   if (asama === 'son_hafta') notlar.push('son_hafta');
   if (sinavaKalanGun === 1) notlar.push('sinav_yarin');
-  if (
-    asama !== 'teshis' &&
-    g.kalanYeniSoru >= DENEME_SORU &&
-    (g.sonDenemeGunOnce == null || g.sonDenemeGunOnce >= 7)
-  )
-    notlar.push('deneme');
+  // Yeni soru yetmezse deneme eski sorularla tamamlanır; yine de tempo çalışması için önerilir.
+  if (asama !== 'teshis' && (g.sonDenemeGunOnce == null || g.sonDenemeGunOnce >= 7)) notlar.push('deneme');
   if (g.yanlisSayisi > 0) notlar.push('tekrar');
   if (g.kalanYeniSoru === 0) notlar.push('soru_bitti');
   else if (g.kalanYeniSoru < 100) notlar.push('soru_az');
 
   // 1. geçiş: günlerin iskeleti (testler, tekrarlar, konu blok süreleri)
+  // Yeni sorular bitince testler en uzun süredir görülmeyen sorulardan oluştuğu için test sayısı sınırlanmaz.
   let teshisKalan = g.teshisKalan;
-  let yeniTestKalan = Math.ceil(g.kalanYeniSoru / CONFIG.TEST_BOYUTU);
   let calismaSirasi = 0;
+  /** Dinlenme günlerinde biriken tekrarlar sonraki çalışma gününe kalır. */
+  let bekleyenTekrar = 0;
   const iskelet: { gun: ProgramGunu; konuBloklari: number[] }[] = [];
 
   for (let i = 0; i < 7; i++) {
     const d = new Date(g.bugun.getFullYear(), g.bugun.getMonth(), g.bugun.getDate() + i);
     const gun: ProgramGunu = { tarih: tarihMetni(d), haftaGunu: d.getDay(), dinlenme: false, etkinlikler: [] };
     iskelet.push({ gun, konuBloklari: [] });
+    bekleyenTekrar += g.tekrarTakvimi?.[i] ?? 0;
 
     if (sinavaKalanGun !== null && i === sinavaKalanGun) {
       gun.etkinlikler.push({ tur: 'sinav' });
@@ -150,7 +154,7 @@ export function programOlustur(g: ProgramGirdisi): CalismaProgrami {
     if (!sinavArifesi) {
       const pay = teshisKalan > 0 || asama === 'son_hafta' ? 0.7 : CONFIG.PROGRAM_TEST_PAYI;
       let adet = Math.max(1, Math.floor((T * pay) / CONFIG.PROGRAM_TEST_DAKIKA));
-      adet = Math.min(adet, Math.floor(kalan / CONFIG.PROGRAM_TEST_DAKIKA), yeniTestKalan);
+      adet = Math.min(adet, Math.floor(kalan / CONFIG.PROGRAM_TEST_DAKIKA));
       const teshisAdet = Math.min(adet, teshisKalan);
       if (teshisAdet > 0) {
         gun.etkinlikler.push({ tur: 'test', adet: teshisAdet, teshis: true, dakika: teshisAdet * CONFIG.PROGRAM_TEST_DAKIKA });
@@ -160,15 +164,18 @@ export function programOlustur(g: ProgramGirdisi): CalismaProgrami {
       if (uyarlanmisAdet > 0) {
         gun.etkinlikler.push({ tur: 'test', adet: uyarlanmisAdet, teshis: false, dakika: uyarlanmisAdet * CONFIG.PROGRAM_TEST_DAKIKA });
       }
-      yeniTestKalan -= adet;
       kalan -= adet * CONFIG.PROGRAM_TEST_DAKIKA;
     }
 
-    // Yanlış tekrarı: çok yanlış varsa her gün, yoksa gün aşırı; sınav arifesinde mutlaka
-    const tekrarGunu = g.yanlisSayisi >= 20 || calismaSirasi % 2 === 0 || sinavArifesi;
-    if (g.yanlisSayisi > 0 && tekrarGunu && kalan >= CONFIG.PROGRAM_TEKRAR_DAKIKA) {
+    // Yanlış tekrarı: takvim varsa sırası gelen soru olan günlerde; yoksa çok yanlış varsa her gün,
+    // değilse gün aşırı. Sınav arifesinde mutlaka.
+    const tekrarGunu = g.tekrarTakvimi
+      ? bekleyenTekrar > 0
+      : g.yanlisSayisi > 0 && (g.yanlisSayisi >= 20 || calismaSirasi % 2 === 0 || sinavArifesi);
+    if (tekrarGunu && kalan >= CONFIG.PROGRAM_TEKRAR_DAKIKA) {
       gun.etkinlikler.push({ tur: 'tekrar', dakika: CONFIG.PROGRAM_TEKRAR_DAKIKA });
       kalan -= CONFIG.PROGRAM_TEKRAR_DAKIKA;
+      bekleyenTekrar = 0;
     }
 
     // Sınav arifesi hafif geçer: en fazla bir konu tekrarı

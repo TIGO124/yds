@@ -1,4 +1,5 @@
-import type { Bolum, Konu, Paragraf, Soru, Taksonomi } from '../types';
+import type { Bolum, Konu, KonuNotu, Paragraf, Soru, Taksonomi } from '../types';
+import konuNotlari from './konu_notlari.json';
 import taksonomi from './konular.json';
 import paragraflar from './paragraflar.json';
 import type { SoruPaketi } from './paket';
@@ -14,6 +15,8 @@ export const SORU_MAP = new Map(SORULAR.map((s) => [s.id, s]));
 export const KONU_MAP = new Map(KONULAR.map((k) => [k.kod, k]));
 export const BOLUM_MAP = new Map(BOLUMLER.map((b) => [b.kod, b]));
 export const PARAGRAF_MAP = new Map((paragraflar as Paragraf[]).map((p) => [p.id, p.metin]));
+/** Konu kartları (kısa konu anlatımı); indirilen paketle gelen yeni konularda olmayabilir. */
+export const KONU_NOTLARI: Readonly<Record<string, KonuNotu>> = konuNotlari;
 
 /** Sorunun ortak parçası (varsa). */
 export const soruParagrafi = (s: Soru): string | null => (s.paragraf_id ? (PARAGRAF_MAP.get(s.paragraf_id) ?? null) : null);

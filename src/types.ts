@@ -38,8 +38,16 @@ export interface Taksonomi {
   konular: Konu[];
 }
 
+/** Konu kartı: kısa konu anlatımı (konu_notlari.json). */
+export interface KonuNotu {
+  ozet: string;
+  kurallar: string[];
+  ornekler: { en: string; tr: string }[];
+  hatalar: string[];
+}
+
 // Cihazdaki kullanıcı verisi (IndexedDB)
-export type TestTipi = 'teshis' | 'uyarlanmis' | 'kontrol' | 'tekrar' | 'deneme';
+export type TestTipi = 'teshis' | 'uyarlanmis' | 'kontrol' | 'tekrar' | 'deneme' | 'konu';
 
 export interface TestKaydi {
   id?: number;
@@ -57,6 +65,8 @@ export interface TestKaydi {
   aktif_index: number;
   /** Bu testte soru kalmayan konular (bilgi mesajı için) */
   biten_konular?: string[];
+  /** Konu testinin konusu */
+  konu?: string;
 }
 
 export interface CevapKaydi {
@@ -83,9 +93,39 @@ export interface Ayarlar {
   haftalik_gun: number;
   /** Ders programı: sınav tarihi (YYYY-AA-GG) */
   sinav_tarihi: string | null;
+  /** Günlük hatırlatma saati (SS:DD); null = kapalı. Yalnızca Android uygulaması. */
+  hatirlatma: string | null;
 }
 
 export interface TeshisTesti {
   sira_no: number;
   soru_idleri: string[];
+}
+
+/** "Sonra bak" diye işaretlenen soru. */
+export interface IsaretKaydi {
+  soru_id: string;
+  tarih: number;
+}
+
+/** Kelime defteri kaydı; kutu/sonraki aralıklı tekrar durumudur. */
+export interface KelimeKaydi {
+  /** Anahtar: küçük harfli kelime ya da kalıp */
+  kelime: string;
+  anlam: string;
+  /** Kelimenin geçtiği cümle */
+  baglam: string;
+  soru_id: string | null;
+  eklenme: number;
+  /** 0 = yeni; öğrenilen kelimenin kutusu aralık sayısına eşittir */
+  kutu: number;
+  /** Bu andan (ms) itibaren sırası gelir */
+  sonraki: number;
+}
+
+/** Test dışı çalışma günlüğü (kelime kartları); seri hesabında kullanılır. */
+export interface GunlukKaydi {
+  /** YYYY-AA-GG */
+  tarih: string;
+  kart: number;
 }

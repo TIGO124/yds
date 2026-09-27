@@ -9,6 +9,7 @@ import './styles/parcalar.css';
 import './styles/test.css';
 import './styles/ekranlar.css';
 import './styles/program.css';
+import './styles/calisma.css';
 import { bildir } from './ui/bildirim';
 import { hashBaglantilariniYakala } from './ui/router';
 

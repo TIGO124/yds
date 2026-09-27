@@ -950,7 +950,7 @@
       "wouldn't"
     ],
     "dogru": 3,
-    "aciklama": "Tavsiye → 'should'.",
+    "aciklama": "Uzmanların görüşü bir tavsiyedir; tavsiye 'should' ile verilir. 'needn't' gereksizlik, 'mustn't' yasak, 'can't' imkânsızlık bildirir.",
     "paragraf_id": null
   },
   {
@@ -986,7 +986,7 @@
       "must not"
     ],
     "dogru": 4,
-    "aciklama": "Yasak → 'must not'.",
+    "aciklama": "İnsan yemeği hayvanları hasta edebileceği için beslemek yasaktır; yasak 'must not' ile anlatılır. 'don't have to' ve 'need not' yalnızca zorunlu olmadığını söyler.",
     "paragraf_id": null
   },
   {
@@ -1490,7 +1490,7 @@
       "what"
     ],
     "dogru": 3,
-    "aciklama": "'know that + tam cümle'.",
+    "aciklama": "'know' fiilinin nesnesi tam bir cümledir (bananas are berries); tam cümleyi nesne yapan bağlaç 'that'tir. 'what' ve 'which' cümlecikte eksik bir öğe ister.",
     "paragraf_id": null
   },
   {
@@ -1616,7 +1616,7 @@
       "what"
     ],
     "dogru": 1,
-    "aciklama": "'The fact that' kalıbı.",
+    "aciklama": "'The fact that + tam cümle' (… olgusu) kalıbıdır; 'that' cümleciği 'fact' ismini açıklar. Cümlecik eksiksiz olduğu için 'which' ve 'what' gelmez.",
     "paragraf_id": null
   },
   {
@@ -1706,7 +1706,7 @@
       "so that"
     ],
     "dogru": 4,
-    "aciklama": "Amaç → 'so that'.",
+    "aciklama": "El yıkamanın amacı mikropların yayılmamasıdır; amaç bildiren ve ardından tam cümle alan bağlaç 'so that'tir. 'because' sebep, 'unless' olumsuz koşul bildirir.",
     "paragraf_id": null
   },
   {
@@ -1778,7 +1778,7 @@
       "swam"
     ],
     "dogru": 3,
-    "aciklama": "'enjoy' gerund alır.",
+    "aciklama": "'enjoy' fiilinden sonra gelen fiil -ing alır: enjoy swimming. 'enjoy to swim' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1814,7 +1814,7 @@
       "imitate"
     ],
     "dogru": 3,
-    "aciklama": "Edattan sonra -ing.",
+    "aciklama": "'capable of' kalıbındaki 'of' bir edattır; edattan sonra fiil -ing alır: capable of imitating.",
     "paragraf_id": null
   },
   {
@@ -1886,7 +1886,7 @@
       "published"
     ],
     "dogru": 1,
-    "aciklama": "'postpone' gerund alır.",
+    "aciklama": "'postpone' (ertelemek) fiilinden sonra gelen fiil -ing alır: postponed publishing. 'postpone to publish' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1922,7 +1922,7 @@
       "at"
     ],
     "dogru": 1,
-    "aciklama": "'in the world' kalıbı.",
+    "aciklama": "Dünya çapındaki karşılaştırmalarda 'in the world' kullanılır: one of the most famous landmarks in the world.",
     "paragraf_id": null
   },
   {
@@ -2228,7 +2228,7 @@
       "more fast"
     ],
     "dogru": 0,
-    "aciklama": "'much' + '-er' + 'than'.",
+    "aciklama": "'than' karşılaştırmalı biçim ister; tek heceli 'fast' '-er' alır: faster. 'much' karşılaştırmayı güçlendirir: much faster than.",
     "paragraf_id": null
   },
   {
@@ -2246,7 +2246,7 @@
       "longer"
     ],
     "dogru": 4,
-    "aciklama": "'than' → 'longer'.",
+    "aciklama": "'than' karşılaştırmalı biçim ister; tek heceli 'long' '-er' alır: longer. 'more long' yanlış, 'the longest' ise üstünlük bildirir.",
     "paragraf_id": null
   },
   {
@@ -2300,7 +2300,7 @@
       "as large as"
     ],
     "dogru": 4,
-    "aciklama": "'twice as + sıfat + as'.",
+    "aciklama": "Katlı karşılaştırma 'twice / three times + as + sıfat + as' ile kurulur: twice as large as. 'as larger as' ve 'larger than twice' yanlış yapılardır.",
     "paragraf_id": null
   },
   {
@@ -2390,7 +2390,7 @@
       "living"
     ],
     "dogru": 4,
-    "aciklama": "'which live' → 'living'.",
+    "aciklama": "'Animals which live in cold climates' cümleciği etken anlamlıdır; etken sıfat cümleciği -ing ile kısalır: animals living in cold climates.",
     "paragraf_id": null
   },
   {

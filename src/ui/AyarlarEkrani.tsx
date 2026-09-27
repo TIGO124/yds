@@ -4,7 +4,9 @@ import { yeniSorulariDenetle } from '../data/guncelleme';
 import { depo } from '../depo';
 import { guncellemeleriDenetle, UYGULAMA_SURUMU } from '../guncelleme';
 import type { Ayarlar } from '../types';
+import { hatirlatmaVar } from '../hatirlatma';
 import { guncellemeyiUygula, useGuncelleme } from './guncellemeBandi';
+import { HatirlatmaAyari } from './HatirlatmaAyari';
 import { onayla } from './onay';
 import { Sayfa, Ust } from './ortak';
 
@@ -171,7 +173,7 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
   };
 
   const sifirla = async () => {
-    const ilk = await onayla('Tüm testler ve cevaplar silinecek. Bu işlem geri alınamaz. Önce yedek almanı öneririz.', {
+    const ilk = await onayla('Tüm testler ve cevaplar silinecek; kelime defterin ve kaydettiğin sorular kalır. Bu işlem geri alınamaz. Önce yedek almanı öneririz.', {
       onay: 'Devam et',
       tehlike: true,
     });
@@ -232,6 +234,8 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
           ))}
         </fieldset>
       </section>
+
+      {hatirlatmaVar && <HatirlatmaAyari ayar={ayar} degistir={degistir} />}
 
       <section class="kart">
         <h2>Yedekleme</h2>

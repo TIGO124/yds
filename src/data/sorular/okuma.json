@@ -2102,7 +2102,7 @@
       "control beetles damaging sugar cane"
     ],
     "dogru": 4,
-    "aciklama": "İlk cümle amacı verir.",
+    "aciklama": "Parçanın ilk cümlesi kurbağaların şeker kamışına zarar veren böcekleri kontrol etmek için getirildiğini açıkça söyler: to control beetles that were damaging sugar cane crops.",
     "paragraf_id": "p-0023"
   },
   {
@@ -3092,7 +3092,7 @@
       "ordinary"
     ],
     "dogru": 0,
-    "aciklama": "'startling' = şaşırtıcı.",
+    "aciklama": "'startling' = şaşırtıcı, hiç beklenmedik; en yakın anlam 'very surprising'dir. 'expected' ve 'ordinary' zıt anlamlıdır.",
     "paragraf_id": "p-0041"
   },
   {
@@ -3542,7 +3542,7 @@
       "journeys"
     ],
     "dogru": 3,
-    "aciklama": "'collision' = çarpışma.",
+    "aciklama": "'collision' = çarpışma; en yakın anlam 'crash'tir. 'delays' gecikmeler, 'journeys' yolculuklar demektir.",
     "paragraf_id": "p-0049"
   },
   {
@@ -3812,7 +3812,7 @@
       "false"
     ],
     "dogru": 0,
-    "aciklama": "'genuine' = gerçek.",
+    "aciklama": "'genuine' = gerçek, sahici; en yakın anlam 'real'dır. 'false' zıt anlamlıdır.",
     "paragraf_id": "p-0054"
   },
   {

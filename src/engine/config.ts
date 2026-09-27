@@ -41,4 +41,19 @@ export const CONFIG = {
   USTALIK_ZAYIF: 0.5,
   USTALIK_IYI: 0.75,
   YETERSIZ_VERI_ESIK: 5,
+
+  // Aralıklı tekrar (Leitner): yanlıştan sonra 1 gün, her doğrudan sonra 3 ve 7 gün;
+  // üst üste bu kadar doğru cevaplanan soru/kelime öğrenilmiş sayılır.
+  TEKRAR_ARALIKLARI_GUN: [1, 3, 7] as const,
+  /** Bir kart oturumundaki en fazla kelime */
+  KART_OTURUMU: 20,
+
+  // Yeni soru bitince eski soruların yeniden kullanımı
+  /** Son bu kadar gün içinde görülen soru yeniden gelmez */
+  YENIDEN_MIN_GUN: 3,
+  /** Konunun en uzun süredir görülmeyen bu kadar (en az) sorusu aday olur */
+  YENIDEN_MIN_ADAY: 5,
+
+  /** Konu kartından başlatılan testin soru sayısı */
+  KONU_TEST_BOYUTU: 5,
 } as const;

@@ -2,10 +2,12 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { SORU_MAP, bolumAdi, soruEtiketi } from '../data/bank';
 import { depo } from '../depo';
 import { DENEME_DAKIKA } from '../engine/deneme';
+import { calisildiBildir } from '../hatirlatma';
 import type { Ayarlar, TestKaydi } from '../types';
-import { IkonCarpi, IkonGeri, IkonIleri } from './ikonlar';
+import { IkonBayrak, IkonCarpi, IkonGeri, IkonIleri } from './ikonlar';
+import { DeftereEkle } from './KelimeSecici';
 import { onayla } from './onay';
-import { BoslukluMetin, HARF, ParagrafMetni, TIP_AD, Yukleniyor } from './ortak';
+import { BoslukluMetin, HARF, ParagrafMetni, Yukleniyor, testAdi } from './ortak';
 import { git } from './router';
 
 const sayacMetni = (ms: number) => {
@@ -17,31 +19,35 @@ const sayacMetni = (ms: number) => {
 export function TestEkrani({ id }: { id: number }) {
   const [test, setTest] = useState<TestKaydi | null>(null);
   const [ayar, setAyar] = useState<Ayarlar | null>(null);
+  const [isaretli, setIsaretli] = useState<Set<string>>(new Set());
   const [index, setIndex] = useState(0);
   const [bosAcik, setBosAcik] = useState<Set<number>>(new Set());
   const [bitiriliyor, setBitiriliyor] = useState(false);
   const [hata, setHata] = useState<string | null>(null);
   const baslangic = useRef(Date.now());
+  /** Cevabı gösterilmiş soruda açıklama okuma süresi soru süresine eklenmez. */
+  const cevapAcik = useRef(false);
 
   useEffect(() => {
-    Promise.all([depo.test(id), depo.ayarlar()])
-      .then(([t, a]) => {
+    Promise.all([depo.test(id), depo.ayarlar(), depo.isaretler()])
+      .then(([t, a, isaretler]) => {
         if (!t) return git('/', true);
         if (t.durum === 'bitti') return git(`/sonuc/${id}`, true);
         setTest(t);
         setAyar(a);
+        setIsaretli(new Set(isaretler.map((i) => i.soru_id)));
         setIndex(Math.min(t.aktif_index, t.soru_idleri.length - 1));
         baslangic.current = Date.now();
       })
       .catch((e: unknown) => setHata(String(e)));
   }, [id]);
 
-  /** Bu soruda geçen süreyi döndürür ve sayacı sıfırlar. */
+  /** Bu soruda geçen düşünme süresini döndürür ve sayacı sıfırlar. */
   const gecen = () => {
     const simdi = Date.now();
     const g = simdi - baslangic.current;
     baslangic.current = simdi;
-    return g;
+    return cevapAcik.current ? 0 : g;
   };
 
   // Uygulama arka plana geçince süreyi kaydet; ön plana gelince sayaç yeniden başlar.
@@ -60,6 +66,7 @@ export function TestEkrani({ id }: { id: number }) {
   const aninda = ayar?.cevabi_goster === 'aninda' && !deneme;
   const secim = test?.secimler[index] ?? null;
   const acik = aninda && (secim !== null || bosAcik.has(index));
+  cevapAcik.current = acik;
 
   const sec = (s: number | null) => {
     if (!test || acik) return;
@@ -77,21 +84,35 @@ export function TestEkrani({ id }: { id: number }) {
     window.scrollTo(0, 0);
   };
 
+  const isaretle = () => {
+    if (!test) return;
+    const soruId = test.soru_idleri[index];
+    const yeni = new Set(isaretli);
+    const deger = !yeni.has(soruId);
+    if (deger) yeni.add(soruId);
+    else yeni.delete(soruId);
+    setIsaretli(yeni);
+    void depo.isaretle(soruId, deger);
+  };
+
   /** zorla: süre dolduğunda onay sormadan bitirir. */
   const bitir = async (zorla = false) => {
     if (!test || bitiriliyor) return;
     const bos = test.secimler.filter((s) => s === null).length;
+    const isaretSayisi = test.soru_idleri.filter((s) => isaretli.has(s)).length;
     setBitiriliyor(true);
+    const ekler = [bos > 0 && `${bos} soru boş.`, isaretSayisi > 0 && `${isaretSayisi} işaretli soru var.`].filter(Boolean).join(' ');
     const soru = deneme
-      ? `Denemeyi bitirmek istiyor musun?${bos > 0 ? ` ${bos} soru boş.` : ''} Bitirdikten sonra cevap değiştirilemez.`
-      : `${bos} soru boş. Testi bitirmek istiyor musun?`;
-    if (!zorla && (deneme || bos > 0) && !(await onayla(soru, { onay: deneme ? 'Denemeyi bitir' : 'Testi bitir' }))) {
+      ? `Denemeyi bitirmek istiyor musun?${ekler ? ` ${ekler}` : ''} Bitirdikten sonra cevap değiştirilemez.`
+      : `${ekler} Testi bitirmek istiyor musun?`;
+    if (!zorla && (deneme || ekler) && !(await onayla(soru, { onay: deneme ? 'Denemeyi bitir' : 'Testi bitir' }))) {
       setBitiriliyor(false);
       return;
     }
     try {
       await depo.konumKaydet(id, index, gecen(), index);
       await depo.testiBitir(id);
+      calisildiBildir();
       const plan = await depo.planGaranti();
       const raporlu = (test.tip === 'teshis' && test.sira_no === plan.length) || test.tip === 'kontrol';
       git(raporlu ? `/rapor?test=${id}` : `/sonuc/${id}`, true);
@@ -99,6 +120,11 @@ export function TestEkrani({ id }: { id: number }) {
       setHata(String(e));
       setBitiriliyor(false);
     }
+  };
+
+  const cik = () => {
+    void depo.konumKaydet(id, index, gecen(), index);
+    git('/');
   };
 
   // Deneme sayacı: süre gerçek saatle işler (uygulama kapalıyken de); dolunca test kendiliğinden biter.
@@ -133,6 +159,7 @@ export function TestEkrani({ id }: { id: number }) {
   useEffect(() => {
     const tus = (e: KeyboardEvent) => {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if ((e.target as Element | null)?.closest?.('input, textarea, select')) return;
       const k = e.key.toUpperCase();
       const harf = HARF.indexOf(k);
       if (harf >= 0 && k.length === 1) sec(harf);
@@ -148,11 +175,12 @@ export function TestEkrani({ id }: { id: number }) {
   const soru = SORU_MAP.get(test.soru_idleri[index]);
   if (!soru) return <Yukleniyor hata="Soru bulunamadı." />;
   const son = index === n - 1;
+  const buIsaretli = isaretli.has(soru.id);
 
   return (
     <div class="test-ekrani">
       <header class={`test-ust${kaydi ? ' kaydi' : ''}`}>
-        <button class="ikon-dugme" aria-label="Testi kaydet ve çık" onClick={() => git('/')}>
+        <button class="ikon-dugme" aria-label="Testi kaydet ve çık" onClick={cik}>
           <IkonCarpi />
         </button>
         <div class="test-baslik">
@@ -161,9 +189,7 @@ export function TestEkrani({ id }: { id: number }) {
               {sayacMetni(kalanMs)}
             </span>
           ) : (
-            <span class="soluk kucuk">
-              {TIP_AD[test.tip]} {test.tip !== 'tekrar' && test.sira_no}
-            </span>
+            <span class="soluk kucuk">{testAdi(test)}</span>
           )}
           <strong>
             Soru {index + 1}/{n}
@@ -175,10 +201,10 @@ export function TestEkrani({ id }: { id: number }) {
       </header>
 
       <nav class="noktalar" aria-label="Sorular">
-        {test.soru_idleri.map((_, i) => (
+        {test.soru_idleri.map((sid, i) => (
           <button
-            class={`nokta${i === index ? ' simdiki' : ''}${test.secimler[i] !== null ? ' dolu' : ''}`}
-            aria-label={`Soru ${i + 1}${test.secimler[i] !== null ? ', cevaplandı' : ''}`}
+            class={`nokta${i === index ? ' simdiki' : ''}${test.secimler[i] !== null ? ' dolu' : ''}${isaretli.has(sid) ? ' isaretli' : ''}`}
+            aria-label={`Soru ${i + 1}${test.secimler[i] !== null ? ', cevaplandı' : ''}${isaretli.has(sid) ? ', işaretli' : ''}`}
             aria-current={i === index ? 'step' : undefined}
             onClick={() => gitIndex(i)}
           >
@@ -187,12 +213,19 @@ export function TestEkrani({ id }: { id: number }) {
         ))}
       </nav>
 
-      <main class="sayfa test-govde">
-        {ayar.konu_etiketini_goster ? (
-          <p class="konu-etiketi">{soruEtiketi(soru)}</p>
-        ) : (
-          deneme && <p class="konu-etiketi">{bolumAdi(soru.bolum)}</p>
-        )}
+      <main class="sayfa test-govde" data-soru={soru.id} data-cevap-acik={acik ? '1' : '0'}>
+        <div class="soru-ust">
+          <p class="konu-etiketi">{ayar.konu_etiketini_goster ? soruEtiketi(soru) : deneme ? bolumAdi(soru.bolum) : ''}</p>
+          <button
+            class={`isaret-dugme${buIsaretli ? ' secili' : ''}`}
+            aria-pressed={buIsaretli}
+            onClick={isaretle}
+            title="Sonra bakmak için işaretle; Tekrar › Kaydettiklerim'de listelenir."
+          >
+            <IkonBayrak boyut={18} dolu={buIsaretli} />
+            {buIsaretli ? 'İşaretli' : 'İşaretle'}
+          </button>
+        </div>
         <ParagrafMetni soru={soru} />
         <p class="soru-metni" lang="en">
           <BoslukluMetin metin={soru.soru} />
@@ -224,6 +257,7 @@ export function TestEkrani({ id }: { id: number }) {
               {secim === soru.dogru ? 'Doğru!' : secim === null ? `Boş. Doğru cevap: ${HARF[soru.dogru]}` : `Yanlış. Doğru cevap: ${HARF[soru.dogru]}`}
             </strong>
             <p>{soru.aciklama}</p>
+            <DeftereEkle key={soru.id} soru={soru} />
           </div>
         )}
       </main>

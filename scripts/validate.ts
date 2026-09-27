@@ -5,7 +5,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { Paragraf, Soru, Taksonomi } from '../src/types';
+import type { KonuNotu, Paragraf, Soru, Taksonomi } from '../src/types';
 
 const kok = join(dirname(fileURLToPath(import.meta.url)), '..');
 const veriDizini = join(kok, 'src', 'data');
@@ -17,6 +17,8 @@ const bolumler = new Set(taks.bolumler.map((b) => b.kod));
 const konuBolum = new Map(taks.konular.map((k) => [k.kod, k.bolum]));
 /** Bu bölümlerdeki sorular ölçtükleri dilbilgisi/kelime konusuyla etiketlenir. */
 const KARMA_BOLUMLER = new Set(['cloze', 'tamamlama']);
+/** Bundan kısa açıklama gerekçe vermez ("Tavsiye → 'should'." gibi); uyarı verilir. */
+const EN_KISA_ACIKLAMA = 25;
 
 const hatalar: string[] = [];
 const uyarilar: string[] = [];
@@ -27,6 +29,21 @@ for (const k of taks.konular) {
   if (!(k.sinav_agirligi >= 0 && k.sinav_agirligi <= 1)) hatalar.push(`konular.json: '${k.kod}' sinav_agirligi 0–1 dışında`);
   if (!k.ad || !k.oneri) hatalar.push(`konular.json: '${k.kod}' ad/oneri eksik`);
 }
+
+// Konu kartları (konu_notlari.json)
+const notlar = JSON.parse(readFileSync(join(veriDizini, 'konu_notlari.json'), 'utf8')) as Record<string, KonuNotu>;
+const doluListe = (x: unknown) => Array.isArray(x) && x.length > 0 && x.every((m) => typeof m === 'string' && m.trim().length > 0);
+for (const [kod, n] of Object.entries(notlar)) {
+  const yer = `konu_notlari.json › ${kod}`;
+  if (!konuBolum.has(kod)) hatalar.push(`${yer}: bilinmeyen konu`);
+  if (typeof n.ozet !== 'string' || !n.ozet.trim()) hatalar.push(`${yer}: özet eksik`);
+  if (!doluListe(n.kurallar)) hatalar.push(`${yer}: kurallar boş ya da bozuk`);
+  if (!doluListe(n.hatalar)) hatalar.push(`${yer}: hatalar boş ya da bozuk`);
+  if (!Array.isArray(n.ornekler) || n.ornekler.length === 0 || !n.ornekler.every((o) => doluListe([o?.en, o?.tr]))) {
+    hatalar.push(`${yer}: örnekler boş ya da bozuk (her örnekte en ve tr olmalı)`);
+  }
+}
+for (const k of taks.konular) if (!notlar[k.kod]) uyarilar.push(`'${k.kod}' için konu kartı (konu_notlari.json) yok`);
 
 const soruDizini = join(veriDizini, 'sorular');
 for (const f of readdirSync(soruDizini).filter((f) => f.endsWith('.json'))) {
@@ -65,6 +82,9 @@ for (const s of sorular) {
     hatalar.push(`${yer}: konu '${s.konu}' bölüm '${s.bolum}' ile uyumsuz`);
   }
   if (s.id && s.konu && !s.id.startsWith(`${s.konu}-`)) uyarilar.push(`${yer}: id konu önekiyle başlamıyor`);
+  if (metin(s.aciklama) && s.aciklama.trim().length < EN_KISA_ACIKLAMA) {
+    uyarilar.push(`${yer}: açıklama çok kısa (${s.aciklama.trim().length} karakter); doğru şıkkın gerekçesini yaz`);
+  }
 }
 
 // Yinelenen / çok benzer sorular

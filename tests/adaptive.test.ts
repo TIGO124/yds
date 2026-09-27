@@ -1,9 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { kontrolTestOlustur, siradakiTest, uyarlanmisTestOlustur, yanlisSoruIdleri } from '../src/engine/adaptive';
+import { kontrolTestOlustur, konuTestOlustur, siradakiTest, tekrarTestOlustur, uyarlanmisTestOlustur } from '../src/engine/adaptive';
 import { CONFIG } from '../src/engine/config';
 import { teshisPlaniOlustur } from '../src/engine/diagnostic';
 import { hedefZorluklar, konuAgirligi, konuDurumlari, seviye, type CevapOzeti } from '../src/engine/mastery';
 import { mulberry32 } from '../src/engine/rng';
+import { havuzOlustur, type EskiSorular } from '../src/engine/secim';
 import { KONULAR, SORULAR } from '../src/data/bank';
 import { sahteKonular, sahteSorular, say } from './helpers';
 
@@ -169,13 +170,51 @@ describe('kontrol testi ve test sırası', () => {
     ).toEqual({ tip: 'uyarlanmis', sira_no: 11 });
   });
 
-  it('yanlışlar listesi son cevaba göre güncellenir', () => {
-    expect(
-      yanlisSoruIdleri([
-        { soru_id: 'x', dogru_mu: false },
-        { soru_id: 'y', dogru_mu: false },
-        { soru_id: 'x', dogru_mu: true },
-      ]),
-    ).toEqual(['y']);
+  it('tekrar testi öncelik sırasındaki ilk 10 sorudan oluşur', () => {
+    const ids = Array.from({ length: 15 }, (_, i) => `s${i}`);
+    const t = tekrarTestOlustur(ids, mulberry32(1));
+    expect(new Set(t)).toEqual(new Set(ids.slice(0, 10)));
+  });
+});
+
+describe('yeni sorular bitince eski sorular', () => {
+  const konular = sahteKonular({ gr: ['a', 'b'] });
+  const sorular = sahteSorular(konular, 10);
+  const GUN = 86_400_000;
+  const simdi = 100 * GUN;
+  // a konusunun tamamı çözüldü: ilk soru 50 gün, sonuncusu 1 gün önce görüldü.
+  const aSorulari = sorular.filter((s) => s.konu === 'a');
+  const cozulmus = new Set(aSorulari.map((s) => s.id));
+  const sonGorulme = new Map(aSorulari.map((s, i) => [s.id, simdi - (50 - i * 5.5) * GUN]));
+  const eski = (haric: string[] = []): EskiSorular => ({ sonGorulme, haric: new Set(haric), simdi });
+
+  it('eski bilgisi yoksa bitmiş konu havuzda yer almaz', () => {
+    expect(havuzOlustur(sorular, cozulmus).has('a')).toBe(false);
+  });
+
+  it('bitmiş konuda en uzun süredir görülmeyenler gelir; son 3 günde görülen ve hariç tutulan gelmez', () => {
+    const h = havuzOlustur(sorular, cozulmus, eski([aSorulari[0].id])).get('a')!;
+    const idler = h.map((s) => s.id);
+    expect(idler).not.toContain(aSorulari[0].id);
+    expect(idler).not.toContain(aSorulari[9].id);
+    // En eski 8 aday (1–8) → eski yarısı: en az 5
+    expect(idler).toEqual(aSorulari.slice(1, 6).map((s) => s.id));
+    // Yeni sorusu olan konu yalnızca yeni sorularla gelir
+    expect(havuzOlustur(sorular, cozulmus, eski()).get('b')).toHaveLength(10);
+  });
+
+  it('uyarlanmış test yeni soru kalmayınca eski sorularla 10 soruya tamamlanır', () => {
+    const hepsi = new Set(sorular.map((s) => s.id));
+    const gorulme = new Map(sorular.map((s) => [s.id, simdi - 30 * GUN]));
+    const t = uyarlanmisTestOlustur(sorular, konular, [], hepsi, mulberry32(4), { sonGorulme: gorulme, haric: new Set(), simdi });
+    expect(t.soru_idleri).toHaveLength(10);
+    expect(uyarlanmisTestOlustur(sorular, konular, [], hepsi, mulberry32(4)).soru_idleri).toHaveLength(0);
+  });
+
+  it('konu testi yalnızca o konudan 5 soru verir', () => {
+    const ids = konuTestOlustur(sorular, 'b', 0.5, new Set(), mulberry32(2));
+    expect(ids).toHaveLength(CONFIG.KONU_TEST_BOYUTU);
+    for (const id of ids) expect(id.startsWith('b-')).toBe(true);
+    expect(konuTestOlustur(sorular, 'a', 0.5, cozulmus, mulberry32(2))).toEqual([]);
   });
 });

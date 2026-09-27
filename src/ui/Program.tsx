@@ -18,6 +18,14 @@ async function testBaslat(setHata: (m: string) => void) {
   }
 }
 
+export async function konuTestiBaslat(konu: string, setHata: (m: string) => void) {
+  try {
+    git(`/test/${await depo.konuTestiBaslat(konu)}`);
+  } catch (e) {
+    setHata(e instanceof Error ? e.message : String(e));
+  }
+}
+
 /** Tek bir program etkinliği; bugün için eylem düğmesi gösterir. */
 export function EtkinlikSatiri({ e, bugun, onHata }: { e: Etkinlik; bugun: boolean; onHata: (m: string) => void }) {
   if (e.tur === 'sinav') {
@@ -37,7 +45,7 @@ export function EtkinlikSatiri({ e, bugun, onHata }: { e: Etkinlik; bugun: boole
           </strong>
           <span class="soluk kucuk">{sureMetni(e.dakika)}</span>
         </div>
-        <span class="soluk kucuk">{e.adet * 10} yeni soru; test sonunda konu analizine göz at.</span>
+        <span class="soluk kucuk">{e.adet * 10} soru; test sonunda konu analizine göz at.</span>
         {bugun && (
           <button class="dugme birincil kucuk-dugme" onClick={() => testBaslat(onHata)}>
             Teste başla
@@ -50,13 +58,13 @@ export function EtkinlikSatiri({ e, bugun, onHata }: { e: Etkinlik; bugun: boole
     return (
       <li class="etkinlik">
         <div class="satir-ust">
-          <strong>Yanlışlarını tekrar et</strong>
+          <strong>Aralıklı tekrar</strong>
           <span class="soluk kucuk">{sureMetni(e.dakika)}</span>
         </div>
-        <span class="soluk kucuk">Yanlış ve boş bıraktığın soruları yeniden çöz; açıklamaları oku.</span>
+        <span class="soluk kucuk">Sırası gelen yanlışlarını yeniden çöz, açıklamaları oku; varsa kelime kartlarına da bak.</span>
         {bugun && (
           <a class="dugme ikincil kucuk-dugme" href="#/yanlislar">
-            Yanlışlarıma git
+            Tekrar listesine git
           </a>
         )}
       </li>
@@ -73,6 +81,16 @@ export function EtkinlikSatiri({ e, bugun, onHata }: { e: Etkinlik; bugun: boole
           </span>
         </summary>
         <p class="kucuk">{konu?.oneri}</p>
+        <div class="dugme-satiri">
+          <a class="dugme ikincil kucuk-dugme" href={`#/konu/${e.konu}`}>
+            Konu kartını aç
+          </a>
+          {bugun && (
+            <button class="dugme metin kucuk-dugme" onClick={() => konuTestiBaslat(e.konu, onHata)}>
+              5 soru çöz
+            </button>
+          )}
+        </div>
       </details>
     </li>
   );
@@ -90,7 +108,9 @@ export function GunKarti({ gun, onHata }: { gun: ProgramGunu; onHata: (m: string
         {toplam > 0 && <span class="soluk kucuk">{sureMetni(toplam)}</span>}
       </div>
       {gun.dinlenme ? (
-        <p class="soluk kucuk">Dinlenme günü. İstersen 10 dakikalık kelime tekrarı yeterli.</p>
+        <p class="soluk kucuk">
+          Dinlenme günü. İstersen 10 dakikalık <a href="#/kelimeler">kelime tekrarı</a> yeterli.
+        </p>
       ) : (
         <ul class="etkinlik-listesi">
           {gun.etkinlikler.map((e) => (

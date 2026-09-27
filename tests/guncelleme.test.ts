@@ -78,4 +78,22 @@ describe('veritabanı geçişi', () => {
     expect(await yeni.paket.count()).toBe(0);
     yeni.close();
   });
+
+  it('v2 verisi (indirilmiş paket dahil) v3 şemasında korunur; yeni tablolar boş açılır', async () => {
+    const ad = 'gecis-v2';
+    const eski = new Dexie(ad);
+    eski.version(1).stores({ testler: '++id, tip, durum', cevaplar: '++id, test_id, soru_id, konu', ayarlar: 'id', teshis_plani: 'sira_no' });
+    eski.version(2).stores({ paket: 'id' });
+    await eski.table('cevaplar').add({ test_id: 1, soru_id: 'a', konu: 'gr.zaman', dogru_mu: false, tarih: 1 });
+    await eski.table('paket').put({ id: 'soru', surum: 'x', tarih: 1, sorular: [] });
+    eski.close();
+
+    const yeni = new YdsDB(ad);
+    expect(await yeni.cevaplar.count()).toBe(1);
+    expect((await yeni.paket.get('soru'))?.surum).toBe('x');
+    expect(await yeni.isaretler.count()).toBe(0);
+    expect(await yeni.kelimeler.count()).toBe(0);
+    expect(await yeni.gunluk.count()).toBe(0);
+    yeni.close();
+  });
 });

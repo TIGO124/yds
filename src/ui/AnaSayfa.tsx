@@ -4,7 +4,9 @@ import { depo } from '../depo';
 import { siradakiTest } from '../engine/adaptive';
 import { seviyeRaporu } from '../engine/analysis';
 import { CONFIG } from '../engine/config';
-import { DENEME_DAKIKA, DENEME_SORU, ydsPuani, ydsSeviyesi } from '../engine/deneme';
+import { DENEME_DAKIKA, DENEME_SORU, denemeYeniSoruAcigi, ydsPuani, ydsSeviyesi } from '../engine/deneme';
+import { calismaGunleri, seriHesapla } from '../engine/seri';
+import { siradakiler } from '../engine/tekrar';
 import type { Ayarlar } from '../types';
 import { IkonIleri } from './ikonlar';
 import { onayla } from './onay';
@@ -19,6 +21,7 @@ const DEVAM_AD = {
   kontrol: 'Kontrol testine',
   tekrar: 'Tekrar testine',
   deneme: 'Deneme sınavına',
+  konu: 'Konu testine',
 } as const;
 
 export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
@@ -26,17 +29,29 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
   const [mesgul, setMesgul] = useState(false);
   const { veri, hata } = useVeri(async () => {
     const plan = await depo.planGaranti();
-    const [testler, cevaplar, aktif, pv] = await Promise.all([
+    const [testler, cevaplar, aktif, pv, tekrar, kelimeler, gunluk] = await Promise.all([
       depo.testler(),
       depo.cevaplar(),
       depo.aktifTest(),
       programVerisi(ayar),
+      depo.tekrarListesi(),
+      depo.kelimeler(),
+      depo.gunluk(),
     ]);
-    return { plan, testler, cevaplar, aktif, bugunku: pv.program.gunler[0] };
+    return { plan, testler, cevaplar, aktif, bugunku: pv.program.gunler[0], tekrar, kelimeler, gunluk };
   });
   if (!veri) return <Yukleniyor hata={hata} />;
 
-  const { plan, testler, cevaplar, aktif, bugunku } = veri;
+  const { plan, testler, cevaplar, aktif, bugunku, tekrar, kelimeler, gunluk } = veri;
+  const seri = seriHesapla(
+    calismaGunleri(
+      cevaplar.map((c) => c.tarih),
+      gunluk.map((g) => g.tarih),
+    ),
+    new Date(),
+  );
+  const tekrarSirada = tekrar.sirada.length;
+  const kartSirada = siradakiler(kelimeler, Date.now()).length;
   const sira = siradakiTest(testler, plan.length);
   const cozulmus = new Set(cevaplar.map((c) => c.soru_id));
   const kalanYeni = SORULAR.filter((s) => !cozulmus.has(s.id)).length;
@@ -65,8 +80,10 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
 
   const denemeBaslat = async () => {
     setMesaj(null);
+    const acik = denemeYeniSoruAcigi(SORULAR, cozulmus);
+    const eskiNotu = acik > 0 ? ` Yeni soru yetmediği için yaklaşık ${acik} soru daha önce çözdüklerinden, en uzun süredir görmediklerinden gelecek.` : '';
     const tamam = await onayla(
-      `${DENEME_SORU} soru, ${DENEME_DAKIKA} dakika. Süre başladıktan sonra durmaz; uygulamayı kapatsan da işlemeye devam eder. Başlayalım mı?`,
+      `${DENEME_SORU} soru, ${DENEME_DAKIKA} dakika. Süre başladıktan sonra durmaz; uygulamayı kapatsan da işlemeye devam eder.${eskiNotu} Başlayalım mı?`,
       { onay: 'Denemeye başla' },
     );
     if (!tamam) return;
@@ -82,6 +99,12 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
       <header class="karsilama">
         <p class="soluk">YDS Çalışma</p>
         <h1>{sira.tip === 'teshis' ? 'Teşhis aşaması' : 'Uyarlanmış mod'}</h1>
+        {seri.guncel > 0 && (
+          <p class="seri-satiri">
+            <strong>{seri.guncel} günlük seri</strong>
+            <span class="soluk">{seri.bugun ? ' · bugün tamam' : ' · bugün de çalışırsan sürer'}</span>
+          </p>
+        )}
       </header>
 
       <section class="kart vurgu">
@@ -113,9 +136,12 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
             {DEVAM_AD[aktif.tip]} devam et ({cevapli}/{aktif.soru_idleri.length})
           </button>
         ) : (
-          <button class="dugme birincil genis" onClick={baslat} disabled={mesgul || kalanYeni === 0}>
-            {kalanYeni === 0 ? 'Tüm soruları çözdün' : 'Sonraki testi başlat'}
+          <button class="dugme birincil genis" onClick={baslat} disabled={mesgul}>
+            Sonraki testi başlat
           </button>
+        )}
+        {kalanYeni === 0 && !aktif && (
+          <p class="soluk kucuk">Tüm yeni soruları çözdün; testler artık en uzun süredir görmediğin sorulardan geliyor.</p>
         )}
         {mesaj && (
           <p class="hata-kutu" role="alert">
@@ -123,6 +149,34 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
           </p>
         )}
       </section>
+
+      {(tekrarSirada > 0 || kartSirada > 0) && (
+        <section class="kart">
+          <h2>Bugünkü tekrar</h2>
+          <ul class="etkinlik-listesi">
+            {tekrarSirada > 0 && (
+              <li class="etkinlik">
+                <div class="satir-ust">
+                  <strong>{tekrarSirada} soru tekrar sırasında</strong>
+                  <a class="dugme metin" href="#/yanlislar">
+                    Tekrar et <IkonIleri boyut={18} />
+                  </a>
+                </div>
+              </li>
+            )}
+            {kartSirada > 0 && (
+              <li class="etkinlik">
+                <div class="satir-ust">
+                  <strong>{kartSirada} kelime kartı</strong>
+                  <a class="dugme metin" href="#/kartlar">
+                    Kartları çalış <IkonIleri boyut={18} />
+                  </a>
+                </div>
+              </li>
+            )}
+          </ul>
+        </section>
+      )}
 
       <GunKarti gun={bugunku} onHata={setMesaj} />
       <a class="dugme metin devam" href="#/program">
@@ -142,7 +196,7 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
           Gerçek YDS düzeninde {DENEME_SORU} soru, {DENEME_DAKIKA} dakika. Sonunda tahmini YDS puanını ve bölüm sonuçlarını görürsün.
         </p>
         {aktif?.tip !== 'deneme' && (
-          <button class="dugme ikincil genis" onClick={denemeBaslat} disabled={!!aktif || kalanYeni === 0}>
+          <button class="dugme ikincil genis" onClick={denemeBaslat} disabled={!!aktif}>
             {aktif ? 'Önce yarım kalan testi bitir' : 'Deneme sınavına başla'}
           </button>
         )}
@@ -171,15 +225,18 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
               const r = rapor.konular.find((x) => x.konu === k.kod)!;
               return (
                 <li>
-                  <div class="satir-ust">
-                    <span>{konuAdi(k.kod)}</span>
-                    <span class="soluk">%{Math.round(r.eksiklik * 100)} eksik</span>
-                  </div>
-                  <Cubuk yuzde={Math.round(r.ustalik * 100)} />
+                  <a class="satir-dugme satir-baglanti" href={`#/konu/${k.kod}`}>
+                    <span class="satir-ust">
+                      <span>{konuAdi(k.kod)}</span>
+                      <span class="soluk">%{Math.round(r.eksiklik * 100)} eksik</span>
+                    </span>
+                    <Cubuk yuzde={Math.round(r.ustalik * 100)} />
+                  </a>
                 </li>
               );
             })}
           </ol>
+          <p class="soluk kucuk">Konuya dokun: kısa konu anlatımı ve o konudan 5 soruluk test.</p>
           <a class="dugme ikincil genis" href="#/rapor">
             Seviye raporunu gör
           </a>

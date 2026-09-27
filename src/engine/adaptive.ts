@@ -2,7 +2,7 @@ import type { Konu, Soru, TestTipi } from '../types';
 import { CONFIG } from './config';
 import { hedefZorluklar, konuAgirliklari, konuDurumlari, type CevapOzeti } from './mastery';
 import { agirlikliSec, karistir, type Rng } from './rng';
-import { havuzOlustur, soruCek } from './secim';
+import { havuzOlustur, soruCek, type EskiSorular } from './secim';
 
 export interface TestUretimi {
   soru_idleri: string[];
@@ -24,6 +24,7 @@ function eksikleriDoldur(secilen: Soru[], havuz: Map<string, Soru[]>, rng: Rng):
 /**
  * Uyarlanmış test: konular eksiklik ağırlığına göre ağırlıklı rastgele seçilir,
  * her konudan en fazla 3 soru, zorluk ustalığa göre belirlenir.
+ * eski verilirse yeni sorusu biten konularda en uzun süredir görülmeyen sorular kullanılır.
  */
 export function uyarlanmisTestOlustur(
   sorular: readonly Soru[],
@@ -31,10 +32,11 @@ export function uyarlanmisTestOlustur(
   cevaplar: readonly CevapOzeti[],
   cozulmus: ReadonlySet<string>,
   rng: Rng,
+  eski?: EskiSorular,
 ): TestUretimi {
   const durumlar = konuDurumlari(konular, cevaplar);
   const agirliklar = konuAgirliklari(konular, durumlar);
-  const havuz = havuzOlustur(sorular, cozulmus);
+  const havuz = havuzOlustur(sorular, cozulmus, eski);
   const sayac = new Map<string, number>();
   const biten = new Set<string>();
   const secilen: Soru[] = [];
@@ -76,8 +78,9 @@ export function kontrolTestOlustur(
   konular: readonly Konu[],
   cozulmus: ReadonlySet<string>,
   rng: Rng,
+  eski?: EskiSorular,
 ): TestUretimi {
-  const havuz = havuzOlustur(sorular, cozulmus);
+  const havuz = havuzOlustur(sorular, cozulmus, eski);
   const sayac = new Map<string, number>();
   const secilen: Soru[] = [];
   const dongu = CONFIG.TESHIS_ZORLUK_DONGUSU;
@@ -118,16 +121,23 @@ export function siradakiTest(
   return { tip: 'uyarlanmis', sira_no: uy + 1 };
 }
 
-/** Son cevabı yanlış veya boş olan sorular (kronolojik cevap listesinden). */
-export function yanlisSoruIdleri(cevaplar: readonly { soru_id: string; dogru_mu: boolean }[]): string[] {
-  const son = new Map<string, boolean>();
-  for (const c of cevaplar) {
-    son.delete(c.soru_id);
-    son.set(c.soru_id, c.dogru_mu);
-  }
-  return [...son].filter(([, d]) => !d).map(([id]) => id);
+/** Öncelik sırasındaki sorulardan ilk 10'u, karışık sırada. */
+export function tekrarTestOlustur(oncelikSirasi: readonly string[], rng: Rng): string[] {
+  return karistir(oncelikSirasi.slice(0, CONFIG.TEST_BOYUTU), rng);
 }
 
-export function tekrarTestOlustur(yanlislar: readonly string[], rng: Rng): string[] {
-  return karistir(yanlislar, rng).slice(0, CONFIG.TEST_BOYUTU);
+/** Konu testi: tek konudan, ustalığa uygun zorlukta KONU_TEST_BOYUTU soru (yeni önce, bitince eski). */
+export function konuTestOlustur(
+  sorular: readonly Soru[],
+  konu: string,
+  ustalik: number,
+  cozulmus: ReadonlySet<string>,
+  rng: Rng,
+  eski?: EskiSorular,
+): string[] {
+  const havuz = havuzOlustur(sorular.filter((s) => s.konu === konu), cozulmus, eski).get(konu) ?? [];
+  const hedef = hedefZorluklar(ustalik);
+  const secilen: string[] = [];
+  while (secilen.length < CONFIG.KONU_TEST_BOYUTU && havuz.length > 0) secilen.push(soruCek(havuz, hedef, rng)!.id);
+  return secilen;
 }

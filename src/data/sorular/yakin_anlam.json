@@ -572,7 +572,7 @@
       "The meeting will be cancelled whether it snows or not."
     ],
     "dogru": 3,
-    "aciklama": "'unless' = 'if not'.",
+    "aciklama": "'unless' = 'if ... not': Yoğun kar yağmazsa toplantı yapılacak. 'go ahead' burada 'take place' ile aynı anlamdadır.",
     "paragraf_id": null
   },
   {
@@ -806,7 +806,7 @@
       "I admire his conclusions more than his work."
     ],
     "dogru": 1,
-    "aciklama": "'Much as' = although.",
+    "aciklama": "'Much as' = although (-e rağmen): Çalışmalarına hayran olsam da vardığı sonuçlara katılamıyorum.",
     "paragraf_id": null
   },
   {

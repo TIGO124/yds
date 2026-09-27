@@ -2372,7 +2372,7 @@
       "wouldn't"
     ],
     "dogru": 2,
-    "aciklama": "Tavsiye → 'should'.",
+    "aciklama": "Haftalardır süren öksürük için doktora gitmek bir tavsiyedir; tavsiye 'should' ile verilir. 'needn't' gereksizlik, 'mustn't' yasak bildirir.",
     "paragraf_id": null
   },
   {
@@ -4928,7 +4928,7 @@
       "which"
     ],
     "dogru": 2,
-    "aciklama": "Yayılma biçimi → 'how'.",
+    "aciklama": "Bilinmeyen şey virüsün nasıl, yani hangi yolla yayıldığıdır; bu yüzden 'how' gelir. Cümlecik eksiksiz olduğu için 'what' ve 'which' uymaz.",
     "paragraf_id": null
   },
   {
@@ -5306,7 +5306,7 @@
       "because"
     ],
     "dogru": 3,
-    "aciklama": "'until' = …e kadar.",
+    "aciklama": "'until' (-e kadar) beklemenin ne zamana kadar süreceğini bildirir: Sen dönene kadar burada bekleyeceğim.",
     "paragraf_id": null
   },
   {
@@ -5360,7 +5360,7 @@
       "so"
     ],
     "dogru": 2,
-    "aciklama": "Zaman bildiren 'when'.",
+    "aciklama": "Işıkları kapatmak odadan çıkma zamanına bağlanır; zaman bildiren bağlaç 'when'dir. 'unless' ve 'although' anlamı bozar, 'because of' isim alır.",
     "paragraf_id": null
   },
   {
@@ -5792,7 +5792,7 @@
       "to write"
     ],
     "dogru": 1,
-    "aciklama": "'finish' gerund alır.",
+    "aciklama": "'finish' fiilinden sonra gelen fiil -ing alır: finished writing her report. 'finish to write' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -5828,7 +5828,7 @@
       "to answer"
     ],
     "dogru": 2,
-    "aciklama": "'avoid' gerund alır.",
+    "aciklama": "'avoid' (kaçınmak) fiilinden sonra gelen fiil -ing alır: avoided answering the question.",
     "paragraf_id": null
   },
   {
@@ -5882,7 +5882,7 @@
       "closing"
     ],
     "dogru": 4,
-    "aciklama": "'mind' gerund alır.",
+    "aciklama": "'Would you mind' kalıbından sonra fiil -ing alır: Would you mind closing the door? (Kapıyı kapatır mısınız?)",
     "paragraf_id": null
   },
   {
@@ -5954,7 +5954,7 @@
       "to using"
     ],
     "dogru": 1,
-    "aciklama": "'be allowed to + V1'.",
+    "aciklama": "'allow' edilgen yapıda 'be allowed to + V1' kalıbıyla kullanılır: were not allowed to use (kullanmalarına izin verilmedi).",
     "paragraf_id": null
   },
   {
@@ -5972,7 +5972,7 @@
       "to steal"
     ],
     "dogru": 0,
-    "aciklama": "'admit' gerund alır.",
+    "aciklama": "'admit' (itiraf etmek, kabul etmek) fiilinden sonra gelen fiil -ing alır: admitted stealing the money.",
     "paragraf_id": null
   },
   {
@@ -6044,7 +6044,7 @@
       "visit"
     ],
     "dogru": 0,
-    "aciklama": "'suggest' gerund alır.",
+    "aciklama": "'suggest' (önermek) fiilinden sonra gelen fiil -ing alır: suggested visiting the museum. 'suggested to visit' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -6134,7 +6134,7 @@
       "giving"
     ],
     "dogru": 4,
-    "aciklama": "'deny' gerund alır.",
+    "aciklama": "'deny' (inkâr etmek) fiilinden sonra gelen fiil -ing alır: denied giving the documents.",
     "paragraf_id": null
   },
   {
@@ -6386,7 +6386,7 @@
       "to"
     ],
     "dogru": 1,
-    "aciklama": "Aylarla 'in' kullanılır.",
+    "aciklama": "Aylar, yıllar ve mevsimlerle 'in' kullanılır: in July, in 2020, in summer. Günlerle 'on', saatlerle 'at' gelir.",
     "paragraf_id": null
   },
   {
@@ -6440,7 +6440,7 @@
       "into"
     ],
     "dogru": 1,
-    "aciklama": "Yüzey üzerinde → 'on'.",
+    "aciklama": "Bir yüzeyin üzerinde duran şey için 'on' kullanılır: on the table. 'in' içinde, 'at' belirli bir noktada demektir.",
     "paragraf_id": null
   },
   {
@@ -6836,7 +6836,7 @@
       "For"
     ],
     "dogru": 0,
-    "aciklama": "'on behalf of' = …adına.",
+    "aciklama": "'on behalf of' (…adına) kalıplaşmış bir ifadedir: on behalf of all the staff (tüm çalışanlar adına).",
     "paragraf_id": null
   },
   {
@@ -6872,7 +6872,7 @@
       "for"
     ],
     "dogru": 4,
-    "aciklama": "'fit for' = …e uygun.",
+    "aciklama": "'fit for' (…e uygun) kalıbıdır: not fit for human consumption (insan tüketimine uygun değil).",
     "paragraf_id": null
   },
   {
@@ -7034,7 +7034,7 @@
       "yourself"
     ],
     "dogru": 0,
-    "aciklama": "Özne 'she' → 'herself'.",
+    "aciklama": "Kendine zarar veren özne 'she' olduğu için dönüşlü zamir 'herself' gelir. 'himself' eril, 'itself' cansız ya da hayvan, 'themselves' çoğul içindir.",
     "paragraf_id": null
   },
   {
@@ -7574,7 +7574,7 @@
       "cheap"
     ],
     "dogru": 1,
-    "aciklama": "'than' → 'cheaper'.",
+    "aciklama": "'than' karşılaştırmalı biçim ister; tek heceli 'cheap' '-er' alır: cheaper. 'more cheap' yanlış, 'the cheapest' üstünlük bildirir.",
     "paragraf_id": null
   },
   {
@@ -7646,7 +7646,7 @@
       "faster"
     ],
     "dogru": 4,
-    "aciklama": "'fast' → 'faster'.",
+    "aciklama": "'than' karşılaştırmalı biçim ister; tek heceli 'fast' '-er' alır: faster. 'more fast' yanlış, 'the fastest' üstünlük bildirir.",
     "paragraf_id": null
   },
   {
@@ -7700,7 +7700,7 @@
       "than"
     ],
     "dogru": 1,
-    "aciklama": "'as ... as' kalıbı.",
+    "aciklama": "Eşitlik karşılaştırması 'as + sıfat + as' ile kurulur; olumsuzu 'not as good as' olur. 'than' ancak karşılaştırmalı biçimden (better) sonra gelir.",
     "paragraf_id": null
   },
   {
@@ -7808,7 +7808,7 @@
       "the hardest"
     ],
     "dogru": 1,
-    "aciklama": "'than' → 'harder'.",
+    "aciklama": "'than' karşılaştırmalı biçim ister: hard → harder. 'Nobody works harder than Sarah' = Takımda en çok Sarah çalışır.",
     "paragraf_id": null
   },
   {

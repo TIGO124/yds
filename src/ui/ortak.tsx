@@ -1,8 +1,8 @@
 import type { ComponentChildren } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import { soruParagrafi } from '../data/bank';
+import { konuAdi, soruParagrafi } from '../data/bank';
 import type { Seviye } from '../engine/mastery';
-import type { Soru } from '../types';
+import type { Soru, TestKaydi } from '../types';
 import { git } from './router';
 import { IkonAyar, IkonEv, IkonGeri, IkonGrafik, IkonTakvim, IkonTekrar } from './ikonlar';
 import { GuncellemeBandi } from './guncellemeBandi';
@@ -40,7 +40,7 @@ const MENU = [
   { yol: '', ad: 'Ana sayfa', Ikon: IkonEv },
   { yol: 'program', ad: 'Program', Ikon: IkonTakvim },
   { yol: 'ilerleme', ad: 'İlerleme', Ikon: IkonGrafik },
-  { yol: 'yanlislar', ad: 'Yanlışlar', Ikon: IkonTekrar },
+  { yol: 'yanlislar', ad: 'Tekrar', Ikon: IkonTekrar },
   { yol: 'ayarlar', ad: 'Ayarlar', Ikon: IkonAyar },
 ];
 
@@ -118,7 +118,14 @@ export const TIP_AD = {
   kontrol: 'Kontrol testi',
   tekrar: 'Tekrar testi',
   deneme: 'Deneme sınavı',
+  konu: 'Konu testi',
 } as const;
+
+/** "Uyarlanmış test 4", "Tekrar testi", "Konu testi · Zamanlar" */
+export function testAdi(t: Pick<TestKaydi, 'tip' | 'sira_no' | 'konu'>): string {
+  if (t.tip === 'konu') return t.konu ? `${TIP_AD.konu} · ${konuAdi(t.konu)}` : TIP_AD.konu;
+  return t.tip === 'tekrar' ? TIP_AD.tekrar : `${TIP_AD[t.tip]} ${t.sira_no}`;
+}
 
 export const HARF = 'ABCDE';
 

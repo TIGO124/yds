@@ -1022,7 +1022,7 @@
       "whose brother works with my father"
     ],
     "dogru": 4,
-    "aciklama": "İyelik → 'whose'.",
+    "aciklama": "Sahiplik bildiren sıfat cümleciği 'whose + isim' ile kurulur: a man whose brother works with my father (kardeşi babamla çalışan bir adam).",
     "paragraf_id": null
   },
   {
@@ -1058,7 +1058,7 @@
       "that he discovered"
     ],
     "dogru": 1,
-    "aciklama": "İnsan + özne → 'who'.",
+    "aciklama": "Nitelenen isim insan (the scientist) ve cümlecikte özne eksik; bu yüzden 'who' gelir. 'which' insanlar için kullanılmaz, 'whose' ardından isim ister.",
     "paragraf_id": null
   },
   {
@@ -1238,7 +1238,7 @@
       "which air pollution has increased"
     ],
     "dogru": 2,
-    "aciklama": "'show that + düz cümle'.",
+    "aciklama": "'show' fiilinin nesnesi 'that + düz cümle' olur: shows that air pollution has increased. İsim cümleciğinde soru sırası (has air pollution increased) kullanılmaz.",
     "paragraf_id": null
   },
   {
@@ -1472,7 +1472,7 @@
       "studying medicine at university"
     ],
     "dogru": 4,
-    "aciklama": "Edattan sonra -ing.",
+    "aciklama": "'think about' kalıbındaki 'about' bir edattır; edattan sonra fiil -ing alır: thinking about studying medicine.",
     "paragraf_id": null
   },
   {
@@ -1490,7 +1490,7 @@
       "switching off their mobile phones"
     ],
     "dogru": 3,
-    "aciklama": "'ask somebody to do'.",
+    "aciklama": "'ask + kişi + to V1' kalıbıdır: asked the students to switch off their phones (öğrencilerden telefonlarını kapatmalarını istedi).",
     "paragraf_id": null
   },
   {
@@ -1526,7 +1526,7 @@
       "drinking enough water every day"
     ],
     "dogru": 1,
-    "aciklama": "'It is + sıfat + to V'.",
+    "aciklama": "'It is + sıfat + to V1' kalıbında sıfattan sonra mastar gelir: It is important to drink enough water every day.",
     "paragraf_id": null
   },
   {
@@ -1580,7 +1580,7 @@
       "hold the meeting on Friday"
     ],
     "dogru": 3,
-    "aciklama": "'suggest' gerund alır.",
+    "aciklama": "'suggest' fiilinden sonra gelen fiil -ing alır: suggested holding the meeting on Friday. 'suggested to hold' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1634,7 +1634,7 @@
       "on playing the guitar"
     ],
     "dogru": 3,
-    "aciklama": "'good at + -ing'.",
+    "aciklama": "'good at' kalıbıdır ve edattan sonra fiil -ing alır: good at playing the guitar (gitar çalmakta iyi).",
     "paragraf_id": null
   },
   {
@@ -1670,7 +1670,7 @@
       "since twenty minutes"
     ],
     "dogru": 1,
-    "aciklama": "Süre → 'for'.",
+    "aciklama": "Süre (twenty minutes) 'for' ile, başlangıç anı 'since' ile verilir: waiting for twenty minutes. 'since twenty minutes' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1688,7 +1688,7 @@
       "by Sundays"
     ],
     "dogru": 0,
-    "aciklama": "Günlerle 'on'.",
+    "aciklama": "Günlerle 'on' kullanılır: on Sundays (pazarları). Aylarla 'in', saatlerle 'at' gelir.",
     "paragraf_id": null
   },
   {
@@ -1706,7 +1706,7 @@
       "in how much customers pay"
     ],
     "dogru": 2,
-    "aciklama": "'depend on'.",
+    "aciklama": "'depend on' kalıplaşmış bir fiil + edattır: depends on how much customers are willing to pay. 'depend of' ya da 'depend in' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1742,7 +1742,7 @@
       "for politics or current affairs"
     ],
     "dogru": 1,
-    "aciklama": "'interested in'.",
+    "aciklama": "'interested in' kalıbıdır: not interested in politics (siyasetle ilgilenmiyor). 'interested about' ya da 'interested for' yanlıştır.",
     "paragraf_id": null
   },
   {
@@ -1814,7 +1814,7 @@
       "has a different hobby"
     ],
     "dogru": 4,
-    "aciklama": "'Every' tekil fiil alır.",
+    "aciklama": "'every' tekil isim ve tekil fiil alır: Every student has a different hobby. 'have' ve 'are having' çoğul fiillerdir.",
     "paragraf_id": null
   },
   {
@@ -1994,7 +1994,7 @@
       "than it was yesterday"
     ],
     "dogru": 3,
-    "aciklama": "'as ... as' kalıbı.",
+    "aciklama": "Eşitlik karşılaştırması 'as ... as' ile kurulur: not as warm as it was yesterday. 'than' karşılaştırmalı biçim (warmer) ister.",
     "paragraf_id": null
   },
   {
@@ -2030,7 +2030,7 @@
       "the fastest than travelling by bus"
     ],
     "dogru": 1,
-    "aciklama": "'much' + '-er' + 'than'.",
+    "aciklama": "'much + karşılaştırmalı + than' kalıbı: much faster than. 'more faster' iki kez karşılaştırma yapar; 'much fast than' ise -er eksiktir.",
     "paragraf_id": null
   },
   {
@@ -2048,7 +2048,7 @@
       "as large as it was in 1990"
     ],
     "dogru": 4,
-    "aciklama": "'twice as + sıfat + as'.",
+    "aciklama": "Katlı karşılaştırma 'twice as + sıfat + as' ile kurulur: twice as large as it was in 1990 (1990'dakinin iki katı).",
     "paragraf_id": null
   },
   {
@@ -2066,7 +2066,7 @@
       "Ali is hardworking than others"
     ],
     "dogru": 0,
-    "aciklama": "'Of all' → en üstünlük.",
+    "aciklama": "'Of all the students' (tüm öğrenciler arasında) üstünlük ister; uzun sıfatlarda 'the most' kullanılır: Ali is the most hardworking.",
     "paragraf_id": null
   },
   {

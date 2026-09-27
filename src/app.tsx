@@ -1,10 +1,15 @@
 import { useEffect, useState } from 'preact/hooks';
 import { depo } from './depo';
 import { tarihMetni } from './engine/program';
+import { CALISILDI, hatirlatmaVar, hatirlatmalariKur } from './hatirlatma';
 import type { Ayarlar } from './types';
 import { AnaSayfa } from './ui/AnaSayfa';
 import { AyarlarEkrani } from './ui/AyarlarEkrani';
 import { Ilerleme } from './ui/Ilerleme';
+import { Kaydedilenler } from './ui/Kaydedilenler';
+import { KelimeDefteri, KelimeKartlari } from './ui/Kelimeler';
+import { KelimeSecici } from './ui/KelimeSecici';
+import { KonuListesi, KonuSayfasi } from './ui/KonuKarti';
 import { Bildirim } from './ui/bildirim';
 import { OnayKutusu } from './ui/onay';
 import { Yukleniyor } from './ui/ortak';
@@ -47,6 +52,16 @@ function Ekran({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Partial<Ayarla
       return <Ilerleme />;
     case 'yanlislar':
       return <Yanlislar />;
+    case 'kaydedilenler':
+      return <Kaydedilenler />;
+    case 'kelimeler':
+      return <KelimeDefteri />;
+    case 'kartlar':
+      return <KelimeKartlari />;
+    case 'konular':
+      return <KonuListesi />;
+    case 'konu':
+      return <KonuSayfasi key={param} kod={decodeURIComponent(param ?? '')} />;
     case 'ayarlar':
       return <AyarlarEkrani ayar={ayar} degistir={degistir} />;
     default:
@@ -91,6 +106,22 @@ export function App() {
     return () => mq.removeEventListener?.('change', dinle);
   }, [ayar?.tema]);
 
+  // Android: günlük hatırlatmaları kur; uygulamadan çıkınca ve çalışma bitince yenile (bugünkü iptal olsun).
+  useEffect(() => {
+    if (!ayar || !hatirlatmaVar) return;
+    const kur = () => void hatirlatmalariKur(ayar).catch((e) => console.error('Hatırlatma kurulamadı', e));
+    const gizlenince = () => {
+      if (document.hidden) kur();
+    };
+    kur();
+    document.addEventListener('visibilitychange', gizlenince);
+    window.addEventListener(CALISILDI, kur);
+    return () => {
+      document.removeEventListener('visibilitychange', gizlenince);
+      window.removeEventListener(CALISILDI, kur);
+    };
+  }, [ayar?.hatirlatma, ayar?.haftalik_gun, ayar?.gunluk_dakika, ayar?.sinav_tarihi]);
+
   if (!ayar) return <Yukleniyor hata={hata} />;
 
   const degistir = (d: Partial<Ayarlar>) => {
@@ -103,6 +134,7 @@ export function App() {
       <Ekran key={gun} ayar={ayar} degistir={degistir} />
       <OnayKutusu />
       <Bildirim />
+      <KelimeSecici />
     </>
   );
 }

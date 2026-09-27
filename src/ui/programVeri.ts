@@ -1,17 +1,19 @@
 import { KONULAR, SORULAR } from '../data/bank';
 import { depo } from '../depo';
 import { programOlustur, type CalismaProgrami, type ProgramNotu } from '../engine/program';
+import { tekrarTakvimi } from '../engine/tekrar';
 import type { Ayarlar } from '../types';
 
 export interface ProgramVerisi {
   program: CalismaProgrami;
+  /** Bugün tekrar sırası gelen soru sayısı */
   yanlisSayisi: number;
 }
 
 /** Güncel istatistiklerden bu haftanın programını hesaplar (bugünden başlayarak 7 gün). */
 export async function programVerisi(ayar: Ayarlar, bugun = new Date()): Promise<ProgramVerisi> {
   const plan = await depo.planGaranti();
-  const [testler, cevaplar, yanlislar] = await Promise.all([depo.testler(), depo.cevaplar(), depo.yanlislar()]);
+  const [testler, cevaplar, tekrar] = await Promise.all([depo.testler(), depo.cevaplar(), depo.tekrarListesi()]);
   const cozulmus = new Set(cevaplar.map((c) => c.soru_id));
   const teshisBiten = testler.filter((t) => t.tip === 'teshis' && t.durum === 'bitti').length;
   const sonDeneme = testler.filter((t) => t.tip === 'deneme' && t.durum === 'bitti').pop();
@@ -19,7 +21,8 @@ export async function programVerisi(ayar: Ayarlar, bugun = new Date()): Promise<
   const program = programOlustur({
     konular: KONULAR,
     cevaplar,
-    yanlisSayisi: yanlislar.length,
+    yanlisSayisi: tekrar.sirada.length,
+    tekrarTakvimi: tekrarTakvimi(tekrar.hepsi, bugun),
     kalanYeniSoru: SORULAR.filter((s) => !cozulmus.has(s.id)).length,
     teshisKalan: Math.max(0, plan.length - teshisBiten),
     bugun,
@@ -28,7 +31,7 @@ export async function programVerisi(ayar: Ayarlar, bugun = new Date()): Promise<
     sinavTarihi: ayar.sinav_tarihi,
     sonDenemeGunOnce,
   });
-  return { program, yanlisSayisi: yanlislar.length };
+  return { program, yanlisSayisi: tekrar.sirada.length };
 }
 
 export function notMetni(n: ProgramNotu, yanlisSayisi: number): string {
@@ -40,11 +43,11 @@ export function notMetni(n: ProgramNotu, yanlisSayisi: number): string {
     case 'sinav_yarin':
       return 'Sınav yarın! Bugün yalnızca hafif tekrar yap ve erken uyu.';
     case 'tekrar':
-      return `${yanlisSayisi} yanlış/boş sorun var; tekrar oturumlarında bunları yeniden çöz.`;
+      return `Bugün tekrar sırası gelen ${yanlisSayisi} soru var. Yanlışlar 1, 3 ve 7 gün arayla yeniden gelir; kalıcı öğrenmenin yolu bu.`;
     case 'soru_az':
-      return 'Yeni soru azaldı; yanlışlarını tekrar etmeye ağırlık ver.';
+      return 'Yeni soru azaldı; bitince testler en uzun süredir görmediğin sorulardan oluşacak.';
     case 'soru_bitti':
-      return 'Tüm yeni soruları çözdün! Programda test yerine tekrar ve konu çalışması var.';
+      return 'Tüm yeni soruları çözdün! Testler artık en uzun süredir görmediğin sorulardan geliyor.';
     case 'deneme':
       return 'Bu hafta ana sayfadan 180 dakikalık bir deneme sınavı çöz; gerçek sınavın temposuna alışırsın ve tahmini YDS puanını görürsün.';
     case 'sinav_gecti':

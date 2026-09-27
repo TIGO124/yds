@@ -4,19 +4,26 @@ import { KONULAR, SORULAR } from '../src/data/bank';
 import { YdsDB } from '../src/db/db';
 import { Depo } from '../src/db/depo';
 import { mulberry32 } from '../src/engine/rng';
+import { sahteKonular, sahteSorular } from './helpers';
 
 let sayac = 0;
 let depo: Depo;
+/** Depo'nun saati: testler günleri ileri sarabilsin. */
+let saat = 0;
+const gunIlerle = (n: number) => {
+  saat += n * 86_400_000;
+};
+const soruMap = new Map(SORULAR.map((s) => [s.id, s]));
 
 beforeEach(() => {
   let tohum = 100;
-  depo = new Depo(new YdsDB(`test-${++sayac}`), { sorular: SORULAR, konular: KONULAR }, () => mulberry32(tohum++));
+  saat = new Date(2026, 8, 28, 10).getTime();
+  depo = new Depo(new YdsDB(`test-${++sayac}`), { sorular: SORULAR, konular: KONULAR }, () => mulberry32(tohum++), () => saat);
 });
 
 /** Aktif testi rastgele cevaplayıp bitirir. */
 async function coz(testId: number, dogruOrani = 0.5): Promise<void> {
   const t = (await depo.test(testId))!;
-  const soruMap = new Map(SORULAR.map((s) => [s.id, s]));
   for (let i = 0; i < t.soru_idleri.length; i++) {
     const s = soruMap.get(t.soru_idleri[i])!;
     const secim = (i / t.soru_idleri.length) < dogruOrani ? s.dogru : (s.dogru + 1) % 5;
@@ -77,18 +84,86 @@ describe('Depo (IndexedDB)', () => {
     expect(await yeni.sonrakiTestiBaslat()).toBe(id);
   });
 
-  it('tekrar testi yalnızca yanlış/boş soruları içerir ve konu puanını etkilemez', async () => {
+  it('aralıklı tekrar: yanlışlar ertesi gün gelir; 1, 3, 7 gün arayla 3 kez doğru çözülünce listeden çıkar', async () => {
     const id = await depo.sonrakiTestiBaslat();
     await coz(id, 0.5);
-    const yanlislar = await depo.yanlislar();
-    expect(yanlislar).toHaveLength(5);
+    let liste = await depo.tekrarListesi();
+    expect(liste.hepsi).toHaveLength(5);
+    expect(liste.sirada).toHaveLength(0);
+    expect(await depo.tekrarTestiBaslat()).toBeNull();
 
-    const tid = (await depo.tekrarTestiBaslat())!;
-    const t = (await depo.test(tid))!;
-    expect(t.tip).toBe('tekrar');
-    expect(new Set(t.soru_idleri)).toEqual(new Set(yanlislar));
-    await coz(tid, 1);
-    expect(await depo.yanlislar()).toHaveLength(0);
+    const yanlislar = new Set(liste.hepsi.map((d) => d.soru_id));
+    for (const gun of [1, 3, 7]) {
+      gunIlerle(gun);
+      const tid = (await depo.tekrarTestiBaslat())!;
+      const t = (await depo.test(tid))!;
+      expect(t.tip).toBe('tekrar');
+      expect(new Set(t.soru_idleri)).toEqual(yanlislar);
+      await coz(tid, 1);
+      liste = await depo.tekrarListesi();
+      expect(liste.sirada).toHaveLength(0);
+    }
+    expect(liste.hepsi).toHaveLength(0);
+  });
+
+  it('kaydedilen sorular: işaretleme, kaldırma ve bunlardan tekrar testi', async () => {
+    const ids = SORULAR.slice(0, 3).map((s) => s.id);
+    await depo.isaretle(ids[0], true);
+    saat += 1000;
+    await depo.isaretle(ids[1], true);
+    expect((await depo.isaretler()).map((i) => i.soru_id)).toEqual([ids[1], ids[0]]);
+    await depo.isaretle(ids[0], false);
+    expect((await depo.isaretler()).map((i) => i.soru_id)).toEqual([ids[1]]);
+
+    const tid = (await depo.tekrarTestiBaslat(ids))!;
+    expect(new Set((await depo.test(tid))!.soru_idleri)).toEqual(new Set(ids));
+  });
+
+  it('kelime defteri: ekleme, kart cevapları ve çalışma günlüğü', async () => {
+    expect(await depo.kelimeEkle({ kelime: ' Evidence ', baglam: 'There is evidence.' })).toBe('eklendi');
+    expect(await depo.kelimeEkle({ kelime: 'evidence', anlam: 'kanıt' })).toBe('vardi');
+    expect((await depo.kelimeler())[0]).toMatchObject({ kelime: 'evidence', anlam: 'kanıt', kutu: 0 });
+    await expect(depo.kelimeEkle({ kelime: ' .. ' })).rejects.toThrow('boş');
+
+    expect((await depo.siradakiKartlar()).map((k) => k.kelime)).toEqual(['evidence']);
+    await depo.kartCevapla('evidence', true);
+    expect(await depo.siradakiKartlar()).toHaveLength(0);
+    gunIlerle(3);
+    expect(await depo.siradakiKartlar()).toHaveLength(1);
+    await depo.kartCevapla('evidence', false);
+    expect((await depo.kelimeler())[0].kutu).toBe(0);
+    expect((await depo.gunluk()).map((g) => g.kart)).toEqual([1, 1]);
+  });
+
+  it('konu testi: tek konudan 5 soru, başka test yarımken başlamaz, test sırasını bozmaz', async () => {
+    const id = await depo.konuTestiBaslat('gr.zaman');
+    const t = (await depo.test(id))!;
+    expect(t).toMatchObject({ tip: 'konu', konu: 'gr.zaman' });
+    expect(t.soru_idleri).toHaveLength(5);
+    for (const sid of t.soru_idleri) expect(soruMap.get(sid)!.konu).toBe('gr.zaman');
+    expect(await depo.konuTestiBaslat('gr.zaman')).toBe(id);
+    await expect(depo.konuTestiBaslat('gr.modal')).rejects.toThrow('yarım kalan');
+    await coz(id);
+    const sonraki = (await depo.test(await depo.sonrakiTestiBaslat()))!;
+    expect([sonraki.tip, sonraki.sira_no]).toEqual(['teshis', 1]);
+  });
+
+  it('yeni soru kalmayınca en uzun süredir görülmeyen sorular gelir; son 3 günde görülenler gelmez', async () => {
+    const konular = sahteKonular({ gr: ['a', 'b'] });
+    const kucuk = new Depo(new YdsDB(`test-${++sayac}`), { sorular: sahteSorular(konular, 12), konular }, () => mulberry32(7), () => saat);
+    const hepsiDogru = async (id: number) => {
+      const t = (await kucuk.test(id))!;
+      for (let i = 0; i < t.soru_idleri.length; i++) await kucuk.secimKaydet(id, i, 0, 1000, i);
+      await kucuk.testiBitir(id);
+    };
+    for (let i = 0; i < 3; i++) await hepsiDogru(await kucuk.sonrakiTestiBaslat());
+    expect(new Set((await kucuk.cevaplar()).map((c) => c.soru_id)).size).toBe(24);
+    await expect(kucuk.sonrakiTestiBaslat()).rejects.toThrow('kalmadı');
+
+    gunIlerle(4);
+    const t = (await kucuk.test(await kucuk.sonrakiTestiBaslat()))!;
+    expect(t.tip).toBe('uyarlanmis');
+    expect(t.soru_idleri).toHaveLength(10);
   });
 
   it('art arda ayar kayıtları birbirini ezmez', async () => {
@@ -100,13 +175,24 @@ describe('Depo (IndexedDB)', () => {
   it('yedek → sıfırla → yedekten yükle tüm ilerlemeyi geri getirir', async () => {
     for (let i = 0; i < 2; i++) await coz(await depo.sonrakiTestiBaslat());
     await depo.ayarKaydet({ tema: 'koyu' });
+    await depo.kelimeEkle({ kelime: 'outcome', anlam: 'sonuç' });
+    await depo.kartCevapla('outcome', true);
+    await depo.isaretle(SORULAR[0].id, true);
     const yedek = JSON.parse(JSON.stringify(await depo.yedekAl()));
+    expect(yedek.surum).toBe(2);
 
     await depo.sifirla();
     expect(await depo.cevaplar()).toHaveLength(0);
+    // Sıfırlama kelime defterine ve kaydedilenlere dokunmaz.
+    expect(await depo.kelimeler()).toHaveLength(1);
+    await depo.kelimeSil('outcome');
+    await depo.isaretle(SORULAR[0].id, false);
 
     await depo.yedektenYukle(yedek);
     expect(await depo.cevaplar()).toHaveLength(20);
+    expect((await depo.kelimeler())[0]).toMatchObject({ kelime: 'outcome', kutu: 1 });
+    expect(await depo.isaretler()).toHaveLength(1);
+    expect(await depo.gunluk()).toHaveLength(1);
     expect((await depo.testler()).filter((t) => t.durum === 'bitti')).toHaveLength(2);
     expect((await depo.ayarlar()).tema).toBe('koyu');
     const sonraki = (await depo.test(await depo.sonrakiTestiBaslat()))!;
@@ -151,7 +237,23 @@ describe('Depo (IndexedDB)', () => {
     expect(sonraki.sira_no).toBe(2);
   });
 
+  it('eski biçimli (v1) yedek yüklenir; kelime defterine dokunulmaz', async () => {
+    await coz(await depo.sonrakiTestiBaslat());
+    const yedek = JSON.parse(JSON.stringify(await depo.yedekAl()));
+    yedek.surum = 1;
+    delete yedek.isaretler;
+    delete yedek.kelimeler;
+    delete yedek.gunluk;
+    await depo.sifirla();
+    await depo.kelimeEkle({ kelime: 'outcome' });
+    await depo.yedektenYukle(yedek);
+    expect(await depo.cevaplar()).toHaveLength(10);
+    expect((await depo.kelimeler()).map((k) => k.kelime)).toEqual(['outcome']);
+  });
+
   it('geçersiz yedek reddedilir', async () => {
     await expect(depo.yedektenYukle({ uygulama: 'baska' })).rejects.toThrow('Geçersiz yedek');
+    const bozuk = { ...(await depo.yedekAl()), kelimeler: [{ kelime: '', anlam: '', baglam: '', kutu: 0, sonraki: 0, eklenme: 0 }] };
+    await expect(depo.yedektenYukle(bozuk)).rejects.toThrow('kelime kaydı bozuk');
   });
 });

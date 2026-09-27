@@ -78,3 +78,9 @@ export const IkonTire = ({ boyut }: Boyut) => (
     <path d="M5 12h14" />
   </Svg>
 );
+export const IkonBayrak = ({ boyut, dolu }: Boyut & { dolu?: boolean }) => (
+  <Svg boyut={boyut}>
+    <path d="M5 21V4" />
+    <path d="M5 4h12l-2.5 4 2.5 4H5" fill={dolu ? 'currentColor' : 'none'} />
+  </Svg>
+);

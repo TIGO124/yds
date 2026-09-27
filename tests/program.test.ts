@@ -73,11 +73,20 @@ describe('ders programı', () => {
     expect(p.gunler.slice(4).every((g) => g.dinlenme)).toBe(true);
   });
 
-  it('geçmiş sınav tarihi yok sayılır; soru kalmayınca test planlanmaz', () => {
+  it('geçmiş sınav tarihi yok sayılır; yeni soru bitince testler eski sorularla sürer', () => {
     const p = programOlustur(girdi({ sinavTarihi: '2020-01-01', kalanYeniSoru: 0 }));
     expect(p.sinavaKalanGun).toBeNull();
     expect(p.notlar).toContain('sinav_gecti');
-    expect(p.gunler.flatMap((g) => g.etkinlikler).some((e) => e.tur === 'test')).toBe(false);
+    expect(p.notlar).toContain('soru_bitti');
+    expect(p.gunler.flatMap((g) => g.etkinlikler).some((e) => e.tur === 'test')).toBe(true);
+  });
+
+  it('tekrar takvimi: oturum yalnızca sırası gelen soru olan çalışma günlerine; dinlenme günündekiler ertesi güne kalır', () => {
+    // Pazartesi başlangıç, haftada 5 gün: çarşamba (2) ve pazar (6) dinlenme.
+    const p = programOlustur(girdi({ haftalikGun: 5, yanlisSayisi: 3, tekrarTakvimi: [3, 0, 2, 0, 0, 0, 1] }));
+    const tekrarGunleri = p.gunler.map((g, i) => (g.etkinlikler.some((e) => e.tur === 'tekrar') ? i : -1)).filter((i) => i >= 0);
+    expect(tekrarGunleri).toEqual([0, 3]);
+    expect(p.notlar).toContain('tekrar');
   });
 
   it('son bir haftada deneme çözülmediyse deneme önerir', () => {

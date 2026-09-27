@@ -1,10 +1,56 @@
 import { useState } from 'preact/hooks';
-import { KONULAR, SORULAR, konuAdi } from '../data/bank';
+import { KONULAR, SORULAR, bolumAdi, konuAdi } from '../data/bank';
 import { depo } from '../depo';
 import { konuGecmisi } from '../engine/analysis';
 import { ydsPuani, ydsSeviyesi } from '../engine/deneme';
 import { konuDurumlari } from '../engine/mastery';
+import { tarihMetni } from '../engine/program';
+import { calismaGunleri, haftalikTakvim, seriHesapla } from '../engine/seri';
+import { bolumSureleri, dakikaSaniye } from '../engine/sure';
+import { IkonIleri } from './ikonlar';
 import { Cubuk, Sayfa, Ust, Yukleniyor, useVeri } from './ortak';
+
+const GUN_BASLIK = ['Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct', 'Pz'];
+const tarihBicimi = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long' });
+const gunAdi = (g: string) => {
+  const [y, a, gun] = g.split('-').map(Number);
+  return tarihBicimi.format(new Date(y, a - 1, gun));
+};
+
+/** Son 4 haftanın çalışma günleri (test ya da kelime kartı). */
+function CalismaTakvimi({ gunler }: { gunler: ReadonlySet<string> }) {
+  const bugun = new Date();
+  const seri = seriHesapla(gunler, bugun);
+  const takvim = haftalikTakvim(gunler, bugun);
+  const bugunMetni = tarihMetni(bugun);
+  return (
+    <section class="kart">
+      <div class="satir-ust">
+        <h2>Çalışma serisi</h2>
+        <span class="soluk kucuk">En uzun: {seri.enUzun} gün</span>
+      </div>
+      <p>
+        <strong>{seri.guncel} gün</strong> üst üste çalıştın.
+        {seri.guncel > 0 && !seri.bugun && <span class="soluk"> Bugün de çalışırsan seri sürer.</span>}
+      </p>
+      <div class="takvim" role="img" aria-label={`Son 4 haftada ${takvim.flat().filter((g) => g?.calisti).length} çalışma günü`}>
+        {GUN_BASLIK.map((g) => (
+          <span class="takvim-baslik">{g}</span>
+        ))}
+        {takvim.flat().map((g) =>
+          g ? (
+            <span
+              class={`takvim-gun${g.calisti ? ' calisti' : ''}${g.tarih === bugunMetni ? ' bugun' : ''}`}
+              title={`${gunAdi(g.tarih)}${g.calisti ? ' · çalışıldı' : ''}`}
+            />
+          ) : (
+            <span class="takvim-gun gelecek" />
+          ),
+        )}
+      </div>
+    </section>
+  );
+}
 
 function CizgiGrafik({ degerler }: { degerler: number[] }) {
   const G = 320;
@@ -46,16 +92,21 @@ function CizgiGrafik({ degerler }: { degerler: number[] }) {
 export function Ilerleme() {
   const [secili, setSecili] = useState<string | null>(null);
   const { veri, hata } = useVeri(async () => {
-    const [cevaplar, testler] = await Promise.all([depo.cevaplar(), depo.testler()]);
-    return { cevaplar, testler };
+    const [cevaplar, testler, gunluk] = await Promise.all([depo.cevaplar(), depo.testler(), depo.gunluk()]);
+    return { cevaplar, testler, gunluk };
   });
   if (!veri) return <Yukleniyor hata={hata} />;
-  const { cevaplar, testler } = veri;
+  const { cevaplar, testler, gunluk } = veri;
+  const gunler = calismaGunleri(
+    cevaplar.map((c) => c.tarih),
+    gunluk.map((g) => g.tarih),
+  );
 
   const bitenler = testler.filter((t) => t.durum === 'bitti');
   const denemeler = bitenler.filter((t) => t.tip === 'deneme');
   const sayilanTestler = bitenler.filter((t) => t.tip !== 'tekrar').map((t) => t.id!);
   const sayilan = cevaplar.filter((c) => c.test_tipi !== 'tekrar');
+  const sureler = bolumSureleri(sayilan);
   const dogru = sayilan.filter((c) => c.dogru_mu).length;
   const durumlar = konuDurumlari(KONULAR, cevaplar);
   const cozulmus = new Set(cevaplar.map((c) => c.soru_id));
@@ -80,6 +131,8 @@ export function Ilerleme() {
           <span>doğru oranı</span>
         </div>
       </section>
+
+      <CalismaTakvimi gunler={gunler} />
 
       {denemeler.length > 0 && (
         <section class="kart">
@@ -130,8 +183,40 @@ export function Ilerleme() {
         </section>
       )}
 
+      {sureler.length > 0 && (
+        <section class="kart">
+          <h2>Bölümlere göre hız</h2>
+          <p class="soluk kucuk">Soru başına ortalama süre (dk:sn); önerilen, gerçek sınav temposuna göre.</p>
+          <div class="tablo-kap">
+            <table class="tablo">
+              <thead>
+                <tr>
+                  <th>Bölüm</th>
+                  <th class="sag">Ortalama</th>
+                  <th class="sag">Önerilen</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sureler.map((b) => (
+                  <tr>
+                    <td>{bolumAdi(b.bolum)}</td>
+                    <td class={`sag tempo ${b.tempo ?? ''}`}>{dakikaSaniye(b.ortalamaMs)}</td>
+                    <td class="sag soluk">{b.hedefMs ? dakikaSaniye(b.hedefMs) : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       <section class="kart">
-        <h2>Konular</h2>
+        <div class="satir-ust">
+          <h2>Konular</h2>
+          <a class="dugme metin" href="#/konular">
+            Konu kartları <IkonIleri boyut={18} />
+          </a>
+        </div>
         <ul class="konu-listesi">
           {KONULAR.map((k) => {
             const d = durumlar.get(k.kod)!;

@@ -1,0 +1,482 @@
+{
+  "kel.isim": {
+    "ozet": "Kelime sorularında boşluğa gelen isim çoğunlukla bir sıfat, fiil ya da edatla kalıplaşmıştır; anlamın yanında bu eşleşmeyi (collocation) bilmek gerekir.",
+    "kurallar": [
+      "Boşluğun önündeki sıfata ve arkasındaki edata bak: a sharp increase in, the impact on, a lack of.",
+      "Son eklerden türü tanı: -tion, -ment, -ance/-ence, -ity, -ness isim yapar.",
+      "Sayılamayan isimler (evidence, research, information, advice) a/an ve çoğul eki almaz."
+    ],
+    "ornekler": [
+      { "en": "There is growing evidence that sleep affects memory.", "tr": "Uykunun hafızayı etkilediğine dair giderek artan kanıt var." },
+      { "en": "The shortage of skilled workers has slowed down production.", "tr": "Nitelikli işçi eksikliği üretimi yavaşlattı." },
+      { "en": "Air pollution has a direct impact on public health.", "tr": "Hava kirliliğinin halk sağlığı üzerinde doğrudan bir etkisi vardır." }
+    ],
+    "hatalar": [
+      "increase in ile increase of karıştırılır: in artan şeyi, of artış miktarını verir (an increase in prices, an increase of 5%).",
+      "evidences, researches gibi olmayan çoğullar seçilir."
+    ]
+  },
+  "kel.fiil": {
+    "ozet": "Fiil sorularında belirleyici olan, fiilin cümlenin öznesi ve nesnesiyle anlam uyumudur; YDS conduct, pose, undergo, attribute gibi akademik fiilleri sever.",
+    "kurallar": [
+      "Önce boşluktan sonraki nesneye bak: conduct a study, pose a threat, reach a conclusion.",
+      "Fiilin aldığı edat ipucudur: attribute to, account for, derive from, result in / result from.",
+      "Edilgen yapıdaki fiil nesne alabilen (geçişli) bir fiil olmalıdır: was carried out, were affected."
+    ],
+    "ornekler": [
+      { "en": "The team conducted a survey among 2,000 teachers.", "tr": "Ekip 2.000 öğretmen arasında bir anket yaptı." },
+      { "en": "Rising temperatures pose a serious threat to coral reefs.", "tr": "Yükselen sıcaklıklar mercan resifleri için ciddi bir tehdit oluşturuyor." },
+      { "en": "Scientists attribute the decline to habitat loss.", "tr": "Bilim insanları bu düşüşü yaşam alanı kaybına bağlıyor." }
+    ],
+    "hatalar": [
+      "result in (-e yol açmak) ile result from (-den kaynaklanmak) yönü karıştırılır.",
+      "Anlamca yakın ama nesneyle kalıplaşmayan fiil seçilir: make a research değil, do/conduct research."
+    ]
+  },
+  "kel.sifat": {
+    "ozet": "Sıfat soruları çoğunlukla nitelenen isimle kalıplaşma ve cümlenin olumlu/olumsuz tonu üzerinden çözülür.",
+    "kurallar": [
+      "Nitelenen isme bak: considerable effort, adverse effects, vulnerable groups, reliable data.",
+      "Cümlenin tonu ipucu verir: although ve despite zıt yönde, moreover aynı yönde bir sıfat bekletir.",
+      "Sıfat + edat kalıplarını tanı: capable of, responsible for, prone to, aware of."
+    ],
+    "ornekler": [
+      { "en": "Smoking has adverse effects on almost every organ.", "tr": "Sigara neredeyse her organ üzerinde olumsuz etkilere sahiptir." },
+      { "en": "Elderly people are particularly vulnerable to heatwaves.", "tr": "Yaşlılar sıcak hava dalgalarına karşı özellikle savunmasızdır." },
+      { "en": "The results are consistent with earlier studies.", "tr": "Sonuçlar önceki çalışmalarla tutarlıdır." }
+    ],
+    "hatalar": [
+      "-ed ve -ing sıfatları karıştırılır: The lecture was boring (sıkıcıydı), I was bored (sıkıldım).",
+      "Benzer yazılışlı sıfatlar karıştırılır: economic (ekonomiyle ilgili) / economical (tasarruflu), sensible (mantıklı) / sensitive (hassas)."
+    ]
+  },
+  "kel.zarf": {
+    "ozet": "Zarf soruları cümlenin anlam yönünü (derece, sıklık, tutum, zaman) sorar; boşluğun hangi kelimeyi nitelediğini bulmak çözümün yarısıdır.",
+    "kurallar": [
+      "Derece zarfları (considerably, slightly, barely, highly) çoğunlukla bir sıfatı ya da karşılaştırmayı niteler: considerably higher.",
+      "Tutum zarfları (fortunately, surprisingly, arguably) bütün cümleyi niteler ve çoğunlukla başta gelir.",
+      "hardly, barely, scarcely 'neredeyse hiç' demektir; bu zarflarla cümle ayrıca olumsuz yapılmaz."
+    ],
+    "ornekler": [
+      { "en": "Prices have risen considerably since last year.", "tr": "Fiyatlar geçen yıldan beri önemli ölçüde arttı." },
+      { "en": "Surprisingly, the smaller company won the contract.", "tr": "Şaşırtıcı bir şekilde sözleşmeyi daha küçük şirket kazandı." },
+      { "en": "The patient could barely walk after the surgery.", "tr": "Hasta ameliyattan sonra zar zor yürüyebiliyordu." }
+    ],
+    "hatalar": [
+      "hard (sıkı, çok) ile hardly (neredeyse hiç) karıştırılır.",
+      "Son derece anlamında highly yerine high kullanılır: highly effective doğrudur."
+    ]
+  },
+  "kel.phrasal": {
+    "ozet": "Phrasal verb'lerin anlamı çoğunlukla parçalarından tahmin edilemez; YDS'de tek kelimelik resmî karşılıklarıyla birlikte sorulurlar.",
+    "kurallar": [
+      "Resmî karşılıklarıyla öğren: carry out = conduct, put off = postpone, find out = discover, point out = indicate.",
+      "Aynı fiil başka edatla bambaşka anlam verir: take up (başlamak), take over (devralmak), take off (havalanmak).",
+      "Üç parçalıları bütün olarak ezberle: come up with (bulmak, ortaya atmak), put up with (katlanmak), look forward to (dört gözle beklemek)."
+    ],
+    "ornekler": [
+      { "en": "The researchers carried out a series of tests.", "tr": "Araştırmacılar bir dizi test gerçekleştirdi." },
+      { "en": "The meeting was put off until next week.", "tr": "Toplantı gelecek haftaya ertelendi." },
+      { "en": "She came up with a clever solution.", "tr": "Akıllıca bir çözüm buldu." }
+    ],
+    "hatalar": [
+      "look forward to'dan sonra mastar kullanılır; oysa buradaki to bir edattır: look forward to meeting.",
+      "Benzer görünenler karıştırılır: turn down (reddetmek) / turn up (ortaya çıkmak, gelmek)."
+    ]
+  },
+  "gr.zaman": {
+    "ozet": "Zaman sorularının anahtarı cümledeki zaman ifadesidir: önce since, by the time, so far, until recently gibi ipuçlarını bul, sonra yardımcı fiili seç.",
+    "kurallar": [
+      "since, for, so far, up to now, recently → Present Perfect (has done).",
+      "by the time + geçmiş zaman → ana cümlede Past Perfect (had done); by the time + geniş zaman → Future Perfect (will have done).",
+      "ago, last year, in 2010 gibi bitmiş zaman ifadeleri → Simple Past; bunlar Present Perfect ile kullanılmaz.",
+      "Genel gerçekler ve bilimsel olgular → Simple Present."
+    ],
+    "ornekler": [
+      { "en": "The city has grown rapidly since the 1990s.", "tr": "Şehir 1990'lardan beri hızla büyüdü." },
+      { "en": "By the time the firefighters arrived, the building had collapsed.", "tr": "İtfaiyeciler geldiğinde bina çökmüştü." },
+      { "en": "By 2030, the project will have been completed.", "tr": "2030'a kadar proje tamamlanmış olacak." }
+    ],
+    "hatalar": [
+      "since görülünce hep Present Perfect seçilir; oysa since 'çünkü' anlamında da kullanılır.",
+      "Zaman bağlaçlarından sonra will kullanılır: when he will come değil, when he comes."
+    ]
+  },
+  "gr.modal": {
+    "ozet": "Modal sorularında önce anlamı (zorunluluk, olasılık, tavsiye, yetenek), sonra zamanı belirle; geçmiş için modal + have + V3 kullanılır.",
+    "kurallar": [
+      "must have done: geçmişe dair güçlü tahmin (-miş olmalı); can't have done: imkânsızlık (-miş olamaz).",
+      "should have done: yapılmalıydı ama yapılmadı; needn't have done: yapıldı ama gereksizdi.",
+      "may / might / could have done: geçmişe dair olasılık (-miş olabilir).",
+      "be able to ve have to zaman alabilir: will be able to, had to."
+    ],
+    "ornekler": [
+      { "en": "The road is wet; it must have rained last night.", "tr": "Yol ıslak; dün gece yağmur yağmış olmalı." },
+      { "en": "You should have consulted a doctor earlier.", "tr": "Daha önce bir doktora danışmalıydın." },
+      { "en": "We needn't have hurried; the train was late.", "tr": "Acele etmemize gerek yokmuş; tren geç kaldı." }
+    ],
+    "hatalar": [
+      "didn't need to (gerek yoktu, yapılmadı) ile needn't have done (gerek yoktu ama yapıldı) farkı gözden kaçırılır.",
+      "must not (yasak) ile don't have to (zorunlu değil) karıştırılır."
+    ]
+  },
+  "gr.passive": {
+    "ozet": "Özne işi yapmıyor, işten etkileniyorsa edilgen gerekir: be + V3. Zamanı be fiilinin çekimi gösterir.",
+    "kurallar": [
+      "Yalnızca nesne alabilen fiiller edilgen olur; happen, occur, arise, emerge gibi nesnesiz fiiller olmaz.",
+      "Zamanı be taşır: is built, was built, has been built, is being built, will be built.",
+      "It is said / believed that ... ya da Özne + is said to do; geçmiş için is said to have done."
+    ],
+    "ornekler": [
+      { "en": "The bridge was designed by a young engineer.", "tr": "Köprü genç bir mühendis tarafından tasarlandı." },
+      { "en": "More than 200 species have been identified in the area.", "tr": "Bölgede 200'den fazla tür tespit edildi." },
+      { "en": "The painting is believed to have been stolen in 1990.", "tr": "Tablonun 1990'da çalındığına inanılıyor." }
+    ],
+    "hatalar": [
+      "Nesnesiz fiiller edilgen yapılır: The accident was happened yanlış, The accident happened doğru.",
+      "Boşluktan sonra nesne varken edilgen seçilir; nesne varsa çoğunlukla etken yapı gerekir."
+    ]
+  },
+  "gr.if": {
+    "ozet": "Koşul cümlelerinde iki yarının zamanı birbirine uymalıdır; önce koşulun gerçek mi, hayalî mi, geçmişte mi olduğunu belirle.",
+    "kurallar": [
+      "Type 1 (olası): If + Present, will + V1.",
+      "Type 2 (şimdiki hayal): If + Past, would + V1. Type 3 (geçmiş hayal): If + had V3, would have V3.",
+      "Karma koşul: If + had V3 (geçmiş), would + V1 (şimdi).",
+      "Devrik yapılar: Had I known = If I had known; Were it not for = If it were not for; Should you need = If you need."
+    ],
+    "ornekler": [
+      { "en": "If the temperature rises above 40°C, the system will shut down.", "tr": "Sıcaklık 40°C'nin üzerine çıkarsa sistem kapanır." },
+      { "en": "Had they left earlier, they would have caught the train.", "tr": "Daha erken çıksalardı treni yakalarlardı." },
+      { "en": "I wish I had more time to read.", "tr": "Keşke okumaya daha çok vaktim olsa." }
+    ],
+    "hatalar": [
+      "If yarısında will ya da would kullanılır: If it will rain değil, If it rains.",
+      "wish + Past'ın şimdiki durumu anlattığı unutulur: I wish I knew = keşke (şimdi) bilsem."
+    ]
+  },
+  "gr.relative": {
+    "ozet": "Sıfat cümleciği önündeki ismi niteler; zamiri seçerken nitelenen ismin insan, nesne, yer ya da zaman olduğuna ve cümlecikte eksik olan öğeye bak.",
+    "kurallar": [
+      "who (insan), which (nesne), whose (sahiplik: whose + isim), where (yer = in which), when (zaman).",
+      "Edat + which/whom: the method by which, the extent to which, the period during which.",
+      "Virgüllü (ek bilgi veren) cümlecikte that kullanılmaz; virgülden sonraki which bütün cümleyi de niteleyebilir."
+    ],
+    "ornekler": [
+      { "en": "The scientist whose theory was rejected continued her research.", "tr": "Teorisi reddedilen bilim insanı araştırmasına devam etti." },
+      { "en": "This is the process by which plants produce energy.", "tr": "Bu, bitkilerin enerji ürettiği süreçtir." },
+      { "en": "He passed the exam, which surprised everyone.", "tr": "Sınavı geçti; bu da herkesi şaşırttı." }
+    ],
+    "hatalar": [
+      "Cümlecikte özne ve nesne zaten varken which seçilir; öğe eksik değilse where, whereby ya da edat + which gerekir.",
+      "whose'dan sonra bir isim gelmesi gerektiği unutulur."
+    ]
+  },
+  "gr.noun_clause": {
+    "ozet": "İsim cümleciği cümlede bir isim gibi özne, nesne ya da tümleç olur; that, whether/if ve soru kelimeleriyle başlar.",
+    "kurallar": [
+      "that kesin bilgi verir (It is clear that ...); whether / if belirsizlik bildirir (-ip -mediği).",
+      "Soru kelimesiyle başlayan isim cümleciğinde düz sıra kullanılır: I don't know where he lives.",
+      "what hem bağlaç hem isim işi görür (-dığı şey): What he said was true."
+    ],
+    "ornekler": [
+      { "en": "It is widely accepted that exercise improves mood.", "tr": "Egzersizin ruh hâlini iyileştirdiği yaygın olarak kabul edilir." },
+      { "en": "Researchers are not sure whether the drug is safe.", "tr": "Araştırmacılar ilacın güvenli olup olmadığından emin değil." },
+      { "en": "What surprised us most was his calmness.", "tr": "Bizi en çok şaşırtan şey onun sakinliğiydi." }
+    ],
+    "hatalar": [
+      "Dolaylı soruda soru sırası kullanılır: I don't know where does he live yanlış.",
+      "Edattan sonra if kullanılır: depends on whether doğru, depends on if değil."
+    ]
+  },
+  "gr.baglac": {
+    "ozet": "Bağlaç soruları iki cümle arasındaki anlam ilişkisini (zıtlık, sebep, sonuç, amaç, koşul, zaman) ve bağlacın cümle mi isim mi aldığını sorar.",
+    "kurallar": [
+      "Zıtlık: although / even though / whereas + cümle; despite / in spite of + isim ya da -ing.",
+      "Sebep: because / since / as + cümle; because of / due to / owing to + isim.",
+      "Amaç: so that + cümle (can/could); in order to / so as to + V1. Sonuç: so + sıfat + that, such + (a) sıfat + isim + that.",
+      "however, therefore, moreover gibi geçiş zarfları iki ayrı cümleyi nokta ya da noktalı virgülle bağlar."
+    ],
+    "ornekler": [
+      { "en": "Although the treatment is expensive, many patients choose it.", "tr": "Tedavi pahalı olsa da birçok hasta onu tercih ediyor." },
+      { "en": "The flight was cancelled due to heavy fog.", "tr": "Uçuş yoğun sis nedeniyle iptal edildi." },
+      { "en": "She spoke slowly so that everyone could understand.", "tr": "Herkes anlayabilsin diye yavaş konuştu." }
+    ],
+    "hatalar": [
+      "despite ile cümle kurulur: despite it was raining yanlış; despite the rain ya da although it was raining.",
+      "Anlamı doğru ama yapısı tutmayan bağlaç seçilir: boşluktan sonra isim mi cümle mi geldiğine mutlaka bak."
+    ]
+  },
+  "gr.gerund_inf": {
+    "ozet": "Bazı fiiller -ing, bazıları to + V1 alır; bazıları ikisini de alır ama anlam değişir.",
+    "kurallar": [
+      "-ing alanlar: avoid, enjoy, finish, consider, suggest, postpone, deny, admit, risk, mind.",
+      "to + V1 alanlar: decide, plan, agree, refuse, manage, afford, hope, fail, tend, aim.",
+      "Anlam değiştirenler: stop doing (bırakmak) / stop to do (… için durmak); remember doing (yaptığını hatırlamak) / remember to do (yapmayı unutmamak).",
+      "Edattan sonra her zaman -ing gelir: interested in learning, instead of waiting, before leaving."
+    ],
+    "ornekler": [
+      { "en": "The company decided to postpone launching the product.", "tr": "Şirket ürünü piyasaya sürmeyi ertelemeye karar verdi." },
+      { "en": "He stopped smoking two years ago.", "tr": "İki yıl önce sigarayı bıraktı." },
+      { "en": "Remember to lock the door before leaving.", "tr": "Çıkmadan önce kapıyı kilitlemeyi unutma." }
+    ],
+    "hatalar": [
+      "to'nun edat olduğu kalıplarda mastar kullanılır: be used to doing, object to doing, look forward to doing doğrudur.",
+      "suggest'ten sonra nesne + to V1 kurulur: suggested me to go yanlış; suggested going ya da suggested that I go."
+    ]
+  },
+  "gr.edat": {
+    "ozet": "Edat soruları çoğunlukla bir fiil, sıfat ya da isimle kalıplaşmış edatı sorar; burada anlamdan çok eşleşmeyi bilmek gerekir.",
+    "kurallar": [
+      "Fiil + edat: rely on, consist of, contribute to, suffer from, result in, depend on.",
+      "Sıfat + edat: capable of, responsible for, similar to, different from, aware of, prone to.",
+      "İsim + edat: increase in, demand for, effect on, cause of, solution to, access to."
+    ],
+    "ornekler": [
+      { "en": "Many families rely on a single income.", "tr": "Birçok aile tek bir gelire bağımlı." },
+      { "en": "There has been a sharp increase in demand for electric cars.", "tr": "Elektrikli arabalara olan talepte keskin bir artış oldu." },
+      { "en": "Children are more prone to infections in winter.", "tr": "Çocuklar kışın enfeksiyonlara daha yatkındır." }
+    ],
+    "hatalar": [
+      "Türkçeden çeviri yapılıp yanlış edat seçilir: depend of değil, depend on.",
+      "solution to yerine solution for, effect on yerine effect to seçilir."
+    ]
+  },
+  "gr.quantifier": {
+    "ozet": "Miktar belirleyiciyi seçerken ismin sayılabilir mi sayılamaz mı, tekil mi çoğul mu olduğuna ve cümlenin olumlu/olumsuz anlamına bak.",
+    "kurallar": [
+      "few / a few + sayılabilir çoğul; little / a little + sayılamaz. a'sız biçim olumsuz (çok az), a'lı biçim olumlu (biraz) anlam verir.",
+      "each / every + tekil isim; both + çoğul; either / neither iki şeyden biri / hiçbiri.",
+      "most of the / some of the / none of the belirli bir grubu anlatır; most people gibi kullanım geneldir."
+    ],
+    "ornekler": [
+      { "en": "Few students passed the exam, so the teacher repeated the unit.", "tr": "Çok az öğrenci sınavı geçti, bu yüzden öğretmen üniteyi tekrarladı." },
+      { "en": "Each participant receives a certificate.", "tr": "Her katılımcı bir sertifika alır." },
+      { "en": "Neither of the proposals was accepted.", "tr": "Önerilerin hiçbiri kabul edilmedi." }
+    ],
+    "hatalar": [
+      "a few (birkaç, yeterli) ile few (çok az, yetersiz) arasındaki ton farkı kaçırılır.",
+      "every ile çoğul isim kullanılır: every students yanlış."
+    ]
+  },
+  "gr.comparison": {
+    "ozet": "Karşılaştırma sorularında than, as ... as, the ... the gibi ipuçları kalıbı ele verir.",
+    "kurallar": [
+      "than varsa karşılaştırmalı biçim gerekir (-er / more); much, far, considerably karşılaştırmayı güçlendirir: much higher.",
+      "as + sıfat + as (… kadar); twice / three times as + sıfat + as (… katı).",
+      "the + karşılaştırmalı ..., the + karşılaştırmalı: The more you practise, the better you get.",
+      "less + sayılamaz isim, fewer + sayılabilir çoğul isim."
+    ],
+    "ornekler": [
+      { "en": "The new model is far more efficient than the old one.", "tr": "Yeni model eskisinden çok daha verimli." },
+      { "en": "The building is twice as tall as the old tower.", "tr": "Bina eski kulenin iki katı yüksekliğinde." },
+      { "en": "The earlier you apply, the higher your chances are.", "tr": "Ne kadar erken başvurursan şansın o kadar yüksek olur." }
+    ],
+    "hatalar": [
+      "Karşılaştırma very ile güçlendirilir: very higher değil, much higher.",
+      "as ... as kalıbında karşılaştırmalı biçim kullanılır: as taller as yanlış."
+    ]
+  },
+  "gr.reduction_inversion": {
+    "ozet": "Kısaltmada özneleri aynı olan yan cümle fiilimsiye dönüşür; devrik yapıda olumsuz ya da kısıtlayıcı bir ifade başa gelince yardımcı fiil öznenin önüne geçer.",
+    "kurallar": [
+      "Etken anlam → -ing (students living nearby); edilgen anlam → V3 (houses built in 1900); önce olan eylem → Having V3.",
+      "Kısaltma için iki cümlenin öznesi aynı olmalıdır.",
+      "Devrik başlangıçlar: Not only ... but also, Hardly / Scarcely ... when, No sooner ... than, Only after / Only when, Never, Little."
+    ],
+    "ornekler": [
+      { "en": "Having finished the report, she went home.", "tr": "Raporu bitirdikten sonra eve gitti." },
+      { "en": "The houses damaged in the storm will be rebuilt.", "tr": "Fırtınada hasar gören evler yeniden inşa edilecek." },
+      { "en": "Not only did the plan fail, but it also cost millions.", "tr": "Plan yalnızca başarısız olmakla kalmadı, milyonlara da mal oldu." }
+    ],
+    "hatalar": [
+      "Devrik yapıda yardımcı fiil unutulur: Not only the plan failed yanlış, Not only did the plan fail doğru.",
+      "Edilgen anlamlı kısaltmada -ing seçilir: the letters sending yesterday değil, the letters sent yesterday."
+    ]
+  },
+  "ceviri.et": {
+    "ozet": "İngilizce cümlenin iskeletini (ana özne, ana yüklem, zaman, bağlaç) çıkar; doğru şık bu iskeleti eksiksiz ve aynı anlamla taşıyan Türkçe cümledir.",
+    "kurallar": [
+      "Önce ana yüklemi ve zamanını bul; yüklemi başka zamanda olan şıkları ele.",
+      "Bağlacın anlamını denetle: although (-e rağmen), unless (-medikçe), as long as (-dığı sürece).",
+      "only, hardly, most, some gibi derece ve miktar sözcükleri çoğu zaman şıkları ayıran ayrıntıdır."
+    ],
+    "ornekler": [
+      { "en": "Unless the data are verified, the results cannot be published.", "tr": "Veriler doğrulanmadıkça sonuçlar yayımlanamaz." },
+      { "en": "Only a small number of patients responded to the treatment.", "tr": "Hastaların yalnızca küçük bir kısmı tedaviye yanıt verdi." },
+      { "en": "The project, which began in 2015, is expected to end next year.", "tr": "2015'te başlayan projenin gelecek yıl bitmesi bekleniyor." }
+    ],
+    "hatalar": [
+      "Kelimeleri tek tek karşılayan ama cümle yapısı farklı olan şık seçilir.",
+      "Edilgen/etken ya da olumlu/olumsuz farkı gözden kaçırılır."
+    ]
+  },
+  "ceviri.te": {
+    "ozet": "Türkçe cümleyi yüklemden başlayarak çöz; İngilizce şıklarda aynı zamanı, aynı bağlacı ve aynı vurguyu taşıyan yapıyı ara.",
+    "kurallar": [
+      "Türkçede yüklem sondadır: önce onu ve zamanını belirle (-mış olmalı → must have done).",
+      "Bağlaç yapılarını eşle: -e rağmen → although / despite, -mesi için → so that / in order to, -dığı sürece → as long as.",
+      "Özne-yüklem uyumunu ve tekil/çoğul ayrımını denetle."
+    ],
+    "ornekler": [
+      { "en": "The project was postponed due to a lack of funding.", "tr": "Proje bütçe yetersizliği nedeniyle ertelendi." },
+      { "en": "The more you read, the wider your vocabulary becomes.", "tr": "Ne kadar çok okursan kelime dağarcığın o kadar genişler." },
+      { "en": "It is not yet known whether this method is effective.", "tr": "Bu yöntemin etkili olup olmadığı henüz bilinmiyor." }
+    ],
+    "hatalar": [
+      "Türkçedeki edilgen yapıyı (-ıldı, -ındı) etken çeviren şık seçilir.",
+      "Anlamı yakın ama zamanı farklı şık elenmez: ertelendi → Past, ertelenecek → Future."
+    ]
+  },
+  "okuma.anafikir": {
+    "ozet": "Ana fikir sorusu paragrafın tamamını kapsayan cümleyi ister; yalnızca bir ayrıntıyı anlatan ya da metnin dışına taşan şıklar yanlıştır.",
+    "kurallar": [
+      "Konu cümlesi çoğunlukla paragrafın ilk ya da son cümlesidir.",
+      "Doğru şık metindeki anahtar kavramları genel bir dille toplar.",
+      "Çok dar (tek ayrıntı) ve çok geniş (metnin söylemediği genelleme) şıkları ele."
+    ],
+    "ornekler": [
+      { "en": "The passage is mainly concerned with ...", "tr": "Parça esas olarak ... ile ilgilidir." },
+      { "en": "The main idea of the passage is that ...", "tr": "Parçanın ana fikri ... olduğudur." },
+      { "en": "Which of the following best summarises the passage?", "tr": "Aşağıdakilerden hangisi parçayı en iyi özetler?" }
+    ],
+    "hatalar": [
+      "Metinde geçen ama yalnızca bir örneği anlatan cümle ana fikir sanılır.",
+      "Doğru bir bilgi olduğu hâlde metinde söylenmeyen genel bir yargı seçilir."
+    ]
+  },
+  "okuma.detay": {
+    "ozet": "Detay sorusunun cevabı metinde açıkça yazar; soru kökündeki anahtar sözcüğü metinde bulup o cümleyi şıklarla karşılaştır.",
+    "kurallar": [
+      "Soru kökündeki özel isim, sayı, tarih gibi anahtarları parçada tara.",
+      "Doğru şık metindeki bilgiyi çoğunlukla eş anlamlı sözcüklerle (paraphrase) verir.",
+      "Metindeki sözcükleri aynen tekrarlayan ama anlamı çarpıtan şıklara dikkat et."
+    ],
+    "ornekler": [
+      { "en": "According to the passage, ...", "tr": "Parçaya göre ..." },
+      { "en": "It is stated in the passage that ...", "tr": "Parçada ... olduğu belirtiliyor." },
+      { "en": "Which of the following is true according to the passage?", "tr": "Parçaya göre aşağıdakilerden hangisi doğrudur?" }
+    ],
+    "hatalar": [
+      "Genel kültüre göre doğru olan ama metinde yazmayan şık seçilir.",
+      "all, always, never, only gibi kesin sözcüklerle metni abartan şıklar gözden kaçırılır."
+    ]
+  },
+  "okuma.cikarim": {
+    "ozet": "Çıkarım sorusu metinde doğrudan yazmayan ama metinden kesin olarak çıkan bilgiyi ister; tahmin değil, mantıksal sonuç aranır.",
+    "kurallar": [
+      "Şıkkı metindeki bir iki cümleyle destekleyebiliyorsan doğrudur.",
+      "Aşırı genelleme yapan ya da metinde olmayan bir neden-sonuç ilişkisi kuran şıkları ele.",
+      "It can be inferred, implies, suggests gibi kökler çıkarım sorusu olduğunu gösterir."
+    ],
+    "ornekler": [
+      { "en": "It can be inferred from the passage that ...", "tr": "Parçadan ... sonucu çıkarılabilir." },
+      { "en": "The author implies that ...", "tr": "Yazar ... olduğunu ima ediyor." },
+      { "en": "The passage suggests that ...", "tr": "Parça ... olduğunu düşündürüyor." }
+    ],
+    "hatalar": [
+      "Mantıklı görünen ama metinle desteklenmeyen şık seçilir.",
+      "Metnin yalnızca bir bölümü için geçerli olan bilgi bütüne genellenir."
+    ]
+  },
+  "okuma.kelime": {
+    "ozet": "Metindeki bir sözcüğün ya da ifadenin anlamı sorulur; sözlük anlamından çok o bağlamdaki anlamı önemlidir.",
+    "kurallar": [
+      "Sözcüğün geçtiği cümleyi, bir önceki ve bir sonraki cümleyle birlikte oku.",
+      "Şıkkı sözcüğün yerine koy: cümle anlamını koruyorsa doğrudur.",
+      "it, this, they gibi zamirlerin gösterdiği ismi hemen önceki cümlelerde ara."
+    ],
+    "ornekler": [
+      { "en": "The word 'it' in the second sentence refers to ...", "tr": "İkinci cümledeki 'it' sözcüğü ...'e gönderme yapar." },
+      { "en": "The phrase 'in the long run' is closest in meaning to ...", "tr": "'in the long run' (uzun vadede) ifadesine anlamca en yakın olan ..." },
+      { "en": "As used in the passage, 'sound' means ...", "tr": "Parçada kullanıldığı biçimiyle 'sound' ... anlamındadır." }
+    ],
+    "hatalar": [
+      "Sözcüğün en bilinen anlamı seçilip bağlam göz ardı edilir (sound, sağlam/geçerli anlamına da gelir).",
+      "Zamir, en yakın isme değil anlamca uyan isme gönderme yapabilir; bu unutulur."
+    ]
+  },
+  "okuma.tutum": {
+    "ozet": "Yazarın konuya bakışı (destekleyen, eleştiren, tarafsız, şüpheci) ve metni yazma amacı (açıklamak, karşılaştırmak, uyarmak) sorulur.",
+    "kurallar": [
+      "Değer yargısı taşıyan sözcükleri işaretle: unfortunately, remarkably, questionable, promising.",
+      "Amaç sorularında fiillere bak: explain, criticise, compare, illustrate, warn.",
+      "Metin bilgilendirici bir dille yazılmışsa objective / neutral şıkları güçlüdür."
+    ],
+    "ornekler": [
+      { "en": "The author's attitude towards the new policy is ...", "tr": "Yazarın yeni politikaya karşı tutumu ..." },
+      { "en": "The primary purpose of the passage is to ...", "tr": "Parçanın temel amacı ..." },
+      { "en": "The author mentions the study in order to ...", "tr": "Yazar bu çalışmadan ... için söz ediyor." }
+    ],
+    "hatalar": [
+      "Okurun kendi görüşü yazarın görüşü sanılır.",
+      "Tek bir olumsuz sözcükten yola çıkılıp bütün tutum düşmanca yorumlanır."
+    ]
+  },
+  "diyalog": {
+    "ozet": "Boşluğa gelen replik hem önceki cümleye cevap vermeli hem de sonraki cümleyle mantıklı biçimde bağlanmalıdır.",
+    "kurallar": [
+      "Boşluktan sonraki repliği mutlaka oku: doğru şıkkı çoğu zaman o belirler.",
+      "Soru-cevap uyumuna bak: evet/hayır sorusuna uygun cevap, Why sorusuna gerekçe gelir.",
+      "Konuşmacının tutumunu (itiraz, onay, şaşkınlık) koru."
+    ],
+    "ornekler": [
+      { "en": "That's a good point, but ...", "tr": "Haklısın ama ... (kısmi itiraz)" },
+      { "en": "I couldn't agree more.", "tr": "Sana kesinlikle katılıyorum." },
+      { "en": "What makes you think so?", "tr": "Neden öyle düşünüyorsun? (gerekçe ister)" }
+    ],
+    "hatalar": [
+      "Yalnızca önceki cümleye bakılıp sonraki replik göz ardı edilir.",
+      "Konuyu değiştiren ya da önceki repliği tekrar eden şık seçilir."
+    ]
+  },
+  "yakin_anlam": {
+    "ozet": "Verilen cümleyle aynı anlamı başka sözcüklerle anlatan şık aranır; zaman, olumsuzluk, derece ve neden-sonuç ilişkisi birebir korunmalıdır.",
+    "kurallar": [
+      "Cümleyi parçalara ayır: kim, ne yaptı, ne zaman, hangi koşulda, ne ölçüde.",
+      "Bağlaç eşdeğerlerini bil: although = despite the fact that, because = due to the fact that, unless = if ... not.",
+      "only, hardly, most, some, never gibi sözcükler anlamı değiştirir; şıkta birebir karşılığını ara."
+    ],
+    "ornekler": [
+      { "en": "Hardly anyone attended the meeting.", "tr": "Toplantıya neredeyse kimse katılmadı (= Very few people attended the meeting)." },
+      { "en": "It was not until 1990 that the law was changed.", "tr": "Yasa ancak 1990'da değiştirildi (= The law was changed only in 1990)." },
+      { "en": "No other city is as crowded as Tokyo.", "tr": "Hiçbir şehir Tokyo kadar kalabalık değil (= Tokyo is the most crowded city)." }
+    ],
+    "hatalar": [
+      "Aynı sözcükleri içerdiği için ilişkiyi tersine çeviren şık seçilir.",
+      "Derece farkı (some → most, often → always) önemsenmez."
+    ]
+  },
+  "paragraf": {
+    "ozet": "Boşluğa gelecek cümle, önceki ve sonraki cümlelerle hem konu hem de dil bağları (zamir, bağlaç, tekrar eden sözcük) açısından uyumlu olmalıdır.",
+    "kurallar": [
+      "Boşluktan sonraki cümle This, However ya da For example ile başlıyorsa boşluğun neyi hazırlaması gerektiğine bak.",
+      "Paragraf sonundaki boşluk çoğunlukla bir sonuç ya da özet cümlesi ister.",
+      "Doğru şık yeni bir konu açmaz; paragrafın akışını sürdürür."
+    ],
+    "ornekler": [
+      { "en": "For example, ...", "tr": "Örneğin ... (Boşlukta genel bir iddia olmalı.)" },
+      { "en": "However, ...", "tr": "Ancak ... (Boşluk karşıt bir fikri hazırlamalı.)" },
+      { "en": "This approach ...", "tr": "Bu yaklaşım ... (Boşlukta bir yaklaşım tanıtılmış olmalı.)" }
+    ],
+    "hatalar": [
+      "Konuyla ilgili ama zamiri ya da bağlacı tutmayan şık seçilir.",
+      "Paragrafın genel konusuna uyan ama akışı bozan bir ayrıntı seçilir."
+    ]
+  },
+  "bozan": {
+    "ozet": "Paragrafın ana konusunu belirle ve bu konunun dışına taşan cümleyi bul; bozan cümle çoğunlukla aynı sözcükleri kullanır ama başka bir yöne gider.",
+    "kurallar": [
+      "İlk cümle çoğunlukla konuyu belirler; her cümlenin bu konuya hizmet edip etmediğini sor.",
+      "Bozan cümle konuya yakın bir ayrıntıya sapar (ör. bir hastalık anlatılırken hastalığın tarihine geçmek).",
+      "Cümleyi çıkarınca paragraf akıcı okunuyorsa doğru cevabı bulmuşsundur."
+    ],
+    "ornekler": [
+      { "en": "(I) Honeybees are vital for crop pollination. (II) Without them, many fruits would not grow. (III) Honey has been used as medicine for centuries. (IV) Farmers therefore rent hives during the flowering season.", "tr": "Paragraf arıların tozlaşmadaki rolünü anlatıyor; (III) balın tıpta kullanımına geçerek bütünlüğü bozar." }
+    ],
+    "hatalar": [
+      "Konuyla ilgili sözcük içerdiği için akışa uyan cümle bozan sanılır.",
+      "Cümleler tek tek değerlendirilir; her cümleyi öncesi ve sonrasıyla birlikte oku."
+    ]
+  }
+}
