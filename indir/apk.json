@@ -1,8 +1,6 @@
 {
-  "surum": "1.1.0",
+  "surum": "1.1.1",
   "notlar": [
-    "Yeni görünüm: kâğıt ve mürekkep renkleri, kitapçık gibi okunaklı soru metni",
-    "Şıklar optik form balonları gibi; '----' boşlukları artık satır sonunda bölünmüyor",
-    "Uygulama ikonu, açılış ekranı ve koyu tema yenilendi"
+    "Güncelleme düzeltildi: \"Güncelle\" artık beyaz sayfa yerine yeni sürümü indirir"
   ]
 }
