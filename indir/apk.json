@@ -1,7 +1,7 @@
 {
-  "surum": "1.2.1",
+  "surum": "1.2.2",
   "notlar": [
-    "Güncellemeler artık uygulamanın içinden indirilip kurulur; tarayıcı gerekmez",
-    "Bu güncelleme son kez tarayıcıdan kurulur"
+    "Ana sayfada kamera: soru ve not fotoğraflarını çekip uygulamada sakla",
+    "Fotoğraflarım: Tekrar sekmesinden aç, not ekle, yakınlaştır"
   ]
 }
