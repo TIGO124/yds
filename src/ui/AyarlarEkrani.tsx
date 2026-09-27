@@ -77,6 +77,8 @@ function UygulamaGuncelleme() {
         <button class="dugme birincil genis" onClick={() => void guncellemeyiUygula(g)}>
           {g.tur === 'web' ? 'Yeni sürüme geç' : `Sürüm ${g.surum} indir ve güncelle`}
         </button>
+      ) : ARTIFACT ? (
+        <p class="soluk kucuk">Bu sayfa her açılışta en son yayınlanan sürümle yüklenir.</p>
       ) : (
         <button class="dugme ikincil genis" onClick={denetle} disabled={mesgul}>
           {mesgul ? 'Denetleniyor…' : 'Güncellemeleri denetle'}
