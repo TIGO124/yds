@@ -70,11 +70,23 @@ export function Sayfa({ children, menu }: { children: ComponentChildren; menu?: 
   );
 }
 
-export function Cubuk({ yuzde, ton }: { yuzde: number; ton?: 'iyi' | 'orta' | 'zayif' }) {
+/** ton: başarı çubuklarında iyi/orta/zayıf (yüzdeden seçilir); 'notr' başarı olmayan oranlar için. */
+export function Cubuk({ yuzde, ton }: { yuzde: number; ton?: 'iyi' | 'orta' | 'zayif' | 'notr' }) {
   const t = ton ?? (yuzde < 50 ? 'zayif' : yuzde <= 75 ? 'orta' : 'iyi');
   return (
     <div class="cubuk" role="progressbar" aria-valuenow={yuzde} aria-valuemin={0} aria-valuemax={100}>
       <div class={`dolgu ${t}`} style={{ width: `${Math.max(0, Math.min(100, yuzde))}%` }} />
+    </div>
+  );
+}
+
+/** Parçalı ilerleme: her adım (ör. teşhis testi) bir parça; sıradaki adım vurgulu. */
+export function Adimlar({ toplam, biten, etiket }: { toplam: number; biten: number; etiket: string }) {
+  return (
+    <div class="adimlar" role="progressbar" aria-label={etiket} aria-valuenow={biten} aria-valuemin={0} aria-valuemax={toplam}>
+      {Array.from({ length: toplam }, (_, i) => (
+        <span class={i < biten ? 'bitti' : i === biten ? 'simdiki' : ''} />
+      ))}
     </div>
   );
 }
@@ -110,6 +122,15 @@ export const TIP_AD = {
 
 export const HARF = 'ABCDE';
 
+/** Boşluk işaretleri ("----", "(2) ----") satır sonunda bölünmesin. */
+export function BoslukluMetin({ metin }: { metin: string }) {
+  return (
+    <>
+      {metin.split(/(\(\d+\) ?-{3,}|-{3,})/).map((p, i) => (i % 2 ? <span class="bosluk-isareti">{p}</span> : p))}
+    </>
+  );
+}
+
 /** Ortak parça; cloze gruplarında sorulan boşluk ("(3) ----") vurgulanır. */
 export function ParagrafMetni({ soru, kucuk }: { soru: Soru; kucuk?: boolean }) {
   const metin = soruParagrafi(soru);
@@ -121,12 +142,12 @@ export function ParagrafMetni({ soru, kucuk }: { soru: Soru; kucuk?: boolean }) 
     <p class={`soru-metni paragraf-metni${kucuk ? ' kucuk-soru' : ''}`} lang="en">
       {parcalar ? (
         <>
-          {parcalar[0]}
+          <BoslukluMetin metin={parcalar[0]} />
           <mark class="bosluk">{isaret}</mark>
-          {parcalar.slice(1).join(isaret!)}
+          <BoslukluMetin metin={parcalar.slice(1).join(isaret!)} />
         </>
       ) : (
-        metin
+        <BoslukluMetin metin={metin} />
       )}
     </p>
   );

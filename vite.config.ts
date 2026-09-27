@@ -40,8 +40,8 @@ export default defineConfig(({ mode }) => {
           scope: './',
           display: 'standalone',
           orientation: 'portrait',
-          background_color: '#0f172a',
-          theme_color: '#0f172a',
+          background_color: '#f4f1ea',
+          theme_color: '#f4f1ea',
           icons: [
             { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
             { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -49,7 +49,7 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest}'],
+          globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest,woff2}'],
           // Soru paketi yalnızca Android uygulaması için; web sürümü soruları derlemeyle alır.
           globIgnores: ['**/soru-paketi*.json'],
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
@@ -61,6 +61,8 @@ export default defineConfig(({ mode }) => {
       outDir: mode === 'android' ? 'dist-android' : mode === 'artifact' ? 'dist-artifact' : 'dist',
       // Soru bankası ayrı parça: uygulama kodu güncellenince veri yeniden indirilmez (ve tersi).
       chunkSizeWarningLimit: 1500,
+      // Artifact tek dosya: yazı tipleri de CSS'e gömülür.
+      assetsInlineLimit: mode === 'artifact' ? 1024 * 1024 : 4096,
       rollupOptions: {
         // Artifact tek HTML dosyasına gömülür (scripts/artifact-tek-dosya.mjs), parçalanmasın.
         output:

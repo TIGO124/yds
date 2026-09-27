@@ -6,7 +6,7 @@ import { konuDegisimleri, odakKonulari, oranlar } from '../engine/analysis';
 import { DENEME_DAGILIMI, DENEME_DAKIKA, DENEME_SORU, ydsPuani, ydsSeviyesi } from '../engine/deneme';
 import type { CevapKaydi, TestKaydi } from '../types';
 import { IkonCarpi, IkonTik, IkonTire } from './ikonlar';
-import { HARF, ParagrafMetni, Sayfa, TIP_AD, Ust, Yukleniyor, useVeri } from './ortak';
+import { BoslukluMetin, HARF, ParagrafMetni, Sayfa, TIP_AD, Ust, Yukleniyor, useVeri } from './ortak';
 import { git } from './router';
 
 /** Deneme sınavı: ÖSYM usulü puan, seviye, süre ve bölüm bazında doğru/yanlış/boş. */
@@ -200,41 +200,43 @@ export function Sonuc({ id }: { id: number }) {
 
       <section>
         <h2 class="bolum-basligi">Soru soru inceleme</h2>
-        {test.soru_idleri.map((sid, i) => {
-          const s = SORU_MAP.get(sid);
-          if (!s) return null;
-          const secilen = test.secimler[i] ?? null;
-          const durum = secilen === null ? 'bos' : secilen === s.dogru ? 'dogru' : 'yanlis';
-          return (
-            <details class={`inceleme ${durum}`}>
-              <summary>
-                <span class={`durum-ikon ${durum}`}>
-                  {durum === 'dogru' ? <IkonTik boyut={16} /> : durum === 'yanlis' ? <IkonCarpi boyut={16} /> : <IkonTire boyut={16} />}
-                </span>
-                <span class="inceleme-baslik">
-                  <strong>{i + 1}.</strong> {soruEtiketi(s)}
-                </span>
-                <span class="sr-only">{durum === 'dogru' ? 'Doğru' : durum === 'yanlis' ? 'Yanlış' : 'Boş'}</span>
-              </summary>
-              <ParagrafMetni soru={s} kucuk />
-              <p class="soru-metni kucuk-soru" lang="en">
-                {s.soru}
-              </p>
-              <ul class="inceleme-secenekler">
-                {s.secenekler.map((m, j) => (
-                  <li class={j === s.dogru ? 'dogru' : j === secilen ? 'yanlis' : ''}>
-                    <span class="harf">{HARF[j]}</span> {m}
-                  </li>
-                ))}
-              </ul>
-              <p class="kucuk">
-                Senin cevabın: <strong>{secilen === null ? 'Boş' : HARF[secilen]}</strong> · Doğru cevap:{' '}
-                <strong>{HARF[s.dogru]}</strong>
-              </p>
-              <p class="aciklama">{s.aciklama}</p>
-            </details>
-          );
-        })}
+        <div class="inceleme-listesi">
+          {test.soru_idleri.map((sid, i) => {
+            const s = SORU_MAP.get(sid);
+            if (!s) return null;
+            const secilen = test.secimler[i] ?? null;
+            const durum = secilen === null ? 'bos' : secilen === s.dogru ? 'dogru' : 'yanlis';
+            return (
+              <details class={`inceleme ${durum}`}>
+                <summary>
+                  <span class={`durum-ikon ${durum}`}>
+                    {durum === 'dogru' ? <IkonTik boyut={16} /> : durum === 'yanlis' ? <IkonCarpi boyut={16} /> : <IkonTire boyut={16} />}
+                  </span>
+                  <span class="inceleme-baslik">
+                    <strong>{i + 1}.</strong> {soruEtiketi(s)}
+                  </span>
+                  <span class="sr-only">{durum === 'dogru' ? 'Doğru' : durum === 'yanlis' ? 'Yanlış' : 'Boş'}</span>
+                </summary>
+                <ParagrafMetni soru={s} kucuk />
+                <p class="soru-metni kucuk-soru" lang="en">
+                  <BoslukluMetin metin={s.soru} />
+                </p>
+                <ul class="inceleme-secenekler">
+                  {s.secenekler.map((m, j) => (
+                    <li class={j === s.dogru ? 'dogru' : j === secilen ? 'yanlis' : ''}>
+                      <span class="harf">{HARF[j]}</span> {m}
+                    </li>
+                  ))}
+                </ul>
+                <p class="kucuk">
+                  Senin cevabın: <strong>{secilen === null ? 'Boş' : HARF[secilen]}</strong> · Doğru cevap:{' '}
+                  <strong>{HARF[s.dogru]}</strong>
+                </p>
+                <p class="aciklama">{s.aciklama}</p>
+              </details>
+            );
+          })}
+        </div>
       </section>
     </Sayfa>
   );

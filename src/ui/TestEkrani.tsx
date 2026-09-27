@@ -5,7 +5,7 @@ import { DENEME_DAKIKA } from '../engine/deneme';
 import type { Ayarlar, TestKaydi } from '../types';
 import { IkonCarpi, IkonGeri, IkonIleri } from './ikonlar';
 import { onayla } from './onay';
-import { HARF, ParagrafMetni, TIP_AD, Yukleniyor } from './ortak';
+import { BoslukluMetin, HARF, ParagrafMetni, TIP_AD, Yukleniyor } from './ortak';
 import { git } from './router';
 
 const sayacMetni = (ms: number) => {
@@ -121,6 +121,14 @@ export function TestEkrani({ id }: { id: number }) {
     document.querySelector('.nokta.simdiki')?.scrollIntoView({ inline: 'center', block: 'nearest' });
   }, [index, test?.id]);
 
+  // Metin üst çubuğun altına kayınca çubuğun alt çizgisi görünsün.
+  const [kaydi, setKaydi] = useState(false);
+  useEffect(() => {
+    const dinle = () => setKaydi(window.scrollY > 4);
+    window.addEventListener('scroll', dinle, { passive: true });
+    return () => window.removeEventListener('scroll', dinle);
+  }, []);
+
   // Klavye: A–E / 1–5 seçim, ok tuşları gezinme
   useEffect(() => {
     const tus = (e: KeyboardEvent) => {
@@ -143,7 +151,7 @@ export function TestEkrani({ id }: { id: number }) {
 
   return (
     <div class="test-ekrani">
-      <header class="test-ust">
+      <header class={`test-ust${kaydi ? ' kaydi' : ''}`}>
         <button class="ikon-dugme" aria-label="Testi kaydet ve çık" onClick={() => git('/')}>
           <IkonCarpi />
         </button>
@@ -187,7 +195,7 @@ export function TestEkrani({ id }: { id: number }) {
         )}
         <ParagrafMetni soru={soru} />
         <p class="soru-metni" lang="en">
-          {soru.soru}
+          <BoslukluMetin metin={soru.soru} />
         </p>
 
         <div class="secenekler" role="radiogroup" aria-label="Seçenekler">

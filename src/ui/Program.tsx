@@ -82,10 +82,10 @@ export function GunKarti({ gun, onHata }: { gun: ProgramGunu; onHata: (m: string
   const bugun = gun.tarih === tarihMetni(new Date());
   const toplam = gun.etkinlikler.reduce((t, e) => t + (e.tur === 'sinav' ? 0 : e.dakika), 0);
   return (
-    <section class={`kart gun-karti${bugun ? ' vurgu' : ''}${gun.dinlenme ? ' dinlenme' : ''}`} aria-label={gunBasligi(gun.tarih)}>
+    <section class={`kart gun-karti${gun.dinlenme ? ' dinlenme' : ''}`} aria-label={gunBasligi(gun.tarih)}>
       <div class="satir-ust">
         <h2>
-          {bugun && <span class="rozet iyi">Bugün</span>} {gunBasligi(gun.tarih)}
+          {bugun && <span class="bugun-etiketi">Bugün</span>} {gunBasligi(gun.tarih)}
         </h2>
         {toplam > 0 && <span class="soluk kucuk">{sureMetni(toplam)}</span>}
       </div>
@@ -181,7 +181,7 @@ export function Program({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Parti
                     {o.blok} oturum · {o.deneme > 0 ? `%${o.eksiklikYuzde} eksik` : 'henüz ölçülmedi'}
                   </span>
                 </div>
-                <Cubuk yuzde={(o.blok / enFazlaBlok) * 100} ton="orta" />
+                <Cubuk yuzde={(o.blok / enFazlaBlok) * 100} ton="notr" />
               </li>
             ))}
           </ul>

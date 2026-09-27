@@ -6,9 +6,9 @@ import { seviyeRaporu } from '../engine/analysis';
 import { CONFIG } from '../engine/config';
 import { DENEME_DAKIKA, DENEME_SORU, ydsPuani, ydsSeviyesi } from '../engine/deneme';
 import type { Ayarlar } from '../types';
-import { IkonHedef } from './ikonlar';
+import { IkonIleri } from './ikonlar';
 import { onayla } from './onay';
-import { Cubuk, Sayfa, Yukleniyor, useVeri } from './ortak';
+import { Adimlar, Cubuk, Sayfa, Yukleniyor, useVeri } from './ortak';
 import { GunKarti } from './Program';
 import { programVerisi } from './programVeri';
 import { git } from './router';
@@ -89,9 +89,10 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
           <>
             <p class="etiket-ust">Seviye tespiti</p>
             <p class="buyuk-metin">
-              Teşhis testi {sira.sira_no}/{plan.length}
+              Teşhis testi {sira.sira_no}
+              <span class="soluk"> / {plan.length}</span>
             </p>
-            <Cubuk yuzde={(teshisBiten / plan.length) * 100} ton="iyi" />
+            <Adimlar toplam={plan.length} biten={teshisBiten} etiket="Teşhis testleri" />
             <p class="soluk kucuk">İlk {plan.length} test tüm konuları dengeli ölçer.</p>
           </>
         ) : (
@@ -124,8 +125,8 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
       </section>
 
       <GunKarti gun={bugunku} onHata={setMesaj} />
-      <a class="dugme metin" href="#/program">
-        Haftalık programın tamamı
+      <a class="dugme metin devam" href="#/program">
+        Haftalık programın tamamı <IkonIleri boyut={18} />
       </a>
 
       <section class="kart">
@@ -164,11 +165,8 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
 
       {rapor.enZayif.length > 0 && (
         <section class="kart">
-          <div class="kart-baslik">
-            <IkonHedef />
-            <h2>En zayıf 3 konu</h2>
-          </div>
-          <ul class="konu-listesi">
+          <h2>En zayıf 3 konu</h2>
+          <ol class="konu-listesi sirali">
             {rapor.enZayif.map((k) => {
               const r = rapor.konular.find((x) => x.konu === k.kod)!;
               return (
@@ -181,7 +179,7 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
                 </li>
               );
             })}
-          </ul>
+          </ol>
           <a class="dugme ikincil genis" href="#/rapor">
             Seviye raporunu gör
           </a>

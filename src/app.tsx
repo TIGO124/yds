@@ -25,7 +25,7 @@ function temaUygula(tema: Ayarlar['tema']) {
   }
   else kok.setAttribute('data-theme', tema === 'koyu' ? 'dark' : 'light');
   const koyu = tema === 'koyu' || (tema === 'sistem' && sistemKoyu().matches);
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', koyu ? '#0e0f1a' : '#f7f5fc');
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', koyu ? '#131519' : '#f4f1ea');
 }
 
 function Ekran({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Partial<Ayarlar>) => void }) {

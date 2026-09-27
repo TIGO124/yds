@@ -7,49 +7,48 @@
 .program-ayarlar .tam {
   grid-column: 1 / -1;
 }
-.alan input[type='date'] {
-  min-height: 44px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  padding: 8px 10px;
-  width: 100%;
-}
 .gun-karti h2 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 8px;
   flex-wrap: wrap;
 }
-.gun-karti.dinlenme {
-  opacity: 0.8;
+.bugun-etiketi {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.gun-karti.dinlenme h2 {
+  color: var(--muted);
 }
 .etkinlik-listesi {
   list-style: none;
-  margin: 4px 0 0;
+  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 .etkinlik {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: 10px 12px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--primary-soft) 55%, var(--card));
-  border: 1px solid var(--border);
+  gap: 2px;
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
 }
-.etkinlik.sinav {
-  background: var(--ok-soft);
+.etkinlik:last-child {
+  padding-bottom: 0;
+}
+.etkinlik.sinav strong {
+  color: var(--accent);
 }
 .etkinlik .satir-ust > .soluk,
 .gun-karti > .satir-ust > .soluk {
   white-space: nowrap;
   flex: 0 0 auto;
+  font-variant-numeric: tabular-nums;
 }
 .etkinlik details summary {
   cursor: pointer;
@@ -62,27 +61,44 @@
 .etkinlik details summary .satir-ust {
   display: flex;
 }
+/* Açılır satır işareti */
+.etkinlik details summary strong::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 3px 10px;
+  border-right: 1.5px solid var(--muted);
+  border-bottom: 1.5px solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 150ms ease-out;
+}
+.etkinlik details[open] summary strong::after {
+  margin-bottom: 0;
+  transform: rotate(-135deg);
+}
 .etkinlik details p {
   margin: 6px 0 0;
+  color: var(--muted);
 }
 .kucuk-dugme {
   min-height: 44px;
-  margin-top: 6px;
-  padding: 8px 14px;
+  margin-top: 8px;
+  padding: 8px 16px;
   align-self: flex-start;
-  font-size: 0.92rem;
+  font-size: 0.9375rem;
 }
 
 /* ---------- Yedek metni ---------- */
 .yedek-metni {
   width: 100%;
   min-height: 96px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
   background: var(--card);
   padding: 10px;
-  font: inherit;
-  font-size: 0.85rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
   resize: vertical;
 }
 
@@ -94,31 +110,57 @@
   display: grid;
   place-items: center;
   padding: 16px;
-  background: rgb(8 8 20 / 0.55);
+  background: rgb(20 18 14 / 0.5);
+  animation: belir 150ms ease-out;
 }
 .onay-kutu {
   width: 100%;
   max-width: 420px;
   background: var(--card);
   color: var(--text);
-  border-radius: var(--radius);
+  border-radius: 14px;
   border: 1px solid var(--border);
   padding: 20px;
-  box-shadow: 0 12px 40px rgb(0 0 0 / 0.25);
+  box-shadow: var(--shadow-pop);
+  animation: yuksel 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .onay-kutu p {
-  margin: 0 0 16px;
-  line-height: 1.5;
+  margin: 0 0 20px;
+  line-height: 1.55;
 }
 .onay-dugmeler {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+/* Telefonda alttan açılan sayfa: başparmak erişimi kolay. */
+@media (max-width: 520px) {
+  .onay-arka {
+    place-items: end stretch;
+    padding: 0;
+  }
+  .onay-kutu {
+    max-width: none;
+    border-radius: 16px 16px 0 0;
+    border-bottom: none;
+    padding: 24px 16px calc(16px + var(--safe-bottom));
+  }
+}
+@keyframes belir {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes yuksel {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
 
 /* ---------- Deneme sınavı ---------- */
 .sayac {
-  font-size: 1.05rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
@@ -128,13 +170,17 @@
 .tablo-kap {
   overflow-x: auto;
 }
+/* Cloze'da sorulan boşluk: fosforlu kalem */
 mark.bosluk {
-  background: var(--primary-soft);
-  color: var(--primary);
+  background: var(--mark);
+  color: var(--text);
   font-weight: 700;
-  padding: 0 4px;
-  border-radius: 4px;
-  outline: 1.5px solid var(--primary);
+  padding: 1px 4px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.bosluk-isareti {
+  white-space: nowrap;
 }
 
 /* ---------- Bildirim ---------- */
@@ -142,17 +188,17 @@ mark.bosluk {
   position: fixed;
   left: 16px;
   right: 16px;
-  top: calc(12px + var(--safe-area-inset-top, env(safe-area-inset-top, 0px)));
+  top: calc(12px + var(--safe-top));
   z-index: 60;
   max-width: 480px;
   margin: 0 auto;
   padding: 12px 16px;
-  border-radius: 12px;
-  background: var(--ok-soft);
-  color: var(--text);
-  border: 1px solid var(--ok);
-  box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
-  font-weight: 600;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--bg);
+  box-shadow: var(--shadow-pop);
+  font-weight: 700;
+  animation: belir 200ms ease-out;
 }
 
 /* ---------- Güncelleme ---------- */
@@ -161,12 +207,11 @@ mark.bosluk {
   flex-wrap: wrap;
   align-items: center;
   gap: 8px 12px;
-  margin-bottom: 16px;
-  padding: 10px 12px 10px 16px;
-  border-radius: 14px;
-  background: var(--primary-soft);
-  border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
-  font-weight: 600;
+  padding: 8px 8px 8px 16px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  font-weight: 700;
 }
 .guncelleme-bandi span {
   flex: 1 1 auto;

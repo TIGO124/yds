@@ -1,14 +1,18 @@
 // Satır içi SVG ikonlar (harici kaynak yok). Hepsi dekoratif: aria-hidden.
 import type { JSX } from 'preact';
 
-const Svg = ({ children, boyut = 22 }: { children: JSX.Element | JSX.Element[]; boyut?: number }) => (
+interface Boyut {
+  boyut?: number;
+}
+
+const Svg = ({ children, boyut = 22 }: { children: JSX.Element | JSX.Element[] } & Boyut) => (
   <svg
     width={boyut}
     height={boyut}
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
+    stroke-width="1.75"
     stroke-linecap="round"
     stroke-linejoin="round"
     aria-hidden="true"
@@ -54,30 +58,23 @@ export const IkonGeri = () => (
     <path d="m15 18-6-6 6-6" />
   </Svg>
 );
-export const IkonIleri = () => (
-  <Svg>
+export const IkonIleri = ({ boyut }: Boyut) => (
+  <Svg boyut={boyut}>
     <path d="m9 18 6-6-6-6" />
   </Svg>
 );
-export const IkonTik = ({ boyut }: { boyut?: number }) => (
+export const IkonTik = ({ boyut }: Boyut) => (
   <Svg boyut={boyut}>
     <path d="M20 6 9 17l-5-5" />
   </Svg>
 );
-export const IkonCarpi = ({ boyut }: { boyut?: number }) => (
+export const IkonCarpi = ({ boyut }: Boyut) => (
   <Svg boyut={boyut}>
     <path d="M18 6 6 18M6 6l12 12" />
   </Svg>
 );
-export const IkonTire = ({ boyut }: { boyut?: number }) => (
+export const IkonTire = ({ boyut }: Boyut) => (
   <Svg boyut={boyut}>
     <path d="M5 12h14" />
-  </Svg>
-);
-export const IkonHedef = () => (
-  <Svg>
-    <circle cx="12" cy="12" r="9" />
-    <circle cx="12" cy="12" r="5" />
-    <circle cx="12" cy="12" r="1" />
   </Svg>
 );

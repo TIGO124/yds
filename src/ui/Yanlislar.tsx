@@ -2,7 +2,7 @@ import { useState } from 'preact/hooks';
 import { SORU_MAP, konuAdi, soruParagrafi } from '../data/bank';
 import { depo } from '../depo';
 import { CONFIG } from '../engine/config';
-import { Sayfa, Ust, Yukleniyor, useVeri } from './ortak';
+import { BoslukluMetin, Sayfa, Ust, Yukleniyor, useVeri } from './ortak';
 import { git } from './router';
 
 export function Yanlislar() {
@@ -54,9 +54,15 @@ export function Yanlislar() {
             {konuAdi(konu)} <span class="soluk">({liste.length})</span>
           </h2>
           <ul class="yanlis-listesi">
-            {liste.map((id) => (
-              <li lang="en">{(soruParagrafi(SORU_MAP.get(id)!) ?? SORU_MAP.get(id)!.soru).split('\n')[0].slice(0, 110)}…</li>
-            ))}
+            {liste.map((id) => {
+              const metin = (soruParagrafi(SORU_MAP.get(id)!) ?? SORU_MAP.get(id)!.soru).trim();
+              const kisa = metin.split('\n')[0].slice(0, 110).trimEnd();
+              return (
+                <li lang="en">
+                  <BoslukluMetin metin={kisa.length < metin.length ? `${kisa}…` : kisa} />
+                </li>
+              );
+            })}
           </ul>
         </section>
       ))}
