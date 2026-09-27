@@ -54,7 +54,8 @@ env.JAVA_HOME ||= 'C:\\Program Files\\Android\\Android Studio\\jbr';
 env.ANDROID_HOME ||= join(process.env.LOCALAPPDATA ?? '', 'Android', 'Sdk');
 calistir('npm test');
 calistir('npm run build:android');
-calistir(process.platform === 'win32' ? 'gradlew.bat assembleDebug --no-daemon -q' : './gradlew assembleDebug --no-daemon -q', {
+// Yol açıkça verilir: NoDefaultCurrentDirectoryInExePath ayarlıysa cmd geçerli klasörde aramaz.
+calistir(process.platform === 'win32' ? '.\\gradlew.bat assembleDebug --no-daemon -q' : './gradlew assembleDebug --no-daemon -q', {
   cwd: join(kok, 'android'),
   env,
 });
