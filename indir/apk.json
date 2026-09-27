@@ -1,6 +1,11 @@
 {
-  "surum": "1.1.1",
+  "surum": "1.2.0",
   "notlar": [
-    "Güncelleme düzeltildi: \"Güncelle\" artık beyaz sayfa yerine yeni sürümü indirir"
+    "Aralıklı tekrar: yanlışlar 1, 3 ve 7 gün arayla yeniden gelir",
+    "Kelime defteri ve kelime kartları",
+    "Konu kartları ve konuya özel 5 soruluk test",
+    "Süre analizi, soru işaretleme ve Kaydettiklerim",
+    "Yeni sorular bitince testler eski sorularla sürer",
+    "Günlük seri ve Android'de günlük hatırlatma"
   ]
 }
