@@ -99,6 +99,7 @@ describe('veritabanı geçişi', () => {
     expect(await yeni.isaretler.count()).toBe(0);
     expect(await yeni.kelimeler.count()).toBe(0);
     expect(await yeni.gunluk.count()).toBe(0);
+    expect(await yeni.fotograflar.count()).toBe(0);
     yeni.close();
   });
 });

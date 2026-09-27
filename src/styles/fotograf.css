@@ -1,0 +1,81 @@
+/* ---------- Kamera ve Fotoğraflarım ---------- */
+.karsilama {
+  position: relative;
+  padding-right: 48px;
+}
+.karsilama .kamera-dugmesi {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+}
+.gizli-girdi {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.fotograf-izgarasi {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.fotograf-izgarasi a {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--sunk);
+}
+.fotograf-izgarasi img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fotograf-notu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 3px 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgb(20 18 14 / 0.62);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fotograf-buyuk {
+  margin: 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--sunk);
+  overflow: hidden;
+}
+.fotograf-buyuk img {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+}
+.fotograf-buyuk.yakin {
+  overflow: auto;
+  max-height: 75vh;
+}
+.fotograf-buyuk.yakin img {
+  width: auto;
+  max-width: none;
+  cursor: zoom-out;
+}
+textarea.fotograf-not-alani {
+  font-family: var(--sans);
+  font-size: 1rem;
+  min-height: 84px;
+}

@@ -237,6 +237,27 @@ describe('Depo (IndexedDB)', () => {
     expect(sonraki.sira_no).toBe(2);
   });
 
+  it('fotoğraflar: ekleme, not, silme; sıfırlama ve yedek fotoğraflara dokunmaz', async () => {
+    const bayt = (n: number) => new Uint8Array([n, n, n]).buffer;
+    const ilk = await depo.fotografEkle({ veri: bayt(1), kucuk: bayt(2), genislik: 1600, yukseklik: 1200 });
+    saat += 1000;
+    const ikinci = await depo.fotografEkle({ veri: bayt(3), kucuk: bayt(4), genislik: 800, yukseklik: 600 });
+    expect((await depo.fotograflar()).map((f) => f.id)).toEqual([ikinci, ilk]);
+
+    await depo.fotografNotu(ilk, '  s. 42, 7. soru  ');
+    const f = (await depo.fotograf(ilk))!;
+    expect(f).toMatchObject({ not: 's. 42, 7. soru', genislik: 1600, yukseklik: 1200 });
+    expect(new Uint8Array(f.veri)).toEqual(new Uint8Array([1, 1, 1]));
+
+    await depo.sifirla();
+    expect(Object.keys(await depo.yedekAl()).some((k) => k.includes('fotograf'))).toBe(false);
+    expect(await depo.fotografSayisi()).toBe(2);
+
+    await depo.fotografSil(ilk);
+    expect(await depo.fotograf(ilk)).toBeUndefined();
+    expect(await depo.db.fotograf_verisi.count()).toBe(1);
+  });
+
   it('eski biçimli (v1) yedek yüklenir; kelime defterine dokunulmaz', async () => {
     await coz(await depo.sonrakiTestiBaslat());
     const yedek = JSON.parse(JSON.stringify(await depo.yedekAl()));

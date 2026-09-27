@@ -123,6 +123,23 @@ export interface KelimeKaydi {
   sonraki: number;
 }
 
+/** Kamerayla çekilen soru/not fotoğrafı: liste için küçük resim ve bilgiler (tam boy ayrı tabloda). */
+export interface FotografKaydi {
+  id?: number;
+  tarih: number;
+  not: string;
+  genislik: number;
+  yukseklik: number;
+  /** Küçük resim (JPEG) */
+  kucuk: ArrayBuffer;
+}
+
+/** Fotoğrafın tam boyu (JPEG); listede yüklenmesin diye ayrı tabloda. */
+export interface FotografVerisi {
+  id: number;
+  veri: ArrayBuffer;
+}
+
 /** Test dışı çalışma günlüğü (kelime kartları); seri hesabında kullanılır. */
 export interface GunlukKaydi {
   /** YYYY-AA-GG */

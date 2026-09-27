@@ -1,6 +1,6 @@
 import Dexie, { type Table } from 'dexie';
 import type { SoruPaketi } from '../data/paket';
-import type { Ayarlar, CevapKaydi, GunlukKaydi, IsaretKaydi, KelimeKaydi, TeshisTesti, TestKaydi } from '../types';
+import type { Ayarlar, CevapKaydi, FotografKaydi, FotografVerisi, GunlukKaydi, IsaretKaydi, KelimeKaydi, TeshisTesti, TestKaydi } from '../types';
 
 /** İndirilen soru paketi (tek kayıt, id = 'soru'). */
 export interface PaketKaydi extends SoruPaketi {
@@ -16,6 +16,8 @@ export class YdsDB extends Dexie {
   isaretler!: Table<IsaretKaydi, string>;
   kelimeler!: Table<KelimeKaydi, string>;
   gunluk!: Table<GunlukKaydi, string>;
+  fotograflar!: Table<FotografKaydi, number>;
+  fotograf_verisi!: Table<FotografVerisi, number>;
 
   constructor(ad = 'yds') {
     super(ad);
@@ -34,6 +36,8 @@ export class YdsDB extends Dexie {
     this.version(2).stores({ paket: 'id' });
     // v3: işaretlenen sorular, kelime defteri ve kart çalışma günlüğü
     this.version(3).stores({ isaretler: 'soru_id', kelimeler: 'kelime', gunluk: 'tarih' });
+    // v4: kamerayla çekilen fotoğraflar (küçük resim + bilgiler) ve tam boyları
+    this.version(4).stores({ fotograflar: '++id, tarih', fotograf_verisi: 'id' });
   }
 }
 

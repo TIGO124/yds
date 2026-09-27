@@ -40,4 +40,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Uygulama içi güncelleme: indirilen APK için Android kurulum ekranını açabilmek -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- Kamera düğmesi: Android 11+ paket görünürlüğü; yoksa kamera yerine dosya seçici açılır -->
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
 </manifest>

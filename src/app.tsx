@@ -5,6 +5,7 @@ import { CALISILDI, hatirlatmaVar, hatirlatmalariKur } from './hatirlatma';
 import type { Ayarlar } from './types';
 import { AnaSayfa } from './ui/AnaSayfa';
 import { AyarlarEkrani } from './ui/AyarlarEkrani';
+import { FotografListesi, FotografSayfasi } from './ui/Fotograflar';
 import { Ilerleme } from './ui/Ilerleme';
 import { Kaydedilenler } from './ui/Kaydedilenler';
 import { KelimeDefteri, KelimeKartlari } from './ui/Kelimeler';
@@ -60,6 +61,10 @@ function Ekran({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Partial<Ayarla
       return <KelimeKartlari />;
     case 'konular':
       return <KonuListesi />;
+    case 'fotograflar':
+      return <FotografListesi />;
+    case 'fotograf':
+      return <FotografSayfasi key={id} id={id} />;
     case 'konu':
       return <KonuSayfasi key={param} kod={decodeURIComponent(param ?? '')} />;
     case 'ayarlar':

@@ -8,6 +8,7 @@ import { DENEME_DAKIKA, DENEME_SORU, denemeYeniSoruAcigi, ydsPuani, ydsSeviyesi 
 import { calismaGunleri, seriHesapla } from '../engine/seri';
 import { siradakiler } from '../engine/tekrar';
 import type { Ayarlar } from '../types';
+import { KameraDugmesi } from './Fotograflar';
 import { IkonIleri } from './ikonlar';
 import { onayla } from './onay';
 import { Adimlar, Cubuk, Sayfa, Yukleniyor, useVeri } from './ortak';
@@ -97,6 +98,7 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
   return (
     <Sayfa menu="">
       <header class="karsilama">
+        <KameraDugmesi />
         <p class="soluk">YDS Çalışma</p>
         <h1>{sira.tip === 'teshis' ? 'Teşhis aşaması' : 'Uyarlanmış mod'}</h1>
         {seri.guncel > 0 && (

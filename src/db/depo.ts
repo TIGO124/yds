@@ -1,4 +1,4 @@
-import type { Ayarlar, CevapKaydi, GunlukKaydi, IsaretKaydi, KelimeKaydi, Konu, Soru, TeshisTesti, TestKaydi, TestTipi } from '../types';
+import type { Ayarlar, CevapKaydi, FotografKaydi, GunlukKaydi, IsaretKaydi, KelimeKaydi, Konu, Soru, TeshisTesti, TestKaydi, TestTipi } from '../types';
 import { kontrolTestOlustur, konuTestOlustur, siradakiTest, tekrarTestOlustur, uyarlanmisTestOlustur, type TestUretimi } from '../engine/adaptive';
 import { CONFIG } from '../engine/config';
 import { denemeOlustur, type DenemeUretimi } from '../engine/deneme';
@@ -334,6 +334,42 @@ export class Depo {
 
   gunluk(): Promise<GunlukKaydi[]> {
     return this.db.gunluk.toArray();
+  }
+
+  // ---------- Fotoğraflar (yedeğe dahil değil; sıfırlamada silinmez) ----------
+
+  /** En yeni önce; yalnızca küçük resimler (tam boylar ayrı tabloda). */
+  async fotograflar(): Promise<FotografKaydi[]> {
+    return (await this.db.fotograflar.toArray()).sort((a, b) => b.tarih - a.tarih);
+  }
+
+  fotografSayisi(): Promise<number> {
+    return this.db.fotograflar.count();
+  }
+
+  /** Fotoğraf bilgisi ve tam boyu; yoksa undefined. */
+  async fotograf(id: number): Promise<(FotografKaydi & { veri: ArrayBuffer }) | undefined> {
+    const [kayit, tam] = await Promise.all([this.db.fotograflar.get(id), this.db.fotograf_verisi.get(id)]);
+    return kayit && tam ? { ...kayit, veri: tam.veri } : undefined;
+  }
+
+  async fotografEkle(f: { veri: ArrayBuffer; kucuk: ArrayBuffer; genislik: number; yukseklik: number }): Promise<number> {
+    return this.db.transaction('rw', this.db.fotograflar, this.db.fotograf_verisi, async () => {
+      const id = await this.db.fotograflar.add({ tarih: this.saat(), not: '', genislik: f.genislik, yukseklik: f.yukseklik, kucuk: f.kucuk });
+      await this.db.fotograf_verisi.put({ id, veri: f.veri });
+      return id;
+    });
+  }
+
+  async fotografNotu(id: number, not: string): Promise<void> {
+    await this.db.fotograflar.update(id, { not: not.trim().slice(0, 500) });
+  }
+
+  async fotografSil(id: number): Promise<void> {
+    await this.db.transaction('rw', this.db.fotograflar, this.db.fotograf_verisi, async () => {
+      await this.db.fotograflar.delete(id);
+      await this.db.fotograf_verisi.delete(id);
+    });
   }
 
   // ---------- Yedek ----------

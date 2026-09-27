@@ -9,16 +9,17 @@ import { git } from './router';
 export function Yanlislar() {
   const [mesaj, setMesaj] = useState<string | null>(null);
   const { veri, hata } = useVeri(async () => {
-    const [tekrar, aktif, kelimeler, isaretler] = await Promise.all([
+    const [tekrar, aktif, kelimeler, isaretler, fotoSayisi] = await Promise.all([
       depo.tekrarListesi(),
       depo.aktifTest(),
       depo.kelimeler(),
       depo.isaretler(),
+      depo.fotografSayisi(),
     ]);
-    return { tekrar, aktif, kelimeler, isaretler };
+    return { tekrar, aktif, kelimeler, isaretler, fotoSayisi };
   });
   if (!veri) return <Yukleniyor hata={hata} />;
-  const { tekrar, aktif, kelimeler, isaretler } = veri;
+  const { tekrar, aktif, kelimeler, isaretler, fotoSayisi } = veri;
   const simdi = new Date();
   const kartSirada = siradakiler(kelimeler, simdi.getTime()).length;
   const ilkBekleyen = tekrar.sirada.length === 0 ? tekrar.hepsi[0] : undefined;
@@ -97,6 +98,17 @@ export function Yanlislar() {
         <p class="soluk kucuk">Test sırasında işaretlediğin ya da sonuç ekranında kaydettiğin sorular.</p>
         <a class="dugme ikincil genis" href="#/kaydedilenler">
           Listeyi aç
+        </a>
+      </section>
+
+      <section class="kart">
+        <div class="satir-ust">
+          <h2>Fotoğraflarım</h2>
+          <span class="soluk kucuk">{fotoSayisi} fotoğraf</span>
+        </div>
+        <p class="soluk kucuk">Ana sayfadaki kamera düğmesiyle çektiğin soru ve not fotoğrafları.</p>
+        <a class="dugme ikincil genis" href="#/fotograflar">
+          Fotoğrafları aç
         </a>
       </section>
 

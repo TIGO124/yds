@@ -260,6 +260,7 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
         <h2>Yedekleme</h2>
         <p class="soluk kucuk">
           İlerlemen yalnızca bu cihazda saklanır. Özellikle iPhone'da tarayıcı verisi silinebileceği için düzenli yedek al.
+          Fotoğraflar yedeğe dahil değildir.
           {kalici === true && ' Depolama kalıcı olarak işaretlendi.'}
         </p>
         {/* Android uygulamasında ve claude.ai'de dosya kaydedilemiyor: yalnızca panoya kopyalama kalır. */}
