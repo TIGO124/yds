@@ -190,7 +190,8 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
           İlerlemen yalnızca bu cihazda saklanır. Özellikle iPhone'da tarayıcı verisi silinebileceği için düzenli yedek al.
           {kalici === true && ' Depolama kalıcı olarak işaretlendi.'}
         </p>
-        {!ARTIFACT && (
+        {/* Android uygulamasında ve claude.ai'de dosya kaydedilemiyor: yalnızca panoya kopyalama kalır. */}
+        {!ARTIFACT && !yerelUygulama() && (
           <button class="dugme ikincil genis" onClick={yedekAl}>
             İlerlemeyi yedekle (dosya)
           </button>
