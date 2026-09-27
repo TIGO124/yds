@@ -74,11 +74,18 @@ export function surumBilgisiDogrula(v: unknown): SurumBilgisi | null {
   return { surum: b.surum, apk, notlar };
 }
 
+/**
+ * APK, depodaki sürüm etiketinden (v1.2.3) indirilir. Sitedeki adres (tigo124.github.io/yds/...) telefonda
+ * web sürümünün service worker'ına ya da yüklü web uygulamasına takılıp indirme yerine boş sayfa açabiliyor.
+ */
+const APK_DEPOSU = 'https://raw.githubusercontent.com/TIGO124/yds/';
+
 export async function androidSurumDenetle(getir: Getir = (u, s) => fetch(u, s)): Promise<'var' | 'guncel'> {
   const bilgi = surumBilgisiDogrula(await (await zamanAsimli(getir, `${PAKET_ADRESI}surum.json`)).json());
   if (!bilgi) throw new Error('Sürüm bilgisi okunamadı');
   if (!bilgi.apk || surumKarsilastir(bilgi.surum, UYGULAMA_SURUMU) <= 0) return 'guncel';
-  guncellemeBildir({ tur: 'android', surum: bilgi.surum, notlar: bilgi.notlar, adres: `${PAKET_ADRESI}${bilgi.apk}` });
+  const adres = `${APK_DEPOSU}v${bilgi.surum}/${bilgi.apk}`;
+  guncellemeBildir({ tur: 'android', surum: bilgi.surum, notlar: bilgi.notlar, adres });
   return 'var';
 }
 

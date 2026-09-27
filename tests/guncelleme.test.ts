@@ -43,7 +43,8 @@ describe('Android sürüm denetimi', () => {
       tur: 'android',
       surum: '99.0.0',
       notlar: ['Yeni'],
-      adres: 'https://tigo124.github.io/yds/indir/YDS-Calisma.apk',
+      // Site adresi değil: telefondaki web sürümünün service worker'ı onu boş sayfaya çeviriyordu.
+      adres: 'https://raw.githubusercontent.com/TIGO124/yds/v99.0.0/indir/YDS-Calisma.apk',
     });
   });
   it('aynı ya da eski sürümde ve APK yoksa bildirmez', async () => {

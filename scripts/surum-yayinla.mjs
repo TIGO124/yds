@@ -74,7 +74,8 @@ try {
 }
 
 // 4. Yayınla
-const mesaj = [`Sürüm ${yeni}`, ...notlar.map((n) => `- ${n}`)].join('\n');
+// Başlıktan sonra boş satır: yoksa git tüm notları başlık sayar (log'da tek satır görünür).
+const mesaj = [`Sürüm ${yeni}`, '', ...notlar.map((n) => `- ${n}`)].join('\n');
 calistir('git add package.json package-lock.json indir');
 spawnSync('git', ['commit', '-q', '-m', mesaj], { cwd: kok, stdio: 'inherit' });
 calistir(`git tag v${yeni}`);

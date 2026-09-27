@@ -54,6 +54,8 @@ export default defineConfig(({ mode }) => {
           globIgnores: ['**/soru-paketi*.json'],
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
           navigateFallback: 'index.html',
+          // İndirme klasörü (APK) uygulama sayfasına çevrilmesin: aksi hâlde indirme yerine boş sayfa açılır.
+          navigateFallbackDenylist: [/\/indir\//],
         },
       }),
     ],

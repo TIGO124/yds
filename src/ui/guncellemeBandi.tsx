@@ -13,7 +13,7 @@ export async function guncellemeyiUygula(g: Guncelleme): Promise<void> {
   if (g.tur === 'web') return g.uygula();
   const notlar = g.notlar.length ? `\n\nYenilikler:\n• ${g.notlar.join('\n• ')}` : '';
   const evet = await onayla(
-    `Sürüm ${g.surum} indirilecek. İndirme bitince dosyayı aç ve "Güncelle"ye dokun.\n\n` +
+    `Sürüm ${g.surum} indirilecek. Tarayıcı uyarı verirse "Yine de indir"i seç; indirme bitince dosyayı aç ve "Güncelle"ye dokun.\n\n` +
       `Testlerin ve istatistiklerin korunur. Uygulamayı kaldırma, üzerine kur.${notlar}`,
     { onay: 'İndir' },
   );
