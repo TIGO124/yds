@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { bankaSurumu, bankayiOku } from './scripts/banka-surumu.mjs';
 
 // Modlar:
 //  (varsayılan) → dist/          PWA: service worker ile internetsiz çalışır (GitHub Pages / Netlify)
@@ -9,7 +10,13 @@ import { VitePWA } from 'vite-plugin-pwa';
 //  artifact     → dist-artifact/ claude.ai üzerinde paylaşılan sürüm: service worker kullanılamaz
 export default defineConfig(({ mode }) => {
   const swYok = mode === 'android' || mode === 'artifact';
+  // Uygulamaya gömülü bankanın sürümü: Android uygulaması indirilecek paketle karşılaştırır.
+  const { surum } = bankaSurumu(bankayiOku(__dirname));
   return {
+    define: {
+      __BANKA_SURUMU__: JSON.stringify(surum),
+      __BANKA_TARIHI__: String(Date.now()),
+    },
     // Göreli taban: GitHub Pages alt yolunda da Netlify kökünde de çalışır.
     base: './',
     plugins: [
@@ -38,6 +45,8 @@ export default defineConfig(({ mode }) => {
         },
         workbox: {
           globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest}'],
+          // Soru paketi yalnızca Android uygulaması için; web sürümü soruları derlemeyle alır.
+          globIgnores: ['**/soru-paketi*.json'],
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
           navigateFallback: 'index.html',
         },

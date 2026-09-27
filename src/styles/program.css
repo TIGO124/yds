@@ -136,3 +136,21 @@ mark.bosluk {
   border-radius: 4px;
   outline: 1.5px solid var(--primary);
 }
+
+/* ---------- Bildirim ---------- */
+.bildirim {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  top: calc(12px + var(--safe-area-inset-top, env(safe-area-inset-top, 0px)));
+  z-index: 60;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--ok-soft);
+  color: var(--text);
+  border: 1px solid var(--ok);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
+  font-weight: 600;
+}

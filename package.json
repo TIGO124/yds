@@ -2,11 +2,11 @@
   "name": "yds",
   "version": "0.1.0",
   "private": true,
-  "description": "İnternetsiz çalışan YDS hazırlık uygulaması (PWA)",
+  "description": "Ä°nternetsiz Ã§alÄ±ÅŸan YDS hazÄ±rlÄ±k uygulamasÄ± (PWA)",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build && node scripts/soru-paketi.mjs",
     "build:android": "tsc --noEmit && vite build --mode android && cap sync android",
     "build:artifact": "tsc --noEmit && vite build --mode artifact && node scripts/artifact-tek-dosya.mjs",
     "preview": "vite preview",

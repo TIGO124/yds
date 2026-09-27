@@ -34,6 +34,11 @@ export class Depo {
     this.soruMap = new Map(banka.sorular.map((s) => [s.id, s]));
   }
 
+  /** Soru bankası (indirilen paketle) büyüdüğünde çağrılır. */
+  bankaYenilendi(): void {
+    this.soruMap = new Map(this.banka.sorular.map((s) => [s.id, s]));
+  }
+
   async ayarlar(): Promise<Ayarlar> {
     return { ...VARSAYILAN_AYARLAR, ...(await this.db.ayarlar.get('ayarlar')) };
   }

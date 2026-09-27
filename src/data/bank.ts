@@ -1,6 +1,7 @@
 import type { Bolum, Konu, Paragraf, Soru, Taksonomi } from '../types';
 import taksonomi from './konular.json';
 import paragraflar from './paragraflar.json';
+import type { SoruPaketi } from './paket';
 
 const moduller = import.meta.glob<{ default: Soru[] }>('./sorular/*.json', { eager: true });
 
@@ -20,9 +21,55 @@ export const soruParagrafi = (s: Soru): string | null => (s.paragraf_id ? (PARAG
 export const konuAdi = (kod: string) => KONU_MAP.get(kod)?.ad ?? kod;
 export const bolumAdi = (kod: string) => BOLUM_MAP.get(kod)?.ad ?? kod;
 
-const tekKonuluBolumler = new Set(
-  BOLUMLER.filter((b) => KONULAR.filter((k) => k.bolum === b.kod).length === 1).map((b) => b.kod),
-);
+const tekKonuluBolumler = new Set<string>();
+function tekKonuluHesapla() {
+  tekKonuluBolumler.clear();
+  for (const b of BOLUMLER) if (KONULAR.filter((k) => k.bolum === b.kod).length === 1) tekKonuluBolumler.add(b.kod);
+}
+tekKonuluHesapla();
+
+/** Gömülü bankanın sürümü (derleme anında hesaplanır). */
+export const BANKA_SURUMU: string = __BANKA_SURUMU__;
+export const BANKA_TARIHI: number = __BANKA_TARIHI__;
+export let etkinBankaSurumu = BANKA_SURUMU;
+
+/**
+ * İndirilen paketi bankaya yerinde işler: yeni soru/konu/parça eklenir, var olanlar güncellenir.
+ * Diziler ve haritalar aynı nesneler kalır, bu yüzden onları tutan modüller güncel veriyi görür.
+ * Eklenen yeni soru sayısını döndürür.
+ */
+export function paketUygula(p: SoruPaketi): number {
+  for (const b of p.taksonomi.bolumler) {
+    const eski = BOLUM_MAP.get(b.kod);
+    if (eski) Object.assign(eski, b);
+    else {
+      BOLUMLER.push(b);
+      BOLUM_MAP.set(b.kod, b);
+    }
+  }
+  for (const k of p.taksonomi.konular) {
+    const eski = KONU_MAP.get(k.kod);
+    if (eski) Object.assign(eski, k);
+    else {
+      KONULAR.push(k);
+      KONU_MAP.set(k.kod, k);
+    }
+  }
+  for (const pr of p.paragraflar) PARAGRAF_MAP.set(pr.id, pr.metin);
+  let yeni = 0;
+  for (const s of p.sorular) {
+    const eski = SORU_MAP.get(s.id);
+    if (eski) Object.assign(eski, s);
+    else {
+      SORULAR.push(s);
+      SORU_MAP.set(s.id, s);
+      yeni++;
+    }
+  }
+  tekKonuluHesapla();
+  etkinBankaSurumu = p.surum;
+  return yeni;
+}
 
 /** Örn. "Dilbilgisi · Zamanlar · Past Perfect Continuous". Tek konulu bölümlerde konu adı tekrar yazılmaz. */
 export function soruEtiketi(s: Soru): string {

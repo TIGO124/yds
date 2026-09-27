@@ -5,6 +5,7 @@ import type { Ayarlar } from './types';
 import { AnaSayfa } from './ui/AnaSayfa';
 import { AyarlarEkrani } from './ui/AyarlarEkrani';
 import { Ilerleme } from './ui/Ilerleme';
+import { Bildirim } from './ui/bildirim';
 import { OnayKutusu } from './ui/onay';
 import { Yukleniyor } from './ui/ortak';
 import { Program } from './ui/Program';
@@ -101,6 +102,7 @@ export function App() {
     <>
       <Ekran key={gun} ayar={ayar} degistir={degistir} />
       <OnayKutusu />
+      <Bildirim />
     </>
   );
 }

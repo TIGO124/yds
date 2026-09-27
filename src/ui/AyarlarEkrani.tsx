@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { SORULAR } from '../data/bank';
+import { yeniSorulariDenetle } from '../data/guncelleme';
 import { depo } from '../depo';
 import type { Ayarlar } from '../types';
 import { onayla } from './onay';
@@ -11,6 +12,37 @@ const yerelUygulama = () =>
 
 /** claude.ai üzerinde paylaşılan sürüm: dosya indirme ve dosya seçme engelli. */
 const ARTIFACT = import.meta.env.MODE === 'artifact';
+
+/** Android uygulaması: yeni soru paketini elle denetleme. */
+function SoruGuncelleme() {
+  const [durum, setDurum] = useState<{ tur: 'bilgi' | 'hata'; metin: string } | null>(null);
+  const [mesgul, setMesgul] = useState(false);
+  const denetle = async () => {
+    setMesgul(true);
+    setDurum(null);
+    const s = await yeniSorulariDenetle(depo);
+    setMesgul(false);
+    if (s.durum === 'guncel') setDurum({ tur: 'bilgi', metin: 'Soru bankan güncel.' });
+    else if (s.durum === 'guncellendi') setDurum({ tur: 'bilgi', metin: `${s.yeni} yeni soru eklendi. İlerlemen korundu.` });
+    else setDurum({ tur: 'hata', metin: `Denetlenemedi: ${s.mesaj}. İnternet bağlantını kontrol edip yeniden dene.` });
+  };
+  return (
+    <section class="kart">
+      <h2>Yeni sorular</h2>
+      <p class="soluk kucuk">
+        Uygulama açılırken internet varsa yeni soruları kendiliğinden indirir. Testlerin ve istatistiklerin korunur.
+      </p>
+      <button class="dugme ikincil genis" onClick={denetle} disabled={mesgul}>
+        {mesgul ? 'Denetleniyor…' : 'Yeni soruları şimdi denetle'}
+      </button>
+      {durum && (
+        <p class={durum.tur === 'hata' ? 'hata-kutu' : 'bilgi-kutu'} role="status">
+          {durum.metin}
+        </p>
+      )}
+    </section>
+  );
+}
 
 export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Partial<Ayarlar>) => void }) {
   const [mesaj, setMesaj] = useState<{ tur: 'bilgi' | 'hata'; metin: string } | null>(null);
@@ -216,6 +248,8 @@ export function AyarlarEkrani({ ayar, degistir }: { ayar: Ayarlar; degistir: (a:
           İlerlemeyi sıfırla
         </button>
       </section>
+
+      {import.meta.env.MODE === 'android' && <SoruGuncelleme />}
 
       <p class="soluk kucuk orta">Soru bankası: {SORULAR.length} soru · Tüm veriler cihazında, internet gerekmez.</p>
     </Sayfa>

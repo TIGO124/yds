@@ -1,11 +1,18 @@
 import Dexie, { type Table } from 'dexie';
+import type { SoruPaketi } from '../data/paket';
 import type { Ayarlar, CevapKaydi, TeshisTesti, TestKaydi } from '../types';
+
+/** İndirilen soru paketi (tek kayıt, id = 'soru'). */
+export interface PaketKaydi extends SoruPaketi {
+  id: 'soru';
+}
 
 export class YdsDB extends Dexie {
   testler!: Table<TestKaydi, number>;
   cevaplar!: Table<CevapKaydi, number>;
   ayarlar!: Table<Ayarlar, string>;
   teshis_plani!: Table<TeshisTesti, number>;
+  paket!: Table<PaketKaydi, string>;
 
   constructor(ad = 'yds') {
     super(ad);
@@ -15,6 +22,8 @@ export class YdsDB extends Dexie {
       ayarlar: 'id',
       teshis_plani: 'sira_no',
     });
+    // v2: internetten indirilen soru paketi (ilerleme tablolarına dokunulmaz)
+    this.version(2).stores({ paket: 'id' });
   }
 }
 
