@@ -844,5 +844,1499 @@
     "dogru": 1,
     "aciklama": "'Under no circumstances' = hiçbir koşulda = never.",
     "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0048",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "used to",
+    "zorluk": 1,
+    "soru": "My grandfather used to walk five kilometres to school every day.",
+    "secenekler": [
+      "My grandfather wanted to walk to school but couldn't.",
+      "My grandfather is used to walking five kilometres every day.",
+      "My grandfather still walks five kilometres to school every day.",
+      "My grandfather never walked to school.",
+      "When my grandfather was young, he walked five kilometres to school daily."
+    ],
+    "dogru": 4,
+    "aciklama": "'used to' geçmişteki ve artık süren olmayan alışkanlığı anlatır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0049",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "must have",
+    "zorluk": 2,
+    "soru": "The streets are wet, so it must have rained during the night.",
+    "secenekler": [
+      "It rained last night, but the streets dried quickly.",
+      "The streets are wet although it didn't rain.",
+      "It is almost certain that it rained during the night because the streets are wet.",
+      "It might rain tonight, so the streets will be wet.",
+      "It should have rained, but the streets are dry."
+    ],
+    "dogru": 2,
+    "aciklama": "'must have + V3' geçmişe dair güçlü tahmin bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0050",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "can't have",
+    "zorluk": 2,
+    "soru": "She can't have forgotten the meeting; I reminded her this morning.",
+    "secenekler": [
+      "It is impossible that she forgot the meeting, as I reminded her this morning.",
+      "She may have forgotten the meeting.",
+      "She couldn't attend the meeting because she forgot.",
+      "I forgot to remind her about the meeting.",
+      "She forgot the meeting even though I reminded her."
+    ],
+    "dogru": 0,
+    "aciklama": "'can't have + V3' geçmişe dair güçlü olumsuz çıkarımdır: unutmuş olamaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0051",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "should have",
+    "zorluk": 2,
+    "soru": "You should have told me you were coming.",
+    "secenekler": [
+      "I didn't know whether you would come.",
+      "You must tell me when you are coming.",
+      "You told me you were coming, which was right.",
+      "You could have come without telling me.",
+      "It was a mistake not to tell me that you were coming."
+    ],
+    "dogru": 4,
+    "aciklama": "'should have + V3' yapılmamış bir şeye yönelik eleştiridir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0052",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "needn't have",
+    "zorluk": 2,
+    "soru": "You needn't have bought any milk; we already had plenty.",
+    "secenekler": [
+      "It was unnecessary for you to buy milk because we already had enough.",
+      "You forgot to buy milk although we needed it.",
+      "You didn't buy milk because we had plenty.",
+      "We need milk, so please buy some.",
+      "You should buy some milk; we don't have any."
+    ],
+    "dogru": 0,
+    "aciklama": "'needn't have + V3' = yapıldı ama gereksizdi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0053",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It's high time",
+    "zorluk": 3,
+    "soru": "It's high time the government did something about air pollution.",
+    "secenekler": [
+      "The government took action on air pollution at the right time.",
+      "Air pollution is not a problem the government should deal with.",
+      "The government has finally solved the problem of air pollution.",
+      "The government should have acted on air pollution long ago and must do so now.",
+      "The government will act on air pollution in the future."
+    ],
+    "dogru": 3,
+    "aciklama": "'It's high time + past' bir şeyin artık çoktan yapılması gerektiğini bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0054",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "as long as",
+    "zorluk": 1,
+    "soru": "You can borrow my bike as long as you bring it back by six.",
+    "secenekler": [
+      "You can't borrow my bike because I need it at six.",
+      "You can borrow my bike only after six.",
+      "You can borrow my bike on condition that you return it by six.",
+      "You can keep my bike after six.",
+      "You borrowed my bike and returned it at six."
+    ],
+    "dogru": 2,
+    "aciklama": "'as long as' = …mek şartıyla.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0055",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "in case",
+    "zorluk": 2,
+    "soru": "I'll write down your number in case I forget it.",
+    "secenekler": [
+      "I don't need to write down your number because I won't forget it.",
+      "I'll note your number because I might forget it.",
+      "I'll write down your number only if I forget it.",
+      "I forgot your number, so I wrote it down.",
+      "I'll write down your number after I forget it."
+    ],
+    "dogru": 1,
+    "aciklama": "'in case' = olur da …diye, önlem olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0056",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "would rather",
+    "zorluk": 1,
+    "soru": "I'd rather stay at home than go to the party tonight.",
+    "secenekler": [
+      "I prefer staying at home to going to the party tonight.",
+      "I'll go to the party after staying at home.",
+      "I have to stay at home, so I can't go to the party.",
+      "I stayed at home instead of going to the party.",
+      "I'd like to go to the party rather than stay at home."
+    ],
+    "dogru": 0,
+    "aciklama": "'would rather ... than' tercih bildirir; zorunluluk ya da geçmiş anlamı yoktur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0057",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "not as ... as",
+    "zorluk": 1,
+    "soru": "The second book is not as interesting as the first.",
+    "secenekler": [
+      "Neither book is interesting.",
+      "Both books are equally interesting.",
+      "The first book is more interesting than the second.",
+      "The second book is more interesting than the first.",
+      "The second book is the most interesting of all."
+    ],
+    "dogru": 2,
+    "aciklama": "'not as ... as' = …kadar değil; birinci kitap daha ilginçtir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0058",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "no longer",
+    "zorluk": 1,
+    "soru": "He no longer works for the company.",
+    "secenekler": [
+      "He will soon start working for the company.",
+      "He still works for the company.",
+      "He has never worked for the company.",
+      "He used to work for the company, but he doesn't any more.",
+      "He has worked for the company for a long time."
+    ],
+    "dogru": 3,
+    "aciklama": "'no longer' = artık değil; önceden çalışıyordu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0059",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "compulsory",
+    "zorluk": 1,
+    "soru": "Wearing a helmet is compulsory for all cyclists.",
+    "secenekler": [
+      "Helmets are not allowed for cyclists.",
+      "Only professional cyclists wear helmets.",
+      "Cyclists don't need to wear a helmet.",
+      "Cyclists may wear a helmet if they wish.",
+      "All cyclists must wear a helmet."
+    ],
+    "dogru": 4,
+    "aciklama": "'compulsory' = zorunlu; 'must' ile ifade edilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0060",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "is thought to have",
+    "zorluk": 2,
+    "soru": "The fire is thought to have started in the kitchen.",
+    "secenekler": [
+      "The fire did not start in the kitchen.",
+      "People believe that the fire began in the kitchen.",
+      "The fire will probably start in the kitchen.",
+      "It has been proved that the fire started in the kitchen.",
+      "Someone thought about starting a fire in the kitchen."
+    ],
+    "dogru": 1,
+    "aciklama": "'is thought to have + V3' geçmişe dair kesin olmayan bir kanaattir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0061",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "hardly ever",
+    "zorluk": 1,
+    "soru": "My brother hardly ever eats vegetables.",
+    "secenekler": [
+      "My brother almost never eats vegetables.",
+      "My brother eats vegetables every day.",
+      "My brother has stopped eating vegetables completely.",
+      "My brother often eats vegetables.",
+      "My brother eats vegetables only with difficulty."
+    ],
+    "dogru": 0,
+    "aciklama": "'hardly ever' = neredeyse hiç; 'almost never' ile eş anlamlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0062",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "in spite of",
+    "zorluk": 1,
+    "soru": "In spite of his injury, he finished the race.",
+    "secenekler": [
+      "Because he was injured, he couldn't finish the race.",
+      "He got injured after finishing the race.",
+      "Although he was injured, he completed the race.",
+      "He didn't finish the race although he wasn't injured.",
+      "He finished the race and then got injured."
+    ],
+    "dogru": 2,
+    "aciklama": "'In spite of' = …e rağmen; sakatlık yarışı bitirmesine engel olmadı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0063",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "so as to",
+    "zorluk": 1,
+    "soru": "She saved money every month so as to buy a house.",
+    "secenekler": [
+      "She saved money because she had bought a house.",
+      "She saved money although she didn't want a house.",
+      "She bought a house, so she couldn't save money.",
+      "She saved money every month in order to buy a house.",
+      "She bought a house every month."
+    ],
+    "dogru": 3,
+    "aciklama": "'so as to' = 'in order to' = …mek için.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0064",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "not worth",
+    "zorluk": 2,
+    "soru": "It's not worth repairing this old printer.",
+    "secenekler": [
+      "This old printer can't be repaired.",
+      "Repairing this old printer would be a waste of money and effort.",
+      "Repairing printers is always cheap.",
+      "This old printer is worth a lot of money.",
+      "We should repair this printer immediately."
+    ],
+    "dogru": 1,
+    "aciklama": "'not worth + V-ing' = …meye değmez; tamirin mümkün olmadığı söylenmiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0065",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "whether or not",
+    "zorluk": 2,
+    "soru": "Whether or not you agree, the decision has already been made.",
+    "secenekler": [
+      "If you don't agree, the decision will be cancelled.",
+      "The decision depends on whether you agree.",
+      "You agreed with the decision that was made.",
+      "The decision will be made after you agree.",
+      "The decision has been made, and your agreement will not change it."
+    ],
+    "dogru": 4,
+    "aciklama": "'Whether or not' = …sen de …mesen de; karar değişmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0066",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "Only when",
+    "zorluk": 3,
+    "soru": "Only when the lights went out did we realise how late it was.",
+    "secenekler": [
+      "We realised it was late, so we turned out the lights.",
+      "We didn't realise how late it was until the lights went out.",
+      "When the lights went out, we realised it was early.",
+      "The lights went out because it was late.",
+      "We realised how late it was before the lights went out."
+    ],
+    "dogru": 1,
+    "aciklama": "'Only when ...' = ancak … olunca; 'not ... until' ile aynı anlamdadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0067",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "Had I known",
+    "zorluk": 3,
+    "soru": "Had I known about the traffic, I would have taken the train.",
+    "secenekler": [
+      "I didn't know about the traffic, so I didn't take the train.",
+      "I don't know whether there will be traffic.",
+      "If there is traffic, I will take the train.",
+      "I took the train because of the traffic.",
+      "I knew about the traffic, so I took the train."
+    ],
+    "dogru": 0,
+    "aciklama": "Devrik Type 3: geçmişte gerçekleşmemiş koşul; trafik bilinmedi, trene binilmedi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0068",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "as a result of",
+    "zorluk": 1,
+    "soru": "As a result of the strike, many flights were cancelled.",
+    "secenekler": [
+      "The strike was called off because flights were cancelled.",
+      "Many flights were cancelled, which led to a strike.",
+      "Flights were cancelled before the strike started.",
+      "The strike caused the cancellation of many flights.",
+      "Despite the strike, most flights operated normally."
+    ],
+    "dogru": 3,
+    "aciklama": "Neden grevdir, sonuç iptallerdir; yön korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0069",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "the same as",
+    "zorluk": 1,
+    "soru": "Her opinion on the matter is the same as mine.",
+    "secenekler": [
+      "She has no opinion on the matter.",
+      "Her opinion is completely different from mine.",
+      "I don't know her opinion on the matter.",
+      "She changed her opinion after hearing mine.",
+      "She and I think the same about the matter."
+    ],
+    "dogru": 4,
+    "aciklama": "'the same as' = …ile aynı; iki görüş de aynıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0070",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "can't help",
+    "zorluk": 2,
+    "soru": "I couldn't help laughing when he fell into the pool.",
+    "secenekler": [
+      "I helped him out of the pool while laughing.",
+      "He laughed when I fell into the pool.",
+      "I was unable to stop myself from laughing when he fell into the pool.",
+      "I didn't laugh when he fell into the pool.",
+      "I couldn't help him when he fell into the pool."
+    ],
+    "dogru": 2,
+    "aciklama": "'can't help + V-ing' = kendini …mekten alamamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0071",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It's no use",
+    "zorluk": 2,
+    "soru": "It's no use complaining about the weather.",
+    "secenekler": [
+      "Complaining about the weather is useful.",
+      "It is necessary to complain about the weather.",
+      "The weather has improved, so there are no complaints.",
+      "People never complain about the weather.",
+      "Complaining about the weather is pointless."
+    ],
+    "dogru": 4,
+    "aciklama": "'It's no use + V-ing' = …mekte fayda yok.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0072",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "few",
+    "zorluk": 1,
+    "soru": "Few tourists visit the island in winter.",
+    "secenekler": [
+      "No tourists visit the island at all.",
+      "Tourists prefer visiting the island in winter.",
+      "Not many tourists visit the island in winter.",
+      "The island is closed to tourists in winter.",
+      "A lot of tourists visit the island in winter."
+    ],
+    "dogru": 2,
+    "aciklama": "'Few' = çok az (olumsuz vurgu), ama hiç değil.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0073",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "so that",
+    "zorluk": 1,
+    "soru": "I set two alarms so that I wouldn't oversleep.",
+    "secenekler": [
+      "I didn't set any alarms because I never oversleep.",
+      "I set two alarms to make sure I didn't oversleep.",
+      "I overslept because I set two alarms.",
+      "I overslept, so I set two alarms.",
+      "I set two alarms, but I still overslept."
+    ],
+    "dogru": 1,
+    "aciklama": "'so that' amaç bildirir: uyuyakalmamak için.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0074",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "even though",
+    "zorluk": 1,
+    "soru": "Even though he's very rich, he lives in a small flat.",
+    "secenekler": [
+      "He lives in a small flat despite being very rich.",
+      "He's rich, so he bought a small flat as an investment.",
+      "He lives in a small flat because he isn't rich.",
+      "Since he's rich, he lives in a large house.",
+      "He became rich after moving to a small flat."
+    ],
+    "dogru": 0,
+    "aciklama": "'Even though' zıtlık bildirir; 'despite' ile aynı anlamı verir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0075",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "I'd rather you didn't",
+    "zorluk": 2,
+    "soru": "I'd rather you didn't smoke in the car.",
+    "secenekler": [
+      "You didn't smoke in the car, which I liked.",
+      "You are allowed to smoke in the car.",
+      "I don't mind if you smoke in the car.",
+      "I would prefer you not to smoke in the car.",
+      "I'd like to smoke in the car."
+    ],
+    "dogru": 3,
+    "aciklama": "'I'd rather you didn't' kibar bir rica/tercih bildirir; geçmiş anlamı yoktur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0076",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "be likely to",
+    "zorluk": 1,
+    "soru": "Sales are likely to fall next year.",
+    "secenekler": [
+      "Sales will probably decrease next year.",
+      "Sales have never fallen.",
+      "Sales will not change next year.",
+      "Sales will definitely increase next year.",
+      "Sales fell last year."
+    ],
+    "dogru": 0,
+    "aciklama": "'be likely to' = muhtemelen …ecek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0077",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "both",
+    "zorluk": 1,
+    "soru": "Both my parents are teachers.",
+    "secenekler": [
+      "My parents used to be students.",
+      "My parents want me to be a teacher.",
+      "Neither of my parents is a teacher.",
+      "My mother and my father are teachers.",
+      "One of my parents is a teacher."
+    ],
+    "dogru": 3,
+    "aciklama": "'Both' = her ikisi; anne ve baba öğretmendir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0078",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "so far",
+    "zorluk": 1,
+    "soru": "So far, nobody has been able to solve the puzzle.",
+    "secenekler": [
+      "The puzzle was solved a long time ago.",
+      "Up to now, the puzzle has not been solved by anyone.",
+      "Everybody solved the puzzle quickly.",
+      "Nobody will ever solve the puzzle.",
+      "Somebody is solving the puzzle now."
+    ],
+    "dogru": 1,
+    "aciklama": "'So far' = şimdiye kadar; gelecek hakkında bir şey söylenmiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0079",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "for the time being",
+    "zorluk": 2,
+    "soru": "For the time being, the shop will stay closed on Sundays.",
+    "secenekler": [
+      "The shop will open on Sundays from now on.",
+      "The shop will be closed on Sundays forever.",
+      "The shop has always been open on Sundays.",
+      "The shop was closed last Sunday.",
+      "At present, the shop will not open on Sundays, but this may change."
+    ],
+    "dogru": 4,
+    "aciklama": "'For the time being' = şimdilik; kalıcı değildir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0080",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "on the verge of",
+    "zorluk": 3,
+    "soru": "The species is on the verge of extinction.",
+    "secenekler": [
+      "The species has recovered from extinction.",
+      "The species is not in any danger.",
+      "The species is about to become extinct.",
+      "The species is increasing in number.",
+      "The species became extinct long ago."
+    ],
+    "dogru": 2,
+    "aciklama": "'on the verge of' = …in eşiğinde, …mek üzere.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0081",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It doesn't matter",
+    "zorluk": 1,
+    "soru": "It doesn't matter to me where we eat tonight.",
+    "secenekler": [
+      "I don't want to eat tonight.",
+      "We ate at a place I didn't like.",
+      "I want to eat at a particular place tonight.",
+      "I don't mind where we eat tonight.",
+      "It matters a lot where we eat tonight."
+    ],
+    "dogru": 3,
+    "aciklama": "'It doesn't matter to me' = benim için fark etmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0082",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "be about to",
+    "zorluk": 1,
+    "soru": "I was about to leave when the phone rang.",
+    "secenekler": [
+      "I didn't leave because the phone never rang.",
+      "The phone rang after I had left.",
+      "The phone rang just as I was going to leave.",
+      "I left before the phone rang.",
+      "I rang someone before leaving."
+    ],
+    "dogru": 2,
+    "aciklama": "'was about to' = …mek üzereydim; telefon tam o sırada çaldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0083",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "as soon as",
+    "zorluk": 1,
+    "soru": "Call me as soon as you arrive at the hotel.",
+    "secenekler": [
+      "Call me immediately after you get to the hotel.",
+      "Call me while you are going to the hotel.",
+      "I'll call you when you arrive.",
+      "Don't call me until tomorrow.",
+      "Call me before you arrive at the hotel."
+    ],
+    "dogru": 0,
+    "aciklama": "'as soon as' = …ır …maz; varınca hemen ara.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0084",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "can't stand",
+    "zorluk": 1,
+    "soru": "I can't stand waiting in long queues.",
+    "secenekler": [
+      "I enjoy waiting in queues.",
+      "I really hate waiting in long queues.",
+      "I can't wait in queues because I'm busy.",
+      "I have never waited in a queue.",
+      "I don't mind waiting in long queues."
+    ],
+    "dogru": 1,
+    "aciklama": "'can't stand' = dayanamamak, nefret etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0085",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "be capable of",
+    "zorluk": 2,
+    "soru": "The new aircraft is capable of flying non-stop for twenty hours.",
+    "secenekler": [
+      "The new aircraft will be tested for twenty hours.",
+      "The new aircraft must stop every twenty hours.",
+      "The new aircraft has already flown for twenty hours.",
+      "The new aircraft cannot fly for more than two hours.",
+      "The new aircraft can fly for twenty hours without stopping."
+    ],
+    "dogru": 4,
+    "aciklama": "'be capable of' = …ebilecek kapasitede olmak; yetenek bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0086",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It is essential that",
+    "zorluk": 2,
+    "soru": "It is essential that the samples be kept at a low temperature.",
+    "secenekler": [
+      "Low temperatures damage the samples.",
+      "The samples must be stored at a low temperature.",
+      "The samples can be stored at any temperature.",
+      "It doesn't matter where the samples are kept.",
+      "The samples were accidentally kept at a low temperature."
+    ],
+    "dogru": 1,
+    "aciklama": "'It is essential that' zorunluluk bildirir; 'must' ile ifade edilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0087",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "tend to",
+    "zorluk": 2,
+    "soru": "People tend to underestimate how much time a task will take.",
+    "secenekler": [
+      "People always know exactly how long a task will take.",
+      "People usually think tasks take longer than they do.",
+      "People never plan their time.",
+      "Tasks always take less time than planned.",
+      "People generally think a task will take less time than it actually does."
+    ],
+    "dogru": 4,
+    "aciklama": "'underestimate' = olduğundan az tahmin etmek; 'tend to' genel eğilim bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0088",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "none of",
+    "zorluk": 2,
+    "soru": "None of the solutions proposed so far has proved effective.",
+    "secenekler": [
+      "The solutions will be proposed later.",
+      "No solutions have been proposed so far.",
+      "All the proposed solutions have been effective.",
+      "Every solution suggested up to now has failed to work.",
+      "One of the proposed solutions has worked well."
+    ],
+    "dogru": 3,
+    "aciklama": "'None of' = hiçbiri; önerilen çözümlerin hepsi başarısız oldu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0089",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "was supposed to",
+    "zorluk": 2,
+    "soru": "The package was supposed to arrive yesterday.",
+    "secenekler": [
+      "The package will arrive tomorrow as planned.",
+      "The package arrived yesterday as expected.",
+      "The package was expected to arrive yesterday, but it didn't.",
+      "Nobody expected the package to arrive.",
+      "The package arrived earlier than expected."
+    ],
+    "dogru": 2,
+    "aciklama": "'was supposed to' beklenen ama gerçekleşmeyen durumu anlatır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0090",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "such ... that",
+    "zorluk": 1,
+    "soru": "It was such a beautiful day that we decided to have lunch outside.",
+    "secenekler": [
+      "The day was so lovely that we chose to eat lunch outdoors.",
+      "The weather was bad, so we ate indoors.",
+      "We had lunch outside, so the day became beautiful.",
+      "We decided to eat outside before we saw the weather.",
+      "Although the day was beautiful, we ate inside."
+    ],
+    "dogru": 0,
+    "aciklama": "'such ... that' neden-sonuç bildirir: gün güzel olduğu için dışarıda yendi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0091",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "unless",
+    "zorluk": 1,
+    "soru": "You won't pass the exam unless you study harder.",
+    "secenekler": [
+      "If you don't study harder, you won't pass the exam.",
+      "You passed the exam because you studied hard.",
+      "You won't pass the exam even if you study harder.",
+      "If you study harder, you will fail the exam.",
+      "You will pass the exam even if you don't study."
+    ],
+    "dogru": 0,
+    "aciklama": "'unless' = 'if not'; daha çok çalışmazsan geçemezsin.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0092",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It was careless of",
+    "zorluk": 1,
+    "soru": "It was careless of you to leave the door unlocked.",
+    "secenekler": [
+      "Someone else left the door unlocked.",
+      "You forgot to leave the door open.",
+      "You locked the door carefully.",
+      "Leaving the door unlocked was a good idea.",
+      "You were careless to leave the door unlocked."
+    ],
+    "dogru": 4,
+    "aciklama": "'It was careless of you to' = …man dikkatsizlikti; kapıyı açık bırakan sensin.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0093",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "whereas",
+    "zorluk": 1,
+    "soru": "Whereas my sister loves travelling, I prefer staying at home.",
+    "secenekler": [
+      "My sister and I both love travelling.",
+      "I love travelling, but my sister prefers staying at home.",
+      "My sister enjoys travelling, but I would rather stay at home.",
+      "My sister travels because I stay at home.",
+      "Neither my sister nor I like travelling."
+    ],
+    "dogru": 2,
+    "aciklama": "'Whereas' iki kişiyi karşılaştırır; kimin neyi sevdiği korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0094",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "has yet to",
+    "zorluk": 2,
+    "soru": "The company has yet to make a profit.",
+    "secenekler": [
+      "The company is making a big profit now.",
+      "The company has not made a profit so far.",
+      "The company made a profit last year.",
+      "The company has always been profitable.",
+      "The company will never make a profit."
+    ],
+    "dogru": 1,
+    "aciklama": "'has yet to' = henüz …medi (ama bekleniyor).",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0095",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It is advisable",
+    "zorluk": 2,
+    "soru": "It is advisable to book tickets well in advance.",
+    "secenekler": [
+      "Tickets are only sold on the day.",
+      "Booking tickets in advance is impossible.",
+      "You don't need to book tickets.",
+      "You are recommended to reserve tickets early.",
+      "You must not book tickets in advance."
+    ],
+    "dogru": 3,
+    "aciklama": "'It is advisable' = tavsiye edilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0096",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "is said to have",
+    "zorluk": 2,
+    "soru": "He is said to have written the novel in just three weeks.",
+    "secenekler": [
+      "People say that he wrote the novel in only three weeks.",
+      "He said that he would write the novel in three weeks.",
+      "It is known for certain that he wrote the novel in three weeks.",
+      "It took him three years to write the novel.",
+      "He is writing a novel that will take three weeks."
+    ],
+    "dogru": 0,
+    "aciklama": "'is said to have + V3' geçmişe dair söylentiyi aktarır; kesinlik bildirmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0097",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "no matter what",
+    "zorluk": 1,
+    "soru": "No matter what happens, I'll support you.",
+    "secenekler": [
+      "I can't support you if something happens.",
+      "What happens doesn't interest me.",
+      "I'll support you whatever happens.",
+      "I'll support you only if nothing bad happens.",
+      "Nothing will happen, so I'll support you."
+    ],
+    "dogru": 2,
+    "aciklama": "'No matter what' = ne olursa olsun; destek koşulsuzdur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0098",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "all the same",
+    "zorluk": 2,
+    "soru": "It was raining heavily; all the same, we went for a walk.",
+    "secenekler": [
+      "It started raining after our walk.",
+      "We didn't go for a walk because it was raining.",
+      "We went for a walk because it had stopped raining.",
+      "We went for a walk even though it was raining heavily.",
+      "It was raining all day, so we stayed in."
+    ],
+    "dogru": 3,
+    "aciklama": "'all the same' = yine de; zıtlık bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0099",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "Were it not for",
+    "zorluk": 3,
+    "soru": "Were it not for the internet, working from home would be impossible.",
+    "secenekler": [
+      "Working from home was possible before the internet.",
+      "Working from home is only possible because of the internet.",
+      "People who work from home don't use the internet.",
+      "Without working from home, the internet would not exist.",
+      "The internet makes working from home impossible."
+    ],
+    "dogru": 1,
+    "aciklama": "'Were it not for' = …olmasaydı; evden çalışmayı mümkün kılan internettir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0100",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "the latter",
+    "zorluk": 2,
+    "soru": "Of the two proposals, the latter seems more practical.",
+    "secenekler": [
+      "The first proposal seems more practical.",
+      "The two proposals were made later.",
+      "Neither proposal is practical.",
+      "Both proposals seem equally practical.",
+      "The second of the two proposals seems more practical."
+    ],
+    "dogru": 4,
+    "aciklama": "'the latter' = ikincisi, sonra anılan.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0101",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "barely",
+    "zorluk": 2,
+    "soru": "We barely had enough time to catch the train.",
+    "secenekler": [
+      "We only just had enough time to catch the train.",
+      "We had plenty of time to catch the train.",
+      "We missed the train because we had no time.",
+      "We caught the train early.",
+      "We had time, but we didn't catch the train."
+    ],
+    "dogru": 0,
+    "aciklama": "'barely' = ancak, kıl payı; treni yakaladılar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0102",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "not ... until",
+    "zorluk": 2,
+    "soru": "Children don't usually start reading until they are about six.",
+    "secenekler": [
+      "Six-year-old children don't like reading.",
+      "Most children begin to read at around the age of six.",
+      "Children stop reading when they are six.",
+      "Children never read before the age of ten.",
+      "Most children can read before they are six."
+    ],
+    "dogru": 1,
+    "aciklama": "'not ... until' = ancak …de; okuma altı yaş civarında başlar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0103",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "regardless of",
+    "zorluk": 2,
+    "soru": "Everyone will receive the same bonus regardless of their position.",
+    "secenekler": [
+      "Employees in higher positions will get larger bonuses.",
+      "Only senior staff will receive a bonus.",
+      "Bonuses will depend on each employee's position.",
+      "All employees will get the same bonus, whatever their position.",
+      "Nobody will receive a bonus this year."
+    ],
+    "dogru": 3,
+    "aciklama": "'regardless of' = …e bakılmaksızın.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0104",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "could hardly",
+    "zorluk": 2,
+    "soru": "I could hardly believe my eyes when I saw the result.",
+    "secenekler": [
+      "The result was exactly what I expected.",
+      "I didn't look at the result.",
+      "I easily believed the result.",
+      "I couldn't see the result clearly.",
+      "I found it very difficult to believe the result I saw."
+    ],
+    "dogru": 4,
+    "aciklama": "'could hardly' = neredeyse …emedim; inanmakta zorlandım.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0105",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "prevent ... from",
+    "zorluk": 1,
+    "soru": "The heavy snow prevented us from reaching the village.",
+    "secenekler": [
+      "The villagers prevented us from entering because of the snow.",
+      "We reached the village before it snowed.",
+      "We couldn't get to the village because of the heavy snow.",
+      "We reached the village despite the heavy snow.",
+      "The heavy snow started after we reached the village."
+    ],
+    "dogru": 2,
+    "aciklama": "'prevent sb from' = …i …mekten alıkoymak; köye varamadılar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0106",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It's a pity",
+    "zorluk": 1,
+    "soru": "It's a pity you couldn't come to the wedding.",
+    "secenekler": [
+      "The wedding was cancelled.",
+      "You came to the wedding, which was nice.",
+      "I'm sorry that you weren't able to attend the wedding.",
+      "I'm glad you didn't come to the wedding.",
+      "You didn't want to come to the wedding."
+    ],
+    "dogru": 2,
+    "aciklama": "'It's a pity' = ne yazık ki; üzüntü bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0107",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "on the contrary",
+    "zorluk": 2,
+    "soru": "The medicine didn't make him feel better; on the contrary, it made him worse.",
+    "secenekler": [
+      "The medicine had no effect on him.",
+      "He stopped taking the medicine because he felt better.",
+      "He felt worse before taking the medicine.",
+      "Instead of improving his condition, the medicine made it worse.",
+      "The medicine made him feel much better."
+    ],
+    "dogru": 3,
+    "aciklama": "'on the contrary' = tam tersine; ilaç durumunu kötüleştirdi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0108",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "twice as ... as",
+    "zorluk": 1,
+    "soru": "The new bridge is twice as long as the old one.",
+    "secenekler": [
+      "The old bridge is twice as long as the new one.",
+      "The old bridge is half as long as the new one.",
+      "The two bridges are the same length.",
+      "The new bridge was built twice.",
+      "The new bridge is slightly longer than the old one."
+    ],
+    "dogru": 1,
+    "aciklama": "Yeni köprü eskinin iki katı uzunluktaysa eski köprü yeninin yarısı kadardır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0109",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "would sooner",
+    "zorluk": 2,
+    "soru": "I'd sooner walk than wait an hour for the bus.",
+    "secenekler": [
+      "I prefer walking to waiting an hour for the bus.",
+      "I walked for an hour to the bus stop.",
+      "The bus comes every hour, so I walk.",
+      "I don't mind waiting for the bus.",
+      "I'd prefer to wait for the bus rather than walk."
+    ],
+    "dogru": 0,
+    "aciklama": "'would sooner ... than' = 'would rather ... than'; tercih yürümektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0110",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "The reason why",
+    "zorluk": 1,
+    "soru": "The reason why he left was that he had found a better job.",
+    "secenekler": [
+      "He didn't leave because the job was better.",
+      "He left although he hadn't found a better job.",
+      "He found a better job after he left.",
+      "He left in order to look for a better job.",
+      "He left because he had found a better job."
+    ],
+    "dogru": 4,
+    "aciklama": "Ayrılma nedeni daha iyi bir iş bulmuş olmasıdır; iş ayrılmadan önce bulunmuştu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0111",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It's likely that",
+    "zorluk": 1,
+    "soru": "It's likely that the meeting will be postponed.",
+    "secenekler": [
+      "The meeting will be cancelled completely.",
+      "Nobody knows when the meeting was held.",
+      "The meeting will probably be put off.",
+      "The meeting will certainly take place as planned.",
+      "The meeting was postponed yesterday."
+    ],
+    "dogru": 2,
+    "aciklama": "'likely' olasılık bildirir; 'postpone' = 'put off'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0112",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "succeed in",
+    "zorluk": 1,
+    "soru": "The team succeeded in finding a cure for the disease.",
+    "secenekler": [
+      "The team managed to find a cure for the disease.",
+      "The team found the disease, not the cure.",
+      "The team failed to find a cure.",
+      "The team is still looking for a cure.",
+      "The team was successful before the disease appeared."
+    ],
+    "dogru": 0,
+    "aciklama": "'succeed in + V-ing' = 'manage to' = başarmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0113",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "As far as I know",
+    "zorluk": 2,
+    "soru": "As far as I know, the train service will resume next month.",
+    "secenekler": [
+      "Trains have been running normally all year.",
+      "Nobody knows when the trains will start running.",
+      "The trains stopped running last month.",
+      "According to my information, trains will start running again next month.",
+      "I'm certain that trains will never run again."
+    ],
+    "dogru": 3,
+    "aciklama": "'As far as I know' = bildiğim kadarıyla; 'resume' = yeniden başlamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0114",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It makes no difference",
+    "zorluk": 1,
+    "soru": "It makes no difference whether you pay by cash or card.",
+    "secenekler": [
+      "Paying by cash is cheaper than paying by card.",
+      "You must pay by card.",
+      "You can't pay by cash or card.",
+      "Paying by card makes a big difference.",
+      "Paying by cash or card is equally acceptable."
+    ],
+    "dogru": 4,
+    "aciklama": "'It makes no difference' = fark etmez; iki yöntem de kabul edilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0115",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "forbidden",
+    "zorluk": 1,
+    "soru": "Taking photographs inside the museum is forbidden.",
+    "secenekler": [
+      "The museum sells photographs.",
+      "You are not allowed to take photos inside the museum.",
+      "You must take photos inside the museum.",
+      "You can take photos inside the museum.",
+      "Only professional photographers can work in the museum."
+    ],
+    "dogru": 1,
+    "aciklama": "'forbidden' = yasak; 'not allowed' ile eş anlamlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0116",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "Seldom",
+    "zorluk": 3,
+    "soru": "Seldom have I met such a generous person.",
+    "secenekler": [
+      "I often meet generous people like this.",
+      "I have rarely met anyone as generous as this person.",
+      "I met this person only once.",
+      "This person is not very generous.",
+      "I have never met a generous person."
+    ],
+    "dogru": 1,
+    "aciklama": "Devrik 'Seldom' = nadiren; bu kadar cömert birine nadiren rastladım.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0117",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "all but",
+    "zorluk": 3,
+    "soru": "The village was all but destroyed by the flood.",
+    "secenekler": [
+      "Only a small part of the village was damaged.",
+      "Everything except the village was destroyed by the flood.",
+      "The village was completely rebuilt after the flood.",
+      "The flood did not damage the village at all.",
+      "The flood almost completely destroyed the village."
+    ],
+    "dogru": 4,
+    "aciklama": "'all but + V3' = neredeyse tamamen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0118",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "In addition to",
+    "zorluk": 1,
+    "soru": "In addition to French, she speaks German and Italian.",
+    "secenekler": [
+      "She speaks only French.",
+      "She speaks German and Italian but not French.",
+      "She is learning French in addition to German.",
+      "She speaks French, German and Italian.",
+      "She speaks French better than German and Italian."
+    ],
+    "dogru": 3,
+    "aciklama": "'In addition to' = …e ek olarak; üç dil de konuşuluyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0119",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "be used to",
+    "zorluk": 2,
+    "soru": "He is used to getting up early.",
+    "secenekler": [
+      "Getting up early is not difficult for him because he does it regularly.",
+      "He used to get up early, but now he doesn't.",
+      "He has never got up early.",
+      "He will start getting up early.",
+      "He doesn't like getting up early."
+    ],
+    "dogru": 0,
+    "aciklama": "'be used to + V-ing' = alışkın olmak; 'used to' ile karıştırılmamalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0120",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "would have liked",
+    "zorluk": 2,
+    "soru": "I would have liked to visit the castle, but there wasn't time.",
+    "secenekler": [
+      "I didn't want to visit the castle.",
+      "There was time, but the castle was closed.",
+      "I wanted to visit the castle, but I didn't have enough time.",
+      "I visited the castle because I had time.",
+      "I will visit the castle next time."
+    ],
+    "dogru": 2,
+    "aciklama": "'would have liked to' gerçekleşmemiş bir isteği anlatır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0121",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "It is unclear",
+    "zorluk": 1,
+    "soru": "It is still unclear what caused the explosion.",
+    "secenekler": [
+      "The explosion caused a lot of confusion.",
+      "There was no explosion.",
+      "Experts know exactly why the explosion happened.",
+      "The cause of the explosion is not yet known.",
+      "The cause of the explosion was clearly identified."
+    ],
+    "dogru": 3,
+    "aciklama": "'still unclear' = hâlâ belirsiz; neden bilinmiyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0122",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "might as well",
+    "zorluk": 3,
+    "soru": "The last bus has gone, so we might as well walk.",
+    "secenekler": [
+      "We walked because we missed the first bus.",
+      "Since the last bus has left, walking is the best option available.",
+      "We might take the bus or walk.",
+      "We should wait for the next bus.",
+      "The bus is faster than walking."
+    ],
+    "dogru": 1,
+    "aciklama": "'might as well' = başka seçenek olmadığından …sek iyi olur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0123",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "be due to",
+    "zorluk": 2,
+    "soru": "The train is due to arrive at 10:30.",
+    "secenekler": [
+      "The train will leave at 10:30.",
+      "The train arrived at 10:30.",
+      "The train is scheduled to arrive at 10:30.",
+      "The train is late because of the weather.",
+      "The train always arrives at 10:30."
+    ],
+    "dogru": 2,
+    "aciklama": "'be due to + V' = …mesi planlanmış olmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0124",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "keep sb waiting",
+    "zorluk": 1,
+    "soru": "I'm sorry to have kept you waiting.",
+    "secenekler": [
+      "I apologise for making you wait.",
+      "I'm sorry you couldn't wait.",
+      "I'm sorry that I have to wait for you.",
+      "You've kept me waiting for a long time.",
+      "I'm sorry you'll have to wait."
+    ],
+    "dogru": 0,
+    "aciklama": "'to have kept you waiting' = seni beklettiğim için; bekleyen karşı taraftır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0125",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "Only after",
+    "zorluk": 3,
+    "soru": "Only after the storm had passed were the roads reopened.",
+    "secenekler": [
+      "The roads were reopened before the storm passed.",
+      "The storm passed after the roads had been reopened.",
+      "The storm closed the roads permanently.",
+      "The roads remained closed after the storm.",
+      "The roads were not reopened until the storm had passed."
+    ],
+    "dogru": 4,
+    "aciklama": "'Only after ...' = ancak …den sonra; yollar fırtına geçince açıldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0126",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "may well",
+    "zorluk": 2,
+    "soru": "The project may well take longer than expected.",
+    "secenekler": [
+      "It is quite likely that the project will take more time than planned.",
+      "The project cannot take longer than planned.",
+      "The project was expected to take a long time.",
+      "The project will definitely finish early.",
+      "The project took longer than expected."
+    ],
+    "dogru": 0,
+    "aciklama": "'may well' = büyük ihtimalle; güçlü olasılık bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0127",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "in charge of",
+    "zorluk": 1,
+    "soru": "Mrs Arslan is in charge of the marketing department.",
+    "secenekler": [
+      "Mrs Arslan works as an assistant in marketing.",
+      "Mrs Arslan is being charged by the marketing department.",
+      "Mrs Arslan has left the marketing department.",
+      "Mrs Arslan pays for marketing.",
+      "Mrs Arslan is responsible for managing the marketing department."
+    ],
+    "dogru": 4,
+    "aciklama": "'in charge of' = …den sorumlu, …in başında.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0128",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "rather than",
+    "zorluk": 1,
+    "soru": "The course focuses on practical skills rather than theory.",
+    "secenekler": [
+      "The course has no practical component.",
+      "The course concentrates more on practical skills than on theory.",
+      "The course gives equal weight to theory and practice.",
+      "The course is mainly theoretical.",
+      "The course teaches theory before practice."
+    ],
+    "dogru": 1,
+    "aciklama": "'rather than' = …den ziyade; ağırlık uygulamadadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0129",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "run out of",
+    "zorluk": 1,
+    "soru": "We've run out of printer paper.",
+    "secenekler": [
+      "We are running to buy printer paper.",
+      "We have bought new printer paper.",
+      "There is no printer paper left.",
+      "The printer isn't working.",
+      "We have plenty of printer paper."
+    ],
+    "dogru": 2,
+    "aciklama": "'run out of' = tükenmek, bitmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "yakin_anlam-0130",
+    "bolum": "yakin_anlam",
+    "konu": "yakin_anlam",
+    "alt_konu": "neither of",
+    "zorluk": 1,
+    "soru": "Neither of the candidates has enough experience.",
+    "secenekler": [
+      "Neither candidate applied for the job.",
+      "One of the candidates has enough experience.",
+      "The candidates don't want experience.",
+      "Both candidates lack sufficient experience.",
+      "Both candidates have plenty of experience."
+    ],
+    "dogru": 3,
+    "aciklama": "'Neither of' = ikisinin hiçbiri; iki adayın da deneyimi yetersiz.",
+    "paragraf_id": null
   }
 ]

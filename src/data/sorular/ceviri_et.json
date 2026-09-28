@@ -826,5 +826,1877 @@
     "dogru": 2,
     "aciklama": "'have yet to be confirmed' = henüz doğrulanmamış; 'suggest a link' = bağlantı olduğunu düşündürüyor.",
     "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0047",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "although",
+    "zorluk": 1,
+    "soru": "Although the new law was passed two years ago, it has still not been fully implemented.",
+    "secenekler": [
+      "Yeni yasanın tam olarak uygulanabilmesi için iki yıl önce kabul edilmesi gerekiyordu.",
+      "Yeni yasa iki yıl içinde kabul edilmezse tam olarak uygulanamayacaktır.",
+      "Yeni yasa iki yıl önce kabul edilmiş ve o zamandan beri tam olarak uygulanmaktadır.",
+      "Yeni yasa iki yıl önce kabul edilmiş olmasına rağmen hâlâ tam olarak uygulanmamıştır.",
+      "Yeni yasa iki yıl önce kabul edildiği için hâlâ tam olarak uygulanmamaktadır."
+    ],
+    "dogru": 3,
+    "aciklama": "'Although' = …e rağmen; 'has still not been fully implemented' = hâlâ tam olarak uygulanmamıştır. Diğer seçeneklerde bağlaç ya da olumsuzluk değişmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0048",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "unless",
+    "zorluk": 1,
+    "soru": "Unless it is treated early, the disease can cause permanent damage to the liver.",
+    "secenekler": [
+      "Hastalık erken tedavi edilmezse karaciğerde kalıcı hasara yol açabilir.",
+      "Karaciğerde kalıcı hasar oluşmadan önce hastalığın tedavi edilmesi imkânsızdır.",
+      "Hastalık erken tedavi edildiği için karaciğerde kalıcı bir hasar bırakmaz.",
+      "Hastalık erken tedavi edilirse karaciğerde kalıcı hasara yol açabilir.",
+      "Hastalık erken tedavi edilse bile karaciğerde kalıcı hasara yol açabilir."
+    ],
+    "dogru": 0,
+    "aciklama": "'Unless' = …mezse. Koşul olumsuzdur: erken tedavi edilmezse hasar verebilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0049",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is estimated that",
+    "zorluk": 2,
+    "soru": "It is estimated that nearly half of the world's forests have been cleared for agriculture.",
+    "secenekler": [
+      "Dünyadaki ormanların neredeyse yarısının tarım için korunması gerektiği tahmin edilmektedir.",
+      "Tarım için yok edilen ormanların neredeyse yarısının yeniden dikildiği tahmin ediliyor.",
+      "Dünyadaki ormanların yarısından fazlasının tarım için yok edileceği tahmin edilmektedir.",
+      "Dünyadaki tarım alanlarının neredeyse yarısı ormanlardan elde edilmiştir.",
+      "Dünyadaki ormanların neredeyse yarısının tarım için yok edildiği tahmin edilmektedir."
+    ],
+    "dogru": 4,
+    "aciklama": "'nearly half' = neredeyse yarısı, 'have been cleared' = yok edilmiş (geçmiş), 'it is estimated' = tahmin ediliyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0050",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the more ... the more",
+    "zorluk": 2,
+    "soru": "The more we learn about the brain, the more we realise how little we actually know.",
+    "secenekler": [
+      "Beyin hakkında öğrendiklerimiz, bildiklerimizden çok daha azdır.",
+      "Beyin hakkında ne kadar çok şey öğrenirsek aslında ne kadar az şey bildiğimizi o kadar çok fark ediyoruz.",
+      "Beyin hakkında çok şey öğrendikçe aslında her şeyi bildiğimizi fark ediyoruz.",
+      "Beyin hakkında daha çok şey öğrenseydik ne kadar az şey bildiğimizi fark ederdik.",
+      "Beyin hakkında ne kadar az şey bildiğimizi fark etmek için daha çok şey öğrenmemiz gerekiyor."
+    ],
+    "dogru": 1,
+    "aciklama": "'The more ..., the more ...' = ne kadar çok …, o kadar çok …; 'how little we know' = ne kadar az bildiğimiz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0051",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "not only ... but also",
+    "zorluk": 1,
+    "soru": "Not only did the storm damage thousands of homes, but it also left the city without electricity for a week.",
+    "secenekler": [
+      "Fırtına binlerce eve zarar vermese de şehir bir hafta boyunca elektriksiz kaldı.",
+      "Fırtına, şehri bir haftalığına elektriksiz bırakmadan önce yalnızca birkaç eve zarar verdi.",
+      "Fırtına yalnızca binlerce eve zarar vermekle kalmadı, aynı zamanda şehri bir hafta boyunca elektriksiz bıraktı.",
+      "Şehir bir hafta elektriksiz kaldığı için fırtına binlerce eve zarar verdi.",
+      "Fırtına binlerce eve zarar verdi ama şehrin elektriği kesilmedi."
+    ],
+    "dogru": 2,
+    "aciklama": "'Not only ... but also' = yalnızca …makla kalmadı, aynı zamanda … İki olumsuz etki birlikte verilmelidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0052",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "most of whom",
+    "zorluk": 2,
+    "soru": "The researchers, most of whom were volunteers, collected data from over two hundred villages.",
+    "secenekler": [
+      "Araştırmacıların hepsi gönüllü olarak iki yüzden fazla köyde çalıştı.",
+      "Çoğu gönüllü olan araştırmacılar iki yüzden fazla köyden veri topladı.",
+      "Araştırmacılar, gönüllülerin çoğunun iki yüz köyden veri toplamasını istedi.",
+      "Araştırmacılar, çoğu gönüllü olan iki yüz köyden veri topladı.",
+      "İki yüzden fazla köyden veri toplayan gönüllüler araştırmacılara yardım etti."
+    ],
+    "dogru": 1,
+    "aciklama": "'most of whom were volunteers' araştırmacıları niteler: çoğu gönüllü olan araştırmacılar. 'over two hundred' = iki yüzden fazla.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0053",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Devrik koşul (Had ...)",
+    "zorluk": 2,
+    "soru": "Had the warning been taken seriously, the damage could have been avoided.",
+    "secenekler": [
+      "Uyarı ciddiye alınırsa hasar önlenebilir.",
+      "Hasar önlenmiş olsaydı uyarı ciddiye alınırdı.",
+      "Uyarı ciddiye alındığı için hasar önlenebildi.",
+      "Uyarı ciddiye alınsa da hasar önlenemezdi.",
+      "Uyarı ciddiye alınmış olsaydı hasar önlenebilirdi."
+    ],
+    "dogru": 4,
+    "aciklama": "'Had the warning been taken' = 'If the warning had been taken': geçmişte gerçekleşmemiş koşul (alınmış olsaydı ... önlenebilirdi).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0054",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "postpone until",
+    "zorluk": 1,
+    "soru": "The company has decided to postpone the launch of its new product until next spring.",
+    "secenekler": [
+      "Şirket yeni ürününün piyasaya sürülmesini gelecek bahara ertelemeye karar verdi.",
+      "Şirketin yeni ürünü gelecek bahar piyasaya sürülmeden önce ertelenmişti.",
+      "Şirket yeni ürününü bu bahar piyasaya sürmeye karar verdi.",
+      "Şirket yeni ürününü gelecek bahara kadar piyasadan çekmeye karar verdi.",
+      "Şirket, yeni ürününün piyasaya sürülmesini gelecek bahara erteleyip ertelememeye henüz karar vermedi."
+    ],
+    "dogru": 0,
+    "aciklama": "'postpone ... until next spring' = gelecek bahara ertelemek; 'has decided' = karar verdi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0055",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "before ... even",
+    "zorluk": 2,
+    "soru": "Scientists warn that some species may become extinct before they have even been discovered.",
+    "secenekler": [
+      "Bilim insanları bazı türlerin keşfedildikten hemen sonra nesillerinin tükendiğini belirtiyor.",
+      "Bilim insanları nesli tükenen bazı türlerin yeniden keşfedildiğini söylüyor.",
+      "Bilim insanları, nesli tükenmeden önce tüm türlerin keşfedilmesi gerektiğini söylüyor.",
+      "Bilim insanları bazı türlerin daha keşfedilmeden nesillerinin tükenebileceği konusunda uyarıyor.",
+      "Bilim insanlarına göre keşfedilmemiş türlerin nesillerinin tükenmesi imkânsızdır."
+    ],
+    "dogru": 3,
+    "aciklama": "'may become extinct' = nesli tükenebilir (olasılık), 'before they have even been discovered' = daha keşfedilmeden.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0056",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "It was not until ... that",
+    "zorluk": 2,
+    "soru": "It was not until the nineteenth century that doctors began to wash their hands before surgery.",
+    "secenekler": [
+      "Doktorlar on dokuzuncu yüzyıldan beri ameliyattan önce ellerini yıkamıyor.",
+      "Doktorlar on dokuzuncu yüzyıla kadar ameliyattan önce ellerini yıkıyordu.",
+      "Doktorlar ancak on dokuzuncu yüzyılda ameliyattan önce ellerini yıkamaya başladı.",
+      "On dokuzuncu yüzyılda doktorların ameliyattan önce ellerini yıkaması yasaklandı.",
+      "On dokuzuncu yüzyılda doktorlar ameliyattan sonra ellerini yıkamayı bıraktı."
+    ],
+    "dogru": 2,
+    "aciklama": "'It was not until X that ...' = ancak X'te … Doktorlar el yıkamaya ancak 19. yüzyılda başladı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0057",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "whereas",
+    "zorluk": 1,
+    "soru": "Whereas cats are usually independent, dogs tend to rely heavily on their owners.",
+    "secenekler": [
+      "Hem kediler hem köpekler genellikle sahiplerinden bağımsız yaşar.",
+      "Kediler de köpekler gibi sahiplerine büyük ölçüde bağımlıdır.",
+      "Kediler bağımsız olmasına rağmen köpeklerle iyi geçinir.",
+      "Kediler genellikle bağımsızken köpekler sahiplerine büyük ölçüde bağımlı olma eğilimindedir.",
+      "Köpekler genellikle bağımsız olduğu için kediler sahiplerine daha çok bağlıdır."
+    ],
+    "dogru": 3,
+    "aciklama": "'Whereas' karşılaştırma yapar: kediler bağımsızken köpekler sahiplerine bağımlıdır. 'tend to' = …me eğiliminde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0058",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "until",
+    "zorluk": 1,
+    "soru": "The museum will remain closed until the restoration work has been completed.",
+    "secenekler": [
+      "Restorasyon çalışmaları müze kapandıktan sonra başlayacak.",
+      "Müze, restorasyon çalışmaları tamamlanana kadar kapalı kalacak.",
+      "Restorasyon çalışmaları tamamlanırsa müze kapatılacak.",
+      "Müze kapalı olmasına rağmen restorasyon çalışmaları tamamlanamadı.",
+      "Müze, restorasyon çalışmaları tamamlandığı için yeniden açıldı."
+    ],
+    "dogru": 1,
+    "aciklama": "'remain closed until' = …e kadar kapalı kalmak. Yüklem gelecek zamandır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0059",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "far fewer ... than",
+    "zorluk": 2,
+    "soru": "Far fewer people smoke today than they did thirty years ago.",
+    "secenekler": [
+      "Bugün otuz yıl öncesine göre çok daha az insan sigara içiyor.",
+      "Otuz yıldır sigara içen insanların sayısı değişmedi.",
+      "Bugün sigara içen insanlar otuz yıl öncekilerden daha az sağlıklı.",
+      "Otuz yıl önce sigara içen insanların çoğu bugün hâlâ sigara içiyor.",
+      "Bugün otuz yıl öncesine göre çok daha fazla insan sigara içiyor."
+    ],
+    "dogru": 0,
+    "aciklama": "'Far fewer people ... than' = …e göre çok daha az insan; karşılaştırma bugün ile otuz yıl öncesi arasındadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0060",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "so ... that",
+    "zorluk": 1,
+    "soru": "The patient's condition improved so rapidly that he was discharged after only three days.",
+    "secenekler": [
+      "Hasta taburcu edildikten üç gün sonra durumu hızla düzeldi.",
+      "Hastanın durumu yavaş düzeldiği için üç gün daha hastanede kaldı.",
+      "Hastanın durumu hızla düzelmesine rağmen üç gün sonra taburcu edilmedi.",
+      "Hastanın durumunun hızla düzelmesi için üç gün hastanede kalması gerekiyordu.",
+      "Hastanın durumu o kadar hızlı düzeldi ki yalnızca üç gün sonra taburcu edildi."
+    ],
+    "dogru": 4,
+    "aciklama": "'so ... that' = o kadar …ki; 'was discharged' = taburcu edildi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0061",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "neither ... nor",
+    "zorluk": 1,
+    "soru": "Neither the government nor the opposition was willing to discuss the issue publicly.",
+    "secenekler": [
+      "Ne hükümet ne de muhalefet konuyu kamuoyu önünde tartışmaya istekliydi.",
+      "Hükümet konuyu tartışmaya istekliydi ama muhalefet değildi.",
+      "Konu kamuoyu önünde tartışılmadığı için hükümet de muhalefet de rahatsız oldu.",
+      "Hem hükümet hem de muhalefet konuyu kamuoyu önünde tartışmak istedi.",
+      "Muhalefet, hükümetin konuyu kamuoyu önünde tartışmasını istemedi."
+    ],
+    "dogru": 0,
+    "aciklama": "'Neither ... nor' = ne … ne de; her iki taraf da istekli değildi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0062",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "which (ek bilgi)",
+    "zorluk": 1,
+    "soru": "The bridge, which was built in the fifteenth century, is one of the oldest in Europe.",
+    "secenekler": [
+      "On beşinci yüzyılda inşa edilen köprüler Avrupa'da hâlâ kullanılmaktadır.",
+      "Avrupa'nın en eski köprülerinden biri on beşinci yüzyılda yeniden inşa edildi.",
+      "Köprü, Avrupa'daki en eski köprülerden esinlenerek on beşinci yüzyılda inşa edildi.",
+      "Avrupa'nın en eski köprüsü on beşinci yüzyılda yıkılmıştır.",
+      "On beşinci yüzyılda inşa edilen köprü, Avrupa'nın en eski köprülerinden biridir."
+    ],
+    "dogru": 4,
+    "aciklama": "'one of the oldest' = en eskilerinden biri; 'which was built' = inşa edilen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0063",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "despite",
+    "zorluk": 2,
+    "soru": "Despite being one of the smallest countries in the world, Singapore has one of the strongest economies.",
+    "secenekler": [
+      "Singapur dünyanın en küçük ülkesi olduğu için ekonomisi zayıftır.",
+      "Dünyanın en küçük ülkelerinden biri olmasına rağmen Singapur en güçlü ekonomilerden birine sahiptir.",
+      "Singapur, en güçlü ekonomiye sahip olduğu için dünyanın en küçük ülkelerinden biri olmuştur.",
+      "Dünyanın en güçlü ekonomileri genellikle küçük ülkelerde bulunur.",
+      "Singapur'un ekonomisi güçlü olmasına rağmen ülke dünyanın en küçüğüdür."
+    ],
+    "dogru": 1,
+    "aciklama": "'Despite being' = …olmasına rağmen; zıtlık küçüklük ile güçlü ekonomi arasındadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0064",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "who (tanımlayıcı)",
+    "zorluk": 2,
+    "soru": "Children who are exposed to several languages at an early age tend to learn new languages more easily.",
+    "secenekler": [
+      "Birden fazla dil bilen yetişkinler çocuklara yeni dilleri daha kolay öğretir.",
+      "Erken yaşta tek bir dil öğrenen çocuklar diğer dilleri de kolayca öğrenir.",
+      "Erken yaşta birden fazla dille karşılaşan çocuklar yeni dilleri daha kolay öğrenme eğilimindedir.",
+      "Yeni dilleri kolayca öğrenen çocuklar erken yaşta birden fazla dil konuşur.",
+      "Çocukların erken yaşta birden fazla dil öğrenmesi yeni dilleri öğrenmelerini zorlaştırır."
+    ],
+    "dogru": 2,
+    "aciklama": "'Children who are exposed to' = …ile karşılaşan çocuklar; 'tend to' = eğilimindedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0065",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "because of",
+    "zorluk": 1,
+    "soru": "The report concludes that the project failed mainly because of poor planning.",
+    "secenekler": [
+      "Rapor, projenin iyi planlanmadığı için henüz başlamadığını gösteriyor.",
+      "Rapor, kötü planlamanın projeyi etkilemediği sonucuna varıyor.",
+      "Rapor, kötü planlamaya rağmen projenin başarılı olduğunu belirtiyor.",
+      "Rapor, projenin başarısız olmasının temel nedeninin kötü planlama olduğu sonucuna varıyor.",
+      "Rapora göre proje yalnızca kötü planlama yüzünden ertelendi."
+    ],
+    "dogru": 3,
+    "aciklama": "'failed mainly because of' = esas olarak …yüzünden başarısız oldu; 'concludes' = sonucuna varıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0066",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "if (Type 1)",
+    "zorluk": 1,
+    "soru": "If current trends continue, the number of people over 65 will double by 2050.",
+    "secenekler": [
+      "Mevcut eğilimlere rağmen 65 yaş üstündekilerin sayısı 2050'ye kadar değişmeyecek.",
+      "65 yaş üstündeki insanların sayısı 2050'ye kadar iki katına çıkarsa mevcut eğilimler sürecek.",
+      "Mevcut eğilimler sürerse 65 yaş üstündeki insanların sayısı 2050'ye kadar iki katına çıkacak.",
+      "Mevcut eğilimler sürseydi 65 yaş üstündeki insanların sayısı 2050'de iki katına çıkmış olurdu.",
+      "Mevcut eğilimler devam etmezse 65 yaş üstündekilerin sayısı 2050'ye kadar yarıya inecek."
+    ],
+    "dogru": 2,
+    "aciklama": "Type 1 koşul: 'If ... continue, ... will double' = sürerse ... iki katına çıkacak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0067",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "had never been",
+    "zorluk": 2,
+    "soru": "Many of the paintings in the exhibition had never been shown to the public before.",
+    "secenekler": [
+      "Sergideki tabloların çoğu daha önce hiç halka gösterilmemişti.",
+      "Sergideki tabloların hepsi daha önce defalarca halka gösterilmişti.",
+      "Sergideki tabloların çoğu bundan sonra halka gösterilmeyecek.",
+      "Daha önce halka gösterilen tabloların çoğu sergiye alınmadı.",
+      "Sergideki tabloların birkaçı daha önce halka gösterilmişti."
+    ],
+    "dogru": 0,
+    "aciklama": "'Many of' = çoğu, 'had never been shown' = hiç gösterilmemişti.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0068",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "more harm than good",
+    "zorluk": 2,
+    "soru": "Some experts argue that social media does more harm than good to young people.",
+    "secenekler": [
+      "Uzmanların çoğu sosyal medyanın gençlere hiçbir zarar vermediği konusunda hemfikir.",
+      "Bazı uzmanlar sosyal medyanın gençlere zarar vermekten çok yarar sağladığını ileri sürüyor.",
+      "Bazı uzmanlar gençlerin sosyal medyaya zarar verdiğini düşünüyor.",
+      "Bazı uzmanlar sosyal medyanın gençlere yarardan çok zarar verdiğini ileri sürüyor.",
+      "Bazı uzmanlar, sosyal medyanın zararlarını azaltmak için gençlerle çalışıyor."
+    ],
+    "dogru": 3,
+    "aciklama": "'do more harm than good' = yarardan çok zarar vermek; 'argue' = ileri sürmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0069",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "which (cümleyi niteleyen)",
+    "zorluk": 1,
+    "soru": "The exam was cancelled at the last minute, which caused great confusion among students.",
+    "secenekler": [
+      "Sınav son dakikada iptal edilmesine rağmen öğrenciler arasında bir karışıklık olmadı.",
+      "Öğrenciler, sınavın son dakikada iptal edilmesini istedi.",
+      "Sınavın son dakikada iptal edilmesi öğrencileri memnun etti.",
+      "Öğrenciler arasındaki büyük karışıklık yüzünden sınav son dakikada iptal edildi.",
+      "Sınav son dakikada iptal edildi, bu da öğrenciler arasında büyük bir karışıklığa neden oldu."
+    ],
+    "dogru": 4,
+    "aciklama": "', which caused' önceki cümlenin sonucunu verir: bu da … neden oldu. Neden-sonuç yönü korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0070",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Only after (devrik)",
+    "zorluk": 3,
+    "soru": "Only after the results had been checked several times were they published.",
+    "secenekler": [
+      "Sonuçlar birkaç kez kontrol edilseydi yayımlanırdı.",
+      "Sonuçlar ancak birkaç kez kontrol edildikten sonra yayımlandı.",
+      "Sonuçlar yayımlandıktan sonra birkaç kez kontrol edildi.",
+      "Sonuçların yayımlanmadan önce yalnızca bir kez kontrol edilmesi yeterli görüldü.",
+      "Sonuçlar birkaç kez kontrol edilmesine rağmen yayımlanmadı."
+    ],
+    "dogru": 1,
+    "aciklama": "'Only after ... were they published' = ancak …dikten sonra yayımlandı; sıralama korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0071",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "not only ... but also",
+    "zorluk": 1,
+    "soru": "The new treatment is not only cheaper but also more effective than the existing ones.",
+    "secenekler": [
+      "Yeni tedavi mevcut tedaviler kadar ucuz ve etkilidir.",
+      "Yeni tedavi mevcut tedavilerden daha ucuz olmasına rağmen daha az etkilidir.",
+      "Mevcut tedaviler yeni tedaviden hem daha ucuz hem de daha etkilidir.",
+      "Yeni tedavi mevcut tedavilerden yalnızca daha ucuz değil, aynı zamanda daha etkilidir.",
+      "Yeni tedavi daha etkili olduğu için mevcut tedavilerden daha pahalıdır."
+    ],
+    "dogru": 3,
+    "aciklama": "'not only cheaper but also more effective' = yalnızca daha ucuz değil, aynı zamanda daha etkili.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0072",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "It is believed that",
+    "zorluk": 1,
+    "soru": "It is widely believed that regular exercise helps to prevent depression.",
+    "secenekler": [
+      "Düzenli egzersizin depresyonu önlemeye yardımcı olduğuna yaygın olarak inanılmaktadır.",
+      "Düzenli egzersizin depresyonu önlediğine çok az kişi inanmaktadır.",
+      "Düzenli egzersizin depresyona yol açtığı yaygın bir inanıştır.",
+      "Depresyondaki insanların düzenli egzersiz yapması yaygın olarak önerilir.",
+      "Düzenli egzersiz yapan insanlar depresyonun önlenebileceğine inanmaktadır."
+    ],
+    "dogru": 0,
+    "aciklama": "'It is widely believed that' = …e yaygın olarak inanılmaktadır; 'helps to prevent' = önlemeye yardımcı olur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0073",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "as long as",
+    "zorluk": 1,
+    "soru": "As long as you follow the instructions carefully, the machine is perfectly safe to use.",
+    "secenekler": [
+      "Talimatlara dikkatle uysanız bile makineyi kullanmak tehlikelidir.",
+      "Makine güvenli olduğu için talimatlara uymanıza gerek yoktur.",
+      "Talimatlara dikkatle uyduğunuz sürece makineyi kullanmak tamamen güvenlidir.",
+      "Talimatlar dikkatle okunmadığı sürece makine kullanılabilir.",
+      "Makineyi kullanmadan önce talimatları dikkatle hazırlamanız gerekir."
+    ],
+    "dogru": 2,
+    "aciklama": "'As long as' = …dığı sürece; güvenlik talimatlara uyma koşuluna bağlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0074",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the fact that",
+    "zorluk": 2,
+    "soru": "The fact that the manuscript was written in an unknown language made it impossible to read.",
+    "secenekler": [
+      "Bilinmeyen dilde yazılmış el yazmaları genellikle okunamaz.",
+      "El yazmasının bilinmeyen bir dilde yazılmış olması onu okumayı imkânsız kıldı.",
+      "Okunması imkânsız olan el yazması bilinmeyen bir dile çevrildi.",
+      "El yazması bilinmeyen bir dilde yazılmasına rağmen kolayca okundu.",
+      "El yazmasını okuyabilmek için bilinmeyen bir dil öğrenmek gerekiyordu."
+    ],
+    "dogru": 1,
+    "aciklama": "'The fact that ...' = …olması (olgusu); 'made it impossible to read' = okumayı imkânsız kıldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0075",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Rarely (devrik)",
+    "zorluk": 3,
+    "soru": "Rarely have so many people gathered in the city centre to protest against a new law.",
+    "secenekler": [
+      "Yeni yasa, şehir merkezinde toplanmayı yasaklıyor.",
+      "Yeni bir yasayı protesto etmek için şehir merkezinde sık sık çok sayıda insan toplanır.",
+      "Şehir merkezinde yeni yasayı protesto etmek için çok az insan toplandı.",
+      "Şehir merkezinde toplanan insanlar yeni yasaya destek verdi.",
+      "Yeni bir yasayı protesto etmek için şehir merkezinde bu kadar çok insan nadiren toplanmıştır."
+    ],
+    "dogru": 4,
+    "aciklama": "'Rarely have so many people gathered' = bu kadar çok insan nadiren toplanmıştır; kalabalık alışılmadıktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0076",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "instead of",
+    "zorluk": 1,
+    "soru": "Instead of building new roads, the city decided to invest in public transport.",
+    "secenekler": [
+      "Şehir yeni yollar yapmak yerine toplu taşımaya yatırım yapmaya karar verdi.",
+      "Şehir toplu taşıma yerine yeni yollara yatırım yapmayı seçti.",
+      "Yeni yollar yapıldıktan sonra şehir toplu taşımaya yatırım yapmaktan vazgeçti.",
+      "Şehir toplu taşımaya yatırım yapmak için yeni yollar yaptı.",
+      "Şehir hem yeni yollar yapmaya hem de toplu taşımaya yatırım yapmaya karar verdi."
+    ],
+    "dogru": 0,
+    "aciklama": "'Instead of building new roads' = yeni yollar yapmak yerine; tercih toplu taşımadan yanadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0077",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the + comparative",
+    "zorluk": 2,
+    "soru": "The earlier a language disorder is diagnosed, the easier it is to treat.",
+    "secenekler": [
+      "Dil bozukluklarını erken teşhis etmek, tedavi etmekten daha zordur.",
+      "Dil bozukluklarının tedavisi teşhisten daha kolaydır.",
+      "Dil bozukluğu geç teşhis edildiğinde daha kolay tedavi edilir.",
+      "Bir dil bozukluğu erken teşhis edilse de tedavisi zordur.",
+      "Bir dil bozukluğu ne kadar erken teşhis edilirse tedavi etmek o kadar kolay olur."
+    ],
+    "dogru": 4,
+    "aciklama": "'The earlier ..., the easier ...' = ne kadar erken …, o kadar kolay.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0078",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "because of",
+    "zorluk": 1,
+    "soru": "Many historians believe that the city was abandoned because of a series of droughts.",
+    "secenekler": [
+      "Tarihçiler, şehri terk eden insanların kuraklıktan kaçtığını kanıtladı.",
+      "Birçok tarihçi şehrin bir dizi kuraklık yüzünden terk edildiğine inanıyor.",
+      "Birçok tarihçi, bir dizi kuraklığa rağmen şehrin terk edilmediğine inanıyor.",
+      "Birçok tarihçi, şehrin terk edilmesinin ardından bir dizi kuraklık yaşandığını düşünüyor.",
+      "Birkaç tarihçi şehrin savaş yüzünden terk edildiğini düşünüyor."
+    ],
+    "dogru": 1,
+    "aciklama": "'was abandoned because of a series of droughts' = bir dizi kuraklık yüzünden terk edildi; 'believe' = inanmak (kanıtlamak değil).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0079",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Type 3",
+    "zorluk": 2,
+    "soru": "The company would have gone bankrupt if the government had not provided financial support.",
+    "secenekler": [
+      "Hükümet mali destek sağladığı hâlde şirket iflas etti.",
+      "Şirket iflas ettiği için hükümet mali destek sağlamadı.",
+      "Hükümet mali destek sağlamasaydı şirket iflas ederdi.",
+      "Şirket iflas etmeseydi hükümet mali destek sağlamazdı.",
+      "Hükümet mali destek sağlamazsa şirket iflas edecek."
+    ],
+    "dogru": 2,
+    "aciklama": "Type 3: gerçekleşmemiş geçmiş koşul. Hükümet destek sağladı, şirket iflas etmedi: 'sağlamasaydı iflas ederdi'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0080",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "hardly anyone",
+    "zorluk": 2,
+    "soru": "Hardly anyone noticed that the painting had been replaced with a copy.",
+    "secenekler": [
+      "Herkes tablonun bir kopyasıyla değiştirildiğini hemen fark etti.",
+      "Tablonun değiştirildiği, kopyası yapıldıktan hemen sonra fark edildi.",
+      "Tablonun kopyasını yapan kişiyi neredeyse kimse tanımıyordu.",
+      "Tablonun bir kopyasıyla değiştirildiğini neredeyse hiç kimse fark etmedi.",
+      "Birkaç kişi tablonun bir kopyayla değiştirilmesini önerdi."
+    ],
+    "dogru": 3,
+    "aciklama": "'Hardly anyone noticed' = neredeyse hiç kimse fark etmedi; 'had been replaced with' = …ile değiştirilmişti.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0081",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "which (ek bilgi)",
+    "zorluk": 2,
+    "soru": "The book, which took the author ten years to write, has already been translated into twenty languages.",
+    "secenekler": [
+      "Yazarın on yıldır yazdığı kitap henüz hiçbir dile çevrilmedi.",
+      "Yazarın on yılda yazdığı kitap şimdiden yirmi dile çevrildi.",
+      "Yazar, yirmi dile çevrilen kitabını on yıl sonra yeniden yazdı.",
+      "Yazar on yıl içinde yirmi kitap yazdı ve hepsi çevrildi.",
+      "Kitabın yirmi dile çevrilmesi on yıl sürdü."
+    ],
+    "dogru": 1,
+    "aciklama": "'which took the author ten years to write' = yazarın on yılda yazdığı; 'has already been translated' = şimdiden çevrildi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0082",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "although / too ... for",
+    "zorluk": 2,
+    "soru": "Although electric cars are becoming cheaper, they are still too expensive for many families.",
+    "secenekler": [
+      "Elektrikli arabalar pahalılaştığı için birçok aile onları satın alamıyor.",
+      "Elektrikli arabalar ucuzlamadıkça birçok aile onları satın alamayacak.",
+      "Elektrikli arabalar ucuzlasa da hâlâ birçok aile için fazla pahalı.",
+      "Birçok aile elektrikli araba alabilecek kadar zengin olmasına rağmen almıyor.",
+      "Elektrikli arabalar ucuzladığı için artık birçok aile tarafından satın alınabiliyor."
+    ],
+    "dogru": 2,
+    "aciklama": "'Although ... becoming cheaper' = ucuzlasa da; 'still too expensive for' = hâlâ … için fazla pahalı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0083",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "may be caused by",
+    "zorluk": 2,
+    "soru": "Some scientists suggest that the decline in fish stocks may be caused by rising water temperatures.",
+    "secenekler": [
+      "Bazı bilim insanları balık stoklarındaki azalmanın artan su sıcaklıklarından kaynaklanıyor olabileceğini öne sürüyor.",
+      "Bilim insanları, artan su sıcaklıklarına rağmen balık stoklarının azalmadığını söylüyor.",
+      "Bazı bilim insanları, balık stoklarının azalmasının su sıcaklığıyla hiçbir ilgisi olmadığını belirtiyor.",
+      "Bazı bilim insanları su sıcaklıklarının balık stoklarının azalmasıyla arttığını kanıtladı.",
+      "Bazı bilim insanları balık stoklarının artmasının su sıcaklıklarını düşürdüğünü öne sürüyor."
+    ],
+    "dogru": 0,
+    "aciklama": "'may be caused by' = …den kaynaklanıyor olabilir (olasılık); 'suggest' = öne sürmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0084",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "by the time",
+    "zorluk": 2,
+    "soru": "By the time the firefighters arrived, the fire had already spread to the neighbouring buildings.",
+    "secenekler": [
+      "İtfaiyeciler gelince yangın komşu binalara sıçradı.",
+      "İtfaiyeciler yangın komşu binalara sıçramadan önce geldi.",
+      "İtfaiyeciler gelmeseydi yangın komşu binalara sıçrayacaktı.",
+      "Yangın komşu binalara sıçrayınca itfaiyeciler çağrıldı.",
+      "İtfaiyeciler geldiğinde yangın çoktan komşu binalara sıçramıştı."
+    ],
+    "dogru": 4,
+    "aciklama": "'By the time ... had already spread' = …geldiğinde çoktan sıçramıştı: yangının yayılması itfaiyeden önce gerçekleşti.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0085",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is essential that",
+    "zorluk": 1,
+    "soru": "It is essential that all passengers fasten their seat belts before take-off.",
+    "secenekler": [
+      "Kalkıştan önce emniyet kemerini bağlamak yolcuların isteğine bağlıdır.",
+      "Yolcuların kalkıştan sonra emniyet kemerlerini çıkarması gerekir.",
+      "Yolcuların hepsi kalkıştan önce emniyet kemerlerini bağlamıştı.",
+      "Tüm yolcuların kalkıştan önce emniyet kemerlerini bağlaması şarttır.",
+      "Emniyet kemeri bağlamayan yolcular kalkıştan önce uçaktan indirildi."
+    ],
+    "dogru": 3,
+    "aciklama": "'It is essential that' = …mesi şarttır; zorunluluk bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0086",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "not so much ... as",
+    "zorluk": 3,
+    "soru": "The team's success was due not so much to talent as to hard work.",
+    "secenekler": [
+      "Takımın başarısı sıkı çalışmadan çok yeteneğe bağlıydı.",
+      "Takımın başarısı yetenekten çok sıkı çalışmaya bağlıydı.",
+      "Takımın başarısı hem yeteneğe hem de sıkı çalışmaya bağlıydı.",
+      "Takım sıkı çalışmasına rağmen yetenek eksikliği yüzünden başarısız oldu.",
+      "Takım yetenekli olduğu için çok çalışmaya gerek duymadı."
+    ],
+    "dogru": 1,
+    "aciklama": "'not so much X as Y' = X'ten çok Y. Başarının asıl nedeni sıkı çalışmadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0087",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "had been hidden",
+    "zorluk": 2,
+    "soru": "The documents were found in a box that had been hidden in the attic for over a century.",
+    "secenekler": [
+      "Belgeler, yüz yılı aşkın süredir tavan arasında saklanan bir kutuda bulundu.",
+      "Belgelerin yüz yıl önce tavan arasına saklandığı hiç bilinmiyordu.",
+      "Tavan arasında bulunan belgeler bir kutuya konarak yüz yıl saklanacak.",
+      "Belgeler bulunduktan sonra yüz yıl boyunca tavan arasındaki bir kutuda saklandı.",
+      "Tavan arasında saklanan kutu yüz yıl önce bulundu."
+    ],
+    "dogru": 0,
+    "aciklama": "'a box that had been hidden ... for over a century' = yüz yılı aşkın süredir saklanan bir kutu; belgeler o kutuda bulundu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0088",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "unlike",
+    "zorluk": 1,
+    "soru": "Unlike his brother, who studied medicine, Ali chose to become an engineer.",
+    "secenekler": [
+      "Ali de kardeşi gibi tıp okumayı seçti.",
+      "Ali'nin kardeşi mühendis olmayı seçerken Ali tıp okudu.",
+      "Ali ve kardeşi mühendis olmak yerine tıp okumayı seçti.",
+      "Ali, mühendis olan kardeşinin tavsiyesiyle tıp okudu.",
+      "Tıp okuyan kardeşinin aksine Ali mühendis olmayı seçti."
+    ],
+    "dogru": 4,
+    "aciklama": "'Unlike' = …in aksine; tıp okuyan kardeştir, Ali mühendis olmayı seçmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0089",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "in order to",
+    "zorluk": 1,
+    "soru": "The government is considering raising the retirement age in order to reduce public spending.",
+    "secenekler": [
+      "Kamu harcamaları azalırsa hükümet emeklilik yaşını yükseltmeyecek.",
+      "Hükümet emeklilik yaşını yükseltmekten vazgeçti çünkü kamu harcamaları azaldı.",
+      "Hükümet kamu harcamalarını artırmak için emeklilik yaşını düşürmeyi planlıyor.",
+      "Hükümet kamu harcamalarını azaltmak için emeklilik yaşını yükseltmeyi düşünüyor.",
+      "Hükümet emeklilik yaşını yükselttiği için kamu harcamaları azaldı."
+    ],
+    "dogru": 3,
+    "aciklama": "'is considering raising' = yükseltmeyi düşünüyor (henüz karar yok); 'in order to reduce' = azaltmak için.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0090",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it took ... to",
+    "zorluk": 2,
+    "soru": "It took scientists more than a decade to decode the entire human genome.",
+    "secenekler": [
+      "Bilim insanları on yıldır insan genomunu çözmeye çalışıyor ama başaramadı.",
+      "Bilim insanları insan genomunun tamamını on yıl içinde çözmeyi planlıyor.",
+      "Bilim insanlarının insan genomunun tamamını çözmesi on yıldan fazla sürdü.",
+      "Bilim insanları insan genomunun yalnızca bir kısmını on yılda çözebildi.",
+      "İnsan genomunu çözen bilim insanları on yıldan fazla bir süredir bu alanda çalışıyor."
+    ],
+    "dogru": 2,
+    "aciklama": "'It took sb X to do' = birinin …mesi X sürdü; 'the entire' = tamamı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0091",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "whether / remains to be seen",
+    "zorluk": 2,
+    "soru": "Whether the new policy will actually reduce crime remains to be seen.",
+    "secenekler": [
+      "Yeni politika suçu azaltmazsa değiştirilecek.",
+      "Suç oranları yeni politika sayesinde gerçekten azaldı.",
+      "Yeni politikanın suçu gerçekten azaltıp azaltmayacağı henüz belli değil.",
+      "Yeni politikanın suçu azaltacağından kimsenin şüphesi yok.",
+      "Yeni politikanın suçu azalttığı açıkça görülüyor."
+    ],
+    "dogru": 2,
+    "aciklama": "'Whether ... remains to be seen' = …ıp …mayacağı henüz belli değil.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0092",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Having + V3",
+    "zorluk": 2,
+    "soru": "Having spent years abroad, she found it difficult to adapt to life in her hometown.",
+    "secenekler": [
+      "Yıllarca yurt dışında yaşadıktan sonra memleketindeki hayata uyum sağlamakta zorlandı.",
+      "Yurt dışına gitmeden önce memleketindeki hayata kolayca uyum sağlamıştı.",
+      "Yıllarca yurt dışında yaşamasına rağmen memleketindeki hayata kolayca uyum sağladı.",
+      "Memleketindeki hayata uyum sağlayamadığı için yıllarca yurt dışında yaşadı.",
+      "Yurt dışında geçirdiği yıllar ona yeni bir kültüre uyum sağlamayı öğretti."
+    ],
+    "dogru": 0,
+    "aciklama": "'Having spent years abroad' = yıllarca yurt dışında kaldıktan sonra; 'found it difficult to adapt' = uyum sağlamakta zorlandı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0093",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be advised not to",
+    "zorluk": 1,
+    "soru": "Tourists are advised not to drink tap water in some parts of the country.",
+    "secenekler": [
+      "Turistlere ülkenin bazı bölgelerinde bol su içmeleri tavsiye ediliyor.",
+      "Turistlerin ülkenin bazı bölgelerinde şişe suyu içmesi yasaklandı.",
+      "Turistler ülkenin her yerinde musluk suyu içebilir.",
+      "Turistlere ülkenin bazı bölgelerinde musluk suyu içmemeleri tavsiye ediliyor.",
+      "Ülkenin bazı bölgelerinde turistler musluk suyunun güvenli olduğunu söylüyor."
+    ],
+    "dogru": 3,
+    "aciklama": "'are advised not to drink' = içmemeleri tavsiye ediliyor; 'in some parts' = bazı bölgelerinde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0094",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "so many ... that",
+    "zorluk": 1,
+    "soru": "The festival attracts so many visitors that hotels are often fully booked months in advance.",
+    "secenekler": [
+      "Festivale gelmek isteyenler otellerini birkaç gün önceden ayırtabilir.",
+      "Festival o kadar çok ziyaretçi çekiyor ki oteller çoğu zaman aylar öncesinden tamamen doluyor.",
+      "Otellerin aylar öncesinden dolması yüzünden festivale az ziyaretçi geliyor.",
+      "Festival sırasında oteller dolu olmasına rağmen ziyaretçi sayısı az.",
+      "Festivale gelen ziyaretçiler otellerin boş olmasından şikâyet ediyor."
+    ],
+    "dogru": 1,
+    "aciklama": "'so many visitors that' = o kadar çok ziyaretçi ki; 'fully booked months in advance' = aylar öncesinden tamamen dolu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0095",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "although",
+    "zorluk": 1,
+    "soru": "Although she had never studied music, she could play several instruments.",
+    "secenekler": [
+      "Birkaç enstrüman çalmasına rağmen müzik eğitimi almak istemedi.",
+      "Müzik eğitimi almamış olduğundan hiçbir enstrüman çalamıyordu.",
+      "Birkaç enstrüman çalabilmek için müzik eğitimi alması gerekiyordu.",
+      "Müzik eğitimi aldığı için birkaç enstrüman çalabiliyordu.",
+      "Hiç müzik eğitimi almamış olmasına rağmen birkaç enstrüman çalabiliyordu."
+    ],
+    "dogru": 4,
+    "aciklama": "'Although she had never studied music' = hiç müzik eğitimi almamış olmasına rağmen; 'could play' = çalabiliyordu.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0096",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "so (sonuç)",
+    "zorluk": 1,
+    "soru": "The disease spreads mainly through contaminated water, so access to clean water is crucial.",
+    "secenekler": [
+      "Temiz suya erişim, hastalığın kirli su yoluyla yayılmasını hızlandırır.",
+      "Hastalık kirli sudan yayılsa da temiz suya erişimin bir önemi yoktur.",
+      "Hastalık esas olarak kirli su yoluyla yayıldığından temiz suya erişim hayati önem taşır.",
+      "Hastalığın yalnızca kirli su yoluyla yayıldığı kanıtlanamamıştır.",
+      "Temiz su hastalığın yayılmasına neden olduğu için su kullanımı sınırlandırılmalıdır."
+    ],
+    "dogru": 2,
+    "aciklama": "'mainly through contaminated water' = esas olarak kirli su yoluyla; 'so ... is crucial' = bu yüzden hayati önemdedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0097",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "It was ... that (vurgu)",
+    "zorluk": 2,
+    "soru": "It was the invention of the steam engine that made the Industrial Revolution possible.",
+    "secenekler": [
+      "Buhar makinesi Sanayi Devrimi'ni geciktirdi.",
+      "Buhar makinesi Sanayi Devrimi sırasında icat edilmesine rağmen etkisi azdı.",
+      "Sanayi Devrimi, buhar makinesinin icadını mümkün kıldı.",
+      "Sanayi Devrimi'ni mümkün kılan şey buhar makinesinin icadıydı.",
+      "Buhar makinesinin icadından önce Sanayi Devrimi başlamıştı."
+    ],
+    "dogru": 3,
+    "aciklama": "'It was X that ...' vurgu yapısıdır: devrimi mümkün kılan şey buhar makinesinin icadıydı. Neden-sonuç yönü korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0098",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "have yet to",
+    "zorluk": 3,
+    "soru": "Researchers have yet to find a reliable way of predicting earthquakes.",
+    "secenekler": [
+      "Araştırmacılar depremleri tahmin etmenin güvenilir bir yolunu sonunda buldu.",
+      "Araştırmacılar depremleri tahmin etmenin güvenilir bir yolunu henüz bulamadı.",
+      "Araştırmacılar depremlerin tahmin edilemeyeceğini kanıtladı.",
+      "Araştırmacılar depremleri tahmin etmekten vazgeçti.",
+      "Depremleri tahmin etmenin güvenilir yolları araştırmacılar tarafından sık kullanılıyor."
+    ],
+    "dogru": 1,
+    "aciklama": "'have yet to find' = henüz bulamadı (ama arıyor).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0099",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "for the third year in a row",
+    "zorluk": 2,
+    "soru": "The number of students applying to study engineering has fallen for the third year in a row.",
+    "secenekler": [
+      "Mühendislik okumak için başvuran öğrencilerin sayısı üst üste üçüncü yıl düştü.",
+      "Üçüncü sınıf mühendislik öğrencilerinin sayısı her yıl düşüyor.",
+      "Mühendislik okumak isteyen öğrenciler üç yıl üst üste başvuru yapmak zorunda kaldı.",
+      "Mühendislik bölümlerine başvuran öğrencilerin sayısı üç yıl önce düşmeye başlayıp sonra arttı.",
+      "Mühendislik okumak için başvuran öğrencilerin sayısı üç yılda üç katına çıktı."
+    ],
+    "dogru": 0,
+    "aciklama": "'for the third year in a row' = üst üste üçüncü yıl; 'has fallen' = düştü.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0100",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "few ... as much as",
+    "zorluk": 3,
+    "soru": "Few inventions have changed daily life as much as the smartphone.",
+    "secenekler": [
+      "Birkaç icat günlük hayatı akıllı telefondan daha çok değiştirmiştir.",
+      "Günlük hayatı değiştiren icatların çoğu akıllı telefondan önce yapılmıştır.",
+      "Akıllı telefonun günlük hayata etkisi pek çok icattan azdır.",
+      "Akıllı telefon günlük hayatı diğer icatlar kadar değiştirmemiştir.",
+      "Çok az icat günlük hayatı akıllı telefon kadar değiştirmiştir."
+    ],
+    "dogru": 4,
+    "aciklama": "'Few inventions ... as much as the smartphone' = çok az icat akıllı telefon kadar değiştirmiştir; akıllı telefonun etkisi olağanüstüdür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0101",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "used to",
+    "zorluk": 1,
+    "soru": "People used to believe that the Earth was the centre of the universe.",
+    "secenekler": [
+      "İnsanlar hâlâ Dünya'nın evrenin merkezi olduğuna inanıyor.",
+      "İnsanlar eskiden evrenin Dünya'nın etrafında döndüğüne inanmazdı.",
+      "İnsanlar eskiden Dünya'nın evrenin merkezi olduğuna inanırdı.",
+      "İnsanlar Dünya'nın evrenin merkezi olduğunu kanıtlamaya çalıştı.",
+      "İnsanlar Dünya'nın evrenin merkezi olmadığına alışmıştı."
+    ],
+    "dogru": 2,
+    "aciklama": "'used to believe' = eskiden inanırdı (artık inanmıyorlar).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0102",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be likely to",
+    "zorluk": 1,
+    "soru": "Prices are likely to rise further if the drought continues.",
+    "secenekler": [
+      "Fiyatlar arttığı için kuraklık sürecek.",
+      "Kuraklığın sürmesi fiyatları etkilemeyecek.",
+      "Kuraklık sona ererse fiyatlar kesinlikle artacak.",
+      "Kuraklık sürse de fiyatların düşmesi bekleniyor.",
+      "Kuraklık sürerse fiyatların daha da artması muhtemeldir."
+    ],
+    "dogru": 4,
+    "aciklama": "'are likely to rise further' = daha da artması muhtemeldir; koşul 'if the drought continues'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0103",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "such ... that",
+    "zorluk": 1,
+    "soru": "It was such a difficult exam that only a few students passed it.",
+    "secenekler": [
+      "Sınavı geçen birkaç öğrenci sınavın çok kolay olduğunu söyledi.",
+      "O kadar zor bir sınavdı ki yalnızca birkaç öğrenci geçebildi.",
+      "Sınav o kadar zordu ki hiçbir öğrenci geçemedi.",
+      "Sınav kolay olduğu için öğrencilerin çoğu geçti.",
+      "Sınav zor olmasına rağmen öğrencilerin çoğu geçti."
+    ],
+    "dogru": 1,
+    "aciklama": "'such a difficult exam that' = o kadar zor bir sınav ki; 'only a few' = yalnızca birkaç.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0104",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "as soon as",
+    "zorluk": 1,
+    "soru": "As soon as the results are announced, we will inform all the candidates.",
+    "secenekler": [
+      "Sonuçlar açıklanır açıklanmaz tüm adaylara bilgi vereceğiz.",
+      "Sonuçlar açıklanmadan önce tüm adaylara bilgi verdik.",
+      "Adaylar bilgilendirildikten sonra sonuçlar açıklanacak.",
+      "Tüm adaylar sonuçların açıklanmasını bekliyor.",
+      "Sonuçlar açıklansa da adaylara bilgi verilmeyecek."
+    ],
+    "dogru": 0,
+    "aciklama": "'As soon as' = …ır …maz; 'will inform' = bilgi vereceğiz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0105",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "cannot have",
+    "zorluk": 3,
+    "soru": "He cannot have written the report himself because he was in hospital at the time.",
+    "secenekler": [
+      "Raporu yazarken hastaneye kaldırılmış olabilir.",
+      "Hastanede olmasına rağmen raporu kendisi yazdı.",
+      "Hastaneden çıktıktan sonra raporu kendisi yazmalıydı.",
+      "O sırada hastanede olduğu için raporu kendisi yazmış olamaz.",
+      "Raporu kendisi yazmak zorunda kaldığı için hastaneye gidemedi."
+    ],
+    "dogru": 3,
+    "aciklama": "'cannot have written' = yazmış olamaz (geçmişe dair güçlü olumsuz çıkarım).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0106",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "must have",
+    "zorluk": 2,
+    "soru": "The ancient city must have been destroyed by a powerful earthquake.",
+    "secenekler": [
+      "Antik kentin güçlü bir depremle yıkılması gerekiyordu.",
+      "Antik kent güçlü bir depremle yıkılmış olmalı.",
+      "Antik kent güçlü depremlere dayanacak şekilde inşa edilmiş olmalı.",
+      "Antik kent güçlü bir depreme rağmen yıkılmadı.",
+      "Güçlü bir deprem antik kenti yıkabilirdi ama yıkmadı."
+    ],
+    "dogru": 1,
+    "aciklama": "'must have been destroyed' = yıkılmış olmalı (geçmişe dair güçlü tahmin).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0107",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "rather than",
+    "zorluk": 1,
+    "soru": "Many young people prefer to rent a flat rather than buy one.",
+    "secenekler": [
+      "Birçok genç kiraladığı evi daha sonra satın alıyor.",
+      "Birçok genç ev satın almak için kira ödemeyi bıraktı.",
+      "Birçok genç ev kiralamak yerine satın almayı tercih ediyor.",
+      "Birçok genç ev satın almak yerine kiralamayı tercih ediyor.",
+      "Gençlerin çoğu ev kiralamayı da satın almayı da tercih etmiyor."
+    ],
+    "dogru": 3,
+    "aciklama": "'prefer to rent rather than buy' = satın almak yerine kiralamayı tercih etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0108",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "in spite of",
+    "zorluk": 2,
+    "soru": "In spite of the heavy rain, thousands of fans waited outside the stadium.",
+    "secenekler": [
+      "Şiddetli yağmur yüzünden binlerce taraftar stadyuma giremedi.",
+      "Şiddetli yağmur nedeniyle taraftarlar stadyumun dışında beklemedi.",
+      "Şiddetli yağmura rağmen binlerce taraftar stadyumun dışında bekledi.",
+      "Binlerce taraftar şiddetli yağmur başlamadan stadyuma girdi.",
+      "Stadyumun dışında bekleyen taraftarlar yağmurdan korunmak için içeri alındı."
+    ],
+    "dogru": 2,
+    "aciklama": "'In spite of' = …e rağmen; yağmura rağmen beklediler.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0109",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "so that",
+    "zorluk": 1,
+    "soru": "The teacher spoke slowly so that all the students could understand her.",
+    "secenekler": [
+      "Öğretmen tüm öğrencilerin onu anlayabilmesi için yavaş konuştu.",
+      "Öğretmen yavaş konuştuğu için öğrenciler onu anlayamadı.",
+      "Öğretmen hızlı konuşsa da öğrencilerin hepsi onu anladı.",
+      "Öğrenciler öğretmeni anlayamadığı için ondan yavaş konuşmasını istedi.",
+      "Öğretmen, öğrencilerin yavaş konuşmasını istedi."
+    ],
+    "dogru": 0,
+    "aciklama": "'so that ... could' = …ebilmesi için (amaç).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0110",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the + superlative ... ever",
+    "zorluk": 1,
+    "soru": "This is the most comprehensive study ever conducted on the effects of sleep.",
+    "secenekler": [
+      "Uykunun etkileri üzerine daha kapsamlı bir çalışma yapılması gerekiyor.",
+      "Bu, uykunun etkileri üzerine yapılmış ilk çalışmadır.",
+      "Uykunun etkileri üzerine yapılan çalışmalar genellikle kapsamlı değildir.",
+      "Bu çalışma, uykunun etkilerini inceleyen diğer çalışmalardan daha az kapsamlıdır.",
+      "Bu, uykunun etkileri üzerine şimdiye kadar yapılmış en kapsamlı çalışmadır."
+    ],
+    "dogru": 4,
+    "aciklama": "'the most comprehensive study ever conducted' = şimdiye kadar yapılmış en kapsamlı çalışma.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0111",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be expected to",
+    "zorluk": 1,
+    "soru": "The new airport is expected to be completed within three years.",
+    "secenekler": [
+      "Yeni havalimanının tamamlanması üç yıldan fazla sürdü.",
+      "Yeni havalimanının yapımına üç yıl sonra başlanacak.",
+      "Yeni havalimanı üç yıl önce tamamlandı.",
+      "Yeni havalimanının üç yıl içinde tamamlanması imkânsız görünüyor.",
+      "Yeni havalimanının üç yıl içinde tamamlanması bekleniyor."
+    ],
+    "dogru": 4,
+    "aciklama": "'is expected to be completed within three years' = üç yıl içinde tamamlanması bekleniyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0112",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "so as not to",
+    "zorluk": 2,
+    "soru": "We left early so as not to miss the first train.",
+    "secenekler": [
+      "İlk tren erken kalktığı için onu kaçırdık.",
+      "İlk treni yakalamak için geç çıktık.",
+      "İlk treni kaçırmamak için erken çıktık.",
+      "İlk treni kaçırdığımız için erken çıkamadık.",
+      "Erken çıkmamıza rağmen ilk treni kaçırdık."
+    ],
+    "dogru": 2,
+    "aciklama": "'so as not to miss' = kaçırmamak için (olumsuz amaç).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0113",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "what (ad cümleciği)",
+    "zorluk": 2,
+    "soru": "What surprised the researchers most was the speed at which the virus spread.",
+    "secenekler": [
+      "Virüsün yayılma hızı araştırmacıların tahmin ettiği gibiydi.",
+      "Araştırmacılar virüsün yayılma hızını ölçmekte zorlandı.",
+      "Araştırmacıları en çok şaşırtan şey virüsün nereden geldiğiydi.",
+      "Araştırmacıları en çok şaşırtan şey virüsün yayılma hızıydı.",
+      "Araştırmacılar virüsün yavaş yayılmasına hiç şaşırmadı."
+    ],
+    "dogru": 3,
+    "aciklama": "'What surprised ... most was ...' = en çok şaşırtan şey …ydı; 'the speed at which the virus spread' = virüsün yayılma hızı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0114",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "make sb do",
+    "zorluk": 1,
+    "soru": "The rising cost of living has made many families cut back on holidays.",
+    "secenekler": [
+      "Birçok aile tatillerini kıstığı için yaşam maliyeti arttı.",
+      "Artan yaşam maliyeti birçok aileyi tatillerini kısmaya zorladı.",
+      "Birçok aile, yaşam maliyetini düşürmek için tatile çıkmadı.",
+      "Yaşam maliyeti artsa da aileler tatillerinden vazgeçmedi.",
+      "Artan yaşam maliyeti ailelerin daha çok tatile çıkmasına neden oldu."
+    ],
+    "dogru": 1,
+    "aciklama": "'has made many families cut back on' = birçok aileyi …i kısmaya zorladı; neden yaşam maliyetidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0115",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is no longer",
+    "zorluk": 2,
+    "soru": "It is no longer possible to travel between the two cities by train.",
+    "secenekler": [
+      "İki şehir arasında artık trenle seyahat etmek mümkün değil.",
+      "İki şehir arasında trenle seyahat etmek uzun sürüyor.",
+      "İki şehir arasında trenle seyahat etmek hiçbir zaman mümkün olmadı.",
+      "İki şehir arasında trenle seyahat etmek artık daha kolay.",
+      "İki şehir arasında henüz tren hattı yapılmadı."
+    ],
+    "dogru": 0,
+    "aciklama": "'no longer possible' = artık mümkün değil (eskiden mümkündü).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0116",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "as a result of",
+    "zorluk": 1,
+    "soru": "As a result of the new regulations, several factories have been forced to close.",
+    "secenekler": [
+      "Fabrikalar kapanmamak için yeni düzenlemelere uydu.",
+      "Yeni düzenlemelere rağmen fabrikaların hiçbiri kapanmadı.",
+      "Birkaç fabrika kapandığı için yeni düzenlemeler getirildi.",
+      "Yeni düzenlemeler sonucunda birkaç fabrika kapanmak zorunda kaldı.",
+      "Yeni düzenlemeler birkaç fabrikanın yeniden açılmasını sağladı."
+    ],
+    "dogru": 3,
+    "aciklama": "'As a result of' = …sonucunda; 'have been forced to close' = kapanmak zorunda kaldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0117",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "Type 2",
+    "zorluk": 2,
+    "soru": "If governments invested more in renewable energy, carbon emissions would fall significantly.",
+    "secenekler": [
+      "Hükümetler yenilenebilir enerjiye yatırım yapmazsa karbon salımları düşecek.",
+      "Hükümetler yenilenebilir enerjiye daha çok yatırım yaptığı için karbon salımları önemli ölçüde düştü.",
+      "Karbon salımları düşerse hükümetler yenilenebilir enerjiye daha çok yatırım yapar.",
+      "Hükümetler yenilenebilir enerjiye daha çok yatırım yapmış olsaydı karbon salımları artardı.",
+      "Hükümetler yenilenebilir enerjiye daha çok yatırım yapsa karbon salımları önemli ölçüde düşerdi."
+    ],
+    "dogru": 4,
+    "aciklama": "Type 2: şimdiki zamana dair varsayım (yapsa … düşerdi).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0118",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "too ... to",
+    "zorluk": 1,
+    "soru": "The text was too complicated for most students to understand.",
+    "secenekler": [
+      "Metin, öğrencilerin çoğunun anlayamayacağı kadar karmaşıktı.",
+      "Öğrencilerin çoğu metni anlamak için karmaşık yöntemler kullandı.",
+      "Metnin karmaşık olması öğrencilerin ilgisini çekti.",
+      "Metin öğrencilerin çoğunun anlayabileceği kadar basitti.",
+      "Öğrencilerin çoğu metni anlamasına rağmen karmaşık buldu."
+    ],
+    "dogru": 0,
+    "aciklama": "'too complicated for most students to understand' = öğrencilerin çoğunun anlayamayacağı kadar karmaşık.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0119",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "no sooner ... than",
+    "zorluk": 3,
+    "soru": "No sooner had the concert started than the power went off.",
+    "secenekler": [
+      "Konser, elektrikler kesildiği için hiç başlamadı.",
+      "Konser başlar başlamaz elektrikler kesildi.",
+      "Elektrikler geldikten sonra konser başladı.",
+      "Elektrikler kesilmeden hemen önce konser bitti.",
+      "Konser başladıktan çok sonra elektrikler kesildi."
+    ],
+    "dogru": 1,
+    "aciklama": "'No sooner had ... than' = …ır …maz; iki olay arka arkadadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0120",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "dolaylı soru (why)",
+    "zorluk": 1,
+    "soru": "Scientists do not yet know exactly why some people are more resistant to the virus than others.",
+    "secenekler": [
+      "Bilim insanları bazı insanların virüse dirençli olmadığını kesin olarak biliyor.",
+      "Bilim insanlarına göre herkes virüse karşı aynı derecede dirençlidir.",
+      "Bilim insanları bazı insanların virüse neden diğerlerinden daha dirençli olduğunu henüz tam olarak bilmiyor.",
+      "Bilim insanları, virüsün bazı insanlarda neden daha hızlı yayıldığını buldu.",
+      "Bilim insanları virüse dirençli insanların neden daha az olduğunu açıkladı."
+    ],
+    "dogru": 2,
+    "aciklama": "'do not yet know exactly why' = neden …olduğunu henüz tam olarak bilmiyor; 'more resistant than others' = diğerlerinden daha dirençli.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0121",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "once",
+    "zorluk": 2,
+    "soru": "Once the software is installed, it will update itself automatically.",
+    "secenekler": [
+      "Yazılım yüklendikten sonra kendini otomatik olarak güncelleyecek.",
+      "Yazılım bir kez yüklendi ama hiç güncellenmedi.",
+      "Yazılım otomatik olarak yüklenir ama elle güncellenmelidir.",
+      "Yazılımın kendini güncellemesi için yeniden yüklenmesi gerekir.",
+      "Yazılım yüklenmeden önce otomatik olarak güncellenmelidir."
+    ],
+    "dogru": 0,
+    "aciklama": "'Once' = …dikten sonra / …ınca; 'will update itself automatically' = kendini otomatik olarak güncelleyecek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0122",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "while (zıtlık)",
+    "zorluk": 2,
+    "soru": "While some critics praised the film, others found it too long and confusing.",
+    "secenekler": [
+      "Bazı eleştirmenler filmi izlerken diğerleri salondan çıktı.",
+      "Eleştirmenlerin hepsi filmi fazla uzun buldu ama yine de övdü.",
+      "Eleştirmenler filmi kısa ve anlaşılır bulduğu için övdü.",
+      "Film fazla uzun olduğu için eleştirmenlerin hiçbiri onu övmedi.",
+      "Bazı eleştirmenler filmi övgüyle karşılarken diğerleri onu fazla uzun ve kafa karıştırıcı buldu."
+    ],
+    "dogru": 4,
+    "aciklama": "'While some ... others ...' = bazıları …ırken diğerleri …; iki farklı görüş karşılaştırılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0123",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the majority of",
+    "zorluk": 1,
+    "soru": "The majority of the participants said they would take part in the study again.",
+    "secenekler": [
+      "Katılımcıların hepsi çalışmaya bir daha katılmayacağını söyledi.",
+      "Katılımcıların çoğu çalışmanın yeniden yapılmasını önermedi.",
+      "Katılımcıların çoğunluğu çalışmaya yeniden katılacaklarını söyledi.",
+      "Çalışmaya yeniden katılan katılımcılar çoğunlukla memnun değildi.",
+      "Katılımcıların azı çalışmaya yeniden katılmak istedi."
+    ],
+    "dogru": 2,
+    "aciklama": "'The majority of' = çoğunluğu; 'would take part again' = yeniden katılacakları.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0124",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is thought that",
+    "zorluk": 2,
+    "soru": "It is thought that the painting was stolen during the war and sold abroad.",
+    "secenekler": [
+      "Tablonun savaş sırasında yurt dışına kaçırıldığı kesin olarak kanıtlandı.",
+      "Savaş sırasında yurt dışına satılan tablonun çalıntı olmadığı düşünülüyor.",
+      "Tablo savaş sırasında yurt dışında bir müzeye bağışlandı.",
+      "Tablonun savaş sırasında çalınıp yurt dışında satıldığı düşünülüyor.",
+      "Tablo savaştan sonra yurt dışından satın alınıp geri getirildi."
+    ],
+    "dogru": 3,
+    "aciklama": "'It is thought that' = …düşünülüyor (kesinlik yok); 'stolen ... and sold abroad' = çalınıp yurt dışında satıldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0125",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "no matter how",
+    "zorluk": 2,
+    "soru": "No matter how hard he tried, he could not remember the woman's name.",
+    "secenekler": [
+      "Kadın, onun adını hatırlamak için çok uğraştı.",
+      "Ne kadar uğraşırsa uğraşsın kadının adını hatırlayamadı.",
+      "Çok uğraştığı için sonunda kadının adını hatırladı.",
+      "Kadının adını hatırlamaya çalıştıkça daha kolay hatırladı.",
+      "Kadının adını hatırlamak için hiç uğraşmadı."
+    ],
+    "dogru": 1,
+    "aciklama": "'No matter how hard he tried' = ne kadar uğraşırsa uğraşsın; sonuç olumsuz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0126",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be responsible for",
+    "zorluk": 1,
+    "soru": "The human brain is responsible for about twenty percent of the body's energy use.",
+    "secenekler": [
+      "İnsan beyni, vücudun yüzde yirmisini oluşturur.",
+      "Vücudun kullandığı enerjinin yalnızca yüzde yirmisi beyne ulaşmaz.",
+      "Vücut enerjisinin yüzde yirmisi beyin gelişimi için harcanmaz.",
+      "İnsan beyni vücudun enerji kullanımının yaklaşık yüzde yirmisinden sorumludur.",
+      "İnsan beyni vücudun enerjisinin yüzde sekseninden fazlasını kullanır."
+    ],
+    "dogru": 3,
+    "aciklama": "'is responsible for about twenty percent of the body's energy use' = enerji kullanımının yaklaşık yüzde yirmisinden sorumludur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0127",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "whose",
+    "zorluk": 2,
+    "soru": "The writer, whose first novel was rejected by ten publishers, later won a major literary prize.",
+    "secenekler": [
+      "Yazar, ilk romanı reddedildiği için yazmayı bıraktı.",
+      "İlk romanı on yayınevi tarafından reddedilen yazar, daha sonra önemli bir edebiyat ödülü kazandı.",
+      "Yazarın ilk romanı önemli bir ödül kazandığı için on yayınevi tarafından basıldı.",
+      "On yayınevi, önemli bir ödül kazanan yazarın ilk romanını yayımlamak istedi.",
+      "Yazar önemli bir edebiyat ödülü kazandıktan sonra on yayınevini reddetti."
+    ],
+    "dogru": 1,
+    "aciklama": "'whose first novel was rejected by ten publishers' = ilk romanı on yayınevi tarafından reddedilen; 'later won' = daha sonra kazandı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0128",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "lead to",
+    "zorluk": 1,
+    "soru": "Lack of sleep can lead to serious health problems such as heart disease.",
+    "secenekler": [
+      "Fazla uyku kalp hastalığı riskini artırabilir.",
+      "Kalp hastalığı gibi ciddi sağlık sorunları uykusuzluğa yol açar.",
+      "Uykusuzluk kalp hastalığı gibi ciddi sağlık sorunlarına yol açabilir.",
+      "Uykusuzluğun kalp hastalığıyla bir ilgisi olmadığı kanıtlandı.",
+      "Uykusuzluk, kalp hastalığı dışında ciddi bir sağlık sorunu yaratmaz."
+    ],
+    "dogru": 2,
+    "aciklama": "'can lead to' = yol açabilir; 'such as' = gibi. Neden uykusuzluktur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0129",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "only if",
+    "zorluk": 2,
+    "soru": "The plan will succeed only if everyone cooperates.",
+    "secenekler": [
+      "Plan ancak herkes iş birliği yaparsa başarılı olacak.",
+      "Herkesin iş birliği yapması planı zorlaştıracak.",
+      "Plan, kimse iş birliği yapmasa da başarılı olacak.",
+      "Plan başarılı olursa herkes iş birliği yapacak.",
+      "Herkes iş birliği yapsa bile plan başarısız olacak."
+    ],
+    "dogru": 0,
+    "aciklama": "'only if' = ancak …rsa; başarı herkesin iş birliğine bağlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0130",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "have sth done",
+    "zorluk": 2,
+    "soru": "She had her car repaired at a garage near her office.",
+    "secenekler": [
+      "Arabası ofisinin yakınında bozulduğu için tamirhaneye gidemedi.",
+      "Arabasını tamir ettirmek için ofisinden uzak bir tamirhaneye götürdü.",
+      "Ofisinin yakınındaki tamirhane arabasını tamir etmeyi reddetti.",
+      "Arabasını ofisinin yakınındaki tamirhanede kendisi tamir etti.",
+      "Arabasını ofisinin yakınındaki bir tamirhanede tamir ettirdi."
+    ],
+    "dogru": 4,
+    "aciklama": "'had her car repaired' = arabasını tamir ettirdi (başkasına yaptırdı).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0131",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "as ... as",
+    "zorluk": 1,
+    "soru": "Online courses can be just as effective as traditional classroom teaching.",
+    "secenekler": [
+      "Geleneksel sınıf öğretimi çevrim içi derslerden her zaman daha etkilidir.",
+      "Çevrim içi dersler geleneksel sınıf öğretimi kadar etkili olabilir.",
+      "Çevrim içi dersler geleneksel sınıf öğretiminden çok daha az etkilidir.",
+      "Çevrim içi dersler, geleneksel sınıf öğretiminin yerini hiçbir zaman alamaz.",
+      "Geleneksel sınıflarda çevrim içi dersler de etkili biçimde kullanılır."
+    ],
+    "dogru": 1,
+    "aciklama": "'just as effective as' = …kadar etkili; 'can be' = olabilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0132",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be said to",
+    "zorluk": 3,
+    "soru": "The castle is said to have been built by a wealthy merchant in the sixteenth century.",
+    "secenekler": [
+      "Zengin bir tüccar on altıncı yüzyılda bir kale satın aldı.",
+      "Zengin tüccarın kaleyi on altıncı yüzyılda inşa ettiği kesin olarak biliniyor.",
+      "Kale, on altıncı yüzyıldan beri zengin bir tüccar ailesine aittir.",
+      "Kalenin on altıncı yüzyılda zengin bir tüccar tarafından yıkıldığı söyleniyor.",
+      "Kalenin on altıncı yüzyılda zengin bir tüccar tarafından inşa edildiği söyleniyor."
+    ],
+    "dogru": 4,
+    "aciklama": "'is said to have been built' = inşa edildiği söyleniyor (kesin değil).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0133",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "compared with",
+    "zorluk": 2,
+    "soru": "Compared with other European countries, the birth rate in Italy is relatively low.",
+    "secenekler": [
+      "İtalya'daki doğum oranı diğer Avrupa ülkelerinden çok daha yüksektir.",
+      "İtalya'daki doğum oranı diğer Avrupa ülkeleriyle aynıdır.",
+      "İtalya'da doğum oranı düşük olduğu için diğer Avrupa ülkeleri endişeli.",
+      "Diğer Avrupa ülkeleriyle karşılaştırıldığında İtalya'daki doğum oranı nispeten düşüktür.",
+      "Avrupa ülkelerinin çoğunda doğum oranı İtalya'dan daha düşüktür."
+    ],
+    "dogru": 3,
+    "aciklama": "'Compared with' = …ile karşılaştırıldığında; 'relatively low' = nispeten düşük.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0134",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is worth",
+    "zorluk": 1,
+    "soru": "It is worth visiting the old town, even if you only have a few hours.",
+    "secenekler": [
+      "Yalnızca birkaç saatiniz varsa eski şehri ziyaret etmeyin.",
+      "Eski şehri ziyaret edenler orada birkaç saatten fazla kalmaz.",
+      "Yalnızca birkaç saatiniz olsa bile eski şehri ziyaret etmeye değer.",
+      "Eski şehri ziyaret etmek için birkaç saatten fazlası gerekir.",
+      "Eski şehir birkaç saat içinde gezilemeyecek kadar büyüktür."
+    ],
+    "dogru": 2,
+    "aciklama": "'It is worth visiting' = ziyaret etmeye değer; 'even if' = …sa bile.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0135",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is not clear whether",
+    "zorluk": 2,
+    "soru": "It is not yet clear whether the drug has any serious side effects.",
+    "secenekler": [
+      "İlacın ciddi yan etkileri olup olmadığı henüz belli değil.",
+      "İlacın yan etkileri, kullanımından önce açıkça belirtildi.",
+      "İlacın ciddi yan etkileri olduğu açıkça kanıtlandı.",
+      "İlacın hiçbir yan etkisi olmadığı açıklandı.",
+      "İlacın yan etkileri ciddi olmasa da henüz kullanılmıyor."
+    ],
+    "dogru": 0,
+    "aciklama": "'It is not yet clear whether' = …ıp …madığı henüz belli değil.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0136",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "what matters",
+    "zorluk": 2,
+    "soru": "What matters most is not how much you study but how effectively you study.",
+    "secenekler": [
+      "Etkili çalışmak için çok uzun süre çalışmak gerekir.",
+      "En önemli olan ne kadar etkili değil, ne kadar çok çalıştığınızdır.",
+      "Ne kadar çok çalışırsanız o kadar etkili olursunuz.",
+      "En önemli olan ne kadar çok çalıştığınız değil, ne kadar etkili çalıştığınızdır.",
+      "Çok çalışmak her zaman etkili çalışmaktan daha önemlidir."
+    ],
+    "dogru": 3,
+    "aciklama": "'not how much ... but how effectively' = ne kadar çok değil, ne kadar etkili.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0137",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be about to",
+    "zorluk": 1,
+    "soru": "The train was about to leave when we arrived at the station.",
+    "secenekler": [
+      "İstasyona varmadan önce tren kalkmadı.",
+      "Tren kalktıktan sonra istasyona vardık.",
+      "İstasyona vardığımızda tren kalkmak üzereydi.",
+      "İstasyona vardığımızda tren çoktan kalkmıştı.",
+      "Tren kalkmak üzereyken istasyondan ayrıldık."
+    ],
+    "dogru": 2,
+    "aciklama": "'was about to leave' = kalkmak üzereydi; 'when we arrived' = vardığımızda.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0138",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it has been ... since",
+    "zorluk": 2,
+    "soru": "It has been more than fifty years since humans last walked on the Moon.",
+    "secenekler": [
+      "Ay'da yürüyen son insan elli yaşındaydı.",
+      "İnsanların Ay'da son kez yürümesinin üzerinden elli yıldan fazla zaman geçti.",
+      "İnsanlar elli yıldan fazla bir süre Ay'da yürüdü.",
+      "İnsanlar elli yıl sonra Ay'da yeniden yürüyecek.",
+      "İnsanlar Ay'da ilk kez elli yıl önce yürüdü."
+    ],
+    "dogru": 1,
+    "aciklama": "'It has been more than fifty years since' = …in üzerinden elli yıldan fazla geçti; 'last' = son kez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0139",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "none of",
+    "zorluk": 1,
+    "soru": "None of the witnesses could describe the man clearly.",
+    "secenekler": [
+      "Adam tanıkları net bir şekilde tarif edemedi.",
+      "Tanıkların çoğu adamı tarif etmek istemedi.",
+      "Tanıkların hepsi adamı net bir şekilde tarif etti.",
+      "Tanıklardan biri adamı net bir şekilde tarif edebildi.",
+      "Tanıkların hiçbiri adamı net bir şekilde tarif edemedi."
+    ],
+    "dogru": 4,
+    "aciklama": "'None of the witnesses could' = tanıkların hiçbiri …emedi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0140",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be accused of",
+    "zorluk": 2,
+    "soru": "The former minister has been accused of accepting bribes from a construction company.",
+    "secenekler": [
+      "Eski bakan bir inşaat şirketinden rüşvet almakla suçlandı.",
+      "Eski bakanın rüşvet aldığı mahkemede kanıtlandı.",
+      "Bir inşaat şirketi, eski bakana rüşvet vermediğini açıkladı.",
+      "Eski bakan, inşaat şirketlerinin rüşvet vermesini engelledi.",
+      "Eski bakan bir inşaat şirketini rüşvet vermekle suçladı."
+    ],
+    "dogru": 0,
+    "aciklama": "'has been accused of accepting bribes' = rüşvet almakla suçlandı (suçlanan bakandır; kanıtlanmış değil).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0141",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "once (eskiden)",
+    "zorluk": 2,
+    "soru": "The area, which was once covered by forest, is now mostly farmland.",
+    "secenekler": [
+      "Bölgenin tamamı hem orman hem tarım arazisi olarak kullanılıyor.",
+      "Bir zamanlar ormanla kaplı olan bölge şimdi büyük ölçüde tarım arazisidir.",
+      "Bölgedeki ormanlar tarım arazisine dönüştürülmedi.",
+      "Tarım arazisi olan bölge şimdi ormanlarla kaplı.",
+      "Bölge bir zamanlar tarım arazisiydi ama şimdi ormanla kaplı."
+    ],
+    "dogru": 1,
+    "aciklama": "'which was once covered by forest' = bir zamanlar ormanla kaplı olan; 'now mostly farmland' = şimdi büyük ölçüde tarım arazisi.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0142",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is difficult to",
+    "zorluk": 1,
+    "soru": "It is difficult to overestimate the importance of clean water for public health.",
+    "secenekler": [
+      "Temiz suyun halk sağlığı için önemi genellikle abartılır.",
+      "Halk sağlığı uzmanları temiz suyun önemini küçümser.",
+      "Halk sağlığı için temiz suyun önemini ölçmek kolaydır.",
+      "Temiz suyun halk sağlığı açısından önemini abartmak zordur.",
+      "Temiz su halk sağlığını çok az etkiler."
+    ],
+    "dogru": 3,
+    "aciklama": "'difficult to overestimate' = abartmak zor, yani önemi çok büyük.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0143",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "either ... or",
+    "zorluk": 1,
+    "soru": "Applicants must either submit the form online or bring it to the office in person.",
+    "secenekler": [
+      "Başvuru sahiplerinin formu ofise getirmesine gerek yoktur.",
+      "Başvuru sahipleri formu çevrim içi gönderemez.",
+      "Başvuru sahipleri formu hem çevrim içi göndermeli hem de ofise getirmelidir.",
+      "Başvuru formu yalnızca ofiste doldurulabilir.",
+      "Başvuru sahipleri formu ya çevrim içi göndermeli ya da ofise bizzat getirmelidir."
+    ],
+    "dogru": 4,
+    "aciklama": "'either ... or' = ya … ya da; iki seçenekten biri.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0144",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it seems that",
+    "zorluk": 2,
+    "soru": "It seems that the company underestimated the demand for its new phone.",
+    "secenekler": [
+      "Görünüşe göre şirket yeni telefonuna olan talebi olduğundan az tahmin etti.",
+      "Görünüşe göre şirket yeni telefonun fiyatını çok yüksek belirledi.",
+      "Şirket yeni telefonuna olan talebi abarttığını kabul etti.",
+      "Şirket yeni telefonun talebi karşılayamayacağını biliyordu.",
+      "Şirketin yeni telefonuna hiç talep olmadı."
+    ],
+    "dogru": 0,
+    "aciklama": "'It seems that' = görünüşe göre; 'underestimated the demand' = talebi olduğundan az tahmin etti.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0145",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "be made up of",
+    "zorluk": 1,
+    "soru": "The committee is made up of experts from ten different countries.",
+    "secenekler": [
+      "Komitedeki uzmanların hepsi aynı ülkeden geliyor.",
+      "Komite üyeleri on farklı ülkeyi ziyaret etti.",
+      "Komite on farklı ülkeden uzmanlardan oluşuyor.",
+      "Komite on farklı ülkedeki uzmanları bir araya getirmeyi amaçlıyor.",
+      "Komite, on farklı ülkeden uzman yetiştirmek için kuruldu."
+    ],
+    "dogru": 2,
+    "aciklama": "'is made up of' = …den oluşur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0146",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "hardly ... when",
+    "zorluk": 3,
+    "soru": "Hardly had we sat down to dinner when the phone rang.",
+    "secenekler": [
+      "Telefon çaldığı için akşam yemeğine oturamadık.",
+      "Telefon çaldıktan uzun süre sonra yemeğe oturduk.",
+      "Akşam yemeği sırasında telefon hiç çalmadı.",
+      "Akşam yemeğini bitirdikten sonra telefon çaldı.",
+      "Akşam yemeğine oturur oturmaz telefon çaldı."
+    ],
+    "dogru": 4,
+    "aciklama": "'Hardly had ... when' = …ır …maz; olaylar hemen ardı ardına.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0147",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is up to",
+    "zorluk": 2,
+    "soru": "It is up to parents to decide how much time their children spend online.",
+    "secenekler": [
+      "Çocuklarının internette ne kadar zaman geçireceğine karar vermek ebeveynlere kalmıştır.",
+      "Ebeveynler internette çocuklarından daha çok zaman geçiriyor.",
+      "Çocukların internette geçirdiği zaman yasayla sınırlandırılmıştır.",
+      "Ebeveynler çocuklarının internette çok zaman geçirmesinden şikâyetçi.",
+      "Çocuklar internette ne kadar zaman geçireceklerine kendileri karar verir."
+    ],
+    "dogru": 0,
+    "aciklama": "'It is up to parents to decide' = karar vermek ebeveynlere kalmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0148",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "at least",
+    "zorluk": 1,
+    "soru": "Adults should drink at least two litres of water a day.",
+    "secenekler": [
+      "Yetişkinlerin günde iki litreden az su içmesi yeterlidir.",
+      "Yetişkinlerin çoğu günde iki litre su içer.",
+      "Yetişkinler günde en fazla iki litre su içmelidir.",
+      "Yetişkinler günde en az iki litre su içmelidir.",
+      "Yetişkinler günde iki litre su içmek zorunda değildir."
+    ],
+    "dogru": 3,
+    "aciklama": "'at least' = en az; 'should' = …meli.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0149",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "it is surprising that",
+    "zorluk": 2,
+    "soru": "It is surprising that such a small company managed to win the contract.",
+    "secenekler": [
+      "Bu kadar küçük bir şirket sözleşmeyi kazanamadı.",
+      "Bu kadar küçük bir şirketin sözleşmeyi kazanmayı başarması şaşırtıcı.",
+      "Sözleşmeyi kazanan büyük şirket küçük bir şirketi satın aldı.",
+      "Küçük bir şirketin sözleşmeyi kazanması herkes tarafından bekleniyordu.",
+      "Küçük şirketler genellikle bu tür sözleşmeleri kazanır."
+    ],
+    "dogru": 1,
+    "aciklama": "'It is surprising that' = …şaşırtıcı; 'managed to win' = kazanmayı başardı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.et-0150",
+    "bolum": "ceviri_et",
+    "konu": "ceviri.et",
+    "alt_konu": "the number of",
+    "zorluk": 1,
+    "soru": "The number of people working from home has increased dramatically since 2020.",
+    "secenekler": [
+      "Evden çalışan insanların sayısı 2020'de azalmaya başladı.",
+      "2020'den bu yana insanların çoğu ofise geri döndü.",
+      "Evden çalışan insanların sayısı 2020'den bu yana çarpıcı biçimde arttı.",
+      "2020'den önce evden çalışan insanların sayısı daha fazlaydı.",
+      "Evden çalışan insanlar 2020'den beri daha az çalışıyor."
+    ],
+    "dogru": 2,
+    "aciklama": "'has increased dramatically since 2020' = 2020'den bu yana çarpıcı biçimde arttı.",
+    "paragraf_id": null
   }
 ]

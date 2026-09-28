@@ -844,5 +844,1859 @@
     "dogru": 3,
     "aciklama": "'How do I apply?' başvurulabilecek bir yardımdan söz edildiğini gösterir.",
     "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0048",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kayıp bagaj",
+    "zorluk": 1,
+    "soru": "Passenger: My suitcase didn't arrive on the flight from Madrid.\nClerk: ----\nPassenger: It's a large blue one with a red ribbon on the handle.\nClerk: Thank you. We'll contact you as soon as it's found.",
+    "secenekler": [
+      "Would you like a window seat?",
+      "Which gate did your flight leave from?",
+      "I'm sorry to hear that. Could you describe it, please?",
+      "Your flight has been cancelled.",
+      "How much did the suitcase cost?"
+    ],
+    "dogru": 2,
+    "aciklama": "Yolcunun bavulunu tarif etmesi, görevlinin bavulun tarifini istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0049",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Doktor randevusu",
+    "zorluk": 1,
+    "soru": "Patient: I'd like to make an appointment with Dr Aydın, please.\nReceptionist: ----\nPatient: Tuesday morning would be ideal, if possible.\nReceptionist: She has a free slot at ten o'clock.",
+    "secenekler": [
+      "What seems to be the problem?",
+      "Have you taken any medicine?",
+      "She retired last year.",
+      "Please take a seat in the waiting room.",
+      "Certainly. When would suit you?"
+    ],
+    "dogru": 4,
+    "aciklama": "Hastanın gün ve saat belirtmesi, kendisine ne zaman uygun olduğunun sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0050",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kitap kulübü",
+    "zorluk": 2,
+    "soru": "Emma: Have you finished the novel for the book club yet?\nLeo: ----\nEmma: Really? I thought you were enjoying it.\nLeo: I was at first, but the second half is so slow that I lost interest.",
+    "secenekler": [
+      "The book club meets on Thursdays.",
+      "No, and to be honest, I've given up on it.",
+      "Yes, I read it in one night because I loved it.",
+      "I haven't bought it yet.",
+      "Yes, it's the best book I've ever read."
+    ],
+    "dogru": 1,
+    "aciklama": "Emma'nın şaşırması ve Leo'nun ilgisini kaybettiğini söylemesi kitabı bıraktığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0051",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Elektrik faturası",
+    "zorluk": 2,
+    "soru": "Tenant: My electricity bill has almost doubled this month.\nLandlord: ----\nTenant: No, I've been using it as little as possible.\nLandlord: Then perhaps there's a problem with the meter. I'll ask someone to check it.",
+    "secenekler": [
+      "Have you been using the electric heater a lot?",
+      "Electricity prices never change.",
+      "Why don't you move to a bigger flat?",
+      "You should pay it by Friday.",
+      "I'll raise your rent next month."
+    ],
+    "dogru": 0,
+    "aciklama": "'No, I've been using it as little as possible' cevabı bir cihazın çok kullanılıp kullanılmadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0052",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "İş görüşmesi",
+    "zorluk": 2,
+    "soru": "Interviewer: Why do you want to leave your current job?\nCandidate: ----\nInterviewer: I see. And what kind of challenges are you looking for?\nCandidate: I'd like to manage larger projects and lead a team.",
+    "secenekler": [
+      "I haven't started working yet.",
+      "I'm happy there and don't want to leave.",
+      "Because the salary here is lower.",
+      "I feel I've learnt all I can there, and I'm ready for new challenges.",
+      "My manager asked me to apply here."
+    ],
+    "dogru": 3,
+    "aciklama": "Görüşmecinin 'what kind of challenges' sorusu adayın yeni zorluklardan söz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0053",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Restoran rezervasyonu",
+    "zorluk": 1,
+    "soru": "Customer: I'd like to book a table for six on Saturday evening.\nWaiter: ----\nCustomer: Around eight, if you have anything then.\nWaiter: I'm afraid we're full at eight, but we could offer you half past eight.",
+    "secenekler": [
+      "We're closed on Saturdays.",
+      "Of course. What time would you like?",
+      "Would you like to see the dessert menu?",
+      "That will be forty euros, please.",
+      "How would you like your steak?"
+    ],
+    "dogru": 1,
+    "aciklama": "Müşterinin 'Around eight' diye saat belirtmesi saatin sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0054",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Bilim fuarı",
+    "zorluk": 1,
+    "soru": "Teacher: Your project on water filters was very impressive.\nStudent: ----\nTeacher: You should be proud. It's clear you put a lot of work into it.",
+    "secenekler": [
+      "Water filters are too expensive.",
+      "Can I change my project topic?",
+      "I didn't do any work on it.",
+      "I'm sorry it was so disappointing.",
+      "Thank you. It took us nearly two months to finish."
+    ],
+    "dogru": 4,
+    "aciklama": "Öğretmenin 'you put a lot of work into it' demesi öğrencinin harcadığı emekten söz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0055",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Araba kiralama",
+    "zorluk": 1,
+    "soru": "Customer: I'd like to rent a car for a week.\nAgent: ----\nCustomer: Something small and economical. I'll mostly be driving in the city.\nAgent: Then I'd recommend this model. It uses very little fuel.",
+    "secenekler": [
+      "We only rent vans.",
+      "The car must be returned tomorrow.",
+      "Certainly. What kind of car are you looking for?",
+      "Have you ever had an accident?",
+      "Where would you like to fly to?"
+    ],
+    "dogru": 2,
+    "aciklama": "Müşterinin istediği araba türünü tarif etmesi, türün sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0056",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sahil temizliği",
+    "zorluk": 2,
+    "soru": "Mia: We're organising a beach clean-up this Sunday. Would you like to join us?\nTom: ----\nMia: That's fine. We'll be there all day, so come whenever you're free.",
+    "secenekler": [
+      "Why didn't you invite me earlier?",
+      "No, I hate the beach and never go there.",
+      "I'd love to, but I can only come in the afternoon.",
+      "I went to the beach last Sunday.",
+      "Is the beach very far from the city?"
+    ],
+    "dogru": 2,
+    "aciklama": "Mia'nın 'come whenever you're free' demesi Tom'un yalnızca belirli bir saatte gelebileceğini söylediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0057",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Ev arkadaşı",
+    "zorluk": 1,
+    "soru": "Anna: Could you please keep the music down after midnight?\nBen: ----\nAnna: Thanks. I have an early exam tomorrow.",
+    "secenekler": [
+      "The neighbours never complain.",
+      "What kind of music do you like?",
+      "I can't hear anything.",
+      "I always listen to music after midnight.",
+      "Sorry, I didn't realise it was so loud. I'll turn it down."
+    ],
+    "dogru": 4,
+    "aciklama": "Anna'nın teşekkür etmesi Ben'in isteği kabul ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0058",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Ürün değişimi",
+    "zorluk": 2,
+    "soru": "Customer: The shoes I ordered online are too small.\nAssistant: ----\nCustomer: Yes, I'd prefer a larger size rather than my money back.\nAssistant: No problem. I'll send you a pair in size 42.",
+    "secenekler": [
+      "Those shoes are very popular.",
+      "Would you like to exchange them?",
+      "Did you pay by credit card?",
+      "We don't accept returns on shoes.",
+      "Have you tried wearing them outside?"
+    ],
+    "dogru": 1,
+    "aciklama": "Müşterinin para iadesi yerine daha büyük numara istemesi değişim teklif edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0059",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kaçırılan ders",
+    "zorluk": 1,
+    "soru": "Student: I missed yesterday's lecture because I was ill.\nProfessor: ----\nStudent: Thank you. I'll download them tonight.",
+    "secenekler": [
+      "Attendance is not compulsory.",
+      "The lecture was cancelled anyway.",
+      "Did you see a doctor?",
+      "The slides are available on the course website.",
+      "You'll have to repeat the course."
+    ],
+    "dogru": 3,
+    "aciklama": "'I'll download them' ifadesi indirilebilecek bir şeyden, yani slaytlardan söz edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0060",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Bisiklet tamiri",
+    "zorluk": 2,
+    "soru": "Customer: Can you fix my bike by tomorrow?\nMechanic: ----\nCustomer: Oh no. I need it to get to work.\nMechanic: I can lend you one of ours until yours is ready.",
+    "secenekler": [
+      "I'm afraid not. The part won't arrive until Friday.",
+      "Your bike looks brand new.",
+      "Of course. It'll be ready in an hour.",
+      "How long have you had this bike?",
+      "We don't sell bicycles."
+    ],
+    "dogru": 0,
+    "aciklama": "Müşterinin 'Oh no' tepkisi ve ödünç bisiklet teklifi tamirin yetişmeyeceğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0061",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Taşınma",
+    "zorluk": 1,
+    "soru": "Sara: I heard you're moving to Izmir.\nCan: ----\nSara: That's great news. Congratulations!",
+    "secenekler": [
+      "Yes, I've been offered a job at a hospital there.",
+      "No, I've never been to Izmir.",
+      "Yes, but I'm really worried because I lost my job.",
+      "I don't know anyone who lives in Izmir.",
+      "Izmir is too hot in the summer."
+    ],
+    "dogru": 0,
+    "aciklama": "'Congratulations!' ancak iyi bir habere, örneğin iş teklifine verilen bir tepkidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0062",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sınav sonucu",
+    "zorluk": 1,
+    "soru": "Mother: How did the maths exam go?\nSon: ----\nMother: Don't worry. As long as you did your best, that's what matters.",
+    "secenekler": [
+      "It was great. I think I got full marks.",
+      "The exam is next week.",
+      "Not very well, I'm afraid. I ran out of time.",
+      "I didn't have a maths exam.",
+      "Maths is my favourite subject."
+    ],
+    "dogru": 2,
+    "aciklama": "Annenin teselli etmesi sınavın kötü geçtiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0063",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Konuşmacı iptali",
+    "zorluk": 2,
+    "soru": "Organiser: The keynote speaker has just cancelled.\nAssistant: ----\nOrganiser: Good idea. Could you call her right away?",
+    "secenekler": [
+      "The speaker's flight has just landed.",
+      "Then we should cancel the whole conference.",
+      "How many people have registered?",
+      "I'm sure she'll come anyway.",
+      "Why don't we ask Professor Demir to take her place?"
+    ],
+    "dogru": 4,
+    "aciklama": "'Good idea' ve 'call her' bir öneri ve aranacak yeni bir kişiden söz edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0064",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kahve siparişi",
+    "zorluk": 1,
+    "soru": "Barista: What can I get you?\nCustomer: ----\nBarista: Sorry, we've run out of oat milk. Would soya milk be all right?",
+    "secenekler": [
+      "A black coffee, no milk, please.",
+      "Do you sell sandwiches?",
+      "Where's the nearest cash machine?",
+      "A large latte with oat milk, please.",
+      "Just a glass of water, thanks."
+    ],
+    "dogru": 3,
+    "aciklama": "Baristanın yulaf sütünün bittiğini söylemesi müşterinin yulaf sütü istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0065",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Uçuş gecikmesi",
+    "zorluk": 1,
+    "soru": "Passenger: Excuse me, why hasn't boarding started yet?\nStaff: ----\nPassenger: How long will we have to wait?\nStaff: At least an hour, I'm afraid.",
+    "secenekler": [
+      "This flight is going to Rome.",
+      "The plane is being checked because of a technical problem.",
+      "Your seat is 14A.",
+      "You can't take liquids on board.",
+      "Boarding finished twenty minutes ago."
+    ],
+    "dogru": 1,
+    "aciklama": "Yolcu gecikmenin nedenini soruyor; ardından bekleme süresini sorması bir sorun olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0066",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Spor salonu",
+    "zorluk": 1,
+    "soru": "Receptionist: Welcome to the gym. Are you a member?\nVisitor: ----\nReceptionist: Then you'll need to fill in this form and show some ID.",
+    "secenekler": [
+      "Not yet, but I'd like to join.",
+      "Where are the changing rooms?",
+      "Is the swimming pool open?",
+      "Yes, I've been coming here for years.",
+      "I'm just waiting for a friend."
+    ],
+    "dogru": 0,
+    "aciklama": "Form doldurma istenmesi ziyaretçinin üye olmak istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0067",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Teslim tarihi",
+    "zorluk": 2,
+    "soru": "Manager: Will the report be ready by Friday?\nEmployee: ----\nManager: All right, but no later than Tuesday, please.",
+    "secenekler": [
+      "I'll send it to you tomorrow.",
+      "I'm not sure. Could I have until early next week?",
+      "What report are you talking about?",
+      "I've already sent it to the client.",
+      "Yes, I finished it this morning."
+    ],
+    "dogru": 1,
+    "aciklama": "Müdürün 'no later than Tuesday' demesi çalışanın ek süre istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0068",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Film seçimi",
+    "zorluk": 2,
+    "soru": "Leyla: Shall we watch a comedy tonight?\nMert: ----\nLeyla: Fine, but nothing too frightening, please.",
+    "secenekler": [
+      "I watched a comedy yesterday and loved it.",
+      "The cinema is closed tonight.",
+      "Yes, a comedy sounds perfect.",
+      "I'd rather watch a thriller, actually.",
+      "I don't have a television."
+    ],
+    "dogru": 3,
+    "aciklama": "Leyla'nın 'nothing too frightening' demesi Mert'in korku ya da gerilim türünde bir film önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0069",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kütüphane kartı",
+    "zorluk": 1,
+    "soru": "Student: I'd like to borrow this book, but my library card has expired.\nLibrarian: ----\nStudent: That's easy. I have my student ID with me.",
+    "secenekler": [
+      "Would you like a plastic bag?",
+      "I'm sorry, this book cannot be borrowed.",
+      "You can renew it here if you show some identification.",
+      "You'll have to pay a fine for late books.",
+      "The library closes at six."
+    ],
+    "dogru": 2,
+    "aciklama": "Öğrencinin kimliğini göstermesi kimlik istendiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0070",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yağmurlu hafta sonu",
+    "zorluk": 1,
+    "soru": "Deniz: The forecast says it'll rain all weekend.\nEce: ----\nDeniz: Good idea. We could go to the new science museum.",
+    "secenekler": [
+      "Let's go to the beach, then.",
+      "I love walking in the rain.",
+      "Great, it'll be perfect weather for a picnic.",
+      "The forecast is always wrong.",
+      "Then let's plan something indoors instead of the picnic."
+    ],
+    "dogru": 4,
+    "aciklama": "Deniz'in kapalı bir mekân olan müzeyi önermesi Ece'nin kapalı alan etkinliği önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0071",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Dil kursu",
+    "zorluk": 2,
+    "soru": "Receptionist: Which level would you like to join?\nStudent: ----\nReceptionist: In that case, you should take a short placement test first.",
+    "secenekler": [
+      "The beginners' class, please. I've never studied German.",
+      "Advanced, please. I've already passed the official exam.",
+      "I'm not sure. I studied German years ago but forgot most of it.",
+      "How much does the course cost?",
+      "Are the classes in the evening?"
+    ],
+    "dogru": 2,
+    "aciklama": "Seviye tespit sınavı önerisi öğrencinin seviyesinden emin olmadığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0072",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Deprem yardımı",
+    "zorluk": 1,
+    "soru": "Volunteer: We're collecting warm clothes for families affected by the earthquake.\nResident: ----\nVolunteer: Anything clean and in good condition would be very welcome.",
+    "secenekler": [
+      "Where can I buy warm clothes?",
+      "I haven't heard about the earthquake.",
+      "When will the earthquake happen?",
+      "I'd like to help. What sort of clothes do you need?",
+      "I'm afraid I'm too busy to talk."
+    ],
+    "dogru": 3,
+    "aciklama": "Gönüllünün ne tür kıyafet kabul ettiklerini açıklaması kıyafet türünün sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0073",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Ev boyama",
+    "zorluk": 1,
+    "soru": "Husband: What colour should we paint the living room?\nWife: ----\nHusband: I agree. Dark colours would make it look even smaller.",
+    "secenekler": [
+      "Let's not paint it at all.",
+      "Dark blue would look lovely.",
+      "I'll buy the paint tomorrow.",
+      "The kitchen needs painting more.",
+      "Something light, like cream or pale yellow."
+    ],
+    "dogru": 4,
+    "aciklama": "Kocanın koyu renklerin odayı küçülteceğini söyleyerek onaylaması açık bir renk önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0074",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kayıp cüzdan",
+    "zorluk": 1,
+    "soru": "Woman: I think I left my wallet on the bus this morning.\nOfficer: ----\nWoman: It was the number 25, at about half past eight.\nOfficer: I'll contact the bus company and let you know.",
+    "secenekler": [
+      "How much money was in it?",
+      "Which bus were you on, and at what time?",
+      "Have you checked your pockets?",
+      "Did you report it to your bank?",
+      "Where do you live?"
+    ],
+    "dogru": 1,
+    "aciklama": "Kadının otobüs numarası ve saati vermesi bunların sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0075",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Tatil planı",
+    "zorluk": 2,
+    "soru": "Selin: Where are you going on holiday this year?\nArda: ----\nSelin: Lucky you! I've always wanted to see the northern lights.",
+    "secenekler": [
+      "We're going to Norway in February.",
+      "I haven't decided yet.",
+      "We're staying at home to save money.",
+      "We're going to Egypt to see the pyramids.",
+      "We went to Italy last year."
+    ],
+    "dogru": 0,
+    "aciklama": "Kuzey ışıklarından söz edilmesi Norveç gibi kuzeyde bir yere gidildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0076",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Grup projesi",
+    "zorluk": 2,
+    "soru": "Kerem: I don't think Ali is doing his share of the group project.\nZeynep: ----\nKerem: You're right. It's better to talk to him first before we tell the teacher.",
+    "secenekler": [
+      "Ali is the hardest-working member of our group.",
+      "The project is due next month.",
+      "Let's report him to the teacher immediately.",
+      "I've already finished my part.",
+      "Maybe we should ask him if something is wrong."
+    ],
+    "dogru": 4,
+    "aciklama": "Kerem'in önce Ali ile konuşmayı onaylaması Zeynep'in onunla konuşmayı önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0077",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Evcil hayvan izni",
+    "zorluk": 1,
+    "soru": "Tenant: Is it possible to keep a pet in the flat?\nAgent: ----\nTenant: That's fine. My cat is very quiet.",
+    "secenekler": [
+      "The flat has two bedrooms.",
+      "No, pets are strictly forbidden.",
+      "Do you have children?",
+      "Small pets are allowed, but you'll need the owner's permission.",
+      "The rent includes heating."
+    ],
+    "dogru": 3,
+    "aciklama": "Kiracının 'That's fine' diyerek kedisinden söz etmesi evcil hayvana koşullu izin verildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0078",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Test sonuçları",
+    "zorluk": 2,
+    "soru": "Doctor: Your test results are all normal.\nPatient: ----\nDoctor: Then it's probably just stress. Try to get more rest.",
+    "secenekler": [
+      "But why do I still feel so tired all the time?",
+      "Great, so I feel perfectly healthy.",
+      "I'd like to change my doctor.",
+      "How much do the tests cost?",
+      "When will I get the results?"
+    ],
+    "dogru": 0,
+    "aciklama": "Doktorun stres ve dinlenmeden söz etmesi hastanın süregelen yorgunluğundan yakındığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0079",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Keman dersi",
+    "zorluk": 1,
+    "soru": "Teacher: How long have you been playing the violin?\nPupil: ----\nTeacher: That's impressive progress for such a short time.",
+    "secenekler": [
+      "Since I was four years old.",
+      "My sister plays the piano.",
+      "Only about six months.",
+      "I practise every morning.",
+      "I don't play the violin."
+    ],
+    "dogru": 2,
+    "aciklama": "'such a short time' ifadesi öğrencinin kısa bir süredir çaldığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0080",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Otel şikâyeti",
+    "zorluk": 2,
+    "soru": "Guest: The air conditioning in my room isn't working.\nReceptionist: ----\nGuest: That would be great. I'd rather not wait for it to be repaired.",
+    "secenekler": [
+      "All our rooms have air conditioning.",
+      "I'm very sorry. Would you like to move to another room?",
+      "Would you like a wake-up call?",
+      "I'll send a technician first thing tomorrow.",
+      "Breakfast is served until ten."
+    ],
+    "dogru": 1,
+    "aciklama": "Misafirin tamiri beklemek istemediğini söyleyip teklifi kabul etmesi oda değişikliği önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0081",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yemekhane",
+    "zorluk": 2,
+    "soru": "Emre: The food in the canteen has got much better this term.\nAslı: ----\nEmre: Really? Maybe you should try the vegetarian menu. It's excellent.",
+    "secenekler": [
+      "I don't agree. I still find it rather tasteless.",
+      "I always eat at the canteen.",
+      "The prices have gone up too.",
+      "The canteen is closed this term.",
+      "Yes, it's delicious now."
+    ],
+    "dogru": 0,
+    "aciklama": "Emre'nin 'Really?' diye şaşırıp başka menü önermesi Aslı'nın katılmadığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0082",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Araba ödünç alma",
+    "zorluk": 1,
+    "soru": "Ahmet: Could I borrow your car this weekend?\nBurak: ----\nAhmet: No problem. I'll fill it up before I bring it back.",
+    "secenekler": [
+      "Where are you planning to go?",
+      "Sorry, I sold it last month.",
+      "I need it myself this weekend.",
+      "My car is in the garage for repairs.",
+      "Sure, but the tank is almost empty."
+    ],
+    "dogru": 4,
+    "aciklama": "Ahmet'in depoyu dolduracağını söylemesi yakıtın az olduğundan söz edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0083",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Seyahat sigortası",
+    "zorluk": 1,
+    "soru": "Agent: Would you like to add travel insurance to your booking?\nCustomer: ----\nAgent: It covers cancellations, lost luggage and medical costs abroad.",
+    "secenekler": [
+      "Can I choose my seat?",
+      "How long is the flight?",
+      "What exactly does it cover?",
+      "Yes, please. How much is it?",
+      "No, thanks. I already have insurance."
+    ],
+    "dogru": 2,
+    "aciklama": "Görevlinin sigortanın kapsamını açıklaması kapsamın sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0084",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Maraton hazırlığı",
+    "zorluk": 2,
+    "soru": "Coach: How is your training for the marathon going?\nRunner: ----\nCoach: Then you should rest for a few days. Running on an injury will only make it worse.",
+    "secenekler": [
+      "The marathon is in April.",
+      "Not great. My knee has been hurting since last week.",
+      "I've decided not to run it.",
+      "Perfectly. I ran thirty kilometres yesterday.",
+      "I bought new running shoes."
+    ],
+    "dogru": 1,
+    "aciklama": "Antrenörün sakatlıktan söz etmesi koşucunun bir ağrıdan yakındığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0085",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sokak anketi",
+    "zorluk": 2,
+    "soru": "Researcher: Would you mind answering a few questions about public transport?\nPasser-by: ----\nResearcher: It'll only take about five minutes.",
+    "secenekler": [
+      "No, I never use public transport.",
+      "I've already answered your questions.",
+      "Where is the nearest bus stop?",
+      "That depends. How long will it take?",
+      "Are you from the local council?"
+    ],
+    "dogru": 3,
+    "aciklama": "Araştırmacının süre belirtmesi ne kadar süreceğinin sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0086",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Resim sergisi",
+    "zorluk": 2,
+    "soru": "Nazlı: What did you think of the exhibition?\nOğuz: ----\nNazlı: I felt exactly the same. The early paintings were much more interesting.",
+    "secenekler": [
+      "I didn't have time to go.",
+      "I loved every single painting.",
+      "Honestly, I was a bit disappointed by the recent works.",
+      "It was too crowded to see anything.",
+      "The tickets were very cheap."
+    ],
+    "dogru": 2,
+    "aciklama": "Nazlı'nın erken dönem resimleri daha ilginç bulduğunu söyleyerek katılması Oğuz'un yeni eserleri beğenmediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0087",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yeni komşu",
+    "zorluk": 1,
+    "soru": "New neighbour: Hi, I've just moved in next door.\nResident: ----\nNew neighbour: Thanks. Actually, could you tell me when the rubbish is collected?",
+    "secenekler": [
+      "I'm moving out next week.",
+      "Welcome! Let me know if you need anything.",
+      "The previous tenants were very rude.",
+      "Have you paid the rent yet?",
+      "Please keep the noise down."
+    ],
+    "dogru": 1,
+    "aciklama": "Yeni komşunun teşekkür edip hemen bir şey sorması yardım teklif edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0088",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Meslek seçimi",
+    "zorluk": 2,
+    "soru": "Student: I can't decide between studying medicine and engineering.\nCounsellor: ----\nStudent: Well, I enjoy biology, but I'm also good at physics.",
+    "secenekler": [
+      "Engineering is too difficult for most students.",
+      "Have you applied to any universities?",
+      "You should decide by tomorrow.",
+      "Which subjects do you enjoy most at school?",
+      "Medicine is much better paid."
+    ],
+    "dogru": 3,
+    "aciklama": "Öğrencinin sevdiği dersleri anlatması hangi dersleri sevdiğinin sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0089",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yanlış otobüs",
+    "zorluk": 1,
+    "soru": "Passenger: Excuse me, does this bus go to the airport?\nDriver: ----\nPassenger: Oh, I see. Where can I catch it?\nDriver: From the stop across the road.",
+    "secenekler": [
+      "No, you need the number 12.",
+      "The airport is closed today.",
+      "Tickets cost five lira.",
+      "Yes, it takes about forty minutes.",
+      "Please move to the back of the bus."
+    ],
+    "dogru": 0,
+    "aciklama": "'Where can I catch it?' sorusu başka bir otobüsün önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0090",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sürpriz parti",
+    "zorluk": 2,
+    "soru": "Irmak: Let's organise a surprise party for Duru's birthday.\nKaan: ----\nIrmak: Don't worry, I'll ask her sister to keep her busy all afternoon.",
+    "secenekler": [
+      "I've already bought her a present.",
+      "Let's invite only a few people.",
+      "Her birthday was last month.",
+      "Duru hates birthday parties.",
+      "Good idea, but how will we keep it secret from her?"
+    ],
+    "dogru": 4,
+    "aciklama": "Irmak'ın Duru'yu oyalama planı partinin gizli tutulmasıyla ilgili bir endişeye cevaptır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0091",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Uygulama hatası",
+    "zorluk": 2,
+    "soru": "User: The app keeps crashing whenever I try to upload a photo.\nSupport: ----\nUser: Yes, I installed the latest version yesterday.\nSupport: In that case, please send us a screenshot of the error message.",
+    "secenekler": [
+      "How many photos do you have?",
+      "Which phone would you like to buy?",
+      "Could you uninstall your camera?",
+      "Our app does not support photos.",
+      "Have you updated the app recently?"
+    ],
+    "dogru": 4,
+    "aciklama": "Kullanıcının son sürümü yüklediğini söylemesi güncelleme yapılıp yapılmadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0092",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Çorba tarifi",
+    "zorluk": 1,
+    "soru": "Guest: This soup is delicious! What's in it?\nHost: ----\nGuest: I'd never have guessed. I must ask you for the recipe.",
+    "secenekler": [
+      "It's made with pumpkin, ginger and a little coconut milk.",
+      "I bought it from the supermarket.",
+      "Would you like some more bread?",
+      "It's my grandmother's favourite dish.",
+      "I'm glad you like it, but it's too salty."
+    ],
+    "dogru": 0,
+    "aciklama": "Konuğun malzemeleri tahmin edemeyeceğini söylemesi içindekilerin sayıldığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0093",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Beslenme danışmanı",
+    "zorluk": 1,
+    "soru": "Nutritionist: How often do you eat fruit and vegetables?\nClient: ----\nNutritionist: That's not enough. You should aim for at least five portions a day.",
+    "secenekler": [
+      "I drink lots of water.",
+      "At every meal, usually.",
+      "Maybe once or twice a week.",
+      "I'm allergic to nuts.",
+      "I go to the gym three times a week."
+    ],
+    "dogru": 2,
+    "aciklama": "'That's not enough' ifadesi danışanın az sıklıkta tükettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0094",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Tren saati",
+    "zorluk": 1,
+    "soru": "Passenger A: Excuse me, has the 9:15 to Ankara left yet?\nPassenger B: ----\nPassenger A: Oh, what a relief. I thought I had missed it.",
+    "secenekler": [
+      "You need to buy a ticket first.",
+      "This train goes to Istanbul.",
+      "Yes, it left ten minutes ago.",
+      "No, it's been delayed by twenty minutes.",
+      "I'm not sure. I'm not from around here."
+    ],
+    "dogru": 3,
+    "aciklama": "Rahatlama ifadesi trenin henüz kalkmadığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0095",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kayak",
+    "zorluk": 1,
+    "soru": "Ali: I've never been skiing before. Is it hard to learn?\nInstructor: ----\nAli: That's reassuring. I was worried I'd spend the whole week falling over.",
+    "secenekler": [
+      "Skiing is the most dangerous sport.",
+      "Not really. Most beginners can ski down easy slopes after a couple of days.",
+      "You should have started as a child.",
+      "The ski season has ended.",
+      "Yes, most people give up after the first day."
+    ],
+    "dogru": 1,
+    "aciklama": "'That's reassuring' cevabı eğitmenin rahatlatıcı bir şey söylediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0096",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yaz stajı",
+    "zorluk": 1,
+    "soru": "Student: Is it possible to do my internship in the summer?\nCoordinator: ----\nStudent: That's great. I'll start looking for a company then.",
+    "secenekler": [
+      "Yes, as long as it lasts at least six weeks.",
+      "Summer is the best time for holidays.",
+      "No, internships only take place in the autumn.",
+      "The company has no vacancies.",
+      "You've already completed your internship."
+    ],
+    "dogru": 0,
+    "aciklama": "Öğrencinin sevinip şirket aramaya başlayacağını söylemesi olumlu bir cevap verildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0097",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Parktaki ağaçlar",
+    "zorluk": 2,
+    "soru": "Resident: The council wants to cut down the old trees in the park.\nNeighbour: ----\nResident: Exactly. Let's collect signatures and present them at the next meeting.",
+    "secenekler": [
+      "I didn't know there was a park here.",
+      "Good. Those trees block the view.",
+      "Which park do you mean?",
+      "That's terrible. We should do something to stop them.",
+      "The council meets every month."
+    ],
+    "dogru": 3,
+    "aciklama": "'Exactly' ve imza toplama önerisi komşunun buna karşı çıkıp harekete geçmeyi önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0098",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Taksi yolculuğu",
+    "zorluk": 2,
+    "soru": "Passenger: How long will it take to get to the stadium?\nDriver: ----\nPassenger: In that case, let's take the coast road instead.",
+    "secenekler": [
+      "It costs about a hundred lira.",
+      "The match starts at seven.",
+      "About ten minutes. There's no traffic at all.",
+      "I don't know where the stadium is.",
+      "At least forty minutes, because the main road is blocked."
+    ],
+    "dogru": 4,
+    "aciklama": "Yolcunun başka yol önermesi ana yolda bir sorun olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0099",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Burs",
+    "zorluk": 1,
+    "soru": "Zehra: I didn't get the scholarship I applied for.\nDeniz: ----\nZehra: Thanks. You're right, I can apply again next year.",
+    "secenekler": [
+      "I got the scholarship too.",
+      "I'm sorry. But don't give up; there'll be other chances.",
+      "Scholarships are not important.",
+      "Why did you apply for it?",
+      "Congratulations! You deserve it."
+    ],
+    "dogru": 1,
+    "aciklama": "Zehra'nın gelecek yıl yeniden başvurabileceğini söylemesi cesaretlendirildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0100",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Beden sorunu",
+    "zorluk": 2,
+    "soru": "Customer: Excuse me, do you have this jacket in a medium?\nAssistant: Let me check... I'm sorry, we only have small and large.\nCustomer: ----\nAssistant: Of course. It should arrive within three days.",
+    "secenekler": [
+      "Where can I pay for it?",
+      "I bought it last week.",
+      "Could you order a medium for me?",
+      "Great, I'll take the medium then.",
+      "Thank you, it fits perfectly."
+    ],
+    "dogru": 2,
+    "aciklama": "Görevlinin üç gün içinde geleceğini söylemesi müşterinin sipariş istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0101",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Akşam yemeği daveti",
+    "zorluk": 1,
+    "soru": "Lara: ----\nOzan: I'd love to, but I've already made plans for Saturday.\nLara: Never mind. Maybe another time.",
+    "secenekler": [
+      "Have you ever been to Paris?",
+      "Why are you always late?",
+      "Would you like to come to my house for dinner on Saturday?",
+      "Can you help me with my homework now?",
+      "What did you do last Saturday?"
+    ],
+    "dogru": 2,
+    "aciklama": "Ozan'ın 'I'd love to, but' diyerek cumartesiden söz etmesi cumartesi için bir davet yapıldığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0102",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Park yeri",
+    "zorluk": 1,
+    "soru": "Driver: Excuse me, can I park here?\nAttendant: ----\nDriver: Oh, I didn't see the sign. Where's the nearest car park?\nAttendant: Just around the corner, next to the bank.",
+    "secenekler": [
+      "I'm afraid not. This area is for residents only.",
+      "The bank closes at five.",
+      "Please show me your ticket.",
+      "Your car is very nice.",
+      "Yes, you can park here for free."
+    ],
+    "dogru": 0,
+    "aciklama": "Sürücünün tabelayı görmediğini söyleyip başka otopark sorması park etmenin yasak olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0103",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Fotoğraf makinesi",
+    "zorluk": 1,
+    "soru": "Customer: I'm looking for a camera that's easy to carry when I travel.\nAssistant: ----\nCustomer: It's very light. How much does it cost?",
+    "secenekler": [
+      "This professional camera weighs about two kilos.",
+      "We don't sell cameras here.",
+      "Where are you travelling to?",
+      "This compact model might suit you.",
+      "Do you already have a camera?"
+    ],
+    "dogru": 3,
+    "aciklama": "Müşterinin 'It's very light' demesi hafif bir modelin önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0104",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yurt odası",
+    "zorluk": 1,
+    "soru": "Student: The heating in my dorm room doesn't work.\nWarden: ----\nStudent: Since Monday. It's been freezing.",
+    "secenekler": [
+      "Which room are you in?",
+      "Did you pay the fees?",
+      "Have you tried opening the window?",
+      "Heating is turned off in summer.",
+      "How long has it been like this?"
+    ],
+    "dogru": 4,
+    "aciklama": "'Since Monday' cevabı sorunun ne zamandan beri sürdüğünün sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0105",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Film festivali",
+    "zorluk": 2,
+    "soru": "Eda: The film festival starts next week. Are you going?\nBora: I'd like to, but the tickets are really expensive.\nEda: ----\nBora: Really? That's great. I'll get mine today.",
+    "secenekler": [
+      "The festival has been cancelled.",
+      "Actually, students can get them at half price.",
+      "I'm not going either.",
+      "I've already seen all the films.",
+      "Yes, they cost more than last year."
+    ],
+    "dogru": 1,
+    "aciklama": "Bora'nın sevinip biletini alacağını söylemesi bilet fiyatıyla ilgili iyi bir haber verildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0106",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Dizüstü bilgisayar",
+    "zorluk": 2,
+    "soru": "Customer: My laptop won't turn on.\nTechnician: ----\nCustomer: Yes, I spilt some coffee on it yesterday.\nTechnician: That explains it. The keyboard may need replacing.",
+    "secenekler": [
+      "Would you like a new mouse?",
+      "Has anything happened to it recently?",
+      "What operating system does it use?",
+      "How old is your laptop?",
+      "Did you buy it here?"
+    ],
+    "dogru": 1,
+    "aciklama": "Müşterinin kahve döktüğünü söylemesi yakın zamanda bir olay olup olmadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0107",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sağlık sigortası",
+    "zorluk": 2,
+    "soru": "Employee: ----\nHR officer: Yes, it covers your spouse and children as well.\nEmployee: That's good to know. Thanks.",
+    "secenekler": [
+      "Can I work from home on Fridays?",
+      "When is the next staff meeting?",
+      "Does the company's health insurance cover my family?",
+      "How many days of holiday do I have?",
+      "Where is the HR office?"
+    ],
+    "dogru": 2,
+    "aciklama": "'it covers your spouse and children' cevabı sigortanın aileyi kapsayıp kapsamadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0108",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sokak kedisi",
+    "zorluk": 1,
+    "soru": "Child: Mum, can we take this kitten home?\nMother: ----\nChild: I promise I'll feed it and clean up after it every day.",
+    "secenekler": [
+      "Kittens don't like milk.",
+      "Where did you find it?",
+      "Of course, we already have three cats.",
+      "Let's buy a dog instead.",
+      "A pet is a big responsibility. Who's going to look after it?"
+    ],
+    "dogru": 4,
+    "aciklama": "Çocuğun bakım sözü vermesi annenin sorumluluktan söz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0109",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Emeklilik",
+    "zorluk": 1,
+    "soru": "Colleague: I heard you're retiring next month.\nMr Yılmaz: ----\nColleague: That sounds wonderful. You've certainly earned it.",
+    "secenekler": [
+      "Yes, and I'm planning to spend more time in my garden and with my grandchildren.",
+      "I don't know who told you that.",
+      "Yes, but I'm dreading it. I'll be so bored.",
+      "Retirement age is 65 in this country.",
+      "No, I've decided to work for five more years."
+    ],
+    "dogru": 0,
+    "aciklama": "'That sounds wonderful' Yılmaz Bey'in hoş bir emeklilik planı anlattığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0110",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Randevu erteleme",
+    "zorluk": 1,
+    "soru": "Receptionist: Good morning, City Dental Clinic.\nPatient: Hello, I have an appointment at eleven, but I can't make it.\nReceptionist: ----\nPatient: Next Wednesday would be fine.",
+    "secenekler": [
+      "You'll have to pay a cancellation fee.",
+      "The dentist is on holiday this week.",
+      "Is it an emergency?",
+      "No problem. When would you like to reschedule?",
+      "How long have you had toothache?"
+    ],
+    "dogru": 3,
+    "aciklama": "Hastanın yeni bir gün söylemesi randevunun ne zamana alınacağının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0111",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sunum kaygısı",
+    "zorluk": 1,
+    "soru": "Ayşe: I'm so nervous about tomorrow's presentation.\nHakan: ----\nAyşe: You're right. I'll run through it a couple more times tonight.",
+    "secenekler": [
+      "I'm not coming tomorrow.",
+      "Practising it out loud might help you feel more confident.",
+      "Presentations are always boring.",
+      "Did you finish the slides?",
+      "Don't bother preparing; just improvise."
+    ],
+    "dogru": 1,
+    "aciklama": "Ayşe'nin birkaç kez daha prova yapacağını söylemesi Hakan'ın pratik yapmayı önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0112",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Doğum günü hediyesi",
+    "zorluk": 2,
+    "soru": "Merve: What should I buy my dad for his birthday?\nCan: ----\nMerve: He already has plenty of those. I'd like to get him something different.",
+    "secenekler": [
+      "Let's go shopping together.",
+      "Why don't you ask your mother?",
+      "I don't know your dad.",
+      "His birthday was last week.",
+      "How about a nice tie?"
+    ],
+    "dogru": 4,
+    "aciklama": "'He already has plenty of those' ifadesi somut bir hediye önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0113",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Eczane",
+    "zorluk": 2,
+    "soru": "Customer: I've had a sore throat for three days.\nPharmacist: ----\nCustomer: No, just a slight headache.\nPharmacist: Try these lozenges. If it doesn't improve in a week, see a doctor.",
+    "secenekler": [
+      "Do you have a prescription?",
+      "How old are you?",
+      "Would you like a bag?",
+      "Do you have a fever as well?",
+      "Have you been here before?"
+    ],
+    "dogru": 3,
+    "aciklama": "'No, just a slight headache' cevabı başka bir belirti olup olmadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0114",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yemek ikramı",
+    "zorluk": 2,
+    "soru": "Host: Would you like some more rice?\nGuest: ----\nHost: Then how about some dessert? I made baklava.",
+    "secenekler": [
+      "No, thanks. I'd like to leave some room for something sweet.",
+      "Yes, please. Just a little more.",
+      "Could I have some water?",
+      "Where did you buy the rice?",
+      "I don't eat meat."
+    ],
+    "dogru": 0,
+    "aciklama": "Ev sahibinin 'Then' diyerek tatlı önermesi konuğun pilavı reddedip tatlıya yer ayırdığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0115",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Çocuk kitabı",
+    "zorluk": 1,
+    "soru": "Customer: I'm looking for a book for my twelve-year-old son.\nBookseller: ----\nCustomer: He loves adventure stories, especially ones about the sea.",
+    "secenekler": [
+      "Does he have a library card?",
+      "Is he good at maths?",
+      "What kind of books does he usually enjoy?",
+      "This book is for adults only.",
+      "We have a large section of cookbooks."
+    ],
+    "dogru": 2,
+    "aciklama": "Müşterinin oğlunun sevdiği tür kitapları anlatması bunun sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0116",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Hastane ziyareti",
+    "zorluk": 2,
+    "soru": "Visitor: I'm here to see my grandfather, Mr Kaya.\nNurse: ----\nVisitor: Oh, I didn't know. I'll wait in the café until then.",
+    "secenekler": [
+      "He's been asking for you.",
+      "He's in room 12, on the second floor.",
+      "Are you a relative?",
+      "I'm sorry, visiting hours don't start until two o'clock.",
+      "He was discharged yesterday."
+    ],
+    "dogru": 3,
+    "aciklama": "Ziyaretçinin 'until then' diyerek beklemesi ziyaret saatinin henüz başlamadığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0117",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Birlikte çalışma",
+    "zorluk": 1,
+    "soru": "Efe: Do you want to study together for the chemistry exam?\nNil: ----\nEfe: OK, let's meet at the library at four.",
+    "secenekler": [
+      "I've already taken the exam.",
+      "Chemistry is my worst subject.",
+      "Sure. When and where?",
+      "The exam was easier than I expected.",
+      "No, I prefer to study alone."
+    ],
+    "dogru": 2,
+    "aciklama": "Efe'nin yer ve saat belirtmesi bunların sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0118",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "İnşaat gürültüsü",
+    "zorluk": 2,
+    "soru": "Resident: The construction work starts at six every morning. It's unbearable.\nNeighbour: ----\nResident: Good idea. Let's write to them together.",
+    "secenekler": [
+      "Why don't we complain to the local council?",
+      "Let's move to another city.",
+      "They'll finish the building next year.",
+      "I usually wake up at five anyway.",
+      "I don't hear any noise at all."
+    ],
+    "dogru": 0,
+    "aciklama": "'write to them' ifadesi yazılı şikâyet yapılabilecek bir kurumun önerildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0119",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yol sorma",
+    "zorluk": 1,
+    "soru": "Tourist: Excuse me, do you speak English?\nLocal: ----\nTourist: Don't worry, I'll speak slowly. Where is the train station?",
+    "secenekler": [
+      "No, I don't speak any English.",
+      "A little, but not very well.",
+      "I'm a tourist too.",
+      "The train station is closed.",
+      "Yes, I'm an English teacher."
+    ],
+    "dogru": 1,
+    "aciklama": "Turistin yavaş konuşacağını söylemesi yerlinin biraz İngilizce bildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0120",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kargo takibi",
+    "zorluk": 1,
+    "soru": "Customer: I ordered a phone two weeks ago and it still hasn't arrived.\nAgent: ----\nCustomer: It's 45817.\nAgent: Thank you. It seems the parcel is being held at customs.",
+    "secenekler": [
+      "Delivery usually takes two days.",
+      "Would you like to cancel the order?",
+      "Which colour did you choose?",
+      "Phones are out of stock.",
+      "Could you give me your order number, please?"
+    ],
+    "dogru": 4,
+    "aciklama": "Müşterinin bir numara vermesi sipariş numarasının istendiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0121",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Domates bahçesi",
+    "zorluk": 2,
+    "soru": "Neighbour: Your tomatoes look amazing this year!\nGardener: ----\nNeighbour: I should try that. Mine always get some kind of disease.",
+    "secenekler": [
+      "They're not ready to eat yet.",
+      "I don't grow tomatoes.",
+      "Thanks. I use natural compost and water them early in the morning.",
+      "Thanks, but I bought them at the market.",
+      "Tomatoes are expensive this year."
+    ],
+    "dogru": 2,
+    "aciklama": "'I should try that' ifadesi bahçıvanın bir yöntem anlattığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0122",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kardeş kavgası",
+    "zorluk": 1,
+    "soru": "Mother: Why are you two arguing again?\nElif: ----\nMother: Then take turns. Half an hour each.",
+    "secenekler": [
+      "Emre broke my phone.",
+      "It's Emre's birthday.",
+      "We're not arguing, we're playing.",
+      "Because we're bored.",
+      "Because Emre won't let me use the computer."
+    ],
+    "dogru": 4,
+    "aciklama": "Annenin sırayla kullanmayı önermesi paylaşılan bir eşya yüzünden tartışıldığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0123",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Ofis sıcaklığı",
+    "zorluk": 2,
+    "soru": "Colleague A: It's freezing in here. Do you mind if I turn the heating up?\nColleague B: ----\nColleague A: OK, I'll just put my jacket on then.",
+    "secenekler": [
+      "Actually, I'm quite warm. Could we leave it as it is?",
+      "Not at all. Go ahead.",
+      "I'll bring you some tea.",
+      "It's very cold outside.",
+      "Shall I open the window?"
+    ],
+    "dogru": 0,
+    "aciklama": "A'nın ısıtmayı açmak yerine ceketini giymesi B'nin itiraz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0124",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Seçime katılım",
+    "zorluk": 3,
+    "soru": "Reporter: Why do you think turnout was so low in this election?\nAnalyst: ----\nReporter: So you believe voters need more reasons to feel their vote matters.",
+    "secenekler": [
+      "Elections are held every four years.",
+      "Turnout was the highest in history.",
+      "Everyone voted for the same party.",
+      "Many people feel that none of the candidates represent their views.",
+      "The weather was lovely on election day."
+    ],
+    "dogru": 3,
+    "aciklama": "Muhabirin özeti, analistin seçmenlerin kendilerini temsil edilmiş hissetmediğini söylediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0125",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yeni yıl kararları",
+    "zorluk": 1,
+    "soru": "Tuna: Have you made any New Year's resolutions?\nPelin: ----\nTuna: That's ambitious. Which language are you going to start with?",
+    "secenekler": [
+      "No, I never make resolutions.",
+      "Yes, I'm going to learn two new languages.",
+      "I made them last year but forgot.",
+      "Yes, I want to run a marathon.",
+      "I'm going to eat more healthily."
+    ],
+    "dogru": 1,
+    "aciklama": "Tuna'nın 'Which language' sorusu Pelin'in dil öğrenmekten söz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0126",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Otelden çıkış",
+    "zorluk": 1,
+    "soru": "Guest: I'd like to check out, please.\nReceptionist: ----\nGuest: Yes, two bottles of water from the minibar.\nReceptionist: That's an extra eight lira, then.",
+    "secenekler": [
+      "How many nights will you be staying?",
+      "Certainly. Did you use anything from the minibar?",
+      "Did you enjoy your stay?",
+      "Would you like a taxi?",
+      "Your room is ready now."
+    ],
+    "dogru": 1,
+    "aciklama": "Misafirin minibardan aldıklarını söylemesi minibar kullanımının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0127",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "İlk iş günü",
+    "zorluk": 2,
+    "soru": "Manager: How was your first day?\nNew employee: ----\nManager: Don't worry. Everyone feels like that at first. You'll soon get used to it.",
+    "secenekler": [
+      "I haven't started yet.",
+      "I'd like to resign.",
+      "Everyone was friendly, but it was a bit overwhelming.",
+      "It was very easy. I already know everything.",
+      "The office is too far from my house."
+    ],
+    "dogru": 2,
+    "aciklama": "Müdürün 'Don't worry ... You'll soon get used to it' demesi çalışanın bunaldığını söylediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0128",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Bisiklet yolu",
+    "zorluk": 1,
+    "soru": "Cyclist: Excuse me, you're standing in the cycle lane.\nPedestrian: ----\nCyclist: No problem. It happens all the time.",
+    "secenekler": [
+      "This is a pedestrian path.",
+      "Where did you buy your bike?",
+      "Cycling is dangerous in this city.",
+      "Oh, I'm so sorry. I didn't notice.",
+      "You should ride more slowly."
+    ],
+    "dogru": 3,
+    "aciklama": "'No problem' cevabı yayanın özür dilediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0129",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Deprem tatbikatı",
+    "zorluk": 1,
+    "soru": "Teacher: What should you do first if an earthquake starts while you're in class?\nStudent: ----\nTeacher: Correct. And stay there until the shaking stops.",
+    "secenekler": [
+      "Use the lift to leave the building.",
+      "Call my parents.",
+      "Open all the windows.",
+      "Run down the stairs immediately.",
+      "Get under the desk and protect my head."
+    ],
+    "dogru": 4,
+    "aciklama": "'stay there until the shaking stops' ifadesi öğrencinin sıranın altına girmekten söz ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0130",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kira artışı",
+    "zorluk": 2,
+    "soru": "Tenant: I've just received a letter saying my rent will go up by 40 percent.\nFriend: ----\nTenant: I have, but the contract says they're allowed to do it.",
+    "secenekler": [
+      "That's outrageous! Have you checked your contract?",
+      "Congratulations on your new flat!",
+      "Why don't you buy a house?",
+      "That's quite normal. Mine went down.",
+      "Letters are often lost in the post."
+    ],
+    "dogru": 0,
+    "aciklama": "'I have' cevabı ve sözleşmeden söz edilmesi sözleşmenin kontrol edilip edilmediğinin sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0131",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yurt dışında öğrenci",
+    "zorluk": 2,
+    "soru": "Parent: How are you finding life in Germany?\nStudent: ----\nParent: It's natural to miss home. It'll get easier as you make friends.",
+    "secenekler": [
+      "I'm coming back next week.",
+      "The course is great, but I feel quite homesick.",
+      "German food is delicious.",
+      "The weather is warmer than at home.",
+      "I love it. I don't miss home at all."
+    ],
+    "dogru": 1,
+    "aciklama": "Ebeveynin 'It's natural to miss home' demesi öğrencinin evini özlediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0132",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Sokak lambaları",
+    "zorluk": 1,
+    "soru": "Caller: The street lights in our road haven't worked for a week.\nOperator: ----\nCaller: It's Atatürk Street, near the primary school.",
+    "secenekler": [
+      "Have you paid your electricity bill?",
+      "Is anyone injured?",
+      "I'm sorry about that. Could you tell me exactly where?",
+      "We fixed them yesterday.",
+      "Street lights are turned off at midnight."
+    ],
+    "dogru": 2,
+    "aciklama": "Arayanın sokak adını vermesi yerin sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0133",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Hayvanat bahçesi",
+    "zorluk": 2,
+    "soru": "Child: Why is that elephant alone?\nKeeper: ----\nChild: Oh, I hope she gets better soon.",
+    "secenekler": [
+      "She's a bit ill, so we're keeping her apart from the others for a while.",
+      "She's the youngest elephant here.",
+      "She's waiting for her food.",
+      "Elephants always prefer to live alone.",
+      "She arrived from Africa yesterday."
+    ],
+    "dogru": 0,
+    "aciklama": "Çocuğun 'I hope she gets better' demesi filin hasta olduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0134",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "İndirim",
+    "zorluk": 1,
+    "soru": "Customer: Is this coat included in the sale?\nAssistant: ----\nCustomer: Great! Then I'll take it.",
+    "secenekler": [
+      "No, the sale ended yesterday.",
+      "We only have it in black.",
+      "It's our most popular coat.",
+      "Yes, it's thirty percent off.",
+      "It's made of wool."
+    ],
+    "dogru": 3,
+    "aciklama": "Müşterinin sevinip ceketi alması indirimde olduğunun söylendiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0135",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Köyden göç",
+    "zorluk": 2,
+    "soru": "Journalist: What made you decide to leave your village?\nFarmer: ----\nJournalist: So you moved to the city to find work.",
+    "secenekler": [
+      "My crops were excellent that year.",
+      "I've never left my village.",
+      "I wanted to live closer to my parents in the village.",
+      "The city is too crowded.",
+      "There were no jobs left after the factory closed."
+    ],
+    "dogru": 4,
+    "aciklama": "Gazetecinin özeti çiftçinin iş olmadığı için göç ettiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0136",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Fişler",
+    "zorluk": 2,
+    "soru": "Accountant: Have you kept all your receipts from last year?\nClient: ----\nAccountant: That's a problem. Without them, you can't claim those expenses.",
+    "secenekler": [
+      "Yes, every single one.",
+      "I'll bring them tomorrow.",
+      "Most of them, but I think I threw some away.",
+      "I paid everything in cash.",
+      "What receipts do you mean?"
+    ],
+    "dogru": 2,
+    "aciklama": "'That's a problem. Without them' ifadesi bazı fişlerin kaybolduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0137",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kamp",
+    "zorluk": 1,
+    "soru": "Oya: I've never camped before. What should I bring?\nSerkan: ----\nOya: I don't have one. Could I borrow yours?",
+    "secenekler": [
+      "Don't worry, it's not cold at night.",
+      "Nothing, the campsite provides everything.",
+      "We're staying in a hotel.",
+      "A warm sleeping bag is the most important thing.",
+      "Just bring some snacks."
+    ],
+    "dogru": 3,
+    "aciklama": "'I don't have one' tekil bir eşyadan, yani uyku tulumundan söz edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0138",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Görüntülü arama",
+    "zorluk": 1,
+    "soru": "Grandmother: ----\nGrandson: Of course. First, tap this green icon, then choose the contact.\nGrandmother: Oh, that's easier than I thought.",
+    "secenekler": [
+      "Could you show me how to make a video call?",
+      "How much did your phone cost?",
+      "Can you turn off the television?",
+      "Is it going to rain today?",
+      "Why do you spend so much time on your phone?"
+    ],
+    "dogru": 0,
+    "aciklama": "Torunun adım adım anlatması bir işlemin nasıl yapılacağının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0139",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Bilet iptali",
+    "zorluk": 2,
+    "soru": "Customer: I'd like to cancel my train ticket.\nClerk: ----\nCustomer: That's fine. I understand.",
+    "secenekler": [
+      "Where would you like to travel?",
+      "You'll get a refund, but we'll deduct a small fee.",
+      "Your train leaves in ten minutes.",
+      "Please show me your passport.",
+      "Would you like a window seat?"
+    ],
+    "dogru": 1,
+    "aciklama": "Müşterinin 'I understand' diyerek kabullenmesi kendisine bir koşul ya da kesinti bildirildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0140",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Maç sonrası",
+    "zorluk": 1,
+    "soru": "Fan A: What a disappointing match!\nFan B: ----\nFan A: I agree. The coach should have made changes much earlier.",
+    "secenekler": [
+      "The tickets were too expensive.",
+      "I thought it was the best match of the season.",
+      "I didn't watch it.",
+      "When is the next match?",
+      "Yes, our team didn't create a single chance in the second half."
+    ],
+    "dogru": 4,
+    "aciklama": "'I agree' ve teknik direktör eleştirisi B'nin takımın kötü oyununu eleştirdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0141",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Okulda geri dönüşüm",
+    "zorluk": 2,
+    "soru": "Club member: We should start a recycling scheme at school.\nPrincipal: I like the idea, but who will be responsible for it?\nClub member: ----\nPrincipal: In that case, you have my full support.",
+    "secenekler": [
+      "The school has no rubbish.",
+      "We tried it last year and it failed.",
+      "Let's ask the students to throw everything away.",
+      "I don't think recycling is important.",
+      "Our club will organise it and collect the bins every week."
+    ],
+    "dogru": 4,
+    "aciklama": "Müdürün sorumluluk sorusuna kulübün görevi üstlenmesi uygun cevaptır; ardından destek gelir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0142",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Öğrenci indirimi",
+    "zorluk": 1,
+    "soru": "Student: Is there any discount for students?\nReceptionist: ----\nStudent: Here it is.",
+    "secenekler": [
+      "How did you hear about us?",
+      "We accept cash only.",
+      "No, the price is the same for everyone.",
+      "Yes, ten percent, if you can show your student card.",
+      "The course starts next Monday."
+    ],
+    "dogru": 3,
+    "aciklama": "'Here it is' öğrencinin istenen bir belgeyi uzattığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0143",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kayıp köpek",
+    "zorluk": 1,
+    "soru": "Owner: Have you seen a small brown dog around here?\nShopkeeper: ----\nOwner: Thank you so much! I'll go and look there now.",
+    "secenekler": [
+      "I think I saw one running towards the park a few minutes ago.",
+      "No, I haven't seen any dogs today.",
+      "I'm afraid of dogs.",
+      "Dogs are not allowed in the shop.",
+      "What's your dog's name?"
+    ],
+    "dogru": 0,
+    "aciklama": "'look there' ifadesi dükkâncının bir yer belirttiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0144",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Çevrim içi toplantı",
+    "zorluk": 1,
+    "soru": "Colleague A: ----\nColleague B: No, your microphone seems to be muted.\nColleague A: Sorry about that. Is that better?",
+    "secenekler": [
+      "Can you see my screen?",
+      "Shall we start the meeting?",
+      "Can everyone hear me clearly?",
+      "Is the internet slow for you too?",
+      "Who's taking the minutes?"
+    ],
+    "dogru": 2,
+    "aciklama": "Mikrofonun kapalı olduğunun söylenmesi sesin duyulup duyulmadığının sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0145",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Fazla mesai",
+    "zorluk": 2,
+    "soru": "Wife: You've been working until ten every night this month.\nHusband: ----\nWife: I understand, but please try to take a day off after that.",
+    "secenekler": [
+      "My boss is on holiday.",
+      "I know, but the project has to be finished by the end of the week.",
+      "I've been leaving work at five.",
+      "I love my job so much.",
+      "I'll start working late next month."
+    ],
+    "dogru": 1,
+    "aciklama": "'after that' ifadesi belirli bir tarihe kadar süren bir işten söz edildiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0146",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Stadyum girişi",
+    "zorluk": 1,
+    "soru": "Guard: I'm sorry, you can't bring that bag into the stadium.\nFan: ----\nGuard: There's a locker room next to Gate B.",
+    "secenekler": [
+      "Can I take a flag inside?",
+      "Why not? It's just a small bag.",
+      "What time does the match start?",
+      "Is there anywhere I can leave it?",
+      "Can I buy a ticket here?"
+    ],
+    "dogru": 3,
+    "aciklama": "Görevlinin emanet dolabını göstermesi çantanın bırakılabileceği bir yer sorulduğunu gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0147",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Yüzme dersi",
+    "zorluk": 1,
+    "soru": "Parent: My daughter is afraid of water. Can she still join the swimming class?\nInstructor: ----\nParent: That's a relief. I'll bring her on Monday.",
+    "secenekler": [
+      "The class is already full.",
+      "The pool is closed for repairs.",
+      "I'm afraid she's too young.",
+      "She'll have to learn to swim first.",
+      "Of course. We start slowly, and many children feel the same at first."
+    ],
+    "dogru": 4,
+    "aciklama": "Ebeveynin rahatlaması eğitmenin güven verici olumlu bir cevap verdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0148",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Kayıp anahtar",
+    "zorluk": 1,
+    "soru": "Housemate A: Have you seen my keys anywhere?\nHousemate B: ----\nHousemate A: Oh, of course. I must have left them there when I came in.",
+    "secenekler": [
+      "Aren't they on the kitchen table?",
+      "I've lost mine too.",
+      "No, I've never seen your keys.",
+      "Why don't you get a new lock?",
+      "I'm going out now."
+    ],
+    "dogru": 0,
+    "aciklama": "'left them there' ifadesi B'nin belirli bir yer önerdiğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0149",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Editör",
+    "zorluk": 2,
+    "soru": "Writer: Have you had a chance to read my manuscript?\nEditor: ----\nWriter: I see. Which parts do you think need the most work?",
+    "secenekler": [
+      "How long did it take you to write?",
+      "Yes. I enjoyed it, but it needs some changes before we can publish it.",
+      "Yes, it's perfect. We'll publish it as it is.",
+      "We don't publish novels.",
+      "No, I haven't received it."
+    ],
+    "dogru": 1,
+    "aciklama": "Yazarın hangi bölümlerin düzeltilmesi gerektiğini sorması editörün değişiklik istediğini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "diyalog-0150",
+    "bolum": "diyalog",
+    "konu": "diyalog",
+    "alt_konu": "Tansiyon",
+    "zorluk": 2,
+    "soru": "Doctor: Your blood pressure is a little high.\nPatient: Is it serious?\nDoctor: Not yet, but you should reduce salt and exercise more.\nPatient: ----\nDoctor: Yes, let's check it again in three months.",
+    "secenekler": [
+      "My blood pressure has always been low.",
+      "Great, so I can eat whatever I like.",
+      "I'll do that. Should I come back for another check?",
+      "Why did you call me in today?",
+      "Can you prescribe me some sleeping pills?"
+    ],
+    "dogru": 2,
+    "aciklama": "Doktorun üç ay sonra yeniden kontrol önermesi hastanın tekrar gelmesi gerekip gerekmediğini sorduğunu gösterir.",
+    "paragraf_id": null
   }
 ]

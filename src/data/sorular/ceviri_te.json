@@ -826,5 +826,1877 @@
     "dogru": 3,
     "aciklama": "'gözetim altında tutulmalıdır' = must be closely monitored (edilgen zorunluluk).",
     "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0047",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesine rağmen",
+    "zorluk": 1,
+    "soru": "Hava çok soğuk olmasına rağmen çocuklar bütün gün dışarıda oynadı.",
+    "secenekler": [
+      "Although the weather was very cold, the children played outside all day.",
+      "If the weather had not been so cold, the children would have played outside.",
+      "The weather was so cold that the children could not play outside.",
+      "Because the weather was very cold, the children stayed inside all day.",
+      "The children played outside all day until the weather became very cold."
+    ],
+    "dogru": 0,
+    "aciklama": "'-mesine rağmen' = although; çocuklar soğuğa rağmen dışarıda oynadı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0048",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dikçe",
+    "zorluk": 2,
+    "soru": "Şehirler büyüdükçe trafik sorunu daha da ciddi bir hâl alıyor.",
+    "secenekler": [
+      "The traffic problem in growing cities has been solved.",
+      "The traffic problem prevents cities from growing.",
+      "Cities are growing because the traffic problem is becoming less serious.",
+      "Although cities are growing, the traffic problem is not serious.",
+      "As cities grow, the traffic problem becomes even more serious."
+    ],
+    "dogru": 4,
+    "aciklama": "'büyüdükçe' = as cities grow; 'daha da ciddi' = even more serious.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0049",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği tahmin ediliyor",
+    "zorluk": 2,
+    "soru": "Bu bölgede yaklaşık beş bin yıl önce insanların yaşadığı tahmin ediliyor.",
+    "secenekler": [
+      "People in this region have been living here for about five thousand years.",
+      "It is estimated that people lived in this region about five thousand years ago.",
+      "About five thousand people are estimated to live in this region today.",
+      "People are expected to live in this region in five thousand years.",
+      "It is known for certain that nobody lived in this region five thousand years ago."
+    ],
+    "dogru": 1,
+    "aciklama": "'…diği tahmin ediliyor' = it is estimated that; 'beş bin yıl önce' = five thousand years ago.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0050",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meden önce",
+    "zorluk": 1,
+    "soru": "Sözleşmeyi imzalamadan önce tüm maddeleri dikkatle okumalısınız.",
+    "secenekler": [
+      "You should sign the contract without reading all the clauses.",
+      "You read all the clauses carefully after you signed the contract.",
+      "You should read all the clauses carefully before signing the contract.",
+      "Once you sign the contract, you can read all the clauses.",
+      "You do not need to read the clauses before signing the contract."
+    ],
+    "dogru": 2,
+    "aciklama": "'-meden önce' = before …ing; '-malısınız' = you should.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0051",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ne ... ne de",
+    "zorluk": 1,
+    "soru": "Toplantıya ne müdür ne de yardımcısı katıldı.",
+    "secenekler": [
+      "The meeting was held by the manager and his assistant.",
+      "Neither the manager nor his assistant attended the meeting.",
+      "Either the manager or his assistant will attend the meeting.",
+      "Both the manager and his assistant attended the meeting.",
+      "The manager attended the meeting, but his assistant did not."
+    ],
+    "dogru": 1,
+    "aciklama": "'ne ... ne de' = neither ... nor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0052",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-seydi (Type 3)",
+    "zorluk": 2,
+    "soru": "Daha erken yola çıksaydık uçağı kaçırmazdık.",
+    "secenekler": [
+      "If we had set off earlier, we would not have missed the plane.",
+      "If we had not missed the plane, we would have set off earlier.",
+      "We set off early so that we would not miss the plane.",
+      "If we set off earlier, we will not miss the plane.",
+      "We missed the plane although we set off early."
+    ],
+    "dogru": 0,
+    "aciklama": "Geçmişe dair gerçekleşmemiş koşul: 'If we had set off earlier, we would not have missed'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0053",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği için",
+    "zorluk": 1,
+    "soru": "Yol buzlu olduğu için sürücülerden dikkatli olmaları istendi.",
+    "secenekler": [
+      "The road became icy because drivers were not careful.",
+      "Because drivers were careful, there were no accidents on the icy road.",
+      "Drivers asked the authorities to clear the icy road.",
+      "Although the road was icy, drivers were not warned.",
+      "Drivers were asked to be careful because the road was icy."
+    ],
+    "dogru": 4,
+    "aciklama": "'…olduğu için' = because; '…mesi istendi' = were asked to.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0054",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "çoğu",
+    "zorluk": 1,
+    "soru": "Öğrencilerin çoğu sınavın beklediklerinden daha kolay olduğunu söyledi.",
+    "secenekler": [
+      "A few students said that the exam was more difficult than expected.",
+      "The students said that the exam was as easy as they had expected.",
+      "Most of the students said that the exam was easier than they had expected.",
+      "All the students expected the exam to be easy.",
+      "Most of the students expected the exam to be more difficult than it was, but they failed."
+    ],
+    "dogru": 2,
+    "aciklama": "'öğrencilerin çoğu' = most of the students; 'beklediklerinden daha kolay' = easier than they had expected.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0055",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mek zorunda kalmak",
+    "zorluk": 1,
+    "soru": "Fırtına nedeniyle uçak başka bir havalimanına inmek zorunda kaldı.",
+    "secenekler": [
+      "The plane was able to land at the airport despite the storm.",
+      "The storm started after the plane landed at another airport.",
+      "Because of the storm, the plane could not take off.",
+      "The plane had to land at another airport because of the storm.",
+      "The plane took off from another airport to avoid the storm."
+    ],
+    "dogru": 3,
+    "aciklama": "'inmek zorunda kaldı' = had to land; 'fırtına nedeniyle' = because of the storm.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0056",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "hem ... hem de",
+    "zorluk": 1,
+    "soru": "Bu ilaç hem ağrıyı azaltır hem de ateşi düşürür.",
+    "secenekler": [
+      "This medicine lowers fever only when pain is reduced.",
+      "This medicine reduces pain but increases fever.",
+      "This medicine both reduces pain and lowers fever.",
+      "This medicine neither reduces pain nor lowers fever.",
+      "This medicine either reduces pain or lowers fever."
+    ],
+    "dogru": 2,
+    "aciklama": "'hem ... hem de' = both ... and.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0057",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği kadar",
+    "zorluk": 2,
+    "soru": "Yeni model eski model kadar yakıt tüketmiyor.",
+    "secenekler": [
+      "The new model does not consume as much fuel as the old one.",
+      "The new model consumes more fuel than the old one.",
+      "The old model was replaced because it consumed too little fuel.",
+      "The new model consumes exactly the same amount of fuel as the old one.",
+      "The old model does not consume as much fuel as the new one."
+    ],
+    "dogru": 0,
+    "aciklama": "'…kadar tüketmiyor' = does not consume as much as; yeni model daha az tüketir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0058",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meye başlamak",
+    "zorluk": 1,
+    "soru": "Son yıllarda giderek daha fazla insan bisikletle işe gitmeye başladı.",
+    "secenekler": [
+      "In recent years, fewer people have been cycling to work.",
+      "In recent years, people have started working in bicycle factories.",
+      "More people used to cycle to work in the past than they do now.",
+      "People have stopped cycling to work in recent years.",
+      "In recent years, more and more people have started cycling to work."
+    ],
+    "dogru": 4,
+    "aciklama": "'giderek daha fazla' = more and more; 'bisikletle işe gitmeye başladı' = have started cycling to work.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0059",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı sürece",
+    "zorluk": 2,
+    "soru": "Düzenli egzersiz yaptığınız sürece kilo almanız pek olası değildir.",
+    "secenekler": [
+      "You need to exercise regularly because you have gained weight.",
+      "Even if you exercise regularly, you are likely to gain weight.",
+      "If you exercise regularly, you will certainly gain weight.",
+      "As long as you exercise regularly, you are unlikely to gain weight.",
+      "Unless you gain weight, you do not need to exercise regularly."
+    ],
+    "dogru": 3,
+    "aciklama": "'…dığı sürece' = as long as; 'pek olası değil' = unlikely.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0060",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ecek kadar",
+    "zorluk": 2,
+    "soru": "Bu kitabı okuyacak kadar İngilizcem yok.",
+    "secenekler": [
+      "My English is so good that I can read this book easily.",
+      "My English is not good enough to read this book.",
+      "This book is too easy for me to read.",
+      "I do not have enough time to read this book in English.",
+      "I read this book to improve my English."
+    ],
+    "dogru": 1,
+    "aciklama": "'okuyacak kadar İngilizcem yok' = my English is not good enough to read.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0061",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-den beri",
+    "zorluk": 1,
+    "soru": "Bu müzeyi on yıldan beri ziyaret etmedim.",
+    "secenekler": [
+      "I have been visiting this museum every year for ten years.",
+      "I will visit this museum again in ten years.",
+      "I visited this museum ten years ago for the first time.",
+      "I have not visited this museum for ten years.",
+      "This museum has been closed for ten years."
+    ],
+    "dogru": 3,
+    "aciklama": "'on yıldan beri ziyaret etmedim' = I have not visited for ten years.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0062",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-sa bile",
+    "zorluk": 2,
+    "soru": "Yağmur yağsa bile maç ertelenmeyecek.",
+    "secenekler": [
+      "If it rains, the match will be postponed.",
+      "The match will be played only if it does not rain.",
+      "Unless it rains, the match will be postponed.",
+      "The match was postponed because it rained.",
+      "Even if it rains, the match will not be postponed."
+    ],
+    "dogru": 4,
+    "aciklama": "'…sa bile' = even if; 'ertelenmeyecek' = will not be postponed.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0063",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diğine inanılıyor",
+    "zorluk": 2,
+    "soru": "Piramitlerin binlerce işçi tarafından inşa edildiğine inanılıyor.",
+    "secenekler": [
+      "The pyramids were built to employ thousands of workers.",
+      "The pyramids are believed to have been built by thousands of workers.",
+      "It is known that the pyramids were built by slaves only.",
+      "Thousands of workers believe that the pyramids were built by a king.",
+      "Thousands of workers are believed to be building the pyramids now."
+    ],
+    "dogru": 1,
+    "aciklama": "'…inşa edildiğine inanılıyor' = are believed to have been built.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0064",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesi gerekiyor",
+    "zorluk": 1,
+    "soru": "Hükümetin işsizlik sorununu çözmek için acil önlemler alması gerekiyor.",
+    "secenekler": [
+      "The government needs to take urgent measures to solve the problem of unemployment.",
+      "The government refuses to take measures against unemployment.",
+      "The government has already taken urgent measures to solve unemployment.",
+      "Unemployment is not a problem that requires urgent measures.",
+      "The government's urgent measures have caused unemployment."
+    ],
+    "dogru": 0,
+    "aciklama": "'…alması gerekiyor' = needs to take; 'çözmek için' = to solve.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0065",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı zaman",
+    "zorluk": 1,
+    "soru": "Eve vardığımda herkes çoktan uyumuştu.",
+    "secenekler": [
+      "When I arrived home, everyone was waiting for me.",
+      "Everyone was still awake when I arrived home.",
+      "When I arrived home, everyone had already gone to sleep.",
+      "I went to sleep as soon as I arrived home.",
+      "Everyone went to sleep after I arrived home."
+    ],
+    "dogru": 2,
+    "aciklama": "'vardığımda' = when I arrived; 'çoktan uyumuştu' = had already gone to sleep.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0066",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "yerine",
+    "zorluk": 1,
+    "soru": "Taksi yerine metroya binmeye karar verdik.",
+    "secenekler": [
+      "We took both a taxi and the metro.",
+      "We decided to take a taxi instead of the metro.",
+      "We decided to take the metro instead of a taxi.",
+      "We could not decide whether to take a taxi or the metro.",
+      "We took a taxi because the metro was closed."
+    ],
+    "dogru": 2,
+    "aciklama": "'taksi yerine' = instead of a taxi; 'metroya binmeye karar verdik' = decided to take the metro.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0067",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ne kadar ... o kadar",
+    "zorluk": 2,
+    "soru": "Bir dili ne kadar çok konuşursanız o kadar akıcı hâle gelirsiniz.",
+    "secenekler": [
+      "The less you speak a language, the more fluent you become.",
+      "The more you speak a language, the more fluent you become.",
+      "You speak a language fluently because you practise a lot.",
+      "Speaking a language fluently requires talking less.",
+      "You can become fluent in a language without speaking it."
+    ],
+    "dogru": 1,
+    "aciklama": "'ne kadar çok … o kadar …' = the more ..., the more ...",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0068",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meyi başarmak",
+    "zorluk": 1,
+    "soru": "Kurtarma ekipleri enkaz altındaki tüm işçileri çıkarmayı başardı.",
+    "secenekler": [
+      "Rescue teams managed to get out all the workers trapped under the rubble.",
+      "The workers managed to rescue the teams trapped under the rubble.",
+      "Some of the workers under the rubble were rescued by other workers.",
+      "Rescue teams could not reach the workers trapped under the rubble.",
+      "Rescue teams tried to reach the workers but failed."
+    ],
+    "dogru": 0,
+    "aciklama": "'çıkarmayı başardı' = managed to get out; hepsi kurtarıldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0069",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği ortaya çıktı",
+    "zorluk": 2,
+    "soru": "Araştırma, çocukların günde ortalama beş saat ekran başında geçirdiğini ortaya koydu.",
+    "secenekler": [
+      "The research suggests that children should spend five hours a day in front of a screen.",
+      "The research showed that children spend less than five hours a week in front of a screen.",
+      "The research was conducted over five hours by children.",
+      "Children who spend five hours a day in front of a screen took part in the research.",
+      "The research revealed that children spend an average of five hours a day in front of a screen."
+    ],
+    "dogru": 4,
+    "aciklama": "'ortaya koydu' = revealed; 'günde ortalama beş saat' = an average of five hours a day.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0070",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ir -mez",
+    "zorluk": 2,
+    "soru": "Güneş doğar doğmaz yola çıktık.",
+    "secenekler": [
+      "The sun rose after we had arrived.",
+      "We did not set off until the sun had set.",
+      "We set off long before the sun rose.",
+      "We set off as soon as the sun rose.",
+      "We waited for hours after the sun had risen."
+    ],
+    "dogru": 3,
+    "aciklama": "'doğar doğmaz' = as soon as the sun rose.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0071",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı sanılıyor",
+    "zorluk": 2,
+    "soru": "Yangının elektrik kaçağından çıktığı sanılıyor.",
+    "secenekler": [
+      "An electrical fault was found after the fire had been put out.",
+      "It has been proved that the fire was started deliberately.",
+      "The fire is thought to have been caused by an electrical fault.",
+      "The fire started although there was no electrical fault.",
+      "The fire caused an electrical fault in the building."
+    ],
+    "dogru": 2,
+    "aciklama": "'…çıktığı sanılıyor' = is thought to have been caused by; kesinlik yok.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0072",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ememek",
+    "zorluk": 1,
+    "soru": "Gürültü yüzünden dün gece hiç uyuyamadım.",
+    "secenekler": [
+      "The noise woke me up early this morning.",
+      "I made a lot of noise last night because I could not sleep.",
+      "I slept a little last night because it was quiet.",
+      "I slept well last night despite the noise.",
+      "I could not sleep at all last night because of the noise."
+    ],
+    "dogru": 4,
+    "aciklama": "'hiç uyuyamadım' = could not sleep at all; 'gürültü yüzünden' = because of the noise.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0073",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesine izin vermek",
+    "zorluk": 2,
+    "soru": "Müze, ziyaretçilerin flaş kullanmadan fotoğraf çekmesine izin veriyor.",
+    "secenekler": [
+      "The museum allows visitors to take photographs without using a flash.",
+      "Visitors are allowed to use a flash but not to take photographs.",
+      "The museum takes photographs of visitors without a flash.",
+      "Visitors must use a flash when taking photographs in the museum.",
+      "The museum does not allow visitors to take any photographs."
+    ],
+    "dogru": 0,
+    "aciklama": "'…mesine izin veriyor' = allows sb to; 'flaş kullanmadan' = without using a flash.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0074",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-den dolayı",
+    "zorluk": 1,
+    "soru": "Yoğun kar yağışından dolayı okullar üç gün tatil edildi.",
+    "secenekler": [
+      "Schools remained open despite three days of heavy snowfall.",
+      "Schools were closed for three days due to heavy snowfall.",
+      "Heavy snow fell for three days after the schools were closed.",
+      "Students went on a three-day holiday to see the snow.",
+      "Schools will be closed for three days if it snows heavily."
+    ],
+    "dogru": 1,
+    "aciklama": "'…den dolayı' = due to; 'üç gün tatil edildi' = were closed for three days.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0075",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-sa -ır (Type 2)",
+    "zorluk": 2,
+    "soru": "Daha çok zamanım olsa yeni bir dil öğrenirdim.",
+    "secenekler": [
+      "Although I have more time, I do not want to learn a new language.",
+      "If I had had more time, I would have learnt a new language.",
+      "If I have more time, I will learn a new language.",
+      "If I had more time, I would learn a new language.",
+      "I learnt a new language because I had more time."
+    ],
+    "dogru": 3,
+    "aciklama": "Şimdiye dair varsayım: 'olsa … öğrenirdim' = If I had ..., I would learn.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0076",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "artık ... değil",
+    "zorluk": 1,
+    "soru": "Bu tür telefonlar artık üretilmiyor.",
+    "secenekler": [
+      "This type of phone is no longer produced.",
+      "This type of phone has never been produced.",
+      "This type of phone is produced only in a few countries.",
+      "This type of phone will be produced again soon.",
+      "This type of phone is still produced in large numbers."
+    ],
+    "dogru": 0,
+    "aciklama": "'artık üretilmiyor' = is no longer produced.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0077",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mek için",
+    "zorluk": 1,
+    "soru": "Bilim insanları yeni aşıyı test etmek için gönüllü arıyor.",
+    "secenekler": [
+      "Volunteers are looking for scientists to develop a new vaccine.",
+      "Scientists tested the new vaccine on themselves.",
+      "Scientists have found enough volunteers for the new vaccine.",
+      "Volunteers are testing the new vaccine without scientists.",
+      "Scientists are looking for volunteers to test the new vaccine."
+    ],
+    "dogru": 4,
+    "aciklama": "'test etmek için gönüllü arıyor' = are looking for volunteers to test.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0078",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı hâlde",
+    "zorluk": 2,
+    "soru": "Defalarca uyarıldığı hâlde sürücü hızını azaltmadı.",
+    "secenekler": [
+      "The driver slowed down because he was warned several times.",
+      "The driver warned other drivers to slow down several times.",
+      "The driver slowed down before he was warned.",
+      "Although he was warned several times, the driver did not slow down.",
+      "The driver was not warned, so he did not slow down."
+    ],
+    "dogru": 3,
+    "aciklama": "'…dığı hâlde' = although; 'hızını azaltmadı' = did not slow down.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0079",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "hiçbiri",
+    "zorluk": 1,
+    "soru": "Adayların hiçbiri iş için gerekli deneyime sahip değildi.",
+    "secenekler": [
+      "The job did not require any experience.",
+      "The candidates gained experience after getting the job.",
+      "None of the candidates had the experience required for the job.",
+      "All the candidates had the experience required for the job.",
+      "Only one of the candidates had the necessary experience."
+    ],
+    "dogru": 2,
+    "aciklama": "'adayların hiçbiri' = none of the candidates.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0080",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meye devam etmek",
+    "zorluk": 1,
+    "soru": "Enflasyon oranı son altı aydır artmaya devam ediyor.",
+    "secenekler": [
+      "The inflation rate has fallen steadily over the last six months.",
+      "The inflation rate has continued to rise for the last six months.",
+      "The inflation rate rose sharply six months ago but is now stable.",
+      "The inflation rate will start rising in six months.",
+      "The inflation rate stopped rising six months ago."
+    ],
+    "dogru": 1,
+    "aciklama": "'son altı aydır artmaya devam ediyor' = has continued to rise for the last six months.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0081",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı söyleniyor",
+    "zorluk": 2,
+    "soru": "Yazarın yeni romanını tamamlamak üzere olduğu söyleniyor.",
+    "secenekler": [
+      "The writer is said to be about to finish her new novel.",
+      "The writer is said to have started a new novel.",
+      "The writer finished her new novel a long time ago.",
+      "The writer has said that she will never finish her new novel.",
+      "People say that the writer's new novel is not good."
+    ],
+    "dogru": 0,
+    "aciklama": "'…olduğu söyleniyor' = is said to; 'tamamlamak üzere' = about to finish.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0082",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "kadar (süre)",
+    "zorluk": 1,
+    "soru": "Mağaza gece yarısına kadar açık kalacak.",
+    "secenekler": [
+      "The shop closed before midnight.",
+      "The shop stayed open all night.",
+      "The shop will stay open until midnight.",
+      "The shop will open at midnight.",
+      "The shop is open only after midnight."
+    ],
+    "dogru": 2,
+    "aciklama": "'gece yarısına kadar açık kalacak' = will stay open until midnight.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0083",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ebilir",
+    "zorluk": 1,
+    "soru": "Aşırı şeker tüketimi diyabet riskini artırabilir.",
+    "secenekler": [
+      "People with diabetes consume less sugar than others.",
+      "Diabetes can be prevented by consuming more sugar.",
+      "Excessive sugar consumption has no effect on diabetes.",
+      "The risk of diabetes decreases as sugar consumption increases.",
+      "Excessive sugar consumption can increase the risk of diabetes."
+    ],
+    "dogru": 4,
+    "aciklama": "'artırabilir' = can increase; 'aşırı şeker tüketimi' = excessive sugar consumption.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0084",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesi beklenen",
+    "zorluk": 2,
+    "soru": "Gelecek ay açılması beklenen köprü iki şehir arasındaki yolculuğu kısaltacak.",
+    "secenekler": [
+      "The journey between the two cities will be longer after the bridge opens.",
+      "The bridge, which is expected to open next month, will shorten the journey between the two cities.",
+      "The bridge will not open next month because the journey is too short.",
+      "The bridge that opened last month has shortened the journey between the two cities.",
+      "The two cities are expected to build a bridge next month."
+    ],
+    "dogru": 1,
+    "aciklama": "'gelecek ay açılması beklenen köprü' = the bridge, which is expected to open next month; 'kısaltacak' = will shorten.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0085",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diğini fark etmek",
+    "zorluk": 2,
+    "soru": "Eve döndüğünde anahtarlarını ofiste unuttuğunu fark etti.",
+    "secenekler": [
+      "She realised she had her keys only after she returned to the office.",
+      "She went back to the office because she had lost her keys at home.",
+      "When she left the office, she noticed that her keys were at home.",
+      "When she returned home, she realised that she had left her keys at the office.",
+      "She forgot her keys at home before going to the office."
+    ],
+    "dogru": 3,
+    "aciklama": "'unuttuğunu fark etti' = realised that she had left; anahtarlar ofiste kaldı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0086",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "birçok",
+    "zorluk": 1,
+    "soru": "Birçok hayvan türü iklim değişikliği nedeniyle yaşam alanını kaybediyor.",
+    "secenekler": [
+      "Climate change has helped many animal species find new habitats.",
+      "Many animal species became extinct before climate change.",
+      "A few animal species are causing climate change.",
+      "Animal species are changing the climate of their habitats.",
+      "Many animal species are losing their habitats because of climate change."
+    ],
+    "dogru": 4,
+    "aciklama": "'birçok hayvan türü' = many animal species; 'yaşam alanını kaybediyor' = are losing their habitats.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0087",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mekten vazgeçmek",
+    "zorluk": 2,
+    "soru": "Yüksek maliyetler nedeniyle şirket yeni fabrika kurmaktan vazgeçti.",
+    "secenekler": [
+      "The company decided to build a new factory despite the high costs.",
+      "The company will build a new factory when costs rise.",
+      "Due to high costs, the company gave up building a new factory.",
+      "The new factory caused high costs for the company.",
+      "The company built a new factory to reduce high costs."
+    ],
+    "dogru": 2,
+    "aciklama": "'kurmaktan vazgeçti' = gave up building; 'yüksek maliyetler nedeniyle' = due to high costs.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0088",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diğinden beri",
+    "zorluk": 2,
+    "soru": "Şehre taşındığından beri hiç hastalanmadı.",
+    "secenekler": [
+      "She had never been ill before she moved to the city.",
+      "She moved to the city because she was often ill.",
+      "She has been ill since she moved to the city.",
+      "She has not been ill since she moved to the city.",
+      "She became ill soon after she moved to the city."
+    ],
+    "dogru": 3,
+    "aciklama": "'taşındığından beri' = since she moved; 'hiç hastalanmadı' = has not been ill.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0089",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meksizin",
+    "zorluk": 3,
+    "soru": "Hükümet halka danışmaksızın yeni vergiyi yürürlüğe koydu.",
+    "secenekler": [
+      "The new tax was introduced by the public without the government.",
+      "The government introduced the new tax without consulting the public.",
+      "The government consulted the public before introducing the new tax.",
+      "The public asked the government to introduce a new tax.",
+      "The government cancelled the new tax after consulting the public."
+    ],
+    "dogru": 1,
+    "aciklama": "'danışmaksızın' = without consulting; 'yürürlüğe koydu' = introduced.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0090",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ister ... ister",
+    "zorluk": 2,
+    "soru": "İster otobüsle ister trenle gidin, yolculuk yaklaşık dört saat sürer.",
+    "secenekler": [
+      "Whether you go by bus or by train, the journey takes about four hours.",
+      "If you go by train, the journey takes four hours less than by bus.",
+      "Neither the bus nor the train takes you there in four hours.",
+      "The journey takes four hours by bus but much longer by train.",
+      "You should go by train because the bus takes about four hours."
+    ],
+    "dogru": 0,
+    "aciklama": "'ister ... ister' = whether ... or; süre ikisinde de aynı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0091",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği yer",
+    "zorluk": 2,
+    "soru": "Yazarın çocukluğunu geçirdiği ev şimdi bir müze olarak kullanılıyor.",
+    "secenekler": [
+      "The writer bought a house near the museum where he worked as a child.",
+      "The museum was turned into a house for the writer's children.",
+      "The writer spent his childhood visiting museums.",
+      "The house where the writer spent his childhood is now used as a museum.",
+      "The writer's childhood home was demolished to build a museum."
+    ],
+    "dogru": 3,
+    "aciklama": "'çocukluğunu geçirdiği ev' = the house where he spent his childhood; 'müze olarak kullanılıyor' = is used as a museum.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0092",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "gittikçe",
+    "zorluk": 1,
+    "soru": "Deniz seviyesi gittikçe yükseliyor.",
+    "secenekler": [
+      "The sea level is rising steadily.",
+      "The sea level rose suddenly last year.",
+      "The sea level is falling slowly.",
+      "The sea level has never changed.",
+      "The sea level has stopped rising."
+    ],
+    "dogru": 0,
+    "aciklama": "'gittikçe yükseliyor' = is rising steadily / gradually.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0093",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meli miydi",
+    "zorluk": 3,
+    "soru": "Proje başlamadan önce daha ayrıntılı bir fizibilite çalışması yapılmalıydı.",
+    "secenekler": [
+      "A feasibility study must be carried out after the project starts.",
+      "The project started because a detailed feasibility study was carried out.",
+      "A more detailed feasibility study should have been carried out before the project started.",
+      "No feasibility study is needed before the project starts.",
+      "A detailed feasibility study was carried out before the project started."
+    ],
+    "dogru": 2,
+    "aciklama": "'yapılmalıydı' = should have been carried out (yapılmadı, eleştiri).",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0094",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ince",
+    "zorluk": 1,
+    "soru": "Haberi duyunca herkes çok şaşırdı.",
+    "secenekler": [
+      "Everyone expected the news, so no one was surprised.",
+      "Everyone was very surprised when they heard the news.",
+      "Everyone was surprised before the news was announced.",
+      "Nobody heard the news, so nobody was surprised.",
+      "The news surprised only a few people."
+    ],
+    "dogru": 1,
+    "aciklama": "'duyunca' = when they heard; 'çok şaşırdı' = was very surprised.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0095",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı takdirde",
+    "zorluk": 3,
+    "soru": "Başvurunuz kabul edildiği takdirde size e-posta ile bilgi verilecektir.",
+    "secenekler": [
+      "You will be informed by email even if your application is rejected.",
+      "Unless you are informed by email, your application will be accepted.",
+      "You were informed by email that your application had been accepted.",
+      "Your application will be accepted only if you send an email.",
+      "If your application is accepted, you will be informed by email."
+    ],
+    "dogru": 4,
+    "aciklama": "'…dığı takdirde' = if; 'bilgi verilecektir' = you will be informed.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0096",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-den çok",
+    "zorluk": 2,
+    "soru": "Bu sorun ekonomik olmaktan çok siyasidir.",
+    "secenekler": [
+      "This problem has economic causes and political effects.",
+      "This problem is political rather than economic.",
+      "This problem is more economic than political.",
+      "This problem is both economic and political.",
+      "This problem is neither economic nor political."
+    ],
+    "dogru": 1,
+    "aciklama": "'…olmaktan çok siyasi' = political rather than economic.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0097",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ip -mediğini",
+    "zorluk": 2,
+    "soru": "Doktor, hastanın herhangi bir ilaca alerjisi olup olmadığını sordu.",
+    "secenekler": [
+      "The doctor asked whether the patient was allergic to any medicine.",
+      "The doctor said that the patient was allergic to all medicines.",
+      "The patient asked the doctor whether the medicine had any side effects.",
+      "The doctor gave the patient a medicine for his allergy.",
+      "The doctor did not ask the patient about allergies."
+    ],
+    "dogru": 0,
+    "aciklama": "'…olup olmadığını sordu' = asked whether.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0098",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ancak (sadece)",
+    "zorluk": 2,
+    "soru": "Bu ilaç ancak doktor reçetesiyle satın alınabilir.",
+    "secenekler": [
+      "Doctors rarely prescribe this medicine.",
+      "This medicine can be bought without a prescription.",
+      "This medicine is sold only to doctors.",
+      "This medicine can only be bought with a doctor's prescription.",
+      "A doctor's prescription is not valid for this medicine."
+    ],
+    "dogru": 3,
+    "aciklama": "'ancak … ile' = only with; 'satın alınabilir' = can be bought.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0099",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği anlaşılıyor",
+    "zorluk": 2,
+    "soru": "Kazanın sürücü hatasından kaynaklandığı anlaşıldı.",
+    "secenekler": [
+      "It is still unclear what caused the accident.",
+      "The driver caused an error because he had an accident.",
+      "It was understood that the accident had been caused by driver error.",
+      "The driver understood that the accident was his fault but denied it.",
+      "The accident happened although the driver made no error."
+    ],
+    "dogru": 2,
+    "aciklama": "'…kaynaklandığı anlaşıldı' = it was understood that ... had been caused by.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0100",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mek üzere olmak",
+    "zorluk": 1,
+    "soru": "Film başlamak üzereyken sinemaya vardık.",
+    "secenekler": [
+      "We arrived at the cinema after the film had ended.",
+      "We left the cinema before the film started.",
+      "The film started long before we arrived at the cinema.",
+      "The film was about to end when we left the cinema.",
+      "We arrived at the cinema just as the film was about to start."
+    ],
+    "dogru": 4,
+    "aciklama": "'başlamak üzereyken' = was about to start; 'vardık' = we arrived.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0101",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı için (sonuç)",
+    "zorluk": 1,
+    "soru": "Bilet fiyatları çok yüksek olduğu için konsere gitmedik.",
+    "secenekler": [
+      "Ticket prices were low, so we went to the concert.",
+      "We went to the concert although the ticket prices were very high.",
+      "The ticket prices went up after we went to the concert.",
+      "We did not go to the concert because the ticket prices were too high.",
+      "We could not find tickets for the concert, so we stayed at home."
+    ],
+    "dogru": 3,
+    "aciklama": "'…olduğu için' = because; 'gitmedik' = did not go.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0102",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "en ... -lerinden biri",
+    "zorluk": 1,
+    "soru": "İstanbul dünyanın en kalabalık şehirlerinden biridir.",
+    "secenekler": [
+      "Istanbul is one of the most crowded cities in the world.",
+      "Istanbul is one of the least crowded cities in the world.",
+      "Istanbul is the most crowded city in the world.",
+      "Istanbul is less crowded than most cities in the world.",
+      "Istanbul has become more crowded than any other city."
+    ],
+    "dogru": 0,
+    "aciklama": "'en kalabalık şehirlerinden biri' = one of the most crowded cities.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0103",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ken",
+    "zorluk": 1,
+    "soru": "Ben kitap okurken kardeşim televizyon izliyordu.",
+    "secenekler": [
+      "My brother read a book after he had watched television.",
+      "While I was reading a book, my brother was watching television.",
+      "I started reading a book when my brother turned off the television.",
+      "I was watching television while my brother was reading a book.",
+      "My brother and I watched television instead of reading."
+    ],
+    "dogru": 1,
+    "aciklama": "'okurken' = while I was reading; 'izliyordu' = was watching. Özne-eylem eşleşmesi korunmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0104",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-e göre",
+    "zorluk": 1,
+    "soru": "Son ankete göre halkın çoğu yeni yasayı destekliyor.",
+    "secenekler": [
+      "According to the latest survey, only a few people support the new law.",
+      "Most of the public are against the latest survey.",
+      "According to the latest survey, most of the public support the new law.",
+      "The new law was introduced after the latest survey.",
+      "The latest survey was conducted to support the new law."
+    ],
+    "dogru": 2,
+    "aciklama": "'…e göre' = according to; 'halkın çoğu' = most of the public.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0105",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesi için",
+    "zorluk": 2,
+    "soru": "Bitkilerin büyümesi için yeterli güneş ışığı alması gerekir.",
+    "secenekler": [
+      "Too much sunlight prevents plants from growing.",
+      "Plants need less water when they get enough sunlight.",
+      "Sunlight grows faster when there are plants.",
+      "Plants grow well even without enough sunlight.",
+      "Plants need to get enough sunlight in order to grow."
+    ],
+    "dogru": 4,
+    "aciklama": "'büyümesi için' = in order to grow; 'alması gerekir' = need to get.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0106",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ile doğru orantılı",
+    "zorluk": 3,
+    "soru": "Bir toplumun gelişmişliği, kadınlara tanıdığı haklarla doğru orantılıdır.",
+    "secenekler": [
+      "Developed societies are less interested in women's rights.",
+      "Women in developed societies have fewer rights than men.",
+      "A society grants rights to women only after it has developed.",
+      "The development of a society is directly proportional to the rights it grants to women.",
+      "The rights of women have nothing to do with the development of a society."
+    ],
+    "dogru": 3,
+    "aciklama": "'…ile doğru orantılıdır' = is directly proportional to; 'tanıdığı haklar' = the rights it grants.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0107",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "çok az",
+    "zorluk": 2,
+    "soru": "Bu hastalık hakkında şu ana kadar çok az şey biliniyor.",
+    "secenekler": [
+      "This disease was discovered only a short time ago.",
+      "Few people have suffered from this disease so far.",
+      "Scientists know everything about this disease now.",
+      "A great deal is known about this disease.",
+      "Very little is known about this disease so far."
+    ],
+    "dogru": 4,
+    "aciklama": "'çok az şey biliniyor' = very little is known; 'şu ana kadar' = so far.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0108",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı gibi",
+    "zorluk": 2,
+    "soru": "Beklendiği gibi faiz oranları bu ay yeniden yükseldi.",
+    "secenekler": [
+      "Interest rates did not change this month, as expected.",
+      "Although nobody expected it, interest rates rose this month.",
+      "As expected, interest rates rose again this month.",
+      "Unexpectedly, interest rates fell this month.",
+      "Interest rates are expected to rise again next month."
+    ],
+    "dogru": 2,
+    "aciklama": "'beklendiği gibi' = as expected; 'yeniden yükseldi' = rose again.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0109",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesinden korkmak",
+    "zorluk": 2,
+    "soru": "Birçok çalışan işini kaybetmekten korktuğu için şikâyet etmiyor.",
+    "secenekler": [
+      "Employees who complain are not afraid of losing their jobs.",
+      "Many employees do not complain because they are afraid of losing their jobs.",
+      "Many employees lost their jobs because they complained.",
+      "Many employees are afraid of complaining about their managers.",
+      "Many employees complain that they might lose their jobs."
+    ],
+    "dogru": 1,
+    "aciklama": "'kaybetmekten korktuğu için' = because they are afraid of losing; 'şikâyet etmiyor' = do not complain.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0110",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "iki katı",
+    "zorluk": 2,
+    "soru": "Bu yıl üretilen buğday miktarı geçen yılın iki katı.",
+    "secenekler": [
+      "The amount of wheat produced this year is twice as much as last year's.",
+      "The amount of wheat produced this year is half of last year's.",
+      "Wheat production has been the same for the last two years.",
+      "This year's wheat production is slightly more than last year's.",
+      "Twice as much wheat was imported this year as last year."
+    ],
+    "dogru": 0,
+    "aciklama": "'geçen yılın iki katı' = twice as much as last year's; 'üretilen' = produced.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0111",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diğini iddia etmek",
+    "zorluk": 2,
+    "soru": "Şirket, ürünlerinin çevreye zarar vermediğini iddia ediyor.",
+    "secenekler": [
+      "The company admits that its products harm the environment.",
+      "Environmental groups claim that the company's products are harmful.",
+      "It has been proved that the company's products do not harm the environment.",
+      "The company has stopped producing products that harm the environment.",
+      "The company claims that its products do not harm the environment."
+    ],
+    "dogru": 4,
+    "aciklama": "'…vermediğini iddia ediyor' = claims that ... do not harm.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0112",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-e rağmen",
+    "zorluk": 1,
+    "soru": "Tüm çabalarına rağmen takım finale kalamadı.",
+    "secenekler": [
+      "The team did not make any effort, so they failed to reach the final.",
+      "The team reached the final without making much effort.",
+      "Despite all their efforts, the team failed to reach the final.",
+      "Thanks to all their efforts, the team reached the final.",
+      "The team made great efforts after they had reached the final."
+    ],
+    "dogru": 2,
+    "aciklama": "'tüm çabalarına rağmen' = despite all their efforts; 'finale kalamadı' = failed to reach the final.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0113",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dıkça (sık)",
+    "zorluk": 2,
+    "soru": "Fırsat buldukça büyükannemi ziyaret ediyorum.",
+    "secenekler": [
+      "I visited my grandmother once when I had the chance.",
+      "I visit my grandmother whenever I get the chance.",
+      "I will visit my grandmother when I have more time.",
+      "My grandmother visits me whenever she has the chance.",
+      "I rarely visit my grandmother because I am always busy."
+    ],
+    "dogru": 1,
+    "aciklama": "'fırsat buldukça' = whenever I get the chance; şimdiki zamanda alışkanlık.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0114",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meyi öğrenmek",
+    "zorluk": 1,
+    "soru": "Çocuklar genellikle bir yaşında yürümeyi öğrenir.",
+    "secenekler": [
+      "Children cannot walk until they are two years old.",
+      "One-year-old children usually learn to run.",
+      "Children usually start talking before they are one year old.",
+      "Children usually learn to walk at the age of one.",
+      "Most children learn to walk after the age of three."
+    ],
+    "dogru": 3,
+    "aciklama": "'yürümeyi öğrenir' = learn to walk; 'bir yaşında' = at the age of one.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0115",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği anlamına gelmek",
+    "zorluk": 3,
+    "soru": "Bir ürünün pahalı olması her zaman kaliteli olduğu anlamına gelmez.",
+    "secenekler": [
+      "The fact that a product is expensive does not always mean that it is of high quality.",
+      "Cheap products are usually of higher quality than expensive ones.",
+      "High-quality products are never expensive.",
+      "Expensive products are always of high quality.",
+      "A product is expensive because it is of high quality."
+    ],
+    "dogru": 0,
+    "aciklama": "'…olması … anlamına gelmez' = the fact that ... does not mean ...; 'her zaman' = always.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0116",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mek yerine",
+    "zorluk": 2,
+    "soru": "Sorunları görmezden gelmek yerine onlarla yüzleşmeliyiz.",
+    "secenekler": [
+      "We should ignore problems rather than face them.",
+      "We ignored the problems because we could not face them.",
+      "Facing problems is more difficult than ignoring them.",
+      "We should neither ignore nor face our problems.",
+      "Instead of ignoring problems, we should face them."
+    ],
+    "dogru": 4,
+    "aciklama": "'görmezden gelmek yerine' = instead of ignoring; 'yüzleşmeliyiz' = we should face them.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0117",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı sırada",
+    "zorluk": 2,
+    "soru": "Hırsızlar ev sahipleri tatildeyken eve girdi.",
+    "secenekler": [
+      "The burglars were caught by the owners when they returned from holiday.",
+      "The burglars broke into the house while the owners were on holiday.",
+      "The burglars went on holiday with the money they had stolen.",
+      "The owners went on holiday after the burglars had broken into the house.",
+      "The owners were at home when the burglars broke in."
+    ],
+    "dogru": 1,
+    "aciklama": "'…tatildeyken' = while the owners were on holiday; 'eve girdi' = broke into.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0118",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ne yazık ki",
+    "zorluk": 1,
+    "soru": "Ne yazık ki toplantıya katılamayacağım.",
+    "secenekler": [
+      "I will attend the meeting although I do not want to.",
+      "I am sorry that the meeting was cancelled.",
+      "Fortunately, I will be able to attend the meeting.",
+      "Unfortunately, I will not be able to attend the meeting.",
+      "Unfortunately, I could not attend the meeting yesterday."
+    ],
+    "dogru": 3,
+    "aciklama": "'ne yazık ki' = unfortunately; 'katılamayacağım' = will not be able to attend.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0119",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesiyle",
+    "zorluk": 3,
+    "soru": "İnternetin yaygınlaşmasıyla birlikte bilgiye erişim çok kolaylaştı.",
+    "secenekler": [
+      "With the spread of the Internet, access to information has become much easier.",
+      "Access to information was easier before the Internet became widespread.",
+      "The spread of the Internet has made information less reliable.",
+      "Despite the spread of the Internet, access to information is still difficult.",
+      "The Internet became widespread because information was easy to access."
+    ],
+    "dogru": 0,
+    "aciklama": "'yaygınlaşmasıyla birlikte' = with the spread of; 'çok kolaylaştı' = has become much easier.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0120",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı düşünülüyor",
+    "zorluk": 2,
+    "soru": "Dinozorların büyük bir göktaşı çarpması sonucu yok olduğu düşünülüyor.",
+    "secenekler": [
+      "It has been proved that dinosaurs died out because of a disease.",
+      "Scientists think that another meteorite will hit the Earth soon.",
+      "Dinosaurs are thought to have died out as a result of a large meteorite impact.",
+      "Dinosaurs survived a large meteorite impact.",
+      "A large meteorite impact is thought to have been caused by dinosaurs."
+    ],
+    "dogru": 2,
+    "aciklama": "'…yok olduğu düşünülüyor' = are thought to have died out; 'sonucu' = as a result of.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0121",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "bazı ... bazı",
+    "zorluk": 2,
+    "soru": "Bazı öğrenciler sabah çalışmayı tercih ederken bazıları gece çalışmayı sever.",
+    "secenekler": [
+      "While some students prefer to study in the morning, others like studying at night.",
+      "Most students study both in the morning and at night.",
+      "All students prefer studying at night to studying in the morning.",
+      "Students who study in the morning also like studying at night.",
+      "Some students do not like studying either in the morning or at night."
+    ],
+    "dogru": 0,
+    "aciklama": "'bazıları … iken bazıları …' = while some ..., others ...",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0122",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mekte zorlanmak",
+    "zorluk": 2,
+    "soru": "Yaşlı insanlar yeni teknolojilere uyum sağlamakta zorlanabilir.",
+    "secenekler": [
+      "New technologies are designed specifically for elderly people.",
+      "Young people have difficulty teaching new technologies to the elderly.",
+      "Elderly people refuse to use new technologies.",
+      "Elderly people adapt to new technologies more easily than young people.",
+      "Elderly people may have difficulty adapting to new technologies."
+    ],
+    "dogru": 4,
+    "aciklama": "'uyum sağlamakta zorlanabilir' = may have difficulty adapting.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0123",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığını öğrenmek",
+    "zorluk": 2,
+    "soru": "Sınavı kazandığını öğrenince sevinçten ağladı.",
+    "secenekler": [
+      "She was so happy that she forgot to take the exam.",
+      "She passed the exam after crying for hours.",
+      "She cried with joy when she learnt that she had passed the exam.",
+      "She cried because she had failed the exam.",
+      "She learnt that she had passed the exam, but she was not happy."
+    ],
+    "dogru": 2,
+    "aciklama": "'kazandığını öğrenince' = when she learnt that she had passed; 'sevinçten ağladı' = cried with joy.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0124",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meden",
+    "zorluk": 1,
+    "soru": "Kimseye bir şey söylemeden evden çıktı.",
+    "secenekler": [
+      "He did not leave the house because nobody spoke to him.",
+      "He left the house without saying anything to anyone.",
+      "Nobody said anything when he left the house.",
+      "He said goodbye to everyone and left the house.",
+      "He told everyone before he left the house."
+    ],
+    "dogru": 1,
+    "aciklama": "'söylemeden' = without saying; 'kimseye bir şey' = anything to anyone.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0125",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-e bağlı olmak",
+    "zorluk": 2,
+    "soru": "Ürünün başarısı büyük ölçüde pazarlama stratejisine bağlıdır.",
+    "secenekler": [
+      "The product was successful without any marketing strategy.",
+      "A successful product does not need a marketing strategy.",
+      "The marketing strategy has little effect on the product's success.",
+      "The success of the product depends largely on its marketing strategy.",
+      "The marketing strategy depends on the success of the product."
+    ],
+    "dogru": 3,
+    "aciklama": "'büyük ölçüde … bağlıdır' = depends largely on.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0126",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ince (sonuç)",
+    "zorluk": 2,
+    "soru": "Fiyatlar düşünce satışlar hızla arttı.",
+    "secenekler": [
+      "Prices and sales both fell rapidly.",
+      "When prices fell, sales increased rapidly.",
+      "When sales increased, prices rose rapidly.",
+      "Sales did not change even though prices fell.",
+      "Prices fell because sales decreased rapidly."
+    ],
+    "dogru": 1,
+    "aciklama": "'fiyatlar düşünce' = when prices fell; 'hızla arttı' = increased rapidly.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0127",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ecek olan",
+    "zorluk": 2,
+    "soru": "Yarın yapılacak olan seçim ülkenin geleceğini belirleyecek.",
+    "secenekler": [
+      "The future of the country will determine who wins the election.",
+      "The election held yesterday determined the future of the country.",
+      "The election has been postponed until tomorrow.",
+      "The election that will be held tomorrow will determine the future of the country.",
+      "The country will hold an election in the near future."
+    ],
+    "dogru": 3,
+    "aciklama": "'yarın yapılacak olan seçim' = the election that will be held tomorrow; 'belirleyecek' = will determine.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0128",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meyi unutmak",
+    "zorluk": 1,
+    "soru": "Evden çıkmadan önce ışıkları kapatmayı unutma.",
+    "secenekler": [
+      "Don't forget to turn off the lights before you leave the house.",
+      "I forgot to turn off the lights when I left the house.",
+      "Don't turn off the lights when you leave the house.",
+      "Remember that you turned off the lights before you left the house.",
+      "Turn on the lights before you enter the house."
+    ],
+    "dogru": 0,
+    "aciklama": "'kapatmayı unutma' = don't forget to turn off; emir kipidir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0129",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığı belirtildi",
+    "zorluk": 2,
+    "soru": "Açıklamada, kazada kimsenin yaralanmadığı belirtildi.",
+    "secenekler": [
+      "Nobody made a statement after the accident.",
+      "No statement was made about the accident.",
+      "The statement said that no one had been injured in the accident.",
+      "The statement said that the accident had been caused by an injured driver.",
+      "The statement said that several people had been injured in the accident."
+    ],
+    "dogru": 2,
+    "aciklama": "'kimsenin yaralanmadığı belirtildi' = said that no one had been injured.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0130",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-den daha",
+    "zorluk": 1,
+    "soru": "Bu yıl kış geçen yıldan daha sert geçti.",
+    "secenekler": [
+      "This winter was the mildest in years.",
+      "Last year's winter was harsher than this year's.",
+      "The winter will be harsher next year.",
+      "This year's winter was as mild as last year's.",
+      "This year the winter was harsher than last year."
+    ],
+    "dogru": 4,
+    "aciklama": "'geçen yıldan daha sert' = harsher than last year.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0131",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "bile",
+    "zorluk": 2,
+    "soru": "Uzmanlar bile bu sorunun cevabını bilmiyor.",
+    "secenekler": [
+      "Experts know the answer, but they do not want to share it.",
+      "Even experts do not know the answer to this question.",
+      "Experts asked this question to find the answer.",
+      "This question is so easy that even children know the answer.",
+      "Only experts know the answer to this question."
+    ],
+    "dogru": 1,
+    "aciklama": "'uzmanlar bile' = even experts; 'bilmiyor' = do not know.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0132",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mekle suçlamak",
+    "zorluk": 2,
+    "soru": "Muhalefet hükümeti ekonomiyi kötü yönetmekle suçladı.",
+    "secenekler": [
+      "The opposition accused the government of mismanaging the economy.",
+      "The opposition and the government worked together on the economy.",
+      "The opposition praised the government for managing the economy well.",
+      "The government admitted that it had mismanaged the economy.",
+      "The government accused the opposition of mismanaging the economy."
+    ],
+    "dogru": 0,
+    "aciklama": "'X'i … yönetmekle suçladı' = accused X of mismanaging. Suçlayan muhalefettir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0133",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği halde (şimdi)",
+    "zorluk": 2,
+    "soru": "Hava güneşli olduğu hâlde deniz çok soğuk.",
+    "secenekler": [
+      "It is sunny and the sea is warm enough to swim.",
+      "Because it is sunny, the sea is warm.",
+      "The sea is very cold because it is not sunny.",
+      "Although it is sunny, the sea is very cold.",
+      "The sea became cold after the sun went down."
+    ],
+    "dogru": 3,
+    "aciklama": "'…olduğu hâlde' = although; 'deniz çok soğuk' = the sea is very cold.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0134",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesi mümkün değil",
+    "zorluk": 2,
+    "soru": "Projenin belirlenen sürede tamamlanması mümkün görünmüyor.",
+    "secenekler": [
+      "It seems possible to complete the project earlier than planned.",
+      "The project was completed before the deadline.",
+      "The project will certainly be completed on time.",
+      "The deadline for the project has been extended.",
+      "It does not seem possible for the project to be completed within the set time."
+    ],
+    "dogru": 4,
+    "aciklama": "'mümkün görünmüyor' = does not seem possible; 'belirlenen sürede' = within the set time.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0135",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ir gibi",
+    "zorluk": 3,
+    "soru": "Hiçbir şey olmamış gibi davranmaya devam etti.",
+    "secenekler": [
+      "He behaved badly because something terrible had happened.",
+      "He explained everything that had happened.",
+      "He continued to behave as if nothing had happened.",
+      "Nothing happened, so he behaved as usual.",
+      "He stopped behaving normally after something happened."
+    ],
+    "dogru": 2,
+    "aciklama": "'hiçbir şey olmamış gibi' = as if nothing had happened; 'davranmaya devam etti' = continued to behave.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0136",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği kadarıyla",
+    "zorluk": 3,
+    "soru": "Bildiğim kadarıyla müze pazartesi günleri kapalı.",
+    "secenekler": [
+      "I do not know when the museum is closed.",
+      "I know for sure that the museum is open on Mondays.",
+      "The museum is closed every day except Monday.",
+      "As far as I know, the museum is closed on Mondays.",
+      "The museum was closed last Monday, so I could not visit it."
+    ],
+    "dogru": 3,
+    "aciklama": "'bildiğim kadarıyla' = as far as I know.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0137",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meye karar vermek",
+    "zorluk": 1,
+    "soru": "Emekli olduktan sonra köye taşınmaya karar verdi.",
+    "secenekler": [
+      "He decided to move to the village after he retired.",
+      "He retired because he wanted to move to the village.",
+      "He decided to retire after moving to the village.",
+      "He moved to the city after he retired.",
+      "He has never lived in a village."
+    ],
+    "dogru": 0,
+    "aciklama": "'emekli olduktan sonra' = after he retired; 'taşınmaya karar verdi' = decided to move.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0138",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-ememek (geçmiş)",
+    "zorluk": 1,
+    "soru": "Otobüs geç geldiği için derse zamanında yetişemedim.",
+    "secenekler": [
+      "I arrived on time although the bus was late.",
+      "I got to class early because the bus came on time.",
+      "The bus was late because I could not get to class.",
+      "I missed the bus, so I walked to class.",
+      "I could not get to class on time because the bus came late."
+    ],
+    "dogru": 4,
+    "aciklama": "'geç geldiği için' = because the bus came late; 'yetişemedim' = could not get to ... on time.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0139",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diği yönünde",
+    "zorluk": 3,
+    "soru": "Son veriler, ekonominin yavaşladığı yönündeki endişeleri artırdı.",
+    "secenekler": [
+      "The economy slowed down because of concerns about the latest data.",
+      "The latest data were not published because of economic concerns.",
+      "The latest data have increased concerns that the economy is slowing down.",
+      "Concerns about the economy have decreased thanks to the latest data.",
+      "The latest data show that the economy is growing faster than expected."
+    ],
+    "dogru": 2,
+    "aciklama": "'yavaşladığı yönündeki endişeler' = concerns that the economy is slowing down; 'artırdı' = have increased.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0140",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meye alışmak",
+    "zorluk": 2,
+    "soru": "Yeni işime alışmam birkaç hafta sürdü.",
+    "secenekler": [
+      "I used to work at my new job a few weeks ago.",
+      "It took me a few weeks to get used to my new job.",
+      "I left my new job after a few weeks.",
+      "I got used to my new job immediately.",
+      "I have been looking for a new job for a few weeks."
+    ],
+    "dogru": 1,
+    "aciklama": "'alışmam birkaç hafta sürdü' = it took me a few weeks to get used to.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0141",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-dığına göre",
+    "zorluk": 3,
+    "soru": "Işıklar yandığına göre evde biri olmalı.",
+    "secenekler": [
+      "If there is someone at home, the lights will be on.",
+      "The lights are on although there is nobody at home.",
+      "Someone turned on the lights before leaving home.",
+      "There cannot be anyone at home because the lights are off.",
+      "Since the lights are on, there must be someone at home."
+    ],
+    "dogru": 4,
+    "aciklama": "'yandığına göre' = since the lights are on; 'biri olmalı' = there must be someone.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0142",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesini istemek",
+    "zorluk": 1,
+    "soru": "Öğretmen öğrencilerden ödevlerini cuma gününe kadar teslim etmelerini istedi.",
+    "secenekler": [
+      "The teacher collected the homework on Friday.",
+      "The teacher told the students that there would be no homework on Friday.",
+      "The teacher asked the students to hand in their homework by Friday.",
+      "The students asked the teacher to give them homework on Friday.",
+      "The students handed in their homework after Friday."
+    ],
+    "dogru": 2,
+    "aciklama": "'…teslim etmelerini istedi' = asked the students to hand in; 'cuma gününe kadar' = by Friday.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0143",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "kimse ... -emedi",
+    "zorluk": 2,
+    "soru": "Kimse bu kuralın neden konduğunu açıklayamadı.",
+    "secenekler": [
+      "Nobody could explain why this rule had been introduced.",
+      "Everybody understood why this rule had been introduced.",
+      "This rule was introduced without any explanation from the government.",
+      "The rule was explained, but nobody accepted it.",
+      "Nobody obeyed the rule because it was not explained."
+    ],
+    "dogru": 0,
+    "aciklama": "'kimse … açıklayamadı' = nobody could explain; 'neden konduğunu' = why it had been introduced.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0144",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-den sonra",
+    "zorluk": 1,
+    "soru": "Yemekten sonra parkta kısa bir yürüyüş yaptık.",
+    "secenekler": [
+      "We did not go for a walk because we had eaten too much.",
+      "We had a meal in the park after a short walk.",
+      "We had lunch in the park instead of going for a walk.",
+      "After the meal, we went for a short walk in the park.",
+      "Before the meal, we walked in the park for a long time."
+    ],
+    "dogru": 3,
+    "aciklama": "'yemekten sonra' = after the meal; 'kısa bir yürüyüş yaptık' = went for a short walk.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0145",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-e yol açmak",
+    "zorluk": 2,
+    "soru": "Aşırı avlanma birçok balık türünün neslinin tükenmesine yol açtı.",
+    "secenekler": [
+      "Overfishing has had no effect on fish species.",
+      "Overfishing has led to the extinction of many fish species.",
+      "The extinction of many fish species has led to overfishing.",
+      "Fishing has been banned to protect endangered species.",
+      "Many fish species have increased in number despite overfishing."
+    ],
+    "dogru": 1,
+    "aciklama": "'…e yol açtı' = has led to; neden aşırı avlanmadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0146",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-mesi yasak",
+    "zorluk": 1,
+    "soru": "Hastane içinde sigara içmek kesinlikle yasaktır.",
+    "secenekler": [
+      "Smoking is allowed only in certain areas of the hospital.",
+      "Smoking outside the hospital is forbidden.",
+      "The hospital provides special rooms for smokers.",
+      "Patients are advised to stop smoking before entering the hospital.",
+      "Smoking is strictly forbidden inside the hospital."
+    ],
+    "dogru": 4,
+    "aciklama": "'kesinlikle yasaktır' = is strictly forbidden; 'hastane içinde' = inside the hospital.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0147",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "ne kadar ... -sa -sın",
+    "zorluk": 3,
+    "soru": "Ne kadar zengin olursa olsun, parayla mutluluk satın alamaz.",
+    "secenekler": [
+      "He is not rich, so he cannot buy happiness.",
+      "He became happy after he became rich.",
+      "However rich he may be, he cannot buy happiness with money.",
+      "Because he is rich, he can buy anything he wants, including happiness.",
+      "Rich people are always happier than poor people."
+    ],
+    "dogru": 2,
+    "aciklama": "'ne kadar zengin olursa olsun' = however rich he may be; 'satın alamaz' = cannot buy.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0148",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-diğini itiraf etmek",
+    "zorluk": 2,
+    "soru": "Şüpheli, sonunda parayı kendisinin çaldığını itiraf etti.",
+    "secenekler": [
+      "The suspect confessed that he knew who had stolen the money.",
+      "The suspect claimed that someone else had stolen the money.",
+      "The police found the stolen money in the suspect's house.",
+      "The suspect finally confessed that he had stolen the money himself.",
+      "The suspect denied that he had stolen the money."
+    ],
+    "dogru": 3,
+    "aciklama": "'…çaldığını itiraf etti' = confessed that he had stolen; 'kendisinin' = himself.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0149",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-meye değer",
+    "zorluk": 1,
+    "soru": "Bu film iki kez izlenmeye değer.",
+    "secenekler": [
+      "I have watched this film twice.",
+      "This film is worth watching twice.",
+      "This film is too long to watch twice.",
+      "You should watch this film twice to understand it.",
+      "This film is not worth watching even once."
+    ],
+    "dogru": 1,
+    "aciklama": "'izlenmeye değer' = is worth watching.",
+    "paragraf_id": null
+  },
+  {
+    "id": "ceviri.te-0150",
+    "bolum": "ceviri_te",
+    "konu": "ceviri.te",
+    "alt_konu": "-e kıyasla",
+    "zorluk": 2,
+    "soru": "Elektrikli araçlar, benzinli araçlara kıyasla çok daha az bakım gerektirir.",
+    "secenekler": [
+      "Compared with petrol cars, electric vehicles require much less maintenance.",
+      "Maintaining electric vehicles is more difficult than maintaining petrol cars.",
+      "Electric vehicles require as much maintenance as petrol cars.",
+      "Petrol cars require much less maintenance than electric vehicles.",
+      "Electric vehicles are much cheaper to buy than petrol cars."
+    ],
+    "dogru": 0,
+    "aciklama": "'benzinli araçlara kıyasla' = compared with petrol cars; 'çok daha az bakım' = much less maintenance.",
+    "paragraf_id": null
   }
 ]

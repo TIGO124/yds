@@ -4048,5 +4048,3155 @@
     "dogru": 4,
     "aciklama": "'draw up a plan' = plan hazırlamak.",
     "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0054",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "After months without rain, the region is suffering from a severe ----, and many wells have dried up.",
+    "secenekler": [
+      "climate",
+      "harvest",
+      "drought",
+      "flood",
+      "shelter"
+    ],
+    "dogru": 2,
+    "aciklama": "'without rain' ve kuruyan kuyular kuraklığı gösterir: 'drought' = kuraklık. 'flood' (sel) anlamca zıttır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0055",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "Health officials acted quickly to contain the ---- of cholera before it could spread to neighbouring villages.",
+    "secenekler": [
+      "recovery",
+      "outbreak",
+      "symptom",
+      "treatment",
+      "immunity"
+    ],
+    "dogru": 1,
+    "aciklama": "'contain' (kontrol altına almak) ve 'spread' (yayılmak) bir salgından söz edildiğini gösterir: 'outbreak' = salgın.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0056",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "Doctors say there is no simple ---- for the common cold; rest and plenty of fluids are usually all a patient needs.",
+    "secenekler": [
+      "diagnosis",
+      "dose",
+      "infection",
+      "remedy",
+      "symptom"
+    ],
+    "dogru": 3,
+    "aciklama": "'a remedy for' = …e çare. Soğuk algınlığının basit bir çaresi olmadığı, dinlenmenin yeterli olduğu anlatılıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0057",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "For many coastal communities, fishing is not just a tradition but their main source of ----.",
+    "secenekler": [
+      "livelihood",
+      "leisure",
+      "pollution",
+      "curiosity",
+      "heritage"
+    ],
+    "dogru": 0,
+    "aciklama": "'source of livelihood' = geçim kaynağı. Balıkçılığın gelenek olmanın ötesinde geçim kaynağı olduğu vurgulanıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0058",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "The discovery of penicillin was a major ---- in the fight against bacterial infections.",
+    "secenekler": [
+      "decline",
+      "rumour",
+      "obstacle",
+      "setback",
+      "breakthrough"
+    ],
+    "dogru": 4,
+    "aciklama": "'breakthrough' = çığır açan buluş. Penisilinin keşfi olumlu bir gelişmedir; 'setback' (aksilik) ve 'obstacle' (engel) olumsuzdur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0059",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "Lack of money is often the biggest ---- for young people who want to start their own business.",
+    "secenekler": [
+      "obstacle",
+      "reward",
+      "opportunity",
+      "profit",
+      "advantage"
+    ],
+    "dogru": 0,
+    "aciklama": "Para eksikliği iş kurmak isteyen gençler için bir engeldir: 'obstacle' = engel. Diğer seçenekler olumlu anlamlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0060",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "Before starting the experiment, the students formed a ---- which they then tried to test with careful measurements.",
+    "secenekler": [
+      "summary",
+      "conclusion",
+      "result",
+      "hypothesis",
+      "reference"
+    ],
+    "dogru": 3,
+    "aciklama": "Deneyden önce kurulup sonra ölçümle sınanan şey hipotezdir: 'hypothesis'. Sonuç ('conclusion') deneyden önce kurulmaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0061",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "The steady ---- in the number of bees worries farmers, since many crops depend on them for pollination.",
+    "secenekler": [
+      "growth",
+      "decline",
+      "variety",
+      "increase",
+      "recovery"
+    ],
+    "dogru": 1,
+    "aciklama": "Çiftçileri endişelendiren şey arı sayısındaki düşüştür: 'decline' = azalma. 'increase' ve 'growth' endişe yaratmaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0062",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "Despite the doctor's repeated advice, the patient showed great ---- to change his eating habits.",
+    "secenekler": [
+      "eagerness",
+      "enthusiasm",
+      "willingness",
+      "ability",
+      "reluctance"
+    ],
+    "dogru": 4,
+    "aciklama": "'Despite' zıtlık kurar: tavsiyeye rağmen hasta isteksizdir. 'reluctance' = isteksizlik; 'enthusiasm' ve 'willingness' zıt anlamlıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0063",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "Rising energy prices have placed a heavy financial ---- on low-income families.",
+    "secenekler": [
+      "benefit",
+      "reward",
+      "burden",
+      "relief",
+      "support"
+    ],
+    "dogru": 2,
+    "aciklama": "'place a heavy burden on' = …in sırtına ağır bir yük bindirmek. Artan fiyatlar yük getirir; diğer seçenekler olumludur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0064",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 3,
+    "soru": "After hours of discussion, the committee finally reached a ---- on the new budget.",
+    "secenekler": [
+      "doubt",
+      "rumour",
+      "consensus",
+      "conflict",
+      "crisis"
+    ],
+    "dogru": 2,
+    "aciklama": "'reach a consensus' = uzlaşmaya varmak. Saatler süren tartışmanın sonunda varılan şey uzlaşmadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0065",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "Flour, eggs and sugar are the main ---- of most cakes.",
+    "secenekler": [
+      "recipes",
+      "flavours",
+      "customers",
+      "ingredients",
+      "instruments"
+    ],
+    "dogru": 3,
+    "aciklama": "Un, yumurta ve şeker pastanın malzemeleridir: 'ingredients' = malzemeler. Un bir tat ('flavour') ya da tarif ('recipe') değildir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0066",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "Pandas are losing their natural ---- as the forests of central China are cleared for farming.",
+    "secenekler": [
+      "population",
+      "diet",
+      "behaviour",
+      "predator",
+      "habitat"
+    ],
+    "dogru": 4,
+    "aciklama": "Ormanların açılmasıyla kaybedilen şey doğal yaşam alanıdır: 'habitat' = yaşam alanı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0067",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "One ---- of the study is that it included only a small number of participants, all of whom were university students.",
+    "secenekler": [
+      "purpose",
+      "shortcoming",
+      "finding",
+      "strength",
+      "advantage"
+    ],
+    "dogru": 1,
+    "aciklama": "Az ve tek tip katılımcı bir eksikliktir: 'shortcoming' = kusur, eksiklik. 'strength' ve 'advantage' anlamca zıttır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0068",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "The government offers tax ---- to encourage companies to invest in renewable energy.",
+    "secenekler": [
+      "incentives",
+      "obstacles",
+      "penalties",
+      "debts",
+      "burdens"
+    ],
+    "dogru": 0,
+    "aciklama": "Şirketleri yatırıma özendirmek için verilen şey teşviktir: 'incentive' = teşvik. Ceza ('penalty') ya da yük özendirmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0069",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 2,
+    "soru": "The ---- of the flight from Istanbul to Tokyo is about eleven hours.",
+    "secenekler": [
+      "destination",
+      "altitude",
+      "duration",
+      "distance",
+      "frequency"
+    ],
+    "dogru": 2,
+    "aciklama": "'eleven hours' bir süre bildirir: 'duration' = süre. Mesafe ('distance') saatle ölçülmez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0070",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "The campaign aims to raise public ---- of the dangers of smoking among teenagers.",
+    "secenekler": [
+      "pollution",
+      "loyalty",
+      "attendance",
+      "income",
+      "awareness"
+    ],
+    "dogru": 4,
+    "aciklama": "'raise awareness of' = …konusunda farkındalık yaratmak. Kampanyanın amacı sigaranın tehlikeleri hakkında bilinç oluşturmaktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0071",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "Neither side got everything it wanted, but both accepted the ---- in order to end the long strike.",
+    "secenekler": [
+      "demand",
+      "compromise",
+      "victory",
+      "defeat",
+      "dispute"
+    ],
+    "dogru": 1,
+    "aciklama": "İki tarafın da istediğinin tamamını alamadan anlaşması uzlaşmadır: 'compromise' = orta yol, uzlaşma.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0072",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "Several rare plant species have been found in the ---- of the old volcano.",
+    "secenekler": [
+      "vicinity",
+      "vacancy",
+      "absence",
+      "duration",
+      "capacity"
+    ],
+    "dogru": 0,
+    "aciklama": "'in the vicinity of' = …in civarında, yakınında. Nadir bitkiler yanardağın çevresinde bulunmuştur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0073",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "According to a recent ----, more than a billion people worldwide still live without reliable electricity.",
+    "secenekler": [
+      "mistake",
+      "reminder",
+      "excuse",
+      "estimate",
+      "argument"
+    ],
+    "dogru": 3,
+    "aciklama": "Sayısal bir bilgi ('more than a billion') bir tahmine dayanır: 'estimate' = tahmin. 'According to a recent estimate' kalıplaşmış bir ifadedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0074",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "A ---- of vitamin D can lead to weak bones, especially in young children.",
+    "secenekler": [
+      "sign",
+      "source",
+      "deficiency",
+      "purpose",
+      "benefit"
+    ],
+    "dogru": 2,
+    "aciklama": "Kemikleri zayıflatan şey D vitamini eksikliğidir: 'deficiency' = eksiklik.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0075",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "The ---- of social media has changed the way news is shared and consumed.",
+    "secenekler": [
+      "disappearance",
+      "shortage",
+      "collapse",
+      "emergence",
+      "absence"
+    ],
+    "dogru": 3,
+    "aciklama": "Haberin paylaşılma biçimini değiştiren şey sosyal medyanın ortaya çıkışıdır: 'emergence' = ortaya çıkış.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0076",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 2,
+    "soru": "Modern satellites have greatly improved the ---- of weather forecasts.",
+    "secenekler": [
+      "delay",
+      "weight",
+      "noise",
+      "error",
+      "accuracy"
+    ],
+    "dogru": 4,
+    "aciklama": "Uyduların geliştirdiği şey hava tahminlerinin doğruluğudur: 'accuracy' = doğruluk, isabet. 'improve the error' anlamsızdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0077",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "The failure of the rocket launch was a serious ---- for the space programme, delaying the mission by two years.",
+    "secenekler": [
+      "setback",
+      "celebration",
+      "reward",
+      "success",
+      "milestone"
+    ],
+    "dogru": 0,
+    "aciklama": "Görevi iki yıl geciktiren başarısızlık bir aksiliktir: 'setback' = aksilik, gerileme.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0078",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "Scientists are still trying to understand the ---- by which some birds find their way across thousands of kilometres.",
+    "secenekler": [
+      "climate",
+      "mechanism",
+      "species",
+      "habitat",
+      "predator"
+    ],
+    "dogru": 1,
+    "aciklama": "'the mechanism by which' = …in işleyiş biçimi. Kuşların yön bulma yolu bir mekanizmadır; 'by which' yöntem bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0079",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "The hospital needs new medical ----, such as X-ray machines and heart monitors.",
+    "secenekler": [
+      "buildings",
+      "treatment",
+      "staff",
+      "equipment",
+      "patients"
+    ],
+    "dogru": 3,
+    "aciklama": "Röntgen cihazı ve kalp monitörü tıbbi donanımdır: 'equipment' = donanım, ekipman.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0080",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "Marie Curie is remembered for her outstanding ---- to the study of radioactivity.",
+    "secenekler": [
+      "opposition",
+      "contribution",
+      "resistance",
+      "objection",
+      "reaction"
+    ],
+    "dogru": 1,
+    "aciklama": "'contribution to' = …e katkı. Curie radyoaktivite çalışmalarına yaptığı katkıyla anılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0081",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 2,
+    "soru": "Long working hours without breaks can cause ---- and reduce concentration.",
+    "secenekler": [
+      "enthusiasm",
+      "relaxation",
+      "energy",
+      "appetite",
+      "fatigue"
+    ],
+    "dogru": 4,
+    "aciklama": "Molasız uzun çalışmanın yol açtığı şey yorgunluktur: 'fatigue' = bitkinlik, yorgunluk.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0082",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 2,
+    "soru": "Economists warn that the growing gap between rich and poor is increasing social ----.",
+    "secenekler": [
+      "equality",
+      "wealth",
+      "inequality",
+      "harmony",
+      "stability"
+    ],
+    "dogru": 2,
+    "aciklama": "Zengin ile yoksul arasındaki uçurum eşitsizliği artırır: 'inequality' = eşitsizlik.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0083",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "The weather ---- for tomorrow says that heavy rain is expected in the afternoon.",
+    "secenekler": [
+      "forecast",
+      "climate",
+      "season",
+      "temperature",
+      "storm"
+    ],
+    "dogru": 0,
+    "aciklama": "'weather forecast' = hava tahmini. Yarın için bilgi veren şey tahmindir; 'climate' uzun dönemli iklimdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0084",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "The country is going through a difficult ---- from an agricultural economy to an industrial one.",
+    "secenekler": [
+      "collision",
+      "ambition",
+      "condition",
+      "tradition",
+      "transition"
+    ],
+    "dogru": 4,
+    "aciklama": "'transition from ... to' = …den …e geçiş. Tarım ekonomisinden sanayi ekonomisine geçiş anlatılıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0085",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "Millions of people in rural areas still lack ---- to clean drinking water.",
+    "secenekler": [
+      "attitude",
+      "exposure",
+      "reference",
+      "access",
+      "excess"
+    ],
+    "dogru": 3,
+    "aciklama": "'access to' = …e erişim. Kırsal bölgelerde insanların temiz suya erişimi yoktur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0086",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Temel isim",
+    "zorluk": 1,
+    "soru": "Plastic waste in the oceans is a serious ---- to marine life.",
+    "secenekler": [
+      "benefit",
+      "threat",
+      "cure",
+      "gift",
+      "solution"
+    ],
+    "dogru": 1,
+    "aciklama": "'a threat to' = …için tehdit. Okyanuslardaki plastik atık deniz canlılarını tehdit eder.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.isim-0087",
+    "bolum": "kel",
+    "konu": "kel.isim",
+    "alt_konu": "Akademik isim",
+    "zorluk": 3,
+    "soru": "Living abroad for a year gave her a completely new ---- on her own culture.",
+    "secenekler": [
+      "perspective",
+      "prospect",
+      "persistence",
+      "proportion",
+      "prescription"
+    ],
+    "dogru": 0,
+    "aciklama": "'a new perspective on' = …e yeni bir bakış açısı. 'prospect' (olasılık, beklenti) 'on' ile bu anlamı vermez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0058",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "The new law aims to ---- the use of plastic bags, which pollute rivers and seas.",
+    "secenekler": [
+      "promote",
+      "repeat",
+      "reduce",
+      "expand",
+      "admire"
+    ],
+    "dogru": 2,
+    "aciklama": "Plastik poşetler kirlilik yarattığı için yasanın amacı kullanımlarını azaltmaktır: 'reduce' = azaltmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0059",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "Researchers ---- more than 5,000 people to find out how their sleeping habits affected their health.",
+    "secenekler": [
+      "ignored",
+      "invented",
+      "produced",
+      "surveyed",
+      "predicted"
+    ],
+    "dogru": 3,
+    "aciklama": "İnsanların uyku alışkanlıklarını öğrenmek için yapılan şey ankettir: 'survey' = anket yapmak, araştırmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0060",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "Because of the storm, the airline had to ---- all flights to the island.",
+    "secenekler": [
+      "land",
+      "afford",
+      "book",
+      "board",
+      "cancel"
+    ],
+    "dogru": 4,
+    "aciklama": "Fırtına yüzünden havayolunun yapmak zorunda kaldığı şey uçuşları iptal etmektir: 'cancel' = iptal etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0061",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The new drug, which doctors now recommend for older patients, has been shown to ---- the risk of heart attack by up to 30 percent.",
+    "secenekler": [
+      "gain",
+      "raise",
+      "lower",
+      "cause",
+      "spread"
+    ],
+    "dogru": 2,
+    "aciklama": "Doktorların önerdiği ilaç kalp krizi riskini düşürür: 'lower' = azaltmak. 'raise' (artırmak) önerilmesiyle çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0062",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Karışan fiiller",
+    "zorluk": 2,
+    "soru": "After test scores had fallen for three years in a row, the school decided to ---- a completely new approach to teaching mathematics.",
+    "secenekler": [
+      "adopt",
+      "attend",
+      "admit",
+      "afford",
+      "adore"
+    ],
+    "dogru": 0,
+    "aciklama": "Yeni bir yöntemi benimseyip uygulamaya koymak: 'adopt an approach'. 'admit' (kabul etmek) ve 'attend' (katılmak) anlamca uymaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0063",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The library plans to ---- its ancient manuscripts so that researchers all over the world can read them online.",
+    "secenekler": [
+      "hide",
+      "digitise",
+      "destroy",
+      "forget",
+      "borrow"
+    ],
+    "dogru": 1,
+    "aciklama": "Elyazmalarının internette okunabilmesi için dijital ortama aktarılması gerekir: 'digitise' = sayısallaştırmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0064",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 2,
+    "soru": "Young children often ---- the behaviour of the adults around them, so parents should set a good example.",
+    "secenekler": [
+      "punish",
+      "invent",
+      "reject",
+      "prohibit",
+      "imitate"
+    ],
+    "dogru": 4,
+    "aciklama": "Anne babaların iyi örnek olması gerekir çünkü çocuklar yetişkinleri taklit eder: 'imitate' = taklit etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0065",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "The factory was fined for ---- chemical waste into the river.",
+    "secenekler": [
+      "measuring",
+      "recycling",
+      "preventing",
+      "dumping",
+      "cleaning"
+    ],
+    "dogru": 3,
+    "aciklama": "Fabrikanın ceza almasının nedeni nehre kimyasal atık dökmesidir: 'dump' = gelişigüzel dökmek, boşaltmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0066",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 3,
+    "soru": "To ---- the spread of the virus, all schools in the city were closed for two weeks.",
+    "secenekler": [
+      "accelerate",
+      "curb",
+      "observe",
+      "encourage",
+      "celebrate"
+    ],
+    "dogru": 1,
+    "aciklama": "Okulların kapatılmasının amacı virüsün yayılmasını frenlemektir: 'curb' = dizginlemek, sınırlamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0067",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The judges will ---- all the entries carefully before choosing the winner.",
+    "secenekler": [
+      "evaluate",
+      "forbid",
+      "invent",
+      "abandon",
+      "damage"
+    ],
+    "dogru": 0,
+    "aciklama": "Kazananı seçmeden önce başvurular dikkatle değerlendirilir: 'evaluate' = değerlendirmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0068",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "It is difficult to ---- how many species live in the rainforest, because many of them have never been recorded.",
+    "secenekler": [
+      "deny",
+      "persuade",
+      "estimate",
+      "prevent",
+      "repair"
+    ],
+    "dogru": 2,
+    "aciklama": "Kayda geçmemiş türler yüzünden sayıyı kesin bilmek zordur; ancak tahmin edilebilir: 'estimate' = tahmin etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0069",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 3,
+    "soru": "The two small companies agreed to ---- in order to compete with their much larger rivals.",
+    "secenekler": [
+      "resign",
+      "retire",
+      "merge",
+      "divide",
+      "collapse"
+    ],
+    "dogru": 2,
+    "aciklama": "Küçük şirketlerin büyük rakiplerle rekabet etmek için yapacağı şey birleşmektir: 'merge' = birleşmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0070",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "Engineers had to ---- the design of the bridge after tests revealed a weakness in its structure.",
+    "secenekler": [
+      "admire",
+      "modify",
+      "advertise",
+      "borrow",
+      "celebrate"
+    ],
+    "dogru": 1,
+    "aciklama": "Testte zayıflık bulununca tasarımın değiştirilmesi gerekir: 'modify' = değiştirmek, uyarlamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0071",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "Some birds ---- thousands of kilometres every autumn to spend the winter in warmer regions.",
+    "secenekler": [
+      "migrate",
+      "hibernate",
+      "graduate",
+      "collapse",
+      "hesitate"
+    ],
+    "dogru": 0,
+    "aciklama": "Kışı sıcak bölgelerde geçirmek için binlerce kilometre yol alan kuşlar göç eder: 'migrate' = göç etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0072",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "Doctors warn that smoking can seriously ---- your health.",
+    "secenekler": [
+      "measure",
+      "protect",
+      "improve",
+      "attend",
+      "damage"
+    ],
+    "dogru": 4,
+    "aciklama": "Sigara sağlığa zarar verir: 'damage' = zarar vermek. 'improve' ve 'protect' anlamca zıttır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0073",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "Fire investigators are still trying to ---- the cause of the blaze.",
+    "secenekler": [
+      "borrow",
+      "celebrate",
+      "pretend",
+      "determine",
+      "obey"
+    ],
+    "dogru": 3,
+    "aciklama": "Yangının nedeni belirlenmeye çalışılıyor: 'determine' = belirlemek, saptamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0074",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Fiil + edat",
+    "zorluk": 2,
+    "soru": "The government has promised to ---- heavily in public transport over the next five years.",
+    "secenekler": [
+      "borrow",
+      "waste",
+      "owe",
+      "charge",
+      "invest"
+    ],
+    "dogru": 4,
+    "aciklama": "'invest in' = …e yatırım yapmak. Hükümetin söz verdiği şey toplu taşımaya yatırımdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0075",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The results of the experiment ---- the scientists' original theory, so they had to think again.",
+    "secenekler": [
+      "proved",
+      "contradicted",
+      "repeated",
+      "confirmed",
+      "supported"
+    ],
+    "dogru": 1,
+    "aciklama": "Bilim insanlarının yeniden düşünmek zorunda kalması, sonuçların kuramla çeliştiğini gösterir: 'contradict' = çelişmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0076",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Fiil + edat",
+    "zorluk": 2,
+    "soru": "During photosynthesis, plants ---- sunlight into chemical energy.",
+    "secenekler": [
+      "reflect",
+      "remove",
+      "prevent",
+      "convert",
+      "avoid"
+    ],
+    "dogru": 3,
+    "aciklama": "'convert A into B' = A'yı B'ye dönüştürmek. Bitkiler güneş ışığını kimyasal enerjiye dönüştürür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0077",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "The company decided to ---- 200 new workers to meet the growing demand for its products.",
+    "secenekler": [
+      "hire",
+      "fire",
+      "resign",
+      "dismiss",
+      "retire"
+    ],
+    "dogru": 0,
+    "aciklama": "Artan talebi karşılamak için yeni işçi alınır: 'hire' = işe almak. 'fire' ve 'dismiss' işten çıkarmaktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0078",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "Doctors ---- that adults drink at least two litres of water a day.",
+    "secenekler": [
+      "deny",
+      "refuse",
+      "recommend",
+      "forbid",
+      "prevent"
+    ],
+    "dogru": 2,
+    "aciklama": "Doktorların yaptığı şey bir öneridir: 'recommend' = tavsiye etmek. 'recommend that + özne + yalın fiil' kalıbı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0079",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The newly discovered letters may ---- the way historians think about the ancient city.",
+    "secenekler": [
+      "invite",
+      "collapse",
+      "transform",
+      "postpone",
+      "resemble"
+    ],
+    "dogru": 2,
+    "aciklama": "Yeni bulunan mektuplar tarihçilerin bakışını kökten değiştirebilir: 'transform' = dönüştürmek, değiştirmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0080",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Bağlamdan fiil",
+    "zorluk": 2,
+    "soru": "Rising temperatures are causing mountain glaciers to ---- at an alarming rate.",
+    "secenekler": [
+      "freeze",
+      "strengthen",
+      "expand",
+      "shrink",
+      "multiply"
+    ],
+    "dogru": 3,
+    "aciklama": "Artan sıcaklık buzulları küçültür: 'shrink' = küçülmek. 'expand' ve 'freeze' sıcaklık artışıyla çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0081",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The teacher asked the students to ---- the main points of the article in no more than 100 words.",
+    "secenekler": [
+      "invent",
+      "summarise",
+      "neglect",
+      "memorise",
+      "exaggerate"
+    ],
+    "dogru": 1,
+    "aciklama": "Ana noktaları 100 kelimeyle anlatmak özetlemektir: 'summarise' = özetlemek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0082",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Karışan fiiller",
+    "zorluk": 2,
+    "soru": "The volcano could ---- at any moment, so the nearby villages have been evacuated.",
+    "secenekler": [
+      "erode",
+      "corrupt",
+      "disrupt",
+      "interrupt",
+      "erupt"
+    ],
+    "dogru": 4,
+    "aciklama": "Köylerin boşaltılması yanardağın her an püskürebileceğini gösterir: 'erupt' = püskürmek. 'disrupt' ve 'interrupt' nesne ister.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0083",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "Scientists have ---- a new species of frog in the mountains of Peru.",
+    "secenekler": [
+      "discovered",
+      "repaired",
+      "persuaded",
+      "founded",
+      "invented"
+    ],
+    "dogru": 0,
+    "aciklama": "Doğada var olan yeni bir tür keşfedilir: 'discover' = keşfetmek. İcat etmek ('invent') yeni bir şey yaratmaktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0084",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "The manager refused to ---- responsibility for the mistake and blamed his assistant instead.",
+    "secenekler": [
+      "blame",
+      "avoid",
+      "reject",
+      "accept",
+      "deny"
+    ],
+    "dogru": 3,
+    "aciklama": "Asistanını suçlaması, müdürün sorumluluğu üstlenmediğini gösterir: 'accept responsibility' = sorumluluğu kabul etmek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0085",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 3,
+    "soru": "The vaccine must be stored in a cool place because heat can ---- its effectiveness.",
+    "secenekler": [
+      "restore",
+      "enhance",
+      "diminish",
+      "double",
+      "boost"
+    ],
+    "dogru": 2,
+    "aciklama": "Serin yerde saklanma gerekliliği, sıcaklığın etkinliği azalttığını gösterir: 'diminish' = azaltmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0086",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "The survey ---- that most young people now get their news from social media.",
+    "secenekler": [
+      "revealed",
+      "prohibited",
+      "required",
+      "pretended",
+      "concealed"
+    ],
+    "dogru": 0,
+    "aciklama": "Anketin ortaya koyduğu bir bulgudan söz ediliyor: 'reveal' = ortaya çıkarmak, göstermek.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0087",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Fiil + edat",
+    "zorluk": 2,
+    "soru": "Heavy traffic ---- the ambulance from reaching the hospital in time.",
+    "secenekler": [
+      "allowed",
+      "encouraged",
+      "ensured",
+      "enabled",
+      "prevented"
+    ],
+    "dogru": 4,
+    "aciklama": "'prevent sb from doing' = birinin bir şey yapmasını engellemek. Diğer fiiller 'from' ile kullanılmaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0088",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Temel fiil",
+    "zorluk": 1,
+    "soru": "The team worked through the night to ---- the software problem before the launch.",
+    "secenekler": [
+      "ignore",
+      "fix",
+      "create",
+      "cause",
+      "hide"
+    ],
+    "dogru": 1,
+    "aciklama": "Gece boyu çalışmanın amacı sorunu gidermektir: 'fix' = düzeltmek, onarmak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0089",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Fiil + edat",
+    "zorluk": 2,
+    "soru": "The judge ---- the man to five years in prison for fraud.",
+    "secenekler": [
+      "blamed",
+      "accused",
+      "sentenced",
+      "charged",
+      "arrested"
+    ],
+    "dogru": 2,
+    "aciklama": "'sentence sb to' = birini …e mahkûm etmek. 'accuse' ve 'charge' 'of/with' ile kullanılır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0090",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Karışan fiiller",
+    "zorluk": 3,
+    "soru": "The new bypass is expected to ---- congestion in the city centre, where traffic jams are a daily problem.",
+    "secenekler": [
+      "retrieve",
+      "reveal",
+      "relive",
+      "receive",
+      "relieve"
+    ],
+    "dogru": 4,
+    "aciklama": "'relieve congestion' = trafik sıkışıklığını hafifletmek. 'relive' (yeniden yaşamak) gibi benzer yazılışlı fiillerle karıştırma.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0091",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Karışan fiiller",
+    "zorluk": 2,
+    "soru": "The research team hopes to ---- its findings in a leading scientific journal next year.",
+    "secenekler": [
+      "polish",
+      "publish",
+      "banish",
+      "abolish",
+      "punish"
+    ],
+    "dogru": 1,
+    "aciklama": "Bulgular dergide yayımlanır: 'publish' = yayımlamak. Diğer seçenekler benzer sesli ama ilgisiz fiillerdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.fiil-0092",
+    "bolum": "kel",
+    "konu": "kel.fiil",
+    "alt_konu": "Akademik fiil",
+    "zorluk": 2,
+    "soru": "Rescue workers managed to ---- all the passengers from the sinking ship.",
+    "secenekler": [
+      "evacuate",
+      "abandon",
+      "accumulate",
+      "eliminate",
+      "evaporate"
+    ],
+    "dogru": 0,
+    "aciklama": "Batan gemideki yolcular tahliye edilir: 'evacuate' = tahliye etmek. 'managed to' başarıyı gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0055",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "The old bridge was closed because engineers considered it ---- for heavy vehicles.",
+    "secenekler": [
+      "suitable",
+      "reliable",
+      "ideal",
+      "unsafe",
+      "secure"
+    ],
+    "dogru": 3,
+    "aciklama": "Köprünün kapatılmasının nedeni ağır araçlar için güvensiz olmasıdır: 'unsafe' = güvensiz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0056",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Water is ---- for all known forms of life.",
+    "secenekler": [
+      "useless",
+      "optional",
+      "harmful",
+      "essential",
+      "rare"
+    ],
+    "dogru": 3,
+    "aciklama": "Su bilinen tüm yaşam biçimleri için vazgeçilmezdir: 'essential for' = …için zorunlu, temel.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0057",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "The new phone was so ---- that it sold out within hours of its release.",
+    "secenekler": [
+      "unreliable",
+      "expensive",
+      "popular",
+      "fragile",
+      "outdated"
+    ],
+    "dogru": 2,
+    "aciklama": "Saatler içinde tükenmesi telefonun çok rağbet gördüğünü gösterir: 'popular' = sevilen, rağbet gören.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0058",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Her explanation was so ---- that even the youngest students understood it immediately.",
+    "secenekler": [
+      "confusing",
+      "complicated",
+      "lengthy",
+      "vague",
+      "clear"
+    ],
+    "dogru": 4,
+    "aciklama": "En küçük öğrencilerin bile hemen anlaması açıklamanın açık ve anlaşılır olduğunu gösterir: 'clear'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0059",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Chickenpox spreads very easily among children because it is highly ----.",
+    "secenekler": [
+      "infectious",
+      "curious",
+      "nutritious",
+      "cautious",
+      "ambitious"
+    ],
+    "dogru": 0,
+    "aciklama": "Kolay yayılan hastalık bulaşıcıdır: 'infectious' = bulaşıcı. Diğerleri benzer sesli ama ilgisiz sıfatlardır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0060",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The instructions were so ---- that nobody knew exactly what to do.",
+    "secenekler": [
+      "explicit",
+      "ambiguous",
+      "detailed",
+      "precise",
+      "obvious"
+    ],
+    "dogru": 1,
+    "aciklama": "Kimsenin ne yapacağını bilmemesi talimatların muğlak olduğunu gösterir: 'ambiguous' = belirsiz, iki anlamlı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0061",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 2,
+    "soru": "Despite being completely ----, the minister refused to take a holiday.",
+    "secenekler": [
+      "exhausted",
+      "cheerful",
+      "relaxed",
+      "rested",
+      "energetic"
+    ],
+    "dogru": 0,
+    "aciklama": "'Despite' zıtlık kurar: çok yorgun olmasına rağmen tatil yapmamıştır. 'exhausted' = bitkin.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0062",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Solar power is a ---- source of energy because the sun will not run out for billions of years.",
+    "secenekler": [
+      "scarce",
+      "harmful",
+      "finite",
+      "temporary",
+      "renewable"
+    ],
+    "dogru": 4,
+    "aciklama": "Güneşin tükenmemesi enerjinin yenilenebilir olduğunu gösterir: 'renewable'. 'finite' (sınırlı) anlamca zıttır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0063",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Sıfat + edat",
+    "zorluk": 2,
+    "soru": "The results were ---- with those of earlier studies, which increased the researchers' confidence.",
+    "secenekler": [
+      "irrelevant",
+      "contrary",
+      "inconsistent",
+      "consistent",
+      "incompatible"
+    ],
+    "dogru": 3,
+    "aciklama": "Güvenin artması sonuçların önceki çalışmalarla tutarlı olduğunu gösterir: 'consistent with' = …ile tutarlı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0064",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Driving after drinking alcohol is extremely ----; it is also against the law.",
+    "secenekler": [
+      "necessary",
+      "safe",
+      "dangerous",
+      "healthy",
+      "advisable"
+    ],
+    "dogru": 2,
+    "aciklama": "Alkollü araç kullanmak tehlikelidir: 'dangerous'. Diğer seçenekler cümlenin anlamıyla çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0065",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "The company made a ---- profit last year, the largest in its history.",
+    "secenekler": [
+      "slight",
+      "record",
+      "modest",
+      "negligible",
+      "minimal"
+    ],
+    "dogru": 1,
+    "aciklama": "'the largest in its history' tarihindeki en yüksek kârı gösterir: 'record profit' = rekor kâr.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0066",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Many of the city's old buildings are so ---- that they may collapse in a strong earthquake.",
+    "secenekler": [
+      "robust",
+      "durable",
+      "sturdy",
+      "solid",
+      "fragile"
+    ],
+    "dogru": 4,
+    "aciklama": "Depremde çökebilecek binalar dayanıksızdır: 'fragile' = kırılgan. Diğer seçenekler 'sağlam' anlamındadır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0067",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Scientists remain ---- about the long-term effects of the new drug and have called for more research.",
+    "secenekler": [
+      "enthusiastic",
+      "certain",
+      "careless",
+      "cautious",
+      "confident"
+    ],
+    "dogru": 3,
+    "aciklama": "Daha çok araştırma istemeleri bilim insanlarının temkinli olduğunu gösterir: 'cautious' = ihtiyatlı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0068",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The museum has a very ---- collection of ancient coins, with more than 20,000 items.",
+    "secenekler": [
+      "tiny",
+      "insignificant",
+      "extensive",
+      "incomplete",
+      "limited"
+    ],
+    "dogru": 2,
+    "aciklama": "20.000'den fazla parça geniş bir koleksiyonu gösterir: 'extensive' = kapsamlı, geniş.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0069",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Sıfat + edat",
+    "zorluk": 3,
+    "soru": "Honey is ---- to most bacteria, which is why it rarely spoils.",
+    "secenekler": [
+      "hostile",
+      "attractive",
+      "favourable",
+      "friendly",
+      "beneficial"
+    ],
+    "dogru": 0,
+    "aciklama": "Balın bozulmaması bakterilerin yaşayamadığı bir ortam olmasındandır: 'hostile to' = …e elverişsiz, düşmanca.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0070",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 3,
+    "soru": "The ---- climate of the region, with its long dry summers and very little rain, makes farming extremely difficult.",
+    "secenekler": [
+      "rainy",
+      "arid",
+      "fertile",
+      "mild",
+      "humid"
+    ],
+    "dogru": 1,
+    "aciklama": "Uzun kurak yazlar ve az yağış kurak iklimi anlatır: 'arid' = kurak. 'humid' (nemli) anlamca zıttır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0071",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The documents are ---- and must not be shown to anyone outside the department.",
+    "secenekler": [
+      "public",
+      "available",
+      "confidential",
+      "optional",
+      "visible"
+    ],
+    "dogru": 2,
+    "aciklama": "Bölüm dışında kimseye gösterilmeyen belgeler gizlidir: 'confidential' = gizli.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0072",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Although the task seemed ---- at first, it turned out to be extremely complicated.",
+    "secenekler": [
+      "demanding",
+      "challenging",
+      "difficult",
+      "impossible",
+      "simple"
+    ],
+    "dogru": 4,
+    "aciklama": "'Although' zıtlık kurar: başta basit görünen iş çok karmaşık çıkmıştır. 'simple' = basit.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0073",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Her approach to the problem was highly ----, and it inspired many other researchers.",
+    "secenekler": [
+      "innovative",
+      "ineffective",
+      "outdated",
+      "careless",
+      "useless"
+    ],
+    "dogru": 0,
+    "aciklama": "Başka araştırmacılara ilham veren yaklaşım yenilikçidir: 'innovative'. Diğer seçenekler olumsuzdur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0074",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "The evidence against him was ----, so the court found him guilty.",
+    "secenekler": [
+      "weak",
+      "insufficient",
+      "doubtful",
+      "overwhelming",
+      "scarce"
+    ],
+    "dogru": 3,
+    "aciklama": "Suçlu bulunması kanıtların çok güçlü olduğunu gösterir: 'overwhelming evidence' = ezici kanıt.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0075",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 3,
+    "soru": "Cheetahs are the fastest ---- animals, reaching speeds of over 100 kilometres per hour on land.",
+    "secenekler": [
+      "aquatic",
+      "terrestrial",
+      "marine",
+      "extinct",
+      "nocturnal"
+    ],
+    "dogru": 1,
+    "aciklama": "'on land' karada yaşayan hayvanları gösterir: 'terrestrial' = karasal. 'aquatic' ve 'marine' suda yaşayanlardır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0076",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "The medicine has several ---- side effects, such as headaches and dizziness.",
+    "secenekler": [
+      "beneficial",
+      "harmless",
+      "desirable",
+      "pleasant",
+      "unpleasant"
+    ],
+    "dogru": 4,
+    "aciklama": "Baş ağrısı ve baş dönmesi hoş olmayan yan etkilerdir: 'unpleasant'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0077",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "It is ---- to arrive at the airport at least two hours before an international flight, as security checks can take a long time.",
+    "secenekler": [
+      "impossible",
+      "advisable",
+      "forbidden",
+      "pointless",
+      "unnecessary"
+    ],
+    "dogru": 1,
+    "aciklama": "Güvenlik kontrolü uzun sürdüğü için erken gitmek akıllıcadır: 'advisable' = önerilir, yerinde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0078",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The population of the town has remained ---- for decades, neither growing nor shrinking.",
+    "secenekler": [
+      "stable",
+      "declining",
+      "unpredictable",
+      "rising",
+      "volatile"
+    ],
+    "dogru": 0,
+    "aciklama": "'neither growing nor shrinking' nüfusun sabit kaldığını gösterir: 'stable' = istikrarlı, değişmeyen.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0079",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Many people find public speaking ----, and some even avoid it completely.",
+    "secenekler": [
+      "relaxing",
+      "soothing",
+      "effortless",
+      "stressful",
+      "enjoyable"
+    ],
+    "dogru": 3,
+    "aciklama": "Bazı insanların hiç kaçınması topluluk önünde konuşmanın stresli olduğunu gösterir: 'stressful'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0080",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The new policy has had a ---- effect on unemployment, which fell by five percent in a year.",
+    "secenekler": [
+      "negligible",
+      "harmful",
+      "beneficial",
+      "damaging",
+      "disastrous"
+    ],
+    "dogru": 2,
+    "aciklama": "İşsizliğin düşmesi politikanın yararlı olduğunu gösterir: 'beneficial' = yararlı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0081",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "The expedition was ----: none of the climbers reached the summit because of the storm.",
+    "secenekler": [
+      "effortless",
+      "triumphant",
+      "profitable",
+      "unsuccessful",
+      "fruitful"
+    ],
+    "dogru": 3,
+    "aciklama": "Hiçbir dağcının zirveye ulaşamaması seferin başarısız olduğunu gösterir: 'unsuccessful'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0082",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "This vaccine is only ---- if it is kept at a very low temperature.",
+    "secenekler": [
+      "useless",
+      "effective",
+      "expensive",
+      "dangerous",
+      "harmful"
+    ],
+    "dogru": 1,
+    "aciklama": "Aşının yalnızca soğukta saklanırsa etkili olduğu anlatılıyor: 'effective' = etkili.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0083",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The ---- nature of the job means that employees often have to work late and at weekends.",
+    "secenekler": [
+      "undemanding",
+      "effortless",
+      "relaxing",
+      "leisurely",
+      "demanding"
+    ],
+    "dogru": 4,
+    "aciklama": "Geç saatlere ve hafta sonlarına uzanan çalışma yorucu bir işi gösterir: 'demanding' = zahmetli, yoğun.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0084",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "Some of the most ---- discoveries in the history of medicine, such as penicillin, were made by accident.",
+    "secenekler": [
+      "harmful",
+      "fictional",
+      "significant",
+      "minor",
+      "trivial"
+    ],
+    "dogru": 2,
+    "aciklama": "Penisilin tıp tarihinin en önemli buluşlarındandır: 'significant' = önemli. 'trivial' ve 'minor' önemsiz demektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0085",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 3,
+    "soru": "For many low-lying islands, the threat posed by rising sea levels is ----; some of them could disappear within decades.",
+    "secenekler": [
+      "imminent",
+      "exaggerated",
+      "distant",
+      "negligible",
+      "imaginary"
+    ],
+    "dogru": 0,
+    "aciklama": "On yıllar içinde yok olabilecek adalar için tehdit yakındır: 'imminent' = yakın, eli kulağında.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0086",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 1,
+    "soru": "Tickets for the concert are ---- only online; they cannot be bought at the door.",
+    "secenekler": [
+      "absent",
+      "forbidden",
+      "invalid",
+      "available",
+      "expensive"
+    ],
+    "dogru": 3,
+    "aciklama": "Biletler yalnızca internetten alınabilir: 'available' = temin edilebilir, mevcut.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0087",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The scientist's claims were ---- because they were based on very little data.",
+    "secenekler": [
+      "convincing",
+      "undeniable",
+      "accurate",
+      "reliable",
+      "questionable"
+    ],
+    "dogru": 4,
+    "aciklama": "Çok az veriye dayanan iddialar tartışmalıdır: 'questionable' = şüpheli. Diğer seçenekler bu gerekçeyle çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0088",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Akademik sıfat",
+    "zorluk": 2,
+    "soru": "The old manuscript is extremely ----, so visitors are not allowed to touch it.",
+    "secenekler": [
+      "delicate",
+      "solid",
+      "durable",
+      "tough",
+      "sturdy"
+    ],
+    "dogru": 0,
+    "aciklama": "Dokunulmaması istenen elyazması kolay zarar görür: 'delicate' = narin, hassas.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0089",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Temel sıfat",
+    "zorluk": 2,
+    "soru": "Everyone agreed that the plan was ----, but nobody knew where to find the money to carry it out.",
+    "secenekler": [
+      "impractical",
+      "sensible",
+      "foolish",
+      "absurd",
+      "pointless"
+    ],
+    "dogru": 1,
+    "aciklama": "'but' zıtlık kurar: plan mantıklıdır ama parası yoktur. 'sensible' = makul, mantıklı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0057",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "Sales of electric cars have increased ----, from a few thousand in 2015 to more than ten million in 2023.",
+    "secenekler": [
+      "marginally",
+      "barely",
+      "dramatically",
+      "hardly",
+      "slightly"
+    ],
+    "dogru": 2,
+    "aciklama": "Birkaç binden on milyona çıkış çok büyük bir artıştır: 'dramatically' = çarpıcı biçimde. Diğerleri küçük artış bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0058",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Olumsuz anlamlı zarf",
+    "zorluk": 2,
+    "soru": "She ---- ever eats meat; she prefers vegetables and fish.",
+    "secenekler": [
+      "always",
+      "usually",
+      "frequently",
+      "hardly",
+      "often"
+    ],
+    "dogru": 3,
+    "aciklama": "'hardly ever' = neredeyse hiç. Sebze ve balığı tercih etmesi et yemediğini gösterir; 'ever' diğer zarflarla kullanılmaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0059",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "The bridge was ---- damaged in the earthquake, so it had to be completely rebuilt.",
+    "secenekler": [
+      "partially",
+      "severely",
+      "slightly",
+      "hardly",
+      "barely"
+    ],
+    "dogru": 1,
+    "aciklama": "Tamamen yeniden inşa edilmesi ağır hasarı gösterir: 'severely' = ağır biçimde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0060",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "The patient's condition is improving ----, and doctors expect him to leave hospital next week.",
+    "secenekler": [
+      "steadily",
+      "barely",
+      "hardly",
+      "rarely",
+      "seldom"
+    ],
+    "dogru": 0,
+    "aciklama": "Gelecek hafta taburcu olması durumun düzenli biçimde iyileştiğini gösterir: 'steadily' = istikrarlı biçimde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0061",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tutum zarfı",
+    "zorluk": 1,
+    "soru": "----, the fire was put out before it could spread to the neighbouring houses.",
+    "secenekler": [
+      "Tragically",
+      "Unfortunately",
+      "Fortunately",
+      "Sadly",
+      "Regrettably"
+    ],
+    "dogru": 2,
+    "aciklama": "Yangının komşu evlere sıçramadan söndürülmesi sevindiricidir: 'Fortunately' = neyse ki.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0062",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "The two witnesses described the accident in ---- different ways: one said the car was red, the other that it was blue.",
+    "secenekler": [
+      "nearly",
+      "hardly",
+      "barely",
+      "slightly",
+      "completely"
+    ],
+    "dogru": 4,
+    "aciklama": "Kırmızı ve mavi araba tamamen farklı anlatımlardır: 'completely different' = bambaşka.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0063",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 1,
+    "soru": "Please drive ----; the roads are icy this morning.",
+    "secenekler": [
+      "carelessly",
+      "carefully",
+      "quickly",
+      "recklessly",
+      "loudly"
+    ],
+    "dogru": 1,
+    "aciklama": "Buzlu yollarda dikkatli sürmek gerekir: 'carefully' = dikkatle.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0064",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 1,
+    "soru": "The novel is ---- written, with beautiful descriptions and memorable characters.",
+    "secenekler": [
+      "poorly",
+      "carelessly",
+      "brilliantly",
+      "hastily",
+      "badly"
+    ],
+    "dogru": 2,
+    "aciklama": "Güzel betimlemeler ve akılda kalan karakterler romanın ustaca yazıldığını gösterir: 'brilliantly'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0065",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "The new treatment is ---- effective: it cured almost all of the patients who received it.",
+    "secenekler": [
+      "remarkably",
+      "rarely",
+      "scarcely",
+      "hardly",
+      "barely"
+    ],
+    "dogru": 0,
+    "aciklama": "Hastaların neredeyse tamamının iyileşmesi olağanüstü bir etkiyi gösterir: 'remarkably' = dikkate değer biçimde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0066",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Food prices have risen ----, so many families can no longer afford basic goods.",
+    "secenekler": [
+      "gently",
+      "marginally",
+      "barely",
+      "slightly",
+      "sharply"
+    ],
+    "dogru": 4,
+    "aciklama": "Ailelerin temel ihtiyaçları alamaması fiyatların keskin biçimde arttığını gösterir: 'sharply'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0067",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "The train was ---- late; it arrived just one minute after the scheduled time.",
+    "secenekler": [
+      "extremely",
+      "terribly",
+      "seriously",
+      "slightly",
+      "hugely"
+    ],
+    "dogru": 3,
+    "aciklama": "Bir dakikalık gecikme küçüktür: 'slightly' = biraz, hafifçe.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0068",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "The theory is ---- accepted by scientists, although a few still question it.",
+    "secenekler": [
+      "barely",
+      "widely",
+      "narrowly",
+      "rarely",
+      "hardly"
+    ],
+    "dogru": 1,
+    "aciklama": "'although a few still question it' kuramı çoğunluğun kabul ettiğini gösterir: 'widely accepted' = yaygın kabul görmüş.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0069",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tutum zarfı",
+    "zorluk": 3,
+    "soru": "----, the ancient Egyptians used honey to treat wounds, a practice that modern research has shown to be effective.",
+    "secenekler": [
+      "Hopefully",
+      "Nevertheless",
+      "Otherwise",
+      "Consequently",
+      "Interestingly"
+    ],
+    "dogru": 4,
+    "aciklama": "Cümle ilginç bir bilgiyi sunar: 'Interestingly' = ilginçtir ki. 'Consequently' ve 'Nevertheless' önceki bir cümleye bağlanmayı gerektirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0070",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 3,
+    "soru": "The results were ---- similar to those of the previous study, with only a few minor differences.",
+    "secenekler": [
+      "entirely",
+      "completely",
+      "largely",
+      "scarcely",
+      "hardly"
+    ],
+    "dogru": 2,
+    "aciklama": "Küçük farklar olduğu için sonuçlar büyük ölçüde benzerdir: 'largely'. 'entirely' ve 'completely' farkla çelişir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0071",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "He ---- left his passport at home and had to go back to get it.",
+    "secenekler": [
+      "willingly",
+      "intentionally",
+      "purposely",
+      "accidentally",
+      "deliberately"
+    ],
+    "dogru": 3,
+    "aciklama": "Pasaportu almak için geri dönmek zorunda kalması onu yanlışlıkla unuttuğunu gösterir: 'accidentally'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0072",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "The mountain village is ---- inaccessible by road, so visitors must walk the last ten kilometres.",
+    "secenekler": [
+      "completely",
+      "easily",
+      "conveniently",
+      "readily",
+      "quickly"
+    ],
+    "dogru": 0,
+    "aciklama": "Ziyaretçilerin yürümek zorunda kalması köyün yoldan hiç ulaşılamadığını gösterir: 'completely inaccessible'.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0073",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Oil prices have ---- doubled over the past two years, rising from 40 to almost 80 dollars a barrel.",
+    "secenekler": [
+      "barely",
+      "nearly",
+      "scarcely",
+      "rarely",
+      "hardly"
+    ],
+    "dogru": 1,
+    "aciklama": "40'tan neredeyse 80'e çıkış iki katına yaklaşmaktır: 'nearly' = neredeyse.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0074",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "The instructions must be followed ----, otherwise the machine may be damaged.",
+    "secenekler": [
+      "loosely",
+      "vaguely",
+      "roughly",
+      "precisely",
+      "carelessly"
+    ],
+    "dogru": 3,
+    "aciklama": "Makinenin zarar görmemesi için talimatlara tam olarak uyulmalıdır: 'precisely' = tam olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0075",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 1,
+    "soru": "She speaks English so ---- that most people think she is a native speaker.",
+    "secenekler": [
+      "hesitantly",
+      "poorly",
+      "slowly",
+      "rarely",
+      "fluently"
+    ],
+    "dogru": 4,
+    "aciklama": "Anadili sanılması akıcı konuştuğunu gösterir: 'fluently' = akıcı biçimde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0076",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tutum zarfı",
+    "zorluk": 2,
+    "soru": "---- speaking, the plan is good, but some of the details still need to be worked out.",
+    "secenekler": [
+      "Generally",
+      "Hardly",
+      "Specifically",
+      "Rarely",
+      "Barely"
+    ],
+    "dogru": 0,
+    "aciklama": "'Generally speaking' = genel olarak. Genel değerlendirme ile ayrıntılar arasındaki zıtlık 'but' ile kurulur.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0077",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 1,
+    "soru": "The virus spread ---- through the population, infecting thousands of people within a few days.",
+    "secenekler": [
+      "gradually",
+      "gently",
+      "rapidly",
+      "slowly",
+      "rarely"
+    ],
+    "dogru": 2,
+    "aciklama": "Birkaç günde binlerce kişiye bulaşması hızlı yayıldığını gösterir: 'rapidly' = hızla.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0078",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "The company's profits fell ---- last year, from 10 million to just 2 million dollars.",
+    "secenekler": [
+      "marginally",
+      "slightly",
+      "considerably",
+      "hardly",
+      "barely"
+    ],
+    "dogru": 2,
+    "aciklama": "10 milyondan 2 milyona düşüş büyüktür: 'considerably' = önemli ölçüde.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0079",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Zaman zarfı",
+    "zorluk": 3,
+    "soru": "The painting was ---- thought to be a copy, but experts have now confirmed that it is an original.",
+    "secenekler": [
+      "permanently",
+      "previously",
+      "presently",
+      "currently",
+      "eventually"
+    ],
+    "dogru": 1,
+    "aciklama": "'but ... now' zıtlığı eskiden kopya sanıldığını gösterir: 'previously' = önceden.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0080",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "The test was ---- difficult; almost nobody finished it in time.",
+    "secenekler": [
+      "slightly",
+      "mildly",
+      "barely",
+      "extremely",
+      "hardly"
+    ],
+    "dogru": 3,
+    "aciklama": "Neredeyse kimsenin bitirememesi testin çok zor olduğunu gösterir: 'extremely' = son derece.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0081",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Fewer people smoke nowadays, ---- because of public health campaigns.",
+    "secenekler": [
+      "partly",
+      "rarely",
+      "barely",
+      "seldom",
+      "hardly"
+    ],
+    "dogru": 0,
+    "aciklama": "'partly because of' = kısmen …nedeniyle. Sigara içenlerin azalmasının nedenlerinden biri kampanyalardır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0082",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "The results of the two experiments were ---- identical, which surprised the researchers.",
+    "secenekler": [
+      "poorly",
+      "lately",
+      "rarely",
+      "seldom",
+      "almost"
+    ],
+    "dogru": 4,
+    "aciklama": "'almost identical' = neredeyse aynı. Diğer zarflar 'identical' sıfatını anlamlı biçimde nitelemez.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0083",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "The engineer ---- checked every part of the engine, so the fault was found before the test flight.",
+    "secenekler": [
+      "hastily",
+      "thoroughly",
+      "seldom",
+      "carelessly",
+      "rarely"
+    ],
+    "dogru": 1,
+    "aciklama": "Arızanın uçuştan önce bulunması her parçanın titizlikle kontrol edildiğini gösterir: 'thoroughly' = baştan sona, titizlikle.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0084",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Fortunately, the damage to the building was ---- superficial and could be repaired quickly.",
+    "secenekler": [
+      "seriously",
+      "deeply",
+      "badly",
+      "heavily",
+      "mostly"
+    ],
+    "dogru": 4,
+    "aciklama": "Hızlı onarılabilen hasar çoğunlukla yüzeyseldir: 'mostly'. 'seriously superficial' gibi eşleşmeler anlamsızdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0085",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "The new law will be introduced ----, starting in the capital and then spreading to other cities.",
+    "secenekler": [
+      "gradually",
+      "immediately",
+      "abruptly",
+      "simultaneously",
+      "suddenly"
+    ],
+    "dogru": 0,
+    "aciklama": "Önce başkentte başlayıp sonra yayılması aşamalı bir uygulamadır: 'gradually' = kademeli olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0086",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Bats are ---- nocturnal animals, which means they are active mainly at night.",
+    "secenekler": [
+      "occasionally",
+      "hardly",
+      "primarily",
+      "seldom",
+      "rarely"
+    ],
+    "dogru": 2,
+    "aciklama": "'active mainly at night' gece hayvanı olduklarını doğrular: 'primarily' = esas olarak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0087",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Eşdizim (collocation)",
+    "zorluk": 2,
+    "soru": "The scientist ---- believes that the disease can be cured within ten years.",
+    "secenekler": [
+      "heavily",
+      "tightly",
+      "barely",
+      "firmly",
+      "loosely"
+    ],
+    "dogru": 3,
+    "aciklama": "'firmly believe' = kesinlikle inanmak. 'tightly' ve 'heavily' bu fiille eşdizim oluşturmaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0088",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 2,
+    "soru": "Water boils at 100°C at sea level, but at a ---- lower temperature, around 70°C, at the top of Mount Everest.",
+    "secenekler": [
+      "hardly",
+      "barely",
+      "marginally",
+      "slightly",
+      "significantly"
+    ],
+    "dogru": 4,
+    "aciklama": "100°C'den 70°C'ye düşüş büyük bir farktır: 'significantly lower' = belirgin biçimde düşük.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0089",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Bağlayıcı zarf",
+    "zorluk": 3,
+    "soru": "The treaty was signed in 1648, ---- ending thirty years of war in Europe.",
+    "secenekler": [
+      "nevertheless",
+      "meanwhile",
+      "thereby",
+      "likewise",
+      "otherwise"
+    ],
+    "dogru": 2,
+    "aciklama": "'thereby + -ing' = böylece, bu sayede. Antlaşmanın imzalanması savaşı sona erdirmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0090",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Derece zarfı",
+    "zorluk": 1,
+    "soru": "She was ---- injured in the accident and had to spend three months in hospital.",
+    "secenekler": [
+      "seriously",
+      "mildly",
+      "slightly",
+      "lightly",
+      "barely"
+    ],
+    "dogru": 0,
+    "aciklama": "Üç ay hastanede kalması ağır yaralandığını gösterir: 'seriously injured' = ağır yaralı.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.zarf-0091",
+    "bolum": "kel",
+    "konu": "kel.zarf",
+    "alt_konu": "Tarz zarfı",
+    "zorluk": 2,
+    "soru": "The meeting ended ----, with both sides refusing to speak to each other.",
+    "secenekler": [
+      "peacefully",
+      "successfully",
+      "calmly",
+      "abruptly",
+      "happily"
+    ],
+    "dogru": 3,
+    "aciklama": "Tarafların birbiriyle konuşmayı reddetmesi toplantının aniden, kötü bittiğini gösterir: 'abruptly' = birdenbire.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0046",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "go + edat",
+    "zorluk": 2,
+    "soru": "The fire alarm ---- in the middle of the night, waking everyone in the building.",
+    "secenekler": [
+      "went over",
+      "went off",
+      "went out",
+      "went through",
+      "went down"
+    ],
+    "dogru": 1,
+    "aciklama": "'go off' = (alarm) çalmak. Alarmın çalması herkesi uyandırmıştır; 'go out' (sönmek) anlamı uymaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0047",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "Scientists are trying to ---- a cheaper way to store solar energy.",
+    "secenekler": [
+      "give up",
+      "put off",
+      "call off",
+      "run out",
+      "figure out"
+    ],
+    "dogru": 4,
+    "aciklama": "'figure out' = (düşünerek) bulmak, çözmek. Bilim insanları daha ucuz bir yöntem bulmaya çalışıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0048",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 1,
+    "soru": "Heavy snow forced the organisers to ---- the outdoor concert at the last minute.",
+    "secenekler": [
+      "call off",
+      "set up",
+      "bring up",
+      "take over",
+      "call on"
+    ],
+    "dogru": 0,
+    "aciklama": "'call off' = iptal etmek (= cancel). Yoğun kar yüzünden açık hava konseri son anda iptal edilmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0049",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 1,
+    "soru": "We have ---- milk, so could you buy some on your way home?",
+    "secenekler": [
+      "get on with",
+      "come up with",
+      "run out of",
+      "put up with",
+      "run into"
+    ],
+    "dogru": 2,
+    "aciklama": "'run out of' = …i tükenmek, bitmek. Süt bittiği için alınması isteniyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0050",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 1,
+    "soru": "The company plans to ---- a new branch in Ankara next year.",
+    "secenekler": [
+      "turn up",
+      "set up",
+      "give in",
+      "break down",
+      "fall out"
+    ],
+    "dogru": 1,
+    "aciklama": "'set up' = kurmak (= establish). Şirket Ankara'da yeni bir şube açmayı planlıyor.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0051",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "After their parents moved abroad, the children were ---- by their grandparents.",
+    "secenekler": [
+      "put up",
+      "taken off",
+      "grown up",
+      "brought up",
+      "set up"
+    ],
+    "dogru": 3,
+    "aciklama": "'bring up' = yetiştirmek, büyütmek. 'grow up' (büyümek) nesne almaz, edilgen olamaz.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0052",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 3,
+    "soru": "Sales have ---- this year, so the company may have to close some of its stores.",
+    "secenekler": [
+      "turned up",
+      "fallen off",
+      "shown off",
+      "picked up",
+      "taken off"
+    ],
+    "dogru": 1,
+    "aciklama": "'fall off' = azalmak, düşmek. Mağaza kapatma ihtimali satışların düştüğünü gösterir; 'take off' ve 'pick up' artış bildirir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0053",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "take + edat",
+    "zorluk": 1,
+    "soru": "The plane ---- two hours late because of thick fog.",
+    "secenekler": [
+      "took off",
+      "took up",
+      "took over",
+      "took in",
+      "took after"
+    ],
+    "dogru": 0,
+    "aciklama": "'take off' = (uçak) kalkmak, havalanmak. Sis yüzünden uçak iki saat geç kalkmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0054",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 1,
+    "soru": "Could you ---- the television, please? I'm trying to sleep.",
+    "secenekler": [
+      "take up",
+      "switch on",
+      "switch off",
+      "put on",
+      "turn up"
+    ],
+    "dogru": 2,
+    "aciklama": "Uyumaya çalışan biri televizyonun kapatılmasını ister: 'switch off' = kapatmak. 'switch on' ve 'turn up' zıt etkidedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0055",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "take + edat",
+    "zorluk": 2,
+    "soru": "She really ---- her mother; they have the same eyes and the same laugh.",
+    "secenekler": [
+      "gets over",
+      "takes over",
+      "looks after",
+      "looks up to",
+      "takes after"
+    ],
+    "dogru": 4,
+    "aciklama": "'take after' = (aile büyüğüne) benzemek. Aynı gözler ve gülüş benzerliği gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0056",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "After two years of daily use, these running shoes have completely ----.",
+    "secenekler": [
+      "taken out",
+      "put out",
+      "run out",
+      "worn out",
+      "found out"
+    ],
+    "dogru": 3,
+    "aciklama": "'wear out' = eskimek, yıpranmak. İki yıl her gün giyilen ayakkabılar yıpranmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0057",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "break + edat",
+    "zorluk": 1,
+    "soru": "The Second World War ---- in 1939.",
+    "secenekler": [
+      "turned out",
+      "gave in",
+      "broke down",
+      "broke out",
+      "took off"
+    ],
+    "dogru": 3,
+    "aciklama": "'break out' = (savaş, yangın, salgın) patlak vermek, başlamak.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0058",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "give + edat",
+    "zorluk": 1,
+    "soru": "After years of trying, he finally ---- smoking.",
+    "secenekler": [
+      "gave away",
+      "gave off",
+      "gave up",
+      "gave out",
+      "gave in"
+    ],
+    "dogru": 2,
+    "aciklama": "'give up' = (alışkanlığı) bırakmak. Yıllarca denedikten sonra sigarayı bırakmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0059",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "Although they were surrounded by government troops, the rebels refused to ----.",
+    "secenekler": [
+      "take off",
+      "give in",
+      "set off",
+      "show off",
+      "stand out"
+    ],
+    "dogru": 1,
+    "aciklama": "'give in' = teslim olmak, boyun eğmek. Kuşatılmalarına rağmen teslim olmayı reddetmişlerdir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0060",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "give + edat",
+    "zorluk": 2,
+    "soru": "The factory ---- a strong smell that can be noticed from several kilometres away.",
+    "secenekler": [
+      "gives off",
+      "gives up",
+      "takes off",
+      "puts off",
+      "gives in"
+    ],
+    "dogru": 0,
+    "aciklama": "'give off' = (koku, ısı, gaz) yaymak. Fabrika kilometrelerce öteden fark edilen bir koku yayar.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0061",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "turn + edat",
+    "zorluk": 2,
+    "soru": "It ---- that the rumour about the company closing was completely false.",
+    "secenekler": [
+      "turned up",
+      "turned in",
+      "turned over",
+      "turned down",
+      "turned out"
+    ],
+    "dogru": 4,
+    "aciklama": "'it turned out that' = …olduğu ortaya çıktı. Söylentinin yanlış olduğu anlaşılmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0062",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "turn + edat",
+    "zorluk": 2,
+    "soru": "Only two people ---- for the meeting, so it had to be cancelled.",
+    "secenekler": [
+      "turned down",
+      "set off",
+      "turned up",
+      "called off",
+      "took off"
+    ],
+    "dogru": 2,
+    "aciklama": "'turn up' = gelmek, ortaya çıkmak. Toplantıya yalnızca iki kişi geldiği için iptal edilmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0063",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "set + edat",
+    "zorluk": 1,
+    "soru": "We need to ---- early tomorrow morning to avoid the traffic.",
+    "secenekler": [
+      "show off",
+      "set up",
+      "give off",
+      "set off",
+      "put off"
+    ],
+    "dogru": 3,
+    "aciklama": "'set off' = yola çıkmak. Trafiğe takılmamak için erken yola çıkılmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0064",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "go + edat",
+    "zorluk": 2,
+    "soru": "Before the exam, the teacher ---- the most important topics once again.",
+    "secenekler": [
+      "gave up",
+      "went over",
+      "went out",
+      "went off",
+      "took off"
+    ],
+    "dogru": 1,
+    "aciklama": "'go over' = gözden geçirmek, üzerinden geçmek. Öğretmen sınavdan önce önemli konuları tekrar etmiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0065",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "The old cinema was ---- to make room for a new shopping centre.",
+    "secenekler": [
+      "turned down",
+      "set up",
+      "brought up",
+      "pulled up",
+      "pulled down"
+    ],
+    "dogru": 4,
+    "aciklama": "'pull down' = (bina) yıkmak (= demolish). Yeni alışveriş merkezine yer açmak için sinema yıkılmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0066",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 2,
+    "soru": "If you want to save money for a house, you should ---- your spending on eating out.",
+    "secenekler": [
+      "cut down on",
+      "run out of",
+      "come up with",
+      "look forward to",
+      "put up with"
+    ],
+    "dogru": 0,
+    "aciklama": "'cut down on' = …i azaltmak. Para biriktirmek için dışarıda yemek harcaması azaltılmalıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0067",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "The detective ---- every piece of evidence carefully but still could not solve the case.",
+    "secenekler": [
+      "ran over",
+      "gave in",
+      "fell for",
+      "went through",
+      "went off"
+    ],
+    "dogru": 3,
+    "aciklama": "'go through' = dikkatle incelemek. Dedektif kanıtları tek tek incelemiş ama davayı çözememiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0068",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "come + edat",
+    "zorluk": 2,
+    "soru": "While I was cleaning the attic, I ---- some old photographs of my grandparents.",
+    "secenekler": [
+      "got over",
+      "put off",
+      "came down with",
+      "came up with",
+      "came across"
+    ],
+    "dogru": 4,
+    "aciklama": "'come across' = tesadüfen bulmak. Tavan arasını temizlerken eski fotoğraflara rastlanmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0069",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 2,
+    "soru": "He ---- a bad cold and had to stay at home for a week.",
+    "secenekler": [
+      "came across",
+      "came up with",
+      "came down with",
+      "put up with",
+      "got away with"
+    ],
+    "dogru": 2,
+    "aciklama": "'come down with' = (hastalığa) yakalanmak. Kötü bir soğuk algınlığına yakalanıp evde kalmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0070",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 3,
+    "soru": "The student ---- cheating in the exam, but he was caught the following year.",
+    "secenekler": [
+      "got away with",
+      "cut down on",
+      "looked forward to",
+      "ran out of",
+      "came down with"
+    ],
+    "dogru": 0,
+    "aciklama": "'get away with' = (kötü bir şeyi) cezasız atlatmak. 'but he was caught' önce yakalanmadığını gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0071",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 2,
+    "soru": "Many young people ---- famous athletes and want to be like them.",
+    "secenekler": [
+      "look after",
+      "look up to",
+      "look out for",
+      "look forward to",
+      "look down on"
+    ],
+    "dogru": 1,
+    "aciklama": "'look up to' = …e saygı duyup örnek almak. 'want to be like them' örnek alındığını gösterir; 'look down on' küçümsemektir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0072",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "take + edat",
+    "zorluk": 2,
+    "soru": "The company has ---- 300 new employees this year to cope with rising demand.",
+    "secenekler": [
+      "taken after",
+      "taken over",
+      "taken on",
+      "taken off",
+      "laid off"
+    ],
+    "dogru": 2,
+    "aciklama": "'take on' = işe almak. Artan talebi karşılamak için işçi alınır; 'lay off' işten çıkarmaktır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0073",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "take + edat",
+    "zorluk": 2,
+    "soru": "The larger company ---- its main rival in a deal worth two billion dollars.",
+    "secenekler": [
+      "took in",
+      "took after",
+      "took off",
+      "took up",
+      "took over"
+    ],
+    "dogru": 4,
+    "aciklama": "'take over' = (şirketi) devralmak, satın almak. İki milyar dolarlık anlaşmayla rakip devralınmıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0074",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "take + edat",
+    "zorluk": 2,
+    "soru": "She ---- painting after she retired, and now her work is shown in local galleries.",
+    "secenekler": [
+      "took up",
+      "took in",
+      "took off",
+      "took over",
+      "took after"
+    ],
+    "dogru": 0,
+    "aciklama": "'take up' = (bir uğraşa) başlamak. Emekli olduktan sonra resim yapmaya başlamıştır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0075",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Üç parçalı",
+    "zorluk": 1,
+    "soru": "I'm really ---- seeing my family during the holidays.",
+    "secenekler": [
+      "looking out for",
+      "looking forward to",
+      "looking up to",
+      "looking down on",
+      "looking into"
+    ],
+    "dogru": 1,
+    "aciklama": "'look forward to + -ing' = dört gözle beklemek. Ailesini görmeyi sabırsızlıkla beklemektedir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0076",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "look + edat",
+    "zorluk": 1,
+    "soru": "---- ! There's a car coming!",
+    "secenekler": [
+      "Look over",
+      "Look after",
+      "Look up",
+      "Look out",
+      "Look into"
+    ],
+    "dogru": 3,
+    "aciklama": "'Look out!' = Dikkat et! Yaklaşan araba için yapılan bir uyarıdır.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0077",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "Anlamca fiil",
+    "zorluk": 2,
+    "soru": "The government has promised to ---- the problem of youth unemployment.",
+    "secenekler": [
+      "deal with",
+      "get away with",
+      "put up with",
+      "come up with",
+      "run out of"
+    ],
+    "dogru": 0,
+    "aciklama": "'deal with' = (sorunla) ilgilenmek, çözmek. Hükümet genç işsizliği sorununu ele almaya söz vermiştir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0078",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "fall + edat",
+    "zorluk": 2,
+    "soru": "The two friends ---- over money and have not spoken to each other since.",
+    "secenekler": [
+      "fell through",
+      "fell behind",
+      "fell out",
+      "fell off",
+      "fell for"
+    ],
+    "dogru": 2,
+    "aciklama": "'fall out (with sb) over sth' = …yüzünden bozuşmak. O günden beri konuşmamaları küstüklerini gösterir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0079",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "fall + edat",
+    "zorluk": 3,
+    "soru": "Our holiday plans ---- when the airline suddenly went bankrupt.",
+    "secenekler": [
+      "fell out",
+      "fell through",
+      "fell behind",
+      "fell off",
+      "fell for"
+    ],
+    "dogru": 1,
+    "aciklama": "'fall through' = (plan) suya düşmek, gerçekleşmemek. Havayolu iflas edince tatil planı suya düşmüştür.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.phrasal-0080",
+    "bolum": "kel",
+    "konu": "kel.phrasal",
+    "alt_konu": "fall + edat",
+    "zorluk": 3,
+    "soru": "If you ---- with your mortgage payments, the bank may take your house.",
+    "secenekler": [
+      "fall out",
+      "fall for",
+      "fall off",
+      "fall through",
+      "fall behind"
+    ],
+    "dogru": 4,
+    "aciklama": "'fall behind with' = (ödemeyi) aksatmak, geride kalmak. Taksitler gecikirse banka eve el koyabilir.",
+    "paragraf_id": null
+  },
+  {
+    "id": "kel.sifat-0097",
+    "bolum": "kel",
+    "konu": "kel.sifat",
+    "alt_konu": "Bağlamdan sıfat",
+    "zorluk": 2,
+    "soru": "The instructions were so ---- that nobody could work out how to assemble the furniture.",
+    "secenekler": [
+      "accurate",
+      "reliable",
+      "concise",
+      "ambiguous",
+      "convenient"
+    ],
+    "dogru": 3,
+    "aciklama": "Talimatlar kimsenin mobilyayı kuramayacağı kadar belirsizdi: 'ambiguous' = muğlak. Diğer sıfatlar olumlu anlam taşır.",
+    "paragraf_id": null
   }
 ]

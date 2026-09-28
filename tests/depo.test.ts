@@ -69,7 +69,7 @@ describe('Depo (IndexedDB)', () => {
     expect(gorulen.size).toBe(SORULAR.length);
     expect(tipler.slice(0, 10).every((t) => t === 'teshis')).toBe(true);
     if (tipler.length > 20) expect(tipler[20]).toBe('kontrol');
-  });
+  }, 60_000);
 
   it('yarım kalan test yeni oturumda kaldığı yerden sürer', async () => {
     const id = await depo.sonrakiTestiBaslat();
