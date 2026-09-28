@@ -8,6 +8,8 @@ import { DENEME_DAKIKA, DENEME_SORU, denemeYeniSoruAcigi, ydsPuani, ydsSeviyesi 
 import { calismaGunleri, seriHesapla } from '../engine/seri';
 import { siradakiler } from '../engine/tekrar';
 import type { Ayarlar } from '../types';
+import { VS_DURUMU } from '../vs/baglan';
+import { VS } from '../vs/oyun';
 import { KameraDugmesi } from './Fotograflar';
 import { IkonIleri } from './ikonlar';
 import { onayla } from './onay';
@@ -203,6 +205,21 @@ export function AnaSayfa({ ayar }: { ayar: Ayarlar }) {
           </button>
         )}
       </section>
+
+      {VS_DURUMU !== 'kapali' && (
+        <section class="kart">
+          <div class="satir-ust">
+            <h2>VS düello</h2>
+            <span class="soluk kucuk">
+              {VS.SORU_SAYISI} soru · canlı
+            </span>
+          </div>
+          <p class="soluk kucuk">Başka bir cihazdaki rakiple aynı soruları aynı anda çöz. Doğru ve hızlı olan kazanır.</p>
+          <a class="dugme ikincil genis" href="#/vs?ara=1">
+            Rakip bul
+          </a>
+        </section>
+      )}
 
       <section class="istatistik-satiri" aria-label="Özet">
         <div class="istatistik">

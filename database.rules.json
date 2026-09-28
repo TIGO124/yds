@@ -1,0 +1,26 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "vs": {
+      "kuyruk": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "$uid": {
+          ".validate": "newData.hasChildren(['ad', 'zaman', 'surum']) && newData.child('ad').isString() && newData.child('ad').val().length <= 16 && newData.child('zaman').isNumber()"
+        }
+      },
+      "maclar": {
+        "$mac": {
+          ".read": "auth != null && (!data.exists() || data.child('oyuncular').child(auth.uid).exists())",
+          ".write": "auth != null && (data.exists() ? data.child('oyuncular').child(auth.uid).exists() : newData.child('oyuncular').child(auth.uid).exists())",
+          "cevaplar": {
+            "$uid": {
+              ".validate": "$uid === auth.uid"
+            }
+          }
+        }
+      }
+    }
+  }
+}

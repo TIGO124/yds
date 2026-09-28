@@ -19,6 +19,7 @@ import { useRota } from './ui/router';
 import { SeviyeRaporu } from './ui/SeviyeRaporu';
 import { Sonuc } from './ui/Sonuc';
 import { TestEkrani } from './ui/TestEkrani';
+import { VsEkrani } from './ui/VsEkrani';
 import { Yanlislar } from './ui/Yanlislar';
 
 const sistemKoyu = () => matchMedia('(prefers-color-scheme: dark)');
@@ -69,6 +70,8 @@ function Ekran({ ayar, degistir }: { ayar: Ayarlar; degistir: (a: Partial<Ayarla
       return <KonuSayfasi key={param} kod={decodeURIComponent(param ?? '')} />;
     case 'ayarlar':
       return <AyarlarEkrani ayar={ayar} degistir={degistir} />;
+    case 'vs':
+      return <VsEkrani otomatik={rota.sorgu.get('ara') === '1'} />;
     default:
       return <AnaSayfa ayar={ayar} />;
   }

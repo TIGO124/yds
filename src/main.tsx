@@ -11,6 +11,7 @@ import './styles/ekranlar.css';
 import './styles/program.css';
 import './styles/calisma.css';
 import './styles/fotograf.css';
+import './styles/vs.css';
 import { bildir } from './ui/bildirim';
 import { hashBaglantilariniYakala } from './ui/router';
 
